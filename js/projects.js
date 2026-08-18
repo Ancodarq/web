@@ -42,6 +42,56 @@ const PROJECTS_DATA = [
     "assets/proyectos/29_VIP_TEATRO_ALCALA/29_08.webp"
   ]
 },
+{
+  slug: "cotos",
+  name: "Cotos",
+  category: "OBRA NUEVA",
+  location: "Madrid",
+  year: "",
+
+  coverImage: "assets/proyectos/03_COTOS/03_00 PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/03_COTOS/03_01.webp",
+    "assets/proyectos/03_COTOS/03_02.webp",
+    "assets/proyectos/03_COTOS/03_03.webp"
+  ]
+},
+{
+  slug: "alamos-de-bularas",
+  name: "Álamos de Bularas",
+  category: "OBRA NUEVA",
+  location: "Madrid",
+  year: "",
+
+  coverImage: "assets/proyectos/02_ALAMOS DE BULARAS/02_00 PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/02_ALAMOS DE BULARAS/02_01.webp",
+    "assets/proyectos/02_ALAMOS DE BULARAS/02_03.webp",
+    "assets/proyectos/02_ALAMOS DE BULARAS/02_04.webp",
+    "assets/proyectos/02_ALAMOS DE BULARAS/02_05.webp"
+  ]
+},
+{
+  slug: "la-finca",
+  name: "La Finca",
+  category: "OBRA NUEVA",
+  location: "Madrid",
+  year: "",
+
+  coverImage: "assets/proyectos/07_LA FINCA/07_00 PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/07_LA FINCA/07_01.webp"
+  ]
+},
 function renderHomeProjects() {
   const container = document.getElementById("home-projects-preview");
   if (!container) return;
