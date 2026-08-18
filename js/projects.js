@@ -1,5 +1,25 @@
 
 const PROJECTS_DATA = [
+    {
+    slug: "vip-teatro-apolo",
+    name: "VIP Teatro Apolo",
+    category: "COMERCIAL",
+    location: "Madrid",
+    year: "2025",
+    coverImage: "assets/projects/28_VIP TEATRO APOLO/28_00 PORTADA.jpg",
+    description: "",
+    gallery: [
+      "assets/projects/28_VIP TEATRO APOLO/28_01.jpg",
+      "assets/projects/28_VIP TEATRO APOLO/28_02.jpg",
+      "assets/projects/28_VIP TEATRO APOLO/28_03.jpg",
+      "assets/projects/28_VIP TEATRO APOLO/28_04.jpg",
+      "assets/projects/28_VIP TEATRO APOLO/28_05.jpg",
+      "assets/projects/28_VIP TEATRO APOLO/28_06.jpg",
+      "assets/projects/28_VIP TEATRO APOLO/28_07.jpg",
+      "assets/projects/28_VIP TEATRO APOLO/28_08.jpg",
+      "assets/projects/28_VIP TEATRO APOLO/28_09.jpg"
+    ]
+  },
   {
     slug: "vivienda-unifamiliar-la-moraleja",
     name: "Vivienda Unifamiliar La Moraleja",
@@ -75,15 +95,25 @@ const PROJECTS_DATA = [
   }
 ];
 
-function projectCard(project, basePath="") {
+function projectCard(project) {
   return `
-    <a href="${basePath}proyectos/${project.slug}/" class="group block">
-    <div class="w-full aspect-[4/3] bg-neutral-100 mb-4 overflow-hidden">
-        <img src="${project.coverImage}" alt="${project.name}" class="w-full h-full object-cover" />
+    <a href="${siteUrl(`proyectos/detalle.html?slug=${project.slug}`)}" class="group block">
+      <div class="w-full aspect-[4/3] bg-neutral-100 mb-4 overflow-hidden">
+        <img
+          src="${siteUrl(project.coverImage)}"
+          alt="${project.name}"
+          class="w-full h-full object-cover"
+        />
       </div>
+
       <div class="flex justify-between items-baseline gap-4">
-        <h3 class="text-[13px] font-normal text-neutral-900 group-hover:text-black transition-colors">${project.name}</h3>
-        <span class="text-[10px] tracking-[0.15em] font-light text-neutral-400 whitespace-nowrap">${project.category}</span>
+        <h3 class="text-[13px] font-normal text-neutral-900 group-hover:text-black transition-colors">
+          ${project.name}
+        </h3>
+
+        <span class="text-[10px] tracking-[0.15em] font-light text-neutral-400 whitespace-nowrap">
+          ${project.category}
+        </span>
       </div>
     </a>
   `;
@@ -92,7 +122,7 @@ function projectCard(project, basePath="") {
 function renderHomeProjects() {
   const container = document.getElementById("home-projects-preview");
   if (!container) return;
-  container.innerHTML = PROJECTS_DATA.slice(0, 6).map(p => projectCard(p, "")).join("");
+container.innerHTML = PROJECTS_DATA.slice(0, 6).map(p => projectCard(p)).join("");
 }
 
 let activeFilter = "TODOS";
@@ -120,13 +150,14 @@ function renderProjectsGallery() {
     ? PROJECTS_DATA
     : PROJECTS_DATA.filter(p => p.category === activeFilter);
 
-  gridCont.innerHTML = filtered.map(p => projectCard(p, "../")).join("");
+gridCont.innerHTML = filtered.map(p => projectCard(p)).join("");
 }
 
 function renderProjectDetail() {
   const container = document.getElementById("project-detail-content");
   if (!container) return;
-  const slug = document.body.dataset.projectSlug;
+ const params = new URLSearchParams(window.location.search);
+const slug = params.get("slug");
   const project = PROJECTS_DATA.find(p => p.slug === slug);
   if (!project) {
     container.innerHTML = '<p class="text-sm text-neutral-500">Proyecto no encontrado.</p>';
@@ -146,11 +177,11 @@ function renderProjectDetail() {
     </div>
     <div class="flex flex-col gap-16">
       <div class="w-full bg-neutral-50 overflow-hidden">
-        <img src="${project.coverImage}" alt="${project.name}" class="w-full h-auto object-contain mx-auto" />
+      <img src="${siteUrl(project.coverImage)}" alt="${project.name}" class="w-full h-auto object-contain mx-auto" />
       </div>
       ${(project.gallery || []).map(img => `
         <div class="w-full bg-neutral-50 overflow-hidden">
-          <img src="${img}" alt="${project.name}" class="w-full h-auto object-contain mx-auto" />
+          <img src="${siteUrl(img)}" alt="${project.name}" class="w-full h-auto object-contain mx-auto" />
         </div>
       `).join("")}
     </div>
