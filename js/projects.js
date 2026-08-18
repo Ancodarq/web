@@ -92,6 +92,51 @@ const PROJECTS_DATA = [
     "assets/proyectos/07_LA FINCA/07_01.webp"
   ]
 },
+{
+  slug: "jj39",
+  name: "JJ39",
+  category: "REFORMAS",
+  location: "Madrid",
+  year: "",
+
+  coverImage: "assets/proyectos/09_JJ39/09_00 PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/09_JJ39/09_01.webp",
+    "assets/proyectos/09_JJ39/09_02.webp",
+    "assets/proyectos/09_JJ39/09_03.webp",
+    "assets/proyectos/09_JJ39/09_04.webp",
+    "assets/proyectos/09_JJ39/09_05.webp",
+    "assets/proyectos/09_JJ39/09_06.webp",
+    "assets/proyectos/09_JJ39/09_07.webp",
+    "assets/proyectos/09_JJ39/09_08.webp",
+    "assets/proyectos/09_JJ39/09_09.webp"
+  ]
+},
+{
+  slug: "urb-la-moraleja",
+  name: "Urb. La Moraleja",
+  category: "OBRA NUEVA",
+  location: "La Moraleja, Madrid",
+  year: "",
+
+  coverImage: "assets/proyectos/10_URB. LA MORALEJA/10_00 PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/10_URB. LA MORALEJA/10_01.webp",
+    "assets/proyectos/10_URB. LA MORALEJA/10_02.webp",
+    "assets/proyectos/10_URB. LA MORALEJA/10_03.webp",
+    "assets/proyectos/10_URB. LA MORALEJA/10_04.webp",
+    "assets/proyectos/10_URB. LA MORALEJA/10_05.webp",
+    "assets/proyectos/10_URB. LA MORALEJA/10_06.webp",
+    "assets/proyectos/10_URB. LA MORALEJA/10_07.webp",
+    "assets/proyectos/10_URB. LA MORALEJA/10_08.webp"
+  ]
+},
 function renderHomeProjects() {
   const container = document.getElementById("home-projects-preview");
   if (!container) return;
