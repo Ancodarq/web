@@ -266,37 +266,42 @@
     }
 
     // --- FOOTER ---
-    function Footer({ navigate }) {
+function Footer({ navigate }) {
       const [tooltip, setTooltip] = useState(null);
 
       return (
-        <footer className="w-full bg-white border-t border-neutral-100 pt-28 pb-12 font-prompt">
-          <div className="w-[90%] mx-auto">
-            <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-28">
-              <div className="flex flex-col gap-6">
+        <footer className="w-full bg-white border-t border-neutral-100 pt-20 pb-12 font-prompt">
+          {/* Contenedor acotado y centrado */}
+          <div className="w-[90%] max-w-5xl mx-auto">
+            {/* ZONA SUPERIOR: LOGOS GRANDES + DATOS */}
+            <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-16">
+              {/* IZQUIERDA: LOGOS HORIZONTALES CON ESCALA GENEROSA */}
+              <div className="flex flex-col gap-8 w-full max-w-[300px]">
                 <img
                   src="./assets/logos/ancodarq-horizontal.png"
                   alt="ANCODARQ"
-                  className="h-7 w-auto object-contain self-start"
+                  className="w-full h-auto object-contain self-start block"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
                 />
                 <img
                   src="./assets/logos/escuadra-horizontal.png"
                   alt="ESCUADRA CONSTRUCCIONES"
-                  className="h-6 w-auto object-contain self-start"
+                  className="w-full h-auto object-contain self-start block"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
                 />
               </div>
 
-              <div className="flex flex-col md:items-end text-left md:text-right font-light text-[12px] tracking-[0.15em] leading-relaxed text-neutral-800">
+              {/* DERECHA: DATOS DE CONTACTO + REDES */}
+              <div className="flex flex-col md:items-end text-left md:text-right font-light text-[12px] tracking-[0.15em] leading-relaxed text-neutral-800 pt-1">
                 <div>C. TEIDE, 4</div>
                 <div>SAN SEBASTIÁN DE LOS REYES — 28703 MADRID</div>
-                <div className="mt-2 text-neutral-900">ANCODARQ@ANCODARQ.COM</div>
+                <div className="mt-2 text-neutral-900 font-normal">ANCODARQ@ANCODARQ.COM</div>
                 <div className="mt-1 flex flex-wrap md:justify-end gap-x-4">
                   <span>+34 916 570 819</span>
                   <span>+34 618 341 133</span>
                 </div>
 
+                {/* REDES SOCIALES */}
                 <div className="mt-6 flex items-center gap-5 text-neutral-900">
                   <a
                     href="https://www.linkedin.com/company/ancodarq-sl"
@@ -359,6 +364,7 @@
               </div>
             </div>
 
+            {/* LÍNEA INFERIOR */}
             <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-neutral-100 text-[11px] font-light text-neutral-400">
               <div>© ANCODARQ</div>
               <div className="mt-4 md:mt-0 flex gap-1">
