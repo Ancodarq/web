@@ -25,23 +25,318 @@
     }
   </script>
 
-  <!-- React 18 & Babel CDN -->
-  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
   <style>
     html { scroll-behavior: smooth; }
     body { background-color: #ffffff; color: #1a1a1a; margin: 0; padding: 0; }
+    .page-view { display: none; }
+    .page-view.active { display: block; }
   </style>
 </head>
-<body class="font-prompt antialiased selection:bg-neutral-100 selection:text-black">
-  <div id="root"></div>
+<body class="font-prompt antialiased selection:bg-neutral-100 selection:text-black min-h-screen flex flex-col justify-between">
 
-  <script type="text/babel">
-    const { useState, useEffect, useMemo } = React;
+  <!-- HEADER -->
+  <header class="w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
+    <div class="w-[90%] mx-auto py-5 flex items-center justify-between">
+      <a href="javascript:void(0)" onclick="navigateTo('/')" class="flex items-center gap-7 group">
+        <img
+          src="./assets/logos/ancodarq-square.png"
+          alt="ANCODARQ"
+          class="h-14 md:h-16 w-auto object-contain shrink-0"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+        />
+        <span class="hidden font-urbanist font-medium tracking-widest text-xs">ANCODARQ</span>
+        
+        <span class="w-px h-8 bg-neutral-200"></span>
 
-    // --- CAPA DE DATOS ---
+        <img
+          src="./assets/logos/escuadra-square.jpg"
+          alt="ESCUADRA CONSTRUCCIONES"
+          class="h-14 md:h-16 w-auto object-contain shrink-0 scale-110"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+        />
+        <span class="hidden font-urbanist font-medium tracking-widest text-xs text-neutral-600">ESCUADRA</span>
+      </a>
+
+      <!-- Navegación Desktop -->
+      <nav class="hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
+        <a href="javascript:void(0)" onclick="navigateTo('/')" data-nav="/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">INICIO</a>
+        <a href="javascript:void(0)" onclick="navigateTo('/nosotros')" data-nav="/nosotros" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">NOSOTROS</a>
+        <a href="javascript:void(0)" onclick="navigateTo('/servicios')" data-nav="/servicios" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">SERVICIOS</a>
+        <a href="javascript:void(0)" onclick="navigateTo('/proyectos')" data-nav="/proyectos" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">PROYECTOS</a>
+        <a href="javascript:void(0)" onclick="navigateTo('/contacto')" data-nav="/contacto" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">CONTACTO</a>
+      </nav>
+
+      <!-- Botón Móvil -->
+      <button onclick="toggleMobileMenu()" class="md:hidden flex flex-col justify-center gap-1.5 w-6 h-6 p-0 focus:outline-none" aria-label="Menu">
+        <span id="m-bar1" class="w-full h-px bg-black transition-transform duration-200"></span>
+        <span id="m-bar2" class="w-full h-px bg-black transition-opacity duration-200"></span>
+        <span id="m-bar3" class="w-full h-px bg-black transition-transform duration-200"></span>
+      </button>
+    </div>
+
+    <!-- Menú Desplegable Móvil -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white w-full border-b border-neutral-200 px-[5%] py-8 flex flex-col gap-6 font-prompt font-light text-sm tracking-[0.2em]">
+      <a href="javascript:void(0)" onclick="navigateTo('/'); toggleMobileMenu();" class="text-neutral-500">INICIO</a>
+      <a href="javascript:void(0)" onclick="navigateTo('/nosotros'); toggleMobileMenu();" class="text-neutral-500">NOSOTROS</a>
+      <a href="javascript:void(0)" onclick="navigateTo('/servicios'); toggleMobileMenu();" class="text-neutral-500">SERVICIOS</a>
+      <a href="javascript:void(0)" onclick="navigateTo('/proyectos'); toggleMobileMenu();" class="text-neutral-500">PROYECTOS</a>
+      <a href="javascript:void(0)" onclick="navigateTo('/contacto'); toggleMobileMenu();" class="text-neutral-500">CONTACTO</a>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <div id="app-root" class="flex-grow">
+
+    <!-- VISTA: HOME -->
+    <main id="view-home" class="page-view active">
+      <!-- Hero -->
+      <section class="w-full pt-32 pb-24 md:pb-36 bg-white flex justify-center items-center">
+        <div class="w-[90%] max-w-[1600px] h-[55vh] md:h-[75vh] bg-neutral-50 overflow-hidden">
+          <img id="hero-img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80" alt="ANCODARQ Arquitectura" class="w-full h-full object-cover select-none" />
+        </div>
+      </section>
+
+      <!-- Nosotros Section -->
+      <section class="w-full py-20 md:py-32 bg-white font-prompt">
+        <div class="w-[90%] max-w-5xl mx-auto">
+          <div class="text-[12px] font-normal tracking-[0.25em] text-neutral-800 mb-14 uppercase">NOSOTROS</div>
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-start">
+            <div class="md:col-span-6 flex flex-col justify-between self-stretch pr-0 md:pr-6">
+              <div class="w-full max-w-[340px]">
+                <img src="./assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full h-auto object-contain block" onerror="this.style.display='none'" />
+              </div>
+              <div class="my-10 md:my-0"></div>
+              <div class="w-full max-w-[340px]">
+                <img src="./assets/logos/escuadra-horizontal.png" alt="ESCUADRA CONSTRUCCIONES" class="w-full h-auto object-contain block" onerror="this.style.display='none'" />
+              </div>
+            </div>
+            <div class="md:col-span-6 flex flex-col justify-between self-stretch">
+              <div class="text-[13px] md:text-[13.5px] leading-[1.75] text-neutral-800 font-light space-y-5">
+                <p>ANCODARQ desarrolla proyectos de construcción, rehabilitación, reformas y arquitectura desde una visión integral del proceso.</p>
+                <p>Nuestro equipo combina experiencia técnica, capacidad de ejecución y atención al detalle para abordar cada proyecto desde sus primeras decisiones hasta su materialización final.</p>
+                <p>Trabajamos en ámbitos residenciales, comerciales, oficinas y obra pública, adaptándonos a las necesidades específicas de cada cliente y cada espacio.</p>
+              </div>
+              <div class="mt-12 flex flex-col items-end gap-3 self-end">
+                <span class="text-[9px] tracking-[0.25em] font-normal text-neutral-500 uppercase">CERTIFICACIONES</span>
+                <img src="./assets/logos/iso-certifications.png" alt="Certificaciones ISO" class="h-8 w-auto object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                <span class="hidden text-[10px] tracking-widest text-neutral-500 font-urbanist">ISO 9001 · ISO 14001</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Servicios Section -->
+      <section class="w-full py-20 md:py-32 bg-white font-prompt">
+        <div class="w-[90%] mx-auto">
+          <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-16 uppercase">SERVICIOS</div>
+          <div id="home-services-grid" class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10"></div>
+        </div>
+      </section>
+
+      <!-- Proyectos Preview Section -->
+      <section class="w-full py-20 md:py-32 bg-white font-prompt">
+        <div class="w-[90%] mx-auto">
+          <div class="flex justify-between items-baseline mb-16">
+            <h2 class="text-xl md:text-2xl font-urbanist font-light tracking-wide text-black">PROYECTOS</h2>
+            <a href="javascript:void(0)" onclick="navigateTo('/proyectos')" class="text-[11px] font-light tracking-[0.2em] text-neutral-500 hover:text-black transition-colors">VER TODOS</a>
+          </div>
+          <div id="home-projects-preview" class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- VISTA: NOSOTROS -->
+    <main id="view-nosotros" class="page-view pt-32 pb-16">
+      <div class="w-[90%] max-w-5xl mx-auto mb-6">
+        <h1 class="text-2xl md:text-3xl font-urbanist font-light tracking-wide text-black">Una visión integral del proceso</h1>
+      </div>
+      <section class="w-full py-12 bg-white font-prompt">
+        <div class="w-[90%] max-w-5xl mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-start">
+            <div class="md:col-span-6 flex flex-col justify-between self-stretch pr-0 md:pr-6">
+              <div class="w-full max-w-[340px]">
+                <img src="./assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full h-auto object-contain block" onerror="this.style.display='none'" />
+              </div>
+              <div class="my-10 md:my-0"></div>
+              <div class="w-full max-w-[340px]">
+                <img src="./assets/logos/escuadra-horizontal.png" alt="ESCUADRA CONSTRUCCIONES" class="w-full h-auto object-contain block" onerror="this.style.display='none'" />
+              </div>
+            </div>
+            <div class="md:col-span-6 flex flex-col justify-between self-stretch">
+              <div class="text-[13px] md:text-[13.5px] leading-[1.75] text-neutral-800 font-light space-y-5">
+                <p>ANCODARQ desarrolla proyectos de construcción, rehabilitación, reformas y arquitectura desde una visión integral del proceso.</p>
+                <p>Nuestro equipo combina experiencia técnica, capacidad de ejecución y atención al detalle para abordar cada proyecto desde sus primeras decisiones hasta su materialización final.</p>
+                <p>Trabajamos en ámbitos residenciales, comerciales, oficinas y obra pública, adaptándonos a las necesidades específicas de cada cliente y cada espacio.</p>
+              </div>
+              <div class="mt-12 flex flex-col items-end gap-3 self-end">
+                <span class="text-[9px] tracking-[0.25em] font-normal text-neutral-500 uppercase">CERTIFICACIONES</span>
+                <img src="./assets/logos/iso-certifications.png" alt="Certificaciones ISO" class="h-8 w-auto object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                <span class="hidden text-[10px] tracking-widest text-neutral-500 font-urbanist">ISO 9001 · ISO 14001</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- VISTA: SERVICIOS -->
+    <main id="view-servicios" class="page-view pt-32 pb-16">
+      <section class="w-full py-16 bg-white font-prompt">
+        <div class="w-[90%] mx-auto">
+          <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-16 uppercase">SERVICIOS</div>
+          <div id="full-services-grid" class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- VISTA: PROYECTOS -->
+    <main id="view-proyectos" class="page-view pt-36 pb-32 font-prompt">
+      <div class="w-[90%] mx-auto">
+        <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-10 uppercase">PROYECTOS</div>
+        <div id="categories-filter" class="flex flex-wrap gap-8 text-[12px] tracking-[0.2em] font-light text-neutral-400 mb-16"></div>
+        <div id="proyectos-gallery-grid" class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8"></div>
+      </div>
+    </main>
+
+    <!-- VISTA: DETALLE DE PROYECTO -->
+    <main id="view-proyecto-detalle" class="page-view pt-36 pb-32 font-prompt">
+      <div class="w-[90%] mx-auto">
+        <a href="javascript:void(0)" onclick="navigateTo('/proyectos')" class="text-[11px] font-light tracking-[0.2em] text-neutral-400 hover:text-black mb-12 inline-block">← VOLVER A PROYECTOS</a>
+        <div id="project-detail-content"></div>
+      </div>
+    </main>
+
+    <!-- VISTA: CONTACTO -->
+    <main id="view-contacto" class="page-view pt-36 pb-32 font-prompt">
+      <div class="w-[90%] mx-auto">
+        <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-8 uppercase">CONTACTO</div>
+        <h1 class="text-2xl md:text-3xl font-urbanist font-light tracking-wide text-black mb-20">Hablemos de su proyecto</h1>
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-16">
+          <div class="md:col-span-5 flex flex-col justify-between">
+            <div class="text-sm font-light leading-loose text-neutral-700">
+              <p>C. Teide, 4</p>
+              <p>San Sebastián de los Reyes - 28703 Madrid</p>
+              <p class="mt-6 text-black">ancodarq@ancodarq.com</p>
+              <p>+34 916 570 819</p>
+              <p>+34 618 341 133</p>
+            </div>
+            <div class="mt-16 pt-10 border-t border-neutral-100">
+              <h4 class="text-[11px] font-normal tracking-[0.2em] uppercase text-black mb-2">TRABAJA CON NOSOTROS</h4>
+              <p class="text-xs font-light text-neutral-500 mb-4">¿Quieres formar parte de nuestro equipo? Envíanos tu candidatura.</p>
+              <a href="javascript:void(0)" onclick="navigateTo('/trabaja-con-nosotros')" class="text-[11px] font-light tracking-[0.15em] text-black hover:text-neutral-500 transition-colors">ENVIAR CV →</a>
+            </div>
+          </div>
+          <div class="md:col-span-7">
+            <form onsubmit="handleFormSubmit(event, 'contacto-feedback')" class="flex flex-col gap-8">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <input type="text" placeholder="Nombre *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+                <input type="email" placeholder="Email *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <input type="tel" placeholder="Teléfono" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+                <input type="text" placeholder="Empresa" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+              </div>
+              <input type="text" placeholder="Asunto" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+              <textarea rows="4" placeholder="Mensaje *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light resize-none"></textarea>
+              <div class="flex items-center gap-3 pt-2">
+                <input type="checkbox" id="pol-c" required class="w-3.5 h-3.5 accent-black rounded-none cursor-pointer" />
+                <label for="pol-c" class="text-[12px] font-light text-neutral-500 cursor-pointer">He leído y acepto la Política de Privacidad.</label>
+              </div>
+              <button type="submit" class="self-start mt-4 px-8 py-3 bg-black text-white text-[11px] tracking-[0.2em] font-light hover:bg-neutral-800 transition-colors uppercase">ENVIAR</button>
+              <div id="contacto-feedback" class="hidden text-xs font-light text-neutral-800 pt-2">Mensaje recibido correctamente. Nos pondremos en contacto a la mayor brevedad.</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- VISTA: TRABAJA CON NOSOTROS -->
+    <main id="view-trabaja" class="page-view pt-36 pb-32 font-prompt">
+      <div class="w-[90%] mx-auto max-w-4xl">
+        <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-8 uppercase">CARRERAS</div>
+        <h1 class="text-2xl md:text-3xl font-urbanist font-light tracking-wide text-black mb-16">Trabaja con nosotros</h1>
+        <form onsubmit="handleFormSubmit(event, 'trabaja-feedback')" class="flex flex-col gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <input type="text" placeholder="Nombre y apellidos *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+            <input type="email" placeholder="Email *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <input type="tel" placeholder="Teléfono *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+            <input type="text" placeholder="Área / Perfil profesional *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+          </div>
+          <textarea rows="4" placeholder="Carta de presentación o comentarios" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light resize-none"></textarea>
+          <div class="flex flex-col gap-2 pt-2">
+            <label class="text-[12px] font-light text-neutral-500">Adjuntar CV (Formato PDF) *</label>
+            <input type="file" accept=".pdf" required class="text-xs font-light text-neutral-600 file:mr-4 file:py-2 file:px-4 file:border-0 file:text-[11px] file:tracking-wider file:font-light file:bg-neutral-100 file:text-black hover:file:bg-neutral-200 cursor-pointer" />
+          </div>
+          <div class="flex items-center gap-3 pt-2">
+            <input type="checkbox" id="pol-t" required class="w-3.5 h-3.5 accent-black rounded-none cursor-pointer" />
+            <label for="pol-t" class="text-[12px] font-light text-neutral-500 cursor-pointer">He leído y acepto la Política de Privacidad.</label>
+          </div>
+          <button type="submit" class="self-start mt-4 px-8 py-3 bg-black text-white text-[11px] tracking-[0.2em] font-light hover:bg-neutral-800 transition-colors uppercase">ENVIAR CANDIDATURA</button>
+          <div id="trabaja-feedback" class="hidden text-xs font-light text-neutral-800 pt-2">Candidatura recibida. Analizaremos su perfil para futuros procesos de selección.</div>
+        </form>
+      </div>
+    </main>
+
+    <!-- VISTAS LEGALES -->
+    <main id="view-legal" class="page-view pt-48 pb-32 text-center font-prompt text-sm font-light">
+      <span id="legal-title">Información Legal</span>
+    </main>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="w-full bg-white border-t border-neutral-100 pt-24 pb-10 font-prompt">
+    <div class="w-[90%] max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row justify-between items-start gap-16 mb-36 md:mb-48">
+        
+        <!-- LOGOS HORIZONTALES -->
+        <div class="flex flex-col gap-12 w-full max-w-[280px]">
+          <img src="./assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full h-auto object-contain block self-start" onerror="this.style.display='none'" />
+          <img src="./assets/logos/escuadra-horizontal.png" alt="ESCUADRA CONSTRUCCIONES" class="w-full h-auto object-contain block self-start" onerror="this.style.display='none'" />
+        </div>
+
+        <!-- DATOS Y REDES -->
+        <div class="flex flex-col md:items-end text-left md:text-right font-light text-[12px] tracking-[0.18em] leading-relaxed text-neutral-800 pt-2">
+          <div>C. TEIDE, 4</div>
+          <div>SAN SEBASTIÁN DE LOS REYES — 28703 MADRID</div>
+          <div class="mt-3 text-neutral-900 font-normal">ANCODARQ@ANCODARQ.COM</div>
+          <div class="mt-1 flex flex-wrap md:justify-end gap-x-4">
+            <span>+34 916 570 819</span>
+            <span>+34 618 341 133</span>
+          </div>
+
+          <div class="mt-8 flex items-center gap-5 text-neutral-900">
+            <a href="https://www.linkedin.com/company/ancodarq-sl" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-400 transition-colors p-1" aria-label="LinkedIn">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.45 1.45 0 0 0 1.45-1.45 1.45 1.45 0 0 0-1.45-1.45 1.45 1.45 0 0 0-1.45 1.45c0 .8.65 1.45 1.45 1.45m1.39 9.74v-8.37H5.07v8.37h2.78z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/ancodarq/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-400 transition-colors p-1" title="ANCODARQ" aria-label="Instagram ANCODARQ">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.13-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/escuadra_construcciones/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-400 transition-colors p-1" title="ESCUADRA" aria-label="Instagram ESCUADRA">
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.13-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- LÍNEA INFERIOR -->
+      <div class="flex flex-col md:flex-row justify-between items-center text-[11px] font-light text-neutral-400">
+        <div>© ANCODARQ</div>
+        <div class="mt-4 md:mt-0 flex gap-1.5">
+          <a href="javascript:void(0)" onclick="navigateTo('/privacidad')" class="hover:text-neutral-800 transition-colors">Política de privacidad</a>
+          <span>·</span>
+          <a href="javascript:void(0)" onclick="navigateTo('/aviso-legal')" class="hover:text-neutral-800 transition-colors">Aviso legal</a>
+          <span>·</span>
+          <a href="javascript:void(0)" onclick="navigateTo('/cookies')" class="hover:text-neutral-800 transition-colors">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT LOGICA PURA NATIVA -->
+  <script>
     const HERO_IMAGES = [
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80",
       "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1800&q=80",
@@ -50,1033 +345,181 @@
     ];
 
     const SERVICES_DATA = [
-      {
-        id: "01",
-        title: "RESIDENCIAL",
-        image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
-        description: "Proyectos de vivienda, rehabilitación y obra nueva desarrollados de forma integral, desde las primeras decisiones de proyecto hasta la ejecución y definición final de los espacios."
-      },
-      {
-        id: "02",
-        title: "OBRA PÚBLICA",
-        image: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80",
-        description: "Ejecución y rehabilitación de edificios públicos, culturales, educativos, sanitarios y administrativos, incluyendo estructura, instalaciones, envolventes y acabados."
-      },
-      {
-        id: "03",
-        title: "LOCALES Y OFICINAS",
-        image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
-        description: "Diseño, reforma y ejecución de espacios comerciales y profesionales adaptados a las necesidades funcionales, técnicas y de identidad de cada cliente."
-      }
+      { id: "01", title: "RESIDENCIAL", image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80", description: "Proyectos de vivienda, rehabilitación y obra nueva desarrollados de forma integral, desde las primeras decisiones de proyecto hasta la ejecución y definición final de los espacios." },
+      { id: "02", title: "OBRA PÚBLICA", image: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80", description: "Ejecución y rehabilitación de edificios públicos, culturales, educativos, sanitarios y administrativos, incluyendo estructura, instalaciones, envolventes y acabados." },
+      { id: "03", title: "LOCALES Y OFICINAS", image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80", description: "Diseño, reforma y ejecución de espacios comerciales y profesionales adaptados a las necesidades funcionales, técnicas y de identidad de cada cliente." }
     ];
 
     const PROJECTS_DATA = [
-      {
-        slug: "vivienda-unifamiliar-la-moraleja",
-        name: "Vivienda Unifamiliar La Moraleja",
-        category: "OBRA NUEVA",
-        location: "Madrid",
-        year: "2024",
-        coverImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
-        description: "Desarrollo residencial integral priorizando la integración lumínica y la pureza volumétrica mediante hormigón visto y carpinterías continuas de suelo a techo.",
-        gallery: [
-          "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
-          "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
-          "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1600&q=80"
-        ]
-      },
-      {
-        slug: "rehabilitacion-edificio-claudio-coello",
-        name: "Edificio Residencial Claudio Coello",
-        category: "REFORMAS",
-        location: "Madrid",
-        year: "2023",
-        coverImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-        description: "Rehabilitación estructural y energética de inmueble clásico en el Barrio de Salamanca conservando elementos ornamentales originales protegidos.",
-        gallery: [
-          "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80",
-          "https://images.unsplash.com/photo-1502005229762-ee10234b7214?auto=format&fit=crop&w=1600&q=80"
-        ]
-      },
-      {
-        slug: "sede-corporativa-castellana",
-        name: "Sede Corporativa Castellana",
-        category: "OFICINAS",
-        location: "Madrid",
-        year: "2023",
-        coverImage: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80",
-        description: "Adecuación integral de 1.800 m² de superficie terciaria con sistemas de climatización invisible y zonificación modular acústica.",
-        gallery: [
-          "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1600&q=80"
-        ]
-      },
-      {
-        slug: "espacio-retail-serrano",
-        name: "Espacio Comercial Serrano",
-        category: "COMERCIAL",
-        location: "Madrid",
-        year: "2024",
-        coverImage: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80",
-        description: "Ejecución de flagship store con microcemento pulido continuo e iluminación lineal oculta integrada en foseados perimetrales.",
-        gallery: [
-          "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1600&q=80"
-        ]
-      },
-      {
-        slug: "vivienda-somontes",
-        name: "Residencia Somontes",
-        category: "OBRA NUEVA",
-        location: "Pozuelo de Alarcón",
-        year: "2022",
-        coverImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
-        description: "Vivienda unifamiliar aislada articulada en torno a un patio interior de granito y lámina de agua estructural.",
-        gallery: [
-          "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1600&q=80"
-        ]
-      },
-      {
-        slug: "reforma-duplex-chamberi",
-        name: "Ático Dúplex Chamberí",
-        category: "REFORMAS",
-        location: "Madrid",
-        year: "2023",
-        coverImage: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-        description: "Redistribución de espacios diáfanos conectando niveles mediante escalera volada de chapa de acero plegada.",
-        gallery: [
-          "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1600&q=80"
-        ]
-      },
-      {
-        slug: "centro-cultural-norte",
-        name: "Espacio Cívico Norte",
-        category: "OBRA PÚBLICA",
-        location: "Alcobendas",
-        year: "2021",
-        coverImage: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
-        description: "Construcción dotacional pública con envolvente de celosía cerámica y certificación energética clase A.",
-        gallery: [
-          "https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=1600&q=80"
-        ]
-      },
-      {
-        slug: "oficinas-parque-empresarial",
-        name: "Oficinas Tecnológicas Norte",
-        category: "OFICINAS",
-        location: "San Sebastián de los Reyes",
-        year: "2024",
-        coverImage: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
-        description: "Espacios de trabajo colaborativo ejecutados con madera técnica, falso techo registrable fonoabsorbente y carpintería oculta.",
-        gallery: [
-          "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1600&q=80"
-        ]
-      },
-      {
-        slug: "boutique-calle-goya",
-        name: "Boutique Goya",
-        category: "COMERCIAL",
-        location: "Madrid",
-        year: "2022",
-        coverImage: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?auto=format&fit=crop&w=1200&q=80",
-        description: "Reforma técnica de local comercial de alta gama ejecutada en un plazo estricto de 6 semanas.",
-        gallery: [
-          "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1600&q=80"
-        ]
-      }
+      { slug: "vivienda-unifamiliar-la-moraleja", name: "Vivienda Unifamiliar La Moraleja", category: "OBRA NUEVA", location: "Madrid", year: "2024", coverImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80", description: "Desarrollo residencial integral priorizando la integración lumínica y la pureza volumétrica mediante hormigón visto y carpinterías continuas de suelo a techo.", gallery: ["https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80", "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80"] },
+      { slug: "rehabilitacion-edificio-claudio-coello", name: "Edificio Residencial Claudio Coello", category: "REFORMAS", location: "Madrid", year: "2023", coverImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80", description: "Rehabilitación estructural y energética de inmueble clásico en el Barrio de Salamanca conservando elementos ornamentales originales protegidos.", gallery: ["https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80"] },
+      { slug: "sede-corporativa-castellana", name: "Sede Corporativa Castellana", category: "OFICINAS", location: "Madrid", year: "2023", coverImage: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80", description: "Adecuación integral de 1.800 m² de superficie terciaria con sistemas de climatización invisible y zonificación modular acústica.", gallery: ["https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1600&q=80"] },
+      { slug: "espacio-retail-serrano", name: "Espacio Comercial Serrano", category: "COMERCIAL", location: "Madrid", year: "2024", coverImage: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80", description: "Ejecución de flagship store con microcemento pulido continuo e iluminación lineal oculta integrada en foseados perimetrales.", gallery: ["https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1600&q=80"] },
+      { slug: "vivienda-somontes", name: "Residencia Somontes", category: "OBRA NUEVA", location: "Pozuelo de Alarcón", year: "2022", coverImage: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80", description: "Vivienda unifamiliar aislada articulada en torno a un patio interior de granito y lámina de agua estructural.", gallery: ["https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1600&q=80"] },
+      { slug: "reforma-duplex-chamberi", name: "Ático Dúplex Chamberí", category: "REFORMAS", location: "Madrid", year: "2023", coverImage: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80", description: "Redistribución de espacios diáfanos conectando niveles mediante escalera volada de chapa de acero plegada.", gallery: ["https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1600&q=80"] }
     ];
 
-    // --- HEADER ---
-    function Header({ currentRoute, navigate }) {
-      const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-      const navItems = [
-        { name: "INICIO", path: "/" },
-        { name: "NOSOTROS", path: "/nosotros" },
-        { name: "SERVICIOS", path: "/servicios" },
-        { name: "PROYECTOS", path: "/proyectos" },
-        { name: "CONTACTO", path: "/contacto" },
-      ];
+    let currentHeroIdx = 0;
+    setInterval(() => {
+      currentHeroIdx = (currentHeroIdx + 1) % HERO_IMAGES.length;
+      const img = document.getElementById("hero-img");
+      if (img) img.src = HERO_IMAGES[currentHeroIdx];
+    }, 3000);
 
-      return (
-        <header className="w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
-          <div className="w-[90%] mx-auto py-5 flex items-center justify-between">
-            <button onClick={() => navigate("/")} className="flex items-center gap-7 text-left group focus:outline-none">
-              <img
-                src="./assets/logos/ancodarq-square.png"
-                alt="ANCODARQ"
-                className="h-14 md:h-16 w-auto object-contain shrink-0"
-                onError={(e) => { e.currentTarget.style.display = 'none'; if (e.currentTarget.nextElementSibling) e.currentTarget.nextElementSibling.style.display = 'block'; }}
-              />
-              <span className="hidden font-urbanist font-medium tracking-widest text-xs">ANCODARQ</span>
-              
-              <span className="w-px h-8 bg-neutral-200" />
-
-              <img
-                src="./assets/logos/escuadra-square.jpg"
-                alt="ESCUADRA CONSTRUCCIONES"
-                className="h-14 md:h-16 w-auto object-contain shrink-0 scale-110"
-                onError={(e) => { e.currentTarget.style.display = 'none'; if (e.currentTarget.nextElementSibling) e.currentTarget.nextElementSibling.style.display = 'block'; }}
-              />
-              <span className="hidden font-urbanist font-medium tracking-widest text-xs text-neutral-600">ESCUADRA</span>
-            </button>
-
-            <nav className="hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
-              {navItems.map((item) => {
-                const isActive = currentRoute === item.path;
-                return (
-                  <button
-                    key={item.path}
-                    onClick={() => navigate(item.path)}
-                    className={`relative py-1 transition-colors duration-150 focus:outline-none ${
-                      isActive ? "text-black font-normal" : "text-neutral-500 hover:text-black"
-                    }`}
-                  >
-                    {item.name}
-                    {isActive && <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black" />}
-                  </button>
-                );
-              })}
-            </nav>
-
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden flex flex-col justify-center gap-1.5 w-6 h-6 p-0 focus:outline-none"
-              aria-label="Abrir menú"
-            >
-              <span className={`w-full h-px bg-black transition-transform duration-200 ${mobileMenuOpen ? "rotate-45 translate-y-[5px]" : ""}`} />
-              <span className={`w-full h-px bg-black transition-opacity duration-200 ${mobileMenuOpen ? "opacity-0" : ""}`} />
-              <span className={`w-full h-px bg-black transition-transform duration-200 ${mobileMenuOpen ? "-rotate-45 -translate-y-[5px]" : ""}`} />
-            </button>
+    function renderServicesGrid(containerId) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+      container.innerHTML = SERVICES_DATA.map(srv => `
+        <div class="flex flex-col">
+          <div class="w-full aspect-[4/3] bg-neutral-100 mb-8 overflow-hidden">
+            <img src="${srv.image}" alt="${srv.title}" class="w-full h-full object-cover" />
           </div>
-
-          {mobileMenuOpen && (
-            <div className="md:hidden bg-white w-full border-b border-neutral-200 px-[5%] py-8 flex flex-col gap-6 font-prompt font-light text-sm tracking-[0.2em]">
-              {navItems.map((item) => (
-                <button
-                  key={item.path}
-                  onClick={() => { navigate(item.path); setMobileMenuOpen(false); }}
-                  className={`text-left focus:outline-none ${currentRoute === item.path ? "text-black font-normal" : "text-neutral-500"}`}
-                >
-                  {item.name}
-                </button>
-              ))}
-            </div>
-          )}
-        </header>
-      );
+          <span class="font-urbanist font-light text-sm text-neutral-400 mb-2">${srv.id}</span>
+          <h3 class="font-prompt text-[13px] tracking-[0.2em] font-medium text-black mb-4">${srv.title}</h3>
+          <p class="font-prompt text-[13px] leading-relaxed text-neutral-600 font-light">${srv.description}</p>
+        </div>
+      `).join('');
     }
 
-    // --- FOOTER ---
-    function Footer({ navigate }) {
-      const [tooltip, setTooltip] = useState(null);
-
-      return (
-        <footer className="w-full bg-white border-t border-neutral-100 pt-24 pb-10 font-prompt">
-          <div className="w-[90%] max-w-6xl mx-auto">
-            <div className="flex flex-col md:flex-row justify-between items-start gap-16 mb-36 md:mb-48">
-              
-              {/* IZQUIERDA: LOGOS HORIZONTALES */}
-              <div className="flex flex-col gap-12 w-full max-w-[280px]">
-                <img
-                  src="./assets/logos/ancodarq-horizontal.png"
-                  alt="ANCODARQ"
-                  className="w-full h-auto object-contain block self-start"
-                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                />
-                <img
-                  src="./assets/logos/escuadra-horizontal.png"
-                  alt="ESCUADRA CONSTRUCCIONES"
-                  className="w-full h-auto object-contain block self-start"
-                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                />
-              </div>
-
-              {/* DERECHA: DATOS + SOCIAL */}
-              <div className="flex flex-col md:items-end text-left md:text-right font-light text-[12px] tracking-[0.18em] leading-relaxed text-neutral-800 pt-2">
-                <div>C. TEIDE, 4</div>
-                <div>SAN SEBASTIÁN DE LOS REYES — 28703 MADRID</div>
-                <div className="mt-3 text-neutral-900 font-normal">ANCODARQ@ANCODARQ.COM</div>
-                <div className="mt-1 flex flex-wrap md:justify-end gap-x-4">
-                  <span>+34 916 570 819</span>
-                  <span>+34 618 341 133</span>
-                </div>
-
-                <div className="mt-8 flex items-center gap-5 text-neutral-900">
-                  <a
-                    href="https://www.linkedin.com/company/ancodarq-sl"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-neutral-400 transition-colors p-1"
-                    aria-label="LinkedIn"
-                  >
-                    <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                      <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.45 1.45 0 0 0 1.45-1.45 1.45 1.45 0 0 0-1.45-1.45 1.45 1.45 0 0 0-1.45 1.45c0 .8.65 1.45 1.45 1.45m1.39 9.74v-8.37H5.07v8.37h2.78z" />
-                    </svg>
-                  </a>
-
-                  <div
-                    className="relative flex items-center justify-center"
-                    onMouseEnter={() => setTooltip("ANCODARQ")}
-                    onMouseLeave={() => setTooltip(null)}
-                  >
-                    <a
-                      href="https://www.instagram.com/ancodarq/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-neutral-400 transition-colors p-1"
-                      aria-label="Instagram ANCODARQ"
-                    >
-                      <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.13-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                    </svg>
-                  </a>
-                  {tooltip === "ANCODARQ" && (
-                    <span className="absolute -top-7 px-1.5 py-0.5 text-[9px] tracking-wider text-white bg-black pointer-events-none">
-                      ANCODARQ
-                    </span>
-                  )}
-                </div>
-
-                <div
-                  className="relative flex items-center justify-center"
-                  onMouseEnter={() => setTooltip("ESCUADRA")}
-                  onMouseLeave={() => setTooltip(null)}
-                >
-                  <a
-                    href="https://www.instagram.com/escuadra_construcciones/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-neutral-400 transition-colors p-1"
-                    aria-label="Instagram ESCUADRA"
-                  >
-                    <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.13-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                    </svg>
-                  </a>
-                  {tooltip === "ESCUADRA" && (
-                    <span className="absolute -top-7 px-1.5 py-0.5 text-[9px] tracking-wider text-white bg-black pointer-events-none">
-                      ESCUADRA
-                    </span>
-                  )}
-                </div>
-              </div>
-            </div>
-
-            {/* LÍNEA INFERIOR */}
-            <div className="flex flex-col md:flex-row justify-between items-center text-[11px] font-light text-neutral-400">
-              <div>© ANCODARQ</div>
-              <div className="mt-4 md:mt-0 flex gap-1.5">
-                <button onClick={() => navigate("/privacidad")} className="hover:text-neutral-800 transition-colors">Política de privacidad</button>
-                <span>·</span>
-                <button onClick={() => navigate("/aviso-legal")} className="hover:text-neutral-800 transition-colors">Aviso legal</button>
-                <span>·</span>
-                <button onClick={() => navigate("/cookies")} className="hover:text-neutral-800 transition-colors">Cookies</button>
-              </div>
-            </div>
+    function renderProjectsPreview() {
+      const container = document.getElementById("home-projects-preview");
+      if (!container) return;
+      container.innerHTML = PROJECTS_DATA.slice(0, 6).map(p => `
+        <div onclick="navigateTo('/proyectos/${p.slug}')" class="group block cursor-pointer">
+          <div class="w-full aspect-[16/11] bg-neutral-100 mb-4 overflow-hidden">
+            <img src="${p.coverImage}" alt="${p.name}" class="w-full h-full object-cover" />
           </div>
-        </footer>
-      );
-    }
-
-    // --- COMPONENTES HOME ---
-    function Hero() {
-      const [currentIndex, setCurrentIndex] = useState(0);
-
-      useEffect(() => {
-        const timer = setInterval(() => {
-          setCurrentIndex((prev) => (prev + 1) % HERO_IMAGES.length);
-        }, 3000);
-        return () => clearInterval(timer);
-      }, []);
-
-      return (
-        <section className="w-full pt-32 pb-24 md:pb-36 bg-white flex justify-center items-center">
-          <div className="w-[90%] max-w-[1600px] h-[55vh] md:h-[75vh] bg-neutral-50 overflow-hidden">
-            <img
-              src={HERO_IMAGES[currentIndex]}
-              alt="Galería arquitectónica ANCODARQ"
-              className="w-full h-full object-cover select-none"
-            />
+          <div class="flex justify-between items-baseline">
+            <h4 class="text-[13px] font-normal text-neutral-900 group-hover:text-black transition-colors">${p.name}</h4>
+            <span class="text-[10px] tracking-[0.15em] font-light text-neutral-400">${p.category}</span>
           </div>
-        </section>
-      );
+        </div>
+      `).join('');
     }
 
-    function AboutSection() {
-      return (
-        <section className="w-full py-20 md:py-32 bg-white font-prompt">
-          <div className="w-[90%] max-w-5xl mx-auto">
-            <div className="text-[12px] font-normal tracking-[0.25em] text-neutral-800 mb-14 uppercase">
-              NOSOTROS
-            </div>
+    let activeFilter = "TODOS";
+    function renderProjectsGallery() {
+      const filterCont = document.getElementById("categories-filter");
+      const gridCont = document.getElementById("proyectos-gallery-grid");
+      if (!filterCont || !gridCont) return;
 
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-start">
-              {/* COLUMNA IZQUIERDA: LOGOS */}
-              <div className="md:col-span-6 flex flex-col justify-between self-stretch pr-0 md:pr-6">
-                <div className="w-full max-w-[340px]">
-                  <img
-                    src="./assets/logos/ancodarq-horizontal.png"
-                    alt="ANCODARQ"
-                    className="w-full h-auto object-contain block"
-                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                  />
-                </div>
-                
-                <div className="my-10 md:my-0"></div>
+      const cats = ["TODOS", "OBRA NUEVA", "REFORMAS", "COMERCIAL", "OFICINAS"];
+      filterCont.innerHTML = cats.map(c => `
+        <button onclick="setProjectFilter('${c}')" class="py-1 relative transition-colors duration-150 ${activeFilter === c ? 'text-black font-normal' : 'hover:text-black'}">
+          ${c}
+          ${activeFilter === c ? '<span class="absolute bottom-0 left-0 w-full h-px bg-black"></span>' : ''}
+        </button>
+      `).join('');
 
-                <div className="w-full max-w-[340px]">
-                  <img
-                    src="./assets/logos/escuadra-horizontal.png"
-                    alt="ESCUADRA CONSTRUCCIONES"
-                    className="w-full h-auto object-contain block"
-                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                  />
-                </div>
-              </div>
-
-              {/* COLUMNA DERECHA: TEXTO + CERTIFICACIONES */}
-              <div className="md:col-span-6 flex flex-col justify-between self-stretch">
-                <div className="text-[13px] md:text-[13.5px] leading-[1.75] text-neutral-800 font-light space-y-5">
-                  <p>
-                    ANCODARQ desarrolla proyectos de construcción, rehabilitación, reformas y arquitectura desde una visión integral del proceso.
-                  </p>
-                  <p>
-                    Nuestro equipo combina experiencia técnica, capacidad de ejecución y atención al detalle para abordar cada proyecto desde sus primeras decisiones hasta su materialización final.
-                  </p>
-                  <p>
-                    Trabajamos en ámbitos residenciales, comerciales, oficinas y obra pública, adaptándonos a las necesidades específicas de cada cliente y cada espacio.
-                  </p>
-                </div>
-
-                <div className="mt-12 flex flex-col items-end gap-3 self-end">
-                  <span className="text-[9px] tracking-[0.25em] font-normal text-neutral-500 uppercase">
-                    CERTIFICACIONES
-                  </span>
-                  <img
-                    src="./assets/logos/iso-certifications.png"
-                    alt="Certificaciones ISO"
-                    className="h-8 w-auto object-contain"
-                    onError={(e) => {
-                      e.currentTarget.style.display = 'none';
-                      if (e.currentTarget.nextElementSibling) {
-                        e.currentTarget.nextElementSibling.style.display = 'block';
-                      }
-                    }}
-                  />
-                  <span className="hidden text-[10px] tracking-widest text-neutral-500 font-urbanist">ISO 9001 · ISO 14001</span>
-                </div>
-              </div>
-            </div>
+      const filtered = activeFilter === "TODOS" ? PROJECTS_DATA : PROJECTS_DATA.filter(p => p.category === activeFilter);
+      gridCont.innerHTML = filtered.map(p => `
+        <div onclick="navigateTo('/proyectos/${p.slug}')" class="group block cursor-pointer">
+          <div class="w-full aspect-[16/11] bg-neutral-100 mb-4 overflow-hidden">
+            <img src="${p.coverImage}" alt="${p.name}" class="w-full h-full object-cover" />
           </div>
-        </section>
-      );
-    }
-
-    function ServicesSection() {
-      return (
-        <section className="w-full py-20 md:py-32 bg-white font-prompt">
-          <div className="w-[90%] mx-auto">
-            <div className="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-16 uppercase">
-              SERVICIOS
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10">
-              {SERVICES_DATA.map((srv) => (
-                <div key={srv.id} className="flex flex-col">
-                  <div className="w-full aspect-[4/3] bg-neutral-100 mb-8 overflow-hidden">
-                    <img
-                      src={srv.image}
-                      alt={srv.title}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <span className="font-urbanist font-light text-sm text-neutral-400 mb-2">
-                    {srv.id}
-                  </span>
-                  <h3 className="font-prompt text-[13px] tracking-[0.2em] font-medium text-black mb-4">
-                    {srv.title}
-                  </h3>
-                  <p className="font-prompt text-[13px] leading-relaxed text-neutral-600 font-light">
-                    {srv.description}
-                  </p>
-                </div>
-              ))}
-            </div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="text-[13px] font-normal text-neutral-900 group-hover:text-black transition-colors">${p.name}</h3>
+            <span class="text-[10px] tracking-[0.15em] font-light text-neutral-400">${p.category}</span>
           </div>
-        </section>
-      );
+        </div>
+      `).join('');
     }
 
-    function ProjectsPreview({ navigate }) {
-      const previewList = PROJECTS_DATA.slice(0, 6);
+    function setProjectFilter(cat) {
+      activeFilter = cat;
+      renderProjectsGallery();
+    }
 
-      return (
-        <section className="w-full py-20 md:py-32 bg-white font-prompt">
-          <div className="w-[90%] mx-auto">
-            <div className="flex justify-between items-baseline mb-16">
-              <h2 className="text-xl md:text-2xl font-urbanist font-light tracking-wide text-black">
-                PROYECTOS
-              </h2>
-              <button
-                onClick={() => navigate("/proyectos")}
-                className="text-[11px] font-light tracking-[0.2em] text-neutral-500 hover:text-black transition-colors focus:outline-none"
-              >
-                VER TODOS
-              </button>
-            </div>
+    function renderProjectDetail(slug) {
+      const container = document.getElementById("project-detail-content");
+      const project = PROJECTS_DATA.find(p => p.slug === slug);
+      if (!container || !project) return;
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
-              {previewList.map((project) => (
-                <div
-                  key={project.slug}
-                  onClick={() => navigate(`/proyectos/${project.slug}`)}
-                  className="group block cursor-pointer"
-                >
-                  <div className="w-full aspect-[16/11] bg-neutral-100 mb-4 overflow-hidden">
-                    <img
-                      src={project.coverImage}
-                      alt={project.name}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="flex justify-between items-baseline">
-                    <h4 className="text-[13px] font-normal text-neutral-900 group-hover:text-black transition-colors">
-                      {project.name}
-                    </h4>
-                    <span className="text-[10px] tracking-[0.15em] font-light text-neutral-400">
-                      {project.category}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
+      container.innerHTML = `
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20 items-start">
+          <div class="md:col-span-7">
+            <h1 class="text-2xl md:text-4xl font-urbanist font-light tracking-tight text-black mb-4">${project.name}</h1>
+            <p class="text-sm md:text-base text-neutral-600 font-light max-w-xl leading-relaxed">${project.description}</p>
           </div>
-        </section>
-      );
-    }
-
-    // --- VISTAS / PÁGINAS ---
-    function HomePage({ navigate }) {
-      return (
-        <main>
-          <Hero />
-          <AboutSection />
-          <ServicesSection />
-          <ProjectsPreview navigate={navigate} />
-        </main>
-      );
-    }
-
-    function NosotrosPage() {
-      return (
-        <main className="pt-32 pb-16">
-          <div className="w-[90%] mx-auto mb-6">
-            <h1 className="text-2xl md:text-3xl font-urbanist font-light tracking-wide text-black">
-              Una visión integral del proceso
-            </h1>
+          <div class="md:col-span-5 grid grid-cols-2 gap-6 text-[12px] font-light tracking-wider border-t md:border-t-0 md:border-l border-neutral-100 pt-6 md:pt-0 md:pl-10">
+            <div><span class="text-neutral-400 block mb-1">CATEGORÍA</span><span class="text-black">${project.category}</span></div>
+            <div><span class="text-neutral-400 block mb-1">AÑO</span><span class="text-black">${project.year}</span></div>
+            <div><span class="text-neutral-400 block mb-1">UBICACIÓN</span><span class="text-black">${project.location}</span></div>
           </div>
-          <AboutSection />
-        </main>
-      );
-    }
-
-    function ServiciosPage() {
-      return (
-        <main className="pt-32 pb-16">
-          <ServicesSection />
-        </main>
-      );
-    }
-
-    function ProyectosPage({ navigate }) {
-      const [selectedCategory, setSelectedCategory] = useState("TODOS");
-      const categories = ["TODOS", "OBRA NUEVA", "REFORMAS", "COMERCIAL", "OFICINAS"];
-
-      const filteredProjects = useMemo(() => {
-        if (selectedCategory === "TODOS") return PROJECTS_DATA;
-        return PROJECTS_DATA.filter((p) => p.category === selectedCategory);
-      }, [selectedCategory]);
-
-      return (
-        <main className="pt-36 pb-32 font-prompt">
-          <div className="w-[90%] mx-auto">
-            <div className="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-10 uppercase">
-              PROYECTOS
-            </div>
-
-            <div className="flex flex-wrap gap-8 text-[12px] tracking-[0.2em] font-light text-neutral-400 mb-16">
-              {categories.map((cat) => {
-                const isActive = selectedCategory === cat;
-                return (
-                  <button
-                    key={cat}
-                    onClick={() => setSelectedCategory(cat)}
-                    className={`py-1 relative transition-colors duration-150 focus:outline-none ${
-                      isActive ? "text-black font-normal" : "hover:text-black"
-                    }`}
-                  >
-                    {cat}
-                    {isActive && <span className="absolute bottom-0 left-0 w-full h-px bg-black" />}
-                  </button>
-                );
-              })}
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
-              {filteredProjects.map((project) => (
-                <div
-                  key={project.slug}
-                  onClick={() => navigate(`/proyectos/${project.slug}`)}
-                  className="group block cursor-pointer"
-                >
-                  <div className="w-full aspect-[16/11] bg-neutral-100 mb-4 overflow-hidden">
-                    <img
-                      src={project.coverImage}
-                      alt={project.name}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="flex justify-between items-baseline">
-                    <h3 className="text-[13px] font-normal text-neutral-900 group-hover:text-black transition-colors">
-                      {project.name}
-                    </h3>
-                    <span className="text-[10px] tracking-[0.15em] font-light text-neutral-400">
-                      {project.category}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
+        </div>
+        <div class="flex flex-col gap-16">
+          <div class="w-full bg-neutral-50 overflow-hidden">
+            <img src="${project.coverImage}" alt="${project.name}" class="w-full h-auto object-contain mx-auto" />
           </div>
-        </main>
-      );
+          ${project.gallery ? project.gallery.map(img => `
+            <div class="w-full bg-neutral-50 overflow-hidden">
+              <img src="${img}" alt="${project.name}" class="w-full h-auto object-contain mx-auto" />
+            </div>
+          `).join('') : ''}
+        </div>
+      `;
     }
 
-    function ProyectoDetallePage({ slug, navigate }) {
-      const project = PROJECTS_DATA.find((p) => p.slug === slug);
+    function navigateTo(path) {
+      document.querySelectorAll(".page-view").forEach(el => el.classList.remove("active"));
+      document.querySelectorAll(".nav-link").forEach(el => {
+        el.classList.remove("text-black", "font-normal");
+        el.classList.add("text-neutral-500");
+        const line = el.querySelector("span");
+        if (line) line.remove();
+      });
 
-      if (!project) {
-        return (
-          <main className="pt-48 pb-32 text-center font-prompt">
-            <p className="text-neutral-500 font-light mb-4">Proyecto no encontrado</p>
-            <button onClick={() => navigate("/proyectos")} className="text-xs tracking-widest uppercase underline focus:outline-none">
-              Volver a proyectos
-            </button>
-          </main>
-        );
+      const activeNav = document.querySelector(`[data-nav="${path}"]`);
+      if (activeNav) {
+        activeNav.classList.add("text-black", "font-normal");
+        activeNav.classList.remove("text-neutral-500");
+        activeNav.innerHTML += '<span class="absolute bottom-0 left-0 w-full h-[1px] bg-black"></span>';
       }
 
-      return (
-        <main className="pt-36 pb-32 font-prompt">
-          <div className="w-[90%] mx-auto">
-            <button
-              onClick={() => navigate("/proyectos")}
-              className="text-[11px] font-light tracking-[0.2em] text-neutral-400 hover:text-black mb-12 inline-block focus:outline-none"
-            >
-              ← VOLVER A PROYECTOS
-            </button>
+      if (path === "/") {
+        document.getElementById("view-home").classList.add("active");
+        renderServicesGrid("home-services-grid");
+        renderProjectsPreview();
+      } else if (path === "/nosotros") {
+        document.getElementById("view-nosotros").classList.add("active");
+      } else if (path === "/servicios") {
+        document.getElementById("view-servicios").classList.add("active");
+        renderServicesGrid("full-services-grid");
+      } else if (path === "/proyectos") {
+        document.getElementById("view-proyectos").classList.add("active");
+        renderProjectsGallery();
+      } else if (path.startsWith("/proyectos/")) {
+        const slug = path.replace("/proyectos/", "");
+        document.getElementById("view-proyecto-detalle").classList.add("active");
+        renderProjectDetail(slug);
+      } else if (path === "/contacto") {
+        document.getElementById("view-contacto").classList.add("active");
+      } else if (path === "/trabaja-con-nosotros") {
+        document.getElementById("view-trabaja").classList.add("active");
+      } else if (path === "/privacidad" || path === "/aviso-legal" || path === "/cookies") {
+        document.getElementById("view-legal").classList.add("active");
+        document.getElementById("legal-title").textContent = path === "/privacidad" ? "Política de Privacidad" : (path === "/aviso-legal" ? "Aviso Legal" : "Política de Cookies");
+      }
 
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20 items-start">
-              <div className="md:col-span-7">
-                <h1 className="text-2xl md:text-4xl font-urbanist font-light tracking-tight text-black mb-4">
-                  {project.name}
-                </h1>
-                <p className="text-sm md:text-base text-neutral-600 font-light max-w-xl leading-relaxed">
-                  {project.description}
-                </p>
-              </div>
-              <div className="md:col-span-5 grid grid-cols-2 gap-6 text-[12px] font-light tracking-wider border-t md:border-t-0 md:border-l border-neutral-100 pt-6 md:pt-0 md:pl-10">
-                <div>
-                  <span className="text-neutral-400 block mb-1">CATEGORÍA</span>
-                  <span className="text-black">{project.category}</span>
-                </div>
-                <div>
-                  <span className="text-neutral-400 block mb-1">AÑO</span>
-                  <span className="text-black">{project.year}</span>
-                </div>
-                <div>
-                  <span className="text-neutral-400 block mb-1">UBICACIÓN</span>
-                  <span className="text-black">{project.location}</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col gap-16">
-              <div className="w-full bg-neutral-50 overflow-hidden">
-                <img
-                  src={project.coverImage}
-                  alt={project.name}
-                  className="w-full h-auto object-contain mx-auto"
-                />
-              </div>
-              {project.gallery && project.gallery.map((imgUrl, index) => (
-                <div key={index} className="w-full bg-neutral-50 overflow-hidden">
-                  <img
-                    src={imgUrl}
-                    alt={`${project.name} - detalle ${index + 1}`}
-                    className="w-full h-auto object-contain mx-auto"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </main>
-      );
+      window.scrollTo(0, 0);
     }
 
-    function ContactoPage({ navigate }) {
-      const [formData, setFormData] = useState({
-        nombre: "",
-        email: "",
-        telefono: "",
-        empresa: "",
-        asunto: "",
-        mensaje: "",
-        politica: false,
-      });
-      const [submitted, setSubmitted] = useState(false);
-
-      const handleChange = (e) => {
-        const { name, value, type, checked } = e.target;
-        setFormData((prev) => ({
-          ...prev,
-          [name]: type === "checkbox" ? checked : value,
-        }));
-      };
-
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        if (!formData.politica) return;
-        setSubmitted(true);
-      };
-
-      return (
-        <main className="pt-36 pb-32 font-prompt">
-          <div className="w-[90%] mx-auto">
-            <div className="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-8 uppercase">
-              CONTACTO
-            </div>
-            <h1 className="text-2xl md:text-3xl font-urbanist font-light tracking-wide text-black mb-20">
-              Hablemos de su proyecto
-            </h1>
-
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-16">
-              <div className="md:col-span-5 flex flex-col justify-between">
-                <div className="text-sm font-light leading-loose text-neutral-700">
-                  <p>C. Teide, 4</p>
-                  <p>San Sebastián de los Reyes - 28703 Madrid</p>
-                  <p className="mt-6 text-black">ancodarq@ancodarq.com</p>
-                  <p>+34 916 570 819</p>
-                  <p>+34 618 341 133</p>
-                </div>
-
-                <div className="mt-16 pt-10 border-t border-neutral-100">
-                  <h4 className="text-[11px] font-normal tracking-[0.2em] uppercase text-black mb-2">
-                    TRABAJA CON NOSOTROS
-                  </h4>
-                  <p className="text-xs font-light text-neutral-500 mb-4">
-                    ¿Quieres formar parte de nuestro equipo? Envíanos tu candidatura.
-                  </p>
-                  <button
-                    onClick={() => navigate("/trabaja-con-nosotros")}
-                    className="text-[11px] font-light tracking-[0.15em] text-black hover:text-neutral-500 transition-colors focus:outline-none"
-                  >
-                    ENVIAR CV →
-                  </button>
-                </div>
-              </div>
-
-              <div className="md:col-span-7">
-                {submitted ? (
-                  <div className="py-16 text-center border border-neutral-100">
-                    <p className="text-sm font-light text-black">
-                      Mensaje recibido correctamente. Nos pondremos en contacto a la mayor brevedad.
-                    </p>
-                  </div>
-                ) : (
-                  <form onSubmit={handleSubmit} className="flex flex-col gap-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                      <div>
-                        <input
-                          type="text"
-                          name="nombre"
-                          placeholder="Nombre *"
-                          required
-                          value={formData.nombre}
-                          onChange={handleChange}
-                          className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light"
-                        />
-                      </div>
-                      <div>
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="Email *"
-                          required
-                          value={formData.email}
-                          onChange={handleChange}
-                          className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                      <div>
-                        <input
-                          type="tel"
-                          name="telefono"
-                          placeholder="Teléfono"
-                          value={formData.telefono}
-                          onChange={handleChange}
-                          className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light"
-                        />
-                      </div>
-                      <div>
-                        <input
-                          type="text"
-                          name="empresa"
-                          placeholder="Empresa"
-                          value={formData.empresa}
-                          onChange={handleChange}
-                          className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light"
-                        />
-                      </div>
-                    </div>
-
-                    <div>
-                      <input
-                        type="text"
-                        name="asunto"
-                        placeholder="Asunto"
-                        value={formData.asunto}
-                        onChange={handleChange}
-                        className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light"
-                      />
-                    </div>
-
-                    <div>
-                      <textarea
-                        name="mensaje"
-                        rows="4"
-                        placeholder="Mensaje *"
-                        required
-                        value={formData.mensaje}
-                        onChange={handleChange}
-                        className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light resize-none"
-                      />
-                    </div>
-
-                    <div className="flex items-center gap-3 pt-2">
-                      <input
-                        type="checkbox"
-                        id="politica"
-                        name="politica"
-                        required
-                        checked={formData.politica}
-                        onChange={handleChange}
-                        className="w-3.5 h-3.5 border-neutral-300 accent-black rounded-none cursor-pointer"
-                      />
-                      <label htmlFor="politica" className="text-[12px] font-light text-neutral-500 cursor-pointer">
-                        He leído y acepto la Política de Privacidad.
-                      </label>
-                    </div>
-
-                    <button
-                      type="submit"
-                      className="self-start mt-4 px-8 py-3 bg-black text-white text-[11px] tracking-[0.2em] font-light hover:bg-neutral-800 transition-colors uppercase"
-                    >
-                      ENVIAR
-                    </button>
-                  </form>
-                )}
-              </div>
-            </div>
-          </div>
-        </main>
-      );
+    function toggleMobileMenu() {
+      const menu = document.getElementById("mobile-menu");
+      menu.classList.toggle("hidden");
     }
 
-    function TrabajaConNosotrosPage() {
-      const [formData, setFormData] = useState({
-        nombre: "",
-        email: "",
-        telefono: "",
-        area: "",
-        mensaje: "",
-        politica: false,
-      });
-      const [file, setFile] = useState(null);
-      const [submitted, setSubmitted] = useState(false);
-
-      const handleChange = (e) => {
-        const { name, value, type, checked } = e.target;
-        setFormData((prev) => ({
-          ...prev,
-          [name]: type === "checkbox" ? checked : value,
-        }));
-      };
-
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        if (!formData.politica) return;
-        setSubmitted(true);
-      };
-
-      return (
-        <main className="pt-36 pb-32 font-prompt">
-          <div className="w-[90%] mx-auto max-w-4xl">
-            <div className="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-8 uppercase">
-              CARRERAS
-            </div>
-            <h1 className="text-2xl md:text-3xl font-urbanist font-light tracking-wide text-black mb-16">
-              Trabaja con nosotros
-            </h1>
-
-            {submitted ? (
-              <div className="py-16 text-center border border-neutral-100">
-                <p className="text-sm font-light text-black">
-                  Candidatura recibida. Analizaremos su perfil para futuros procesos de selección.
-                </p>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div>
-                    <input
-                      type="text"
-                      name="nombre"
-                      placeholder="Nombre y apellidos *"
-                      required
-                      value={formData.nombre}
-                      onChange={handleChange}
-                      className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light"
-                    />
-                  </div>
-                  <div>
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Email *"
-                      required
-                      value={formData.email}
-                      onChange={handleChange}
-                      className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div>
-                    <input
-                      type="tel"
-                      name="telefono"
-                      placeholder="Teléfono *"
-                      required
-                      value={formData.telefono}
-                      onChange={handleChange}
-                      className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light"
-                    />
-                  </div>
-                  <div>
-                    <input
-                      type="text"
-                      name="area"
-                      placeholder="Área / Perfil profesional *"
-                      required
-                      value={formData.area}
-                      onChange={handleChange}
-                      className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <textarea
-                    name="mensaje"
-                    rows="4"
-                    placeholder="Carta de presentación o comentarios"
-                    value={formData.mensaje}
-                    onChange={handleChange}
-                    className="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light resize-none"
-                  />
-                </div>
-
-                <div className="flex flex-col gap-2 pt-2">
-                  <label className="text-[12px] font-light text-neutral-500">
-                    Adjuntar CV (Formato PDF) *
-                  </label>
-                  <input
-                    type="file"
-                    accept=".pdf"
-                    required
-                    onChange={(e) => setFile(e.target.files[0])}
-                    className="text-xs font-light text-neutral-600 file:mr-4 file:py-2 file:px-4 file:border-0 file:text-[11px] file:tracking-wider file:font-light file:bg-neutral-100 file:text-black hover:file:bg-neutral-200 cursor-pointer"
-                  />
-                </div>
-
-                <div className="flex items-center gap-3 pt-2">
-                  <input
-                    type="checkbox"
-                    id="politica-cv"
-                    name="politica"
-                    required
-                    checked={formData.politica}
-                    onChange={handleChange}
-                    className="w-3.5 h-3.5 border-neutral-300 accent-black rounded-none cursor-pointer"
-                  />
-                  <label htmlFor="politica-cv" className="text-[12px] font-light text-neutral-500 cursor-pointer">
-                    He leído y acepto la Política de Privacidad.
-                  </label>
-                </div>
-
-                <button
-                  type="submit"
-                  className="self-start mt-4 px-8 py-3 bg-black text-white text-[11px] tracking-[0.2em] font-light hover:bg-neutral-800 transition-colors uppercase"
-                >
-                  ENVIAR CANDIDATURA
-                </button>
-              </form>
-            )}
-          </div>
-        </main>
-      );
+    function handleFormSubmit(e, feedbackId) {
+      e.preventDefault();
+      const fb = document.getElementById(feedbackId);
+      if (fb) fb.classList.remove("hidden");
+      e.target.reset();
     }
 
-    // --- APLICACIÓN PRINCIPAL ---
-    function App() {
-      const [currentRoute, setCurrentRoute] = useState("/");
-
-      const navigate = (path) => {
-        setCurrentRoute(path);
-        window.scrollTo(0, 0);
-      };
-
-      const renderRoute = () => {
-        if (currentRoute === "/") return <HomePage navigate={navigate} />;
-        if (currentRoute === "/nosotros") return <NosotrosPage />;
-        if (currentRoute === "/servicios") return <ServiciosPage />;
-        if (currentRoute === "/proyectos") return <ProyectosPage navigate={navigate} />;
-        if (currentRoute.startsWith("/proyectos/")) {
-          const slug = currentRoute.replace("/proyectos/", "");
-          return <ProyectoDetallePage slug={slug} navigate={navigate} />;
-        }
-        if (currentRoute === "/contacto") return <ContactoPage navigate={navigate} />;
-        if (currentRoute === "/trabaja-con-nosotros") return <TrabajaConNosotrosPage />;
-        if (currentRoute === "/privacidad") return <div className="pt-48 pb-32 text-center font-prompt text-sm font-light">Política de Privacidad</div>;
-        if (currentRoute === "/aviso-legal") return <div className="pt-48 pb-32 text-center font-prompt text-sm font-light">Aviso Legal</div>;
-        if (currentRoute === "/cookies") return <div className="pt-48 pb-32 text-center font-prompt text-sm font-light">Política de Cookies</div>;
-        return <HomePage navigate={navigate} />;
-      };
-
-      return (
-        <div className="min-h-screen flex flex-col justify-between bg-white selection:bg-neutral-100 selection:text-black">
-          <Header currentRoute={currentRoute} navigate={navigate} />
-          {renderRoute()}
-          <Footer navigate={navigate} />
-        </div>
-      );
-    }
-
-    const root = ReactDOM.createRoot(document.getElementById("root"));
-    root.render(<App />);
+    // Inicialización al cargar la página
+    document.addEventListener("DOMContentLoaded", () => {
+      navigateTo("/");
+    });
   </script>
 </body>
 </html>
