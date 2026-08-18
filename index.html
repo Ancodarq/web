@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ANCODARQ — Arquitectura y Construcción</title>
 
-  <!-- Tipografías Oficiales: Prompt y Urbanist -->
+  <!-- Tipografías: Prompt y Urbanist -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
     }
   </script>
 
-  <!-- React 18, React DOM & Babel CDN -->
+  <!-- React 18 & Babel CDN -->
   <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -185,7 +185,7 @@
     ];
 
     // --- HEADER ---
-   function Header({ currentRoute, navigate }) {
+    function Header({ currentRoute, navigate }) {
       const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
       const navItems = [
         { name: "INICIO", path: "/" },
@@ -198,7 +198,6 @@
       return (
         <header className="w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
           <div className="w-[90%] mx-auto py-5 flex items-center justify-between">
-            {/* LOGOS CON TAMAÑO INCREMENTADO Y BALANCEADOS */}
             <button onClick={() => navigate("/")} className="flex items-center gap-7 text-left group focus:outline-none">
               <img
                 src="./assets/logos/ancodarq-square.png"
@@ -266,16 +265,15 @@
     }
 
     // --- FOOTER ---
-function Footer({ navigate }) {
+    function Footer({ navigate }) {
       const [tooltip, setTooltip] = useState(null);
 
       return (
         <footer className="w-full bg-white border-t border-neutral-100 pt-24 pb-10 font-prompt">
           <div className="w-[90%] max-w-6xl mx-auto">
-            {/* BLOQUE PRINCIPAL: LOGOS A LA IZQUIERDA Y DATOS A LA DERECHA */}
             <div className="flex flex-col md:flex-row justify-between items-start gap-16 mb-36 md:mb-48">
               
-              {/* IZQUIERDA: LOGOS CON MAYOR SEPARACIÓN */}
+              {/* IZQUIERDA: LOGOS HORIZONTALES */}
               <div className="flex flex-col gap-12 w-full max-w-[280px]">
                 <img
                   src="./assets/logos/ancodarq-horizontal.png"
@@ -291,7 +289,7 @@ function Footer({ navigate }) {
                 />
               </div>
 
-              {/* DERECHA: DATOS EDITORIALES E ICONOS */}
+              {/* DERECHA: DATOS + SOCIAL */}
               <div className="flex flex-col md:items-end text-left md:text-right font-light text-[12px] tracking-[0.18em] leading-relaxed text-neutral-800 pt-2">
                 <div>C. TEIDE, 4</div>
                 <div>SAN SEBASTIÁN DE LOS REYES — 28703 MADRID</div>
@@ -301,7 +299,6 @@ function Footer({ navigate }) {
                   <span>+34 618 341 133</span>
                 </div>
 
-                {/* ICONOS SOCIALES */}
                 <div className="mt-8 flex items-center gap-5 text-neutral-900">
                   <a
                     href="https://www.linkedin.com/company/ancodarq-sl"
@@ -363,7 +360,7 @@ function Footer({ navigate }) {
               </div>
             </div>
 
-            {/* LÍNEA INFERIOR DE COPYRIGHT Y LEGALES */}
+            {/* LÍNEA INFERIOR */}
             <div className="flex flex-col md:flex-row justify-between items-center text-[11px] font-light text-neutral-400">
               <div>© ANCODARQ</div>
               <div className="mt-4 md:mt-0 flex gap-1.5">
@@ -403,18 +400,16 @@ function Footer({ navigate }) {
       );
     }
 
-   function AboutSection() {
+    function AboutSection() {
       return (
         <section className="w-full py-20 md:py-32 bg-white font-prompt">
-          {/* Contenedor acotado y centrado */}
           <div className="w-[90%] max-w-5xl mx-auto">
             <div className="text-[12px] font-normal tracking-[0.25em] text-neutral-800 mb-14 uppercase">
               NOSOTROS
             </div>
 
-            {/* Retícula de 2 columnas equilibradas */}
             <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-start">
-              {/* COLUMNA IZQUIERDA: LOGOS HORIZONTALES */}
+              {/* COLUMNA IZQUIERDA: LOGOS */}
               <div className="md:col-span-6 flex flex-col justify-between self-stretch pr-0 md:pr-6">
                 <div className="w-full max-w-[340px]">
                   <img
@@ -451,7 +446,6 @@ function Footer({ navigate }) {
                   </p>
                 </div>
 
-                {/* CERTIFICACIONES ALINEADAS ABAJO A LA DERECHA */}
                 <div className="mt-12 flex flex-col items-end gap-3 self-end">
                   <span className="text-[9px] tracking-[0.25em] font-normal text-neutral-500 uppercase">
                     CERTIFICACIONES
