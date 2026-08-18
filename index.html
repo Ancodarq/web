@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nosotros — ANCODARQ</title>
+  <title>ANCODARQ — Arquitectura y Construcción</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap" rel="stylesheet">
@@ -11,23 +11,23 @@
   <script>
     tailwind.config={theme:{extend:{fontFamily:{prompt:["Prompt","sans-serif"],urbanist:["Urbanist","sans-serif"]}}}}
   </script>
-  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body class="font-prompt antialiased min-h-screen flex flex-col">
 
 <header class="w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
   <div class="w-[90%] mx-auto py-5 flex items-center justify-between">
-    <a href="../index.html" class="flex items-center gap-7">
-      <img src="../assets/logos/ancodarq-square.png" alt="ANCODARQ" class="h-14 md:h-16 w-auto object-contain shrink-0" />
+    <a href="index.html" class="flex items-center gap-7">
+      <img src="assets/logos/ancodarq-square.png" alt="ANCODARQ" class="h-14 md:h-16 w-auto object-contain shrink-0" />
       <span class="w-px h-8 bg-neutral-200"></span>
-      <img src="../assets/logos/escuadra-square.jpg" alt="ESCUADRA CONSTRUCCIONES" class="h-14 md:h-16 w-auto object-contain shrink-0 scale-110" />
+      <img src="assets/logos/escuadra-square.jpg" alt="ESCUADRA CONSTRUCCIONES" class="h-14 md:h-16 w-auto object-contain shrink-0 scale-110" />
     </a>
     <nav class="hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
-      <a href="../index.html" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">INICIO</a>
-      <a href="../nosotros/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors is-active">NOSOTROS</a>
-      <a href="../servicios/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">SERVICIOS</a>
-      <a href="../proyectos/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">PROYECTOS</a>
-      <a href="../contacto/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">CONTACTO</a>
+      <a href="index.html" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors is-active">INICIO</a>
+      <a href="nosotros/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">NOSOTROS</a>
+      <a href="servicios/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">SERVICIOS</a>
+      <a href="proyectos/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">PROYECTOS</a>
+      <a href="contacto/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">CONTACTO</a>
     </nav>
     <button onclick="toggleMobileMenu()" class="md:hidden flex flex-col justify-center gap-1.5 w-6 h-6 p-0 focus:outline-none" aria-label="Menú">
       <span class="w-full h-px bg-black"></span>
@@ -36,38 +36,58 @@
     </button>
   </div>
   <div id="mobile-menu" class="hidden md:hidden bg-white w-full border-b border-neutral-200 px-[5%] py-8 flex flex-col gap-6 font-prompt font-light text-sm tracking-[0.2em]">
-    <a href="../index.html" class="text-neutral-500">INICIO</a>
-    <a href="../nosotros/" class="text-neutral-500">NOSOTROS</a>
-    <a href="../servicios/" class="text-neutral-500">SERVICIOS</a>
-    <a href="../proyectos/" class="text-neutral-500">PROYECTOS</a>
-    <a href="../contacto/" class="text-neutral-500">CONTACTO</a>
+    <a href="index.html" class="text-neutral-500">INICIO</a>
+    <a href="nosotros/" class="text-neutral-500">NOSOTROS</a>
+    <a href="servicios/" class="text-neutral-500">SERVICIOS</a>
+    <a href="proyectos/" class="text-neutral-500">PROYECTOS</a>
+    <a href="contacto/" class="text-neutral-500">CONTACTO</a>
   </div>
 </header>
 
 
-<main class="flex-grow pt-32 pb-16">
-  <div class="w-[90%] max-w-5xl mx-auto mb-6">
-    <h1 class="text-2xl md:text-3xl font-urbanist font-light tracking-wide text-black">Una visión integral del proceso</h1>
-  </div>
-  <section class="w-full py-12 bg-white font-prompt">
-    <div class="w-[90%] max-w-5xl mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-stretch">
-        <div class="md:col-span-6 flex flex-col justify-between pr-0 md:pr-6">
-          <img src="../assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full max-w-[340px] h-auto object-contain block" />
-          <img src="../assets/logos/escuadra-horizontal.png" alt="ESCUADRA CONSTRUCCIONES" class="w-full max-w-[340px] h-auto object-contain block mt-10 md:mt-0" />
+<main class="flex-grow">
+  <section class="w-full pt-32 pb-24 md:pb-36 bg-white flex justify-center items-center">
+    <div class="w-[90%] max-w-[1600px] h-[55vh] md:h-[75vh] bg-neutral-50 overflow-hidden">
+      <img id="hero-img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80" alt="ANCODARQ Arquitectura" class="w-full h-full object-cover select-none" />
+    </div>
+  </section>
+
+<section class="w-full py-20 md:py-32 bg-white font-prompt">
+  <div class="w-[90%] max-w-5xl mx-auto">
+    <div class="text-[12px] font-normal tracking-[0.25em] text-neutral-800 mb-14 uppercase">NOSOTROS</div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-stretch">
+      <div class="md:col-span-6 flex flex-col justify-between pr-0 md:pr-6">
+        <img src="./assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full max-w-[340px] h-auto object-contain block" />
+        <img src="./assets/logos/escuadra-horizontal.png" alt="ESCUADRA CONSTRUCCIONES" class="w-full max-w-[340px] h-auto object-contain block mt-10 md:mt-0" />
+      </div>
+      <div class="md:col-span-6 flex flex-col justify-between">
+        <div class="text-[13px] md:text-[13.5px] leading-[1.75] text-neutral-800 font-light space-y-5 text-justify">
+          <p>ANCODARQ desarrolla proyectos de construcción, rehabilitación, reformas y arquitectura desde una visión integral del proceso.</p>
+          <p>Nuestro equipo combina experiencia técnica, capacidad de ejecución y atención al detalle para abordar cada proyecto desde sus primeras decisiones hasta su materialización final.</p>
+          <p>Trabajamos en ámbitos residenciales, comerciales, oficinas y obra pública, adaptándonos a las necesidades específicas de cada cliente y cada espacio.</p>
         </div>
-        <div class="md:col-span-6 flex flex-col justify-between">
-          <div class="text-[13px] md:text-[13.5px] leading-[1.75] text-neutral-800 font-light space-y-5 text-justify">
-            <p>ANCODARQ desarrolla proyectos de construcción, rehabilitación, reformas y arquitectura desde una visión integral del proceso.</p>
-            <p>Nuestro equipo combina experiencia técnica, capacidad de ejecución y atención al detalle para abordar cada proyecto desde sus primeras decisiones hasta su materialización final.</p>
-            <p>Trabajamos en ámbitos residenciales, comerciales, oficinas y obra pública, adaptándonos a las necesidades específicas de cada cliente y cada espacio.</p>
-          </div>
-          <div class="mt-12 flex flex-col items-end gap-3">
-            <span class="text-[9px] tracking-[0.25em] font-normal text-neutral-500 uppercase">CERTIFICACIONES</span>
-            <img src="../assets/logos/iso-certifications.png" alt="Certificaciones ISO" class="h-8 w-auto object-contain" />
-          </div>
+        <div class="mt-12 flex flex-col items-end gap-3">
+          <span class="text-[9px] tracking-[0.25em] font-normal text-neutral-500 uppercase">CERTIFICACIONES</span>
+          <img src="./assets/logos/iso-certifications.png" alt="Certificaciones ISO" class="h-8 w-auto object-contain" />
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+  <section class="w-full py-20 md:py-32 bg-white font-prompt">
+    <div class="w-[90%] mx-auto">
+      <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-16 uppercase">SERVICIOS</div>
+      <div id="home-services-grid" class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10"></div>
+    </div>
+  </section>
+  <section class="w-full py-20 md:py-32 bg-white font-prompt">
+    <div class="w-[90%] mx-auto">
+      <div class="flex justify-between items-baseline mb-16">
+        <h2 class="text-xl md:text-2xl font-urbanist font-light tracking-wide text-black">PROYECTOS</h2>
+        <a href="proyectos/" class="text-[11px] font-light tracking-[0.2em] text-neutral-500 hover:text-black">VER TODOS</a>
+      </div>
+      <div id="home-projects-preview" class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8"></div>
     </div>
   </section>
 </main>
@@ -76,8 +96,8 @@
   <div class="w-[90%] mx-auto">
     <div class="flex flex-col md:flex-row justify-between items-start gap-16 mb-44 md:mb-56">
       <div class="flex flex-col gap-12 w-full max-w-[320px]">
-        <img src="../assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full h-auto object-contain block self-start" />
-        <img src="../assets/logos/escuadra-horizontal.png" alt="ESCUADRA CONSTRUCCIONES" class="w-full h-auto object-contain block self-start" />
+        <img src="assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full h-auto object-contain block self-start" />
+        <img src="assets/logos/escuadra-horizontal.png" alt="ESCUADRA CONSTRUCCIONES" class="w-full h-auto object-contain block self-start" />
       </div>
       <div class="flex flex-col md:items-end text-left md:text-right font-light text-[12px] tracking-[0.18em] leading-relaxed text-neutral-800 pt-1">
         <div>C. TEIDE, 4</div>
@@ -97,17 +117,17 @@
     <div class="flex flex-col md:flex-row justify-between items-center text-[11px] font-light text-neutral-400">
       <div>© ANCODARQ</div>
       <div class="mt-4 md:mt-0 legal-inline">
-        <a href="../privacidad/" class="hover:text-neutral-800">Política de privacidad</a>
+        <a href="privacidad/" class="hover:text-neutral-800">Política de privacidad</a>
         <span> · </span>
-        <a href="../aviso-legal/" class="hover:text-neutral-800">Aviso legal</a>
+        <a href="aviso-legal/" class="hover:text-neutral-800">Aviso legal</a>
         <span> · </span>
-        <a href="../cookies/" class="hover:text-neutral-800">Cookies</a>
+        <a href="cookies/" class="hover:text-neutral-800">Cookies</a>
       </div>
     </div>
   </div>
 </footer>
 
-<script src="../js/main.js"></script>
-<script src="../js/projects.js"></script>
+<script src="js/main.js"></script>
+<script src="js/projects.js"></script>
 </body>
 </html>

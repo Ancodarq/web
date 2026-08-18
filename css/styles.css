@@ -1,0 +1,17 @@
+
+html { scroll-behavior: smooth; }
+body { background:#fff; color:#1a1a1a; margin:0; padding:0; }
+.nav-link.is-active { color:#111; font-weight:400; }
+.nav-link.is-active::after {
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:1px;
+  background:#111;
+}
+.legal-inline { white-space: nowrap; }
+@media (max-width: 767px) {
+  .legal-inline { white-space: normal; }
+}
