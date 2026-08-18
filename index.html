@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ANCODARQ — Arquitectura y Construcción</title>
-  
-  <!-- Tipografías Google Fonts: Prompt y Urbanist -->
+
+  <!-- Tipografías Oficiales: Prompt y Urbanist -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap" rel="stylesheet">
@@ -19,47 +19,23 @@
           fontFamily: {
             prompt: ["Prompt", "sans-serif"],
             urbanist: ["Urbanist", "sans-serif"],
-          },
-          colors: {
-            neutral: {
-              50: '#fafafa',
-              100: '#f5f5f5',
-              200: '#e5e5e5',
-              300: '#d4d4d4',
-              400: '#a3a3a3',
-              500: '#737373',
-              600: '#525252',
-              700: '#404040',
-              800: '#262626',
-              900: '#171717',
-              950: '#0a0a0a',
-            }
           }
         }
       }
     }
   </script>
 
-  <!-- React 18, React DOM & Babel para JSX autónomo -->
+  <!-- React 18, React DOM & Babel CDN -->
   <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
   <style>
-    body {
-      background-color: #ffffff;
-      color: #1a1a1a;
-      font-family: 'Prompt', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    ::selection {
-      background-color: #f5f5f5;
-      color: #000000;
-    }
+    html { scroll-behavior: smooth; }
+    body { background-color: #ffffff; color: #1a1a1a; margin: 0; padding: 0; }
   </style>
 </head>
-<body>
+<body class="font-prompt antialiased selection:bg-neutral-100 selection:text-black">
   <div id="root"></div>
 
   <script type="text/babel">
@@ -208,7 +184,7 @@
       }
     ];
 
-    // --- COMPONENTE: HEADER ---
+    // --- HEADER ---
     function Header({ currentRoute, navigate }) {
       const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
       const navItems = [
@@ -220,59 +196,42 @@
       ];
 
       return (
-        <header className="w-full bg-white fixed top-0 left-0 z-50 transition-all duration-200 border-b border-neutral-100">
+        <header className="w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
           <div className="w-[90%] mx-auto py-6 flex items-center justify-between">
-            <a 
-              href="#/" 
-              onClick={(e) => { e.preventDefault(); navigate("/"); }} 
-              className="flex items-center gap-6 group"
-            >
+            <button onClick={() => navigate("/")} className="flex items-center gap-6 text-left group focus:outline-none">
               <img
-                src="/assets/logos/ancodarq-square.svg"
+                src="./assets/logos/ancodarq-square.png"
                 alt="ANCODARQ"
                 className="h-9 w-auto object-contain shrink-0"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                  if (e.currentTarget.nextElementSibling) {
-                    e.currentTarget.nextElementSibling.style.display = 'block';
-                  }
-                }}
+                onError={(e) => { e.currentTarget.style.display = 'none'; if (e.currentTarget.nextElementSibling) e.currentTarget.nextElementSibling.style.display = 'block'; }}
               />
               <span className="hidden font-urbanist font-medium tracking-widest text-xs">ANCODARQ</span>
               
               <span className="w-px h-5 bg-neutral-200" />
 
               <img
-                src="/assets/logos/escuadra-square.svg"
+                src="./assets/logos/escuadra-square.png"
                 alt="ESCUADRA CONSTRUCCIONES"
                 className="h-10 w-auto object-contain shrink-0 scale-110"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                  if (e.currentTarget.nextElementSibling) {
-                    e.currentTarget.nextElementSibling.style.display = 'block';
-                  }
-                }}
+                onError={(e) => { e.currentTarget.style.display = 'none'; if (e.currentTarget.nextElementSibling) e.currentTarget.nextElementSibling.style.display = 'block'; }}
               />
               <span className="hidden font-urbanist font-medium tracking-widest text-xs text-neutral-600">ESCUADRA</span>
-            </a>
+            </button>
 
             <nav className="hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
               {navItems.map((item) => {
                 const isActive = currentRoute === item.path;
                 return (
-                  <a
+                  <button
                     key={item.path}
-                    href={`#${item.path}`}
-                    onClick={(e) => { e.preventDefault(); navigate(item.path); }}
-                    className={`relative py-1 transition-colors duration-150 ${
+                    onClick={() => navigate(item.path)}
+                    className={`relative py-1 transition-colors duration-150 focus:outline-none ${
                       isActive ? "text-black font-normal" : "text-neutral-500 hover:text-black"
                     }`}
                   >
                     {item.name}
-                    {isActive && (
-                      <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black" />
-                    )}
-                  </a>
+                    {isActive && <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black" />}
+                  </button>
                 );
               })}
             </nav>
@@ -291,14 +250,13 @@
           {mobileMenuOpen && (
             <div className="md:hidden bg-white w-full border-b border-neutral-200 px-[5%] py-8 flex flex-col gap-6 font-prompt font-light text-sm tracking-[0.2em]">
               {navItems.map((item) => (
-                <a
+                <button
                   key={item.path}
-                  href={`#${item.path}`}
-                  onClick={(e) => { e.preventDefault(); navigate(item.path); setMobileMenuOpen(false); }}
-                  className={currentRoute === item.path ? "text-black font-normal" : "text-neutral-500"}
+                  onClick={() => { navigate(item.path); setMobileMenuOpen(false); }}
+                  className={`text-left focus:outline-none ${currentRoute === item.path ? "text-black font-normal" : "text-neutral-500"}`}
                 >
                   {item.name}
-                </a>
+                </button>
               ))}
             </div>
           )}
@@ -306,7 +264,7 @@
       );
     }
 
-    // --- COMPONENTE: FOOTER ---
+    // --- FOOTER ---
     function Footer({ navigate }) {
       const [tooltip, setTooltip] = useState(null);
 
@@ -316,13 +274,13 @@
             <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-28">
               <div className="flex flex-col gap-6">
                 <img
-                  src="/assets/logos/ancodarq-horizontal.svg"
+                  src="./assets/logos/ancodarq-horizontal.png"
                   alt="ANCODARQ"
                   className="h-7 w-auto object-contain self-start"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
                 />
                 <img
-                  src="/assets/logos/escuadra-horizontal.svg"
+                  src="./assets/logos/escuadra-horizontal.png"
                   alt="ESCUADRA CONSTRUCCIONES"
                   className="h-6 w-auto object-contain self-start"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -403,11 +361,11 @@
             <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-neutral-100 text-[11px] font-light text-neutral-400">
               <div>© ANCODARQ</div>
               <div className="mt-4 md:mt-0 flex gap-1">
-                <a href="#/privacidad" onClick={(e) => { e.preventDefault(); navigate("/privacidad"); }} className="hover:text-neutral-800 transition-colors">Política de privacidad</a>
+                <button onClick={() => navigate("/privacidad")} className="hover:text-neutral-800 transition-colors">Política de privacidad</button>
                 <span>·</span>
-                <a href="#/aviso-legal" onClick={(e) => { e.preventDefault(); navigate("/aviso-legal"); }} className="hover:text-neutral-800 transition-colors">Aviso legal</a>
+                <button onClick={() => navigate("/aviso-legal")} className="hover:text-neutral-800 transition-colors">Aviso legal</button>
                 <span>·</span>
-                <a href="#/cookies" onClick={(e) => { e.preventDefault(); navigate("/cookies"); }} className="hover:text-neutral-800 transition-colors">Cookies</a>
+                <button onClick={() => navigate("/cookies")} className="hover:text-neutral-800 transition-colors">Cookies</button>
               </div>
             </div>
           </div>
@@ -415,7 +373,7 @@
       );
     }
 
-    // --- COMPONENTES DE SECCIÓN ---
+    // --- COMPONENTES HOME ---
     function Hero() {
       const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -450,14 +408,14 @@
             <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-stretch">
               <div className="md:col-span-5 flex flex-col justify-between items-start py-1">
                 <img
-                  src="/assets/logos/ancodarq-horizontal.svg"
+                  src="./assets/logos/ancodarq-horizontal.png"
                   alt="ANCODARQ"
                   className="h-10 md:h-12 w-auto object-contain"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
                 />
                 <div className="my-10 md:my-0"></div>
                 <img
-                  src="/assets/logos/escuadra-horizontal.svg"
+                  src="./assets/logos/escuadra-horizontal.png"
                   alt="ESCUADRA CONSTRUCCIONES"
                   className="h-9 md:h-11 w-auto object-contain"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -480,7 +438,7 @@
                 <div className="mt-12 flex items-center justify-end gap-6">
                   <span className="text-[10px] tracking-[0.2em] font-light text-neutral-400">CERTIFICACIONES</span>
                   <img
-                    src="/assets/logos/iso-certifications.svg"
+                    src="./assets/logos/iso-certifications.png"
                     alt="ISO 14001 e ISO 9001"
                     className="h-7 w-auto object-contain grayscale opacity-80"
                     onError={(e) => {
@@ -544,22 +502,20 @@
               <h2 className="text-xl md:text-2xl font-urbanist font-light tracking-wide text-black">
                 PROYECTOS
               </h2>
-              <a
-                href="#/proyectos"
-                onClick={(e) => { e.preventDefault(); navigate("/proyectos"); }}
-                className="text-[11px] font-light tracking-[0.2em] text-neutral-500 hover:text-black transition-colors"
+              <button
+                onClick={() => navigate("/proyectos")}
+                className="text-[11px] font-light tracking-[0.2em] text-neutral-500 hover:text-black transition-colors focus:outline-none"
               >
                 VER TODOS
-              </a>
+              </button>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
               {previewList.map((project) => (
-                <a
+                <div
                   key={project.slug}
-                  href={`#/proyectos/${project.slug}`}
-                  onClick={(e) => { e.preventDefault(); navigate(`/proyectos/${project.slug}`); }}
-                  className="group block"
+                  onClick={() => navigate(`/proyectos/${project.slug}`)}
+                  className="group block cursor-pointer"
                 >
                   <div className="w-full aspect-[16/11] bg-neutral-100 mb-4 overflow-hidden">
                     <img
@@ -576,7 +532,7 @@
                       {project.category}
                     </span>
                   </div>
-                </a>
+                </div>
               ))}
             </div>
           </div>
@@ -640,14 +596,12 @@
                   <button
                     key={cat}
                     onClick={() => setSelectedCategory(cat)}
-                    className={`py-1 relative transition-colors duration-150 ${
+                    className={`py-1 relative transition-colors duration-150 focus:outline-none ${
                       isActive ? "text-black font-normal" : "hover:text-black"
                     }`}
                   >
                     {cat}
-                    {isActive && (
-                      <span className="absolute bottom-0 left-0 w-full h-px bg-black" />
-                    )}
+                    {isActive && <span className="absolute bottom-0 left-0 w-full h-px bg-black" />}
                   </button>
                 );
               })}
@@ -655,11 +609,10 @@
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
               {filteredProjects.map((project) => (
-                <a
+                <div
                   key={project.slug}
-                  href={`#/proyectos/${project.slug}`}
-                  onClick={(e) => { e.preventDefault(); navigate(`/proyectos/${project.slug}`); }}
-                  className="group block"
+                  onClick={() => navigate(`/proyectos/${project.slug}`)}
+                  className="group block cursor-pointer"
                 >
                   <div className="w-full aspect-[16/11] bg-neutral-100 mb-4 overflow-hidden">
                     <img
@@ -676,7 +629,7 @@
                       {project.category}
                     </span>
                   </div>
-                </a>
+                </div>
               ))}
             </div>
           </div>
@@ -691,7 +644,9 @@
         return (
           <main className="pt-48 pb-32 text-center font-prompt">
             <p className="text-neutral-500 font-light mb-4">Proyecto no encontrado</p>
-            <a href="#/proyectos" onClick={(e) => { e.preventDefault(); navigate("/proyectos"); }} className="text-xs tracking-widest uppercase underline">Volver a proyectos</a>
+            <button onClick={() => navigate("/proyectos")} className="text-xs tracking-widest uppercase underline focus:outline-none">
+              Volver a proyectos
+            </button>
           </main>
         );
       }
@@ -699,13 +654,12 @@
       return (
         <main className="pt-36 pb-32 font-prompt">
           <div className="w-[90%] mx-auto">
-            <a
-              href="#/proyectos"
-              onClick={(e) => { e.preventDefault(); navigate("/proyectos"); }}
-              className="text-[11px] font-light tracking-[0.2em] text-neutral-400 hover:text-black mb-12 inline-block"
+            <button
+              onClick={() => navigate("/proyectos")}
+              className="text-[11px] font-light tracking-[0.2em] text-neutral-400 hover:text-black mb-12 inline-block focus:outline-none"
             >
               ← VOLVER A PROYECTOS
-            </a>
+            </button>
 
             <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20 items-start">
               <div className="md:col-span-7">
@@ -808,13 +762,12 @@
                   <p className="text-xs font-light text-neutral-500 mb-4">
                     ¿Quieres formar parte de nuestro equipo? Envíanos tu candidatura.
                   </p>
-                  <a
-                    href="#/trabaja-con-nosotros"
-                    onClick={(e) => { e.preventDefault(); navigate("/trabaja-con-nosotros"); }}
-                    className="text-[11px] font-light tracking-[0.15em] text-black hover:text-neutral-500 transition-colors"
+                  <button
+                    onClick={() => navigate("/trabaja-con-nosotros")}
+                    className="text-[11px] font-light tracking-[0.15em] text-black hover:text-neutral-500 transition-colors focus:outline-none"
                   >
                     ENVIAR CV →
-                  </a>
+                  </button>
                 </div>
               </div>
 
@@ -937,6 +890,7 @@
         mensaje: "",
         politica: false,
       });
+      const [file, setFile] = useState(null);
       const [submitted, setSubmitted] = useState(false);
 
       const handleChange = (e) => {
@@ -1040,6 +994,7 @@
                     type="file"
                     accept=".pdf"
                     required
+                    onChange={(e) => setFile(e.target.files[0])}
                     className="text-xs font-light text-neutral-600 file:mr-4 file:py-2 file:px-4 file:border-0 file:text-[11px] file:tracking-wider file:font-light file:bg-neutral-100 file:text-black hover:file:bg-neutral-200 cursor-pointer"
                   />
                 </div>
@@ -1072,67 +1027,42 @@
       );
     }
 
-    // --- APLICACIÓN PRINCIPAL CON ENRUTADOR BASADO EN HASH ---
+    // --- APLICACIÓN PRINCIPAL ---
     function App() {
-      const [currentRoute, setCurrentRoute] = useState(window.location.hash.replace("#", "") || "/");
-
-      useEffect(() => {
-        const handleHashChange = () => {
-          const path = window.location.hash.replace("#", "") || "/";
-          setCurrentRoute(path);
-          window.scrollTo(0, 0);
-        };
-        window.addEventListener("hashchange", handleHashChange);
-        return () => window.removeEventListener("hashchange", handleHashChange);
-      }, []);
+      const [currentRoute, setCurrentRoute] = useState("/");
 
       const navigate = (path) => {
-        window.location.hash = path;
+        setCurrentRoute(path);
+        window.scrollTo(0, 0);
       };
 
-      const renderView = () => {
-        if (currentRoute === "/" || currentRoute === "") {
-          return <HomePage navigate={navigate} />;
-        }
-        if (currentRoute === "/nosotros") {
-          return <NosotrosPage />;
-        }
-        if (currentRoute === "/servicios") {
-          return <ServiciosPage />;
-        }
-        if (currentRoute === "/proyectos") {
-          return <ProyectosPage navigate={navigate} />;
-        }
+      const renderRoute = () => {
+        if (currentRoute === "/") return <HomePage navigate={navigate} />;
+        if (currentRoute === "/nosotros") return <NosotrosPage />;
+        if (currentRoute === "/servicios") return <ServiciosPage />;
+        if (currentRoute === "/proyectos") return <ProyectosPage navigate={navigate} />;
         if (currentRoute.startsWith("/proyectos/")) {
           const slug = currentRoute.replace("/proyectos/", "");
           return <ProyectoDetallePage slug={slug} navigate={navigate} />;
         }
-        if (currentRoute === "/contacto") {
-          return <ContactoPage navigate={navigate} />;
-        }
-        if (currentRoute === "/trabaja-con-nosotros") {
-          return <TrabajaConNosotrosPage />;
-        }
-        if (["/privacidad", "/aviso-legal", "/cookies"].includes(currentRoute)) {
-          return (
-            <div className="pt-48 pb-32 text-center font-prompt text-sm font-light text-neutral-600">
-              Información legal en trámite.
-            </div>
-          );
-        }
+        if (currentRoute === "/contacto") return <ContactoPage navigate={navigate} />;
+        if (currentRoute === "/trabaja-con-nosotros") return <TrabajaConNosotrosPage />;
+        if (currentRoute === "/privacidad") return <div className="pt-48 pb-32 text-center font-prompt text-sm font-light">Política de Privacidad</div>;
+        if (currentRoute === "/aviso-legal") return <div className="pt-48 pb-32 text-center font-prompt text-sm font-light">Aviso Legal</div>;
+        if (currentRoute === "/cookies") return <div className="pt-48 pb-32 text-center font-prompt text-sm font-light">Política de Cookies</div>;
         return <HomePage navigate={navigate} />;
       };
 
       return (
-        <div className="min-h-screen flex flex-col justify-between bg-white">
+        <div className="min-h-screen flex flex-col justify-between bg-white selection:bg-neutral-100 selection:text-black">
           <Header currentRoute={currentRoute} navigate={navigate} />
-          {renderView()}
+          {renderRoute()}
           <Footer navigate={navigate} />
         </div>
       );
     }
 
-    const root = ReactDOM.createRoot(document.getElementById('root'));
+    const root = ReactDOM.createRoot(document.getElementById("root"));
     root.render(<App />);
   </script>
 </body>
