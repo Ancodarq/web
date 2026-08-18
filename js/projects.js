@@ -78,7 +78,7 @@ const PROJECTS_DATA = [
 function projectCard(project, basePath="") {
   return `
     <a href="${basePath}proyectos/${project.slug}/" class="group block">
-      <div class="w-full aspect-[16/11] bg-neutral-100 mb-4 overflow-hidden">
+    <div class="w-full aspect-[4/3] bg-neutral-100 mb-4 overflow-hidden">
         <img src="${project.coverImage}" alt="${project.name}" class="w-full h-full object-cover" />
       </div>
       <div class="flex justify-between items-baseline gap-4">
