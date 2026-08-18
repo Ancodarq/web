@@ -1,26 +1,25 @@
 
 const PROJECTS_DATA = [
-    {
-    slug: "vip-teatro-apolo",
-    name: "VIP Teatro Apolo",
-    category: "COMERCIAL",
-    location: "Madrid",
-    year: "2025",
-    coverImage: "assets/projects/28_VIP TEATRO APOLO/28_00 PORTADA.jpg",
-    description: "",
-    gallery: [
-      "assets/projects/28_VIP TEATRO APOLO/28_01.jpg",
-      "assets/projects/28_VIP TEATRO APOLO/28_02.jpg",
-      "assets/projects/28_VIP TEATRO APOLO/28_03.jpg",
-      "assets/projects/28_VIP TEATRO APOLO/28_04.jpg",
-      "assets/projects/28_VIP TEATRO APOLO/28_05.jpg",
-      "assets/projects/28_VIP TEATRO APOLO/28_06.jpg",
-      "assets/projects/28_VIP TEATRO APOLO/28_07.jpg",
-      "assets/projects/28_VIP TEATRO APOLO/28_08.jpg",
-      "assets/projects/28_VIP TEATRO APOLO/28_09.jpg"
-    ]
-  },
-  {
+{
+  slug: "vip-teatro-apolo",
+  name: "VIP Teatro Apolo",
+  category: "COMERCIAL",
+  location: "Madrid",
+  year: "",
+  coverImage: "assets/projects/28_TEATRO_APOLO_WEB/28_00 PORTADA.jpg",
+  description: "",
+  gallery: [
+    "assets/projects/28_TEATRO_APOLO_WEB/28_01.jpg",
+    "assets/projects/28_TEATRO_APOLO_WEB/28_02.jpg",
+    "assets/projects/28_TEATRO_APOLO_WEB/28_03.jpg",
+    "assets/projects/28_TEATRO_APOLO_WEB/28_04.jpg",
+    "assets/projects/28_TEATRO_APOLO_WEB/28_05.jpg",
+    "assets/projects/28_TEATRO_APOLO_WEB/28_06.jpg",
+    "assets/projects/28_TEATRO_APOLO_WEB/28_07.jpg",
+    "assets/projects/28_TEATRO_APOLO_WEB/28_08.jpg",
+    "assets/projects/28_TEATRO_APOLO_WEB/28_09.jpg"
+  ]
+},
     slug: "vivienda-unifamiliar-la-moraleja",
     name: "Vivienda Unifamiliar La Moraleja",
     category: "OBRA NUEVA",
