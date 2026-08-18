@@ -135,8 +135,35 @@ const PROJECTS_DATA = [
     "assets/proyectos/10_URB. LA MORALEJA/10_07.webp",
     "assets/proyectos/10_URB. LA MORALEJA/10_08.webp"
   ]
-},
+}
 ];
+function projectCard(project) {
+  return `
+    <a href="${siteUrl(`proyectos/detalle.html?slug=${project.slug}`)}" class="group block">
+
+      <div class="w-full aspect-[4/3] bg-neutral-100 mb-4 overflow-hidden">
+        <img
+          src="${siteUrl(project.coverImage)}"
+          alt="${project.name}"
+          class="w-full h-full object-cover"
+        />
+      </div>
+
+      <div class="flex justify-between items-baseline gap-4">
+
+        <h3 class="text-[13px] font-normal text-neutral-900 group-hover:text-black transition-colors">
+          ${project.name}
+        </h3>
+
+        <span class="text-[10px] tracking-[0.15em] font-light text-neutral-400 whitespace-nowrap">
+          ${project.category}
+        </span>
+
+      </div>
+
+    </a>
+  `;
+}
 function renderHomeProjects() {
   const container = document.getElementById("home-projects-preview");
   if (!container) return;
