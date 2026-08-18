@@ -397,37 +397,47 @@
       );
     }
 
-    function AboutSection() {
+   function AboutSection() {
       return (
         <section className="w-full py-20 md:py-32 bg-white font-prompt">
-          <div className="w-[90%] mx-auto">
-            <div className="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-12 uppercase">
+          {/* Contenedor acotado y centrado */}
+          <div className="w-[90%] max-w-5xl mx-auto">
+            <div className="text-[12px] font-normal tracking-[0.25em] text-neutral-800 mb-14 uppercase">
               NOSOTROS
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-stretch">
-              <div className="md:col-span-5 flex flex-col justify-between items-start py-1">
-                <img
-                  src="./assets/logos/ancodarq-horizontal.png"
-                  alt="ANCODARQ"
-                  className="h-10 md:h-12 w-auto object-contain"
-                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                />
+            {/* Retícula de 2 columnas equilibradas */}
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-start">
+              {/* COLUMNA IZQUIERDA: LOGOS HORIZONTALES */}
+              <div className="md:col-span-6 flex flex-col justify-between self-stretch pr-0 md:pr-6">
+                <div className="w-full max-w-[340px]">
+                  <img
+                    src="./assets/logos/ancodarq-horizontal.png"
+                    alt="ANCODARQ"
+                    className="w-full h-auto object-contain block"
+                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                  />
+                </div>
+                
                 <div className="my-10 md:my-0"></div>
-                <img
-                  src="./assets/logos/escuadra-horizontal.png"
-                  alt="ESCUADRA CONSTRUCCIONES"
-                  className="h-9 md:h-11 w-auto object-contain"
-                  onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                />
+
+                <div className="w-full max-w-[340px]">
+                  <img
+                    src="./assets/logos/escuadra-horizontal.png"
+                    alt="ESCUADRA CONSTRUCCIONES"
+                    className="w-full h-auto object-contain block"
+                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                  />
+                </div>
               </div>
 
-              <div className="md:col-span-7 flex flex-col justify-between">
-                <div className="max-w-2xl text-[14px] md:text-[15px] leading-[1.85] text-neutral-700 font-light text-justify">
-                  <p className="mb-5">
+              {/* COLUMNA DERECHA: TEXTO + CERTIFICACIONES */}
+              <div className="md:col-span-6 flex flex-col justify-between self-stretch">
+                <div className="text-[13px] md:text-[13.5px] leading-[1.75] text-neutral-800 font-light space-y-5">
+                  <p>
                     ANCODARQ desarrolla proyectos de construcción, rehabilitación, reformas y arquitectura desde una visión integral del proceso.
                   </p>
-                  <p className="mb-5">
+                  <p>
                     Nuestro equipo combina experiencia técnica, capacidad de ejecución y atención al detalle para abordar cada proyecto desde sus primeras decisiones hasta su materialización final.
                   </p>
                   <p>
@@ -435,12 +445,15 @@
                   </p>
                 </div>
 
-                <div className="mt-12 flex items-center justify-end gap-6">
-                  <span className="text-[10px] tracking-[0.2em] font-light text-neutral-400">CERTIFICACIONES</span>
+                {/* CERTIFICACIONES ALINEADAS ABAJO A LA DERECHA */}
+                <div className="mt-12 flex flex-col items-end gap-3 self-end">
+                  <span className="text-[9px] tracking-[0.25em] font-normal text-neutral-500 uppercase">
+                    CERTIFICACIONES
+                  </span>
                   <img
                     src="./assets/logos/iso-certifications.png"
-                    alt="ISO 14001 e ISO 9001"
-                    className="h-7 w-auto object-contain grayscale opacity-80"
+                    alt="Certificaciones ISO"
+                    className="h-8 w-auto object-contain"
                     onError={(e) => {
                       e.currentTarget.style.display = 'none';
                       if (e.currentTarget.nextElementSibling) {
