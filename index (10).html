@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nosotros — ANCODARQ</title>
+  <title>Trabaja con nosotros — ANCODARQ</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
     </a>
     <nav class="hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
       <a href="../index.html" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">INICIO</a>
-      <a href="../nosotros/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors is-active">NOSOTROS</a>
+      <a href="../nosotros/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">NOSOTROS</a>
       <a href="../servicios/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">SERVICIOS</a>
       <a href="../proyectos/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">PROYECTOS</a>
       <a href="../contacto/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">CONTACTO</a>
@@ -45,31 +45,32 @@
 </header>
 
 
-<main class="flex-grow pt-32 pb-16">
-  <div class="w-[90%] max-w-5xl mx-auto mb-6">
-    <h1 class="text-2xl md:text-3xl font-urbanist font-light tracking-wide text-black">Una visión integral del proceso</h1>
-  </div>
-  <section class="w-full py-12 bg-white font-prompt">
-    <div class="w-[90%] max-w-5xl mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-stretch">
-        <div class="md:col-span-6 flex flex-col justify-between pr-0 md:pr-6">
-          <img src="../assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full max-w-[340px] h-auto object-contain block" />
-          <img src="../assets/logos/escuadra-horizontal.png" alt="ESCUADRA CONSTRUCCIONES" class="w-full max-w-[340px] h-auto object-contain block mt-10 md:mt-0" />
-        </div>
-        <div class="md:col-span-6 flex flex-col justify-between">
-          <div class="text-[13px] md:text-[13.5px] leading-[1.75] text-neutral-800 font-light space-y-5 text-justify">
-            <p>ANCODARQ desarrolla proyectos de construcción, rehabilitación, reformas y arquitectura desde una visión integral del proceso.</p>
-            <p>Nuestro equipo combina experiencia técnica, capacidad de ejecución y atención al detalle para abordar cada proyecto desde sus primeras decisiones hasta su materialización final.</p>
-            <p>Trabajamos en ámbitos residenciales, comerciales, oficinas y obra pública, adaptándonos a las necesidades específicas de cada cliente y cada espacio.</p>
-          </div>
-          <div class="mt-12 flex flex-col items-end gap-3">
-            <span class="text-[9px] tracking-[0.25em] font-normal text-neutral-500 uppercase">CERTIFICACIONES</span>
-            <img src="../assets/logos/iso-certifications.png" alt="Certificaciones ISO" class="h-8 w-auto object-contain" />
-          </div>
-        </div>
+<main class="flex-grow pt-36 pb-32 font-prompt">
+  <div class="w-[90%] mx-auto max-w-4xl">
+    <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-8 uppercase">TRABAJA CON NOSOTROS</div>
+    <h1 class="text-2xl md:text-3xl font-urbanist font-light tracking-wide text-black mb-16">Trabaja con nosotros</h1>
+    <form action="#" onsubmit="event.preventDefault();" class="flex flex-col gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <input type="text" placeholder="Nombre y apellidos *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+        <input type="email" placeholder="Email *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
       </div>
-    </div>
-  </section>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <input type="tel" placeholder="Teléfono *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+        <input type="text" placeholder="Área / Perfil profesional *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+      </div>
+      <textarea rows="4" placeholder="Carta de presentación o comentarios" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light resize-none"></textarea>
+      <div class="flex flex-col gap-2 pt-2">
+        <label class="text-[12px] font-light text-neutral-500">Adjuntar CV (PDF) *</label>
+        <input type="file" accept=".pdf,application/pdf" required class="text-xs font-light text-neutral-600" />
+      </div>
+      <label class="flex items-center gap-3 text-[12px] font-light text-neutral-500">
+        <input type="checkbox" required class="w-3.5 h-3.5 accent-black rounded-none" />
+        He leído y acepto la Política de Privacidad.
+      </label>
+      <button type="submit" class="self-start mt-4 px-8 py-3 bg-black text-white text-[11px] tracking-[0.2em] font-light hover:bg-neutral-800 uppercase">ENVIAR CANDIDATURA</button>
+      <p class="text-[11px] text-neutral-400">Formulario pendiente de conexión al sistema de recepción de candidaturas por el equipo informático.</p>
+    </form>
+  </div>
 </main>
 
 <footer class="w-full bg-white border-t border-neutral-100 pt-28 pb-12 font-prompt">
