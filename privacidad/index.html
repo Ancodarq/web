@@ -1,93 +1,198 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Política de privacidad — ANCODARQ</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap"
+    rel="stylesheet"
+  >
+
   <script src="https://cdn.tailwindcss.com"></script>
+
   <script>
-    tailwind.config={theme:{extend:{fontFamily:{prompt:["Prompt","sans-serif"],urbanist:["Urbanist","sans-serif"]}}}}
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            prompt: ["Prompt", "sans-serif"],
+            urbanist: ["Urbanist", "sans-serif"]
+          }
+        }
+      }
+    }
   </script>
+
   <link rel="stylesheet" href="../css/styles.css" />
 </head>
+
+
 <body class="font-prompt antialiased min-h-screen flex flex-col">
 
-<header class="w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
-  <div class="w-[90%] mx-auto py-5 flex items-center justify-between">
-    <a href="../index.html" class="flex items-center gap-7">
-      <img src="../assets/logos/ancodarq-square.png" alt="ANCODARQ" class="h-14 md:h-16 w-auto object-contain shrink-0" />
-      <span class="w-px h-8 bg-neutral-200"></span>
-      <img src="../assets/logos/escuadra-square.jpg" alt="ESCUADRA CONSTRUCCIONES" class="h-14 md:h-16 w-auto object-contain shrink-0 scale-110" />
-    </a>
-    <nav class="hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
-      <a href="../index.html" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">INICIO</a>
-      <a href="../nosotros/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">NOSOTROS</a>
-      <a href="../servicios/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">SERVICIOS</a>
-      <a href="../proyectos/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">PROYECTOS</a>
-      <a href="../contacto/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">CONTACTO</a>
-    </nav>
-    <button onclick="toggleMobileMenu()" class="md:hidden flex flex-col justify-center gap-1.5 w-6 h-6 p-0 focus:outline-none" aria-label="Menú">
-      <span class="w-full h-px bg-black"></span>
-      <span class="w-full h-px bg-black"></span>
-      <span class="w-full h-px bg-black"></span>
-    </button>
-  </div>
-  <div id="mobile-menu" class="hidden md:hidden bg-white w-full border-b border-neutral-200 px-[5%] py-8 flex flex-col gap-6 font-prompt font-light text-sm tracking-[0.2em]">
-    <a href="../index.html" class="text-neutral-500">INICIO</a>
-    <a href="../nosotros/" class="text-neutral-500">NOSOTROS</a>
-    <a href="../servicios/" class="text-neutral-500">SERVICIOS</a>
-    <a href="../proyectos/" class="text-neutral-500">PROYECTOS</a>
-    <a href="../contacto/" class="text-neutral-500">CONTACTO</a>
-  </div>
-</header>
+  <!-- HEADER GLOBAL -->
+  <div id="site-header"></div>
 
 
-<main class="flex-grow pt-40 pb-32 font-prompt">
-  <div class="w-[90%] max-w-4xl mx-auto">
-    <h1 class="text-2xl md:text-3xl font-urbanist font-light mb-10">Política de privacidad</h1>
-    <p class="text-sm font-light text-neutral-600">Contenido legal pendiente de facilitar por ANCODARQ.</p>
-  </div>
-</main>
+  <!-- CONTENIDO -->
+  <main class="flex-grow pt-32 pb-24">
 
-<footer class="w-full bg-white border-t border-neutral-100 pt-28 pb-12 font-prompt">
-  <div class="w-[90%] mx-auto">
-    <div class="flex flex-col md:flex-row justify-between items-start gap-16 mb-44 md:mb-56">
-      <div class="flex flex-col gap-12 w-full max-w-[320px]">
-        <img src="../assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full h-auto object-contain block self-start" />
-        <img src="../assets/logos/escuadra-horizontal.png" alt="ESCUADRA CONSTRUCCIONES" class="w-full h-auto object-contain block self-start" />
+    <section class="w-[90%] max-w-5xl mx-auto">
+
+      <!-- TÍTULO -->
+      <div class="mb-14 md:mb-16">
+        <h1
+          class="text-[12px] font-normal tracking-[0.25em] text-neutral-800 uppercase"
+        >
+          POLÍTICA DE PRIVACIDAD
+        </h1>
       </div>
-      <div class="flex flex-col md:items-end text-left md:text-right font-light text-[12px] tracking-[0.18em] leading-relaxed text-neutral-800 pt-1">
-        <div>C. TEIDE, 4</div>
-        <div>SAN SEBASTIÁN DE LOS REYES — 28703 MADRID</div>
-        <a href="mailto:ancodarq@ancodarq.com" class="mt-4 text-neutral-900 font-normal hover:text-neutral-500">ANCODARQ@ANCODARQ.COM</a>
-        <div class="mt-1.5 flex flex-wrap md:justify-end gap-x-4">
-          <a href="tel:+34916570819" class="hover:text-neutral-500">+34 916 570 819</a>
-          <a href="tel:+34618341133" class="hover:text-neutral-500">+34 618 341 133</a>
+
+
+      <!-- TEXTO LEGAL -->
+      <div
+        class="max-w-4xl text-[13px] md:text-[13.5px] leading-[1.85] text-neutral-700 font-light"
+      >
+
+        <p class="mb-6">
+          De acuerdo con lo establecido por el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE, le informamos de que sus datos, en el caso de que nos los facilite, serán tratados bajo la responsabilidad de ANCODARQ, S.L con la finalidad de atender su solicitud de información. Los tratamientos indicados se encuentran legitimados en la existencia del consentimiento prestado por parte de los interesados o, en su caso, de los representantes legales de los mismos. Sus datos serán conservados mientras perdure el consentimiento prestado por usted, exceptuando aquellos casos en los que estemos obligados legalmente a su conservación.
+        </p>
+
+        <p class="mb-6">
+          De acuerdo con los derechos que le confiere la normativa vigente en protección de datos podrá dirigirse a la Autoridad de Control competente para presentar la reclamación que considere oportuna, así como también podrá ejercer los derechos de acceso, rectificación, limitación de tratamiento, supresión, portabilidad y oposición al tratamiento de sus datos de carácter personal así como a la retirada del consentimiento prestado para el tratamiento de los mismos, dirigiendo su petición a la dirección indicada en la presente política.
+        </p>
+
+        <p class="mb-8">
+          En relación a los derechos de acceso, rectificación, limitación de tratamiento, supresión, portabilidad y oposición al tratamiento, que pueden ser ejercitados por usted ante ANCODARQ, S.L, de acuerdo con el Capítulo III del RGPD, debe tener en cuenta los siguientes aspectos:
+        </p>
+
+
+        <!-- DERECHOS -->
+
+        <div class="space-y-5 mb-10">
+
+          <p>
+            <strong class="font-normal text-neutral-900">
+              Derecho de Acceso:
+            </strong>
+            es el derecho del usuario a obtener información sobre sus datos concretos de carácter personal cuyo tratamiento haya llevado a cabo o lleve a cabo ANCODARQ, S.L., así como de la información disponible sobre el origen de dichos datos y las comunicaciones realizadas o previstas de los mismos.
+          </p>
+
+          <p>
+            <strong class="font-normal text-neutral-900">
+              Derecho de Rectificación:
+            </strong>
+            es el derecho del afectado a que se modifiquen los datos que resulten ser inexactos o incompletos. Sólo podrá satisfacerse en relación a aquella información que se encuentre bajo el control de ANCODARQ, S.L (por ejemplo, eliminar comentarios publicados en la propia página, o imágenes o contenidos web donde consten datos de carácter personal del usuario).
+          </p>
+
+          <p>
+            <strong class="font-normal text-neutral-900">
+              Derecho a la Limitación de tratamiento:
+            </strong>
+            es el derecho a que se limiten los fines del tratamiento previstos de forma original por el responsable del tratamiento.
+          </p>
+
+          <p>
+            <strong class="font-normal text-neutral-900">
+              Derecho de Supresión:
+            </strong>
+            es el derecho a suprimir los datos de carácter personal del usuario, a excepción de lo previsto en el propio RGPD o en otras normativas aplicables que determinen la obligatoriedad de la conservación de los mismos, en tiempo y forma.
+          </p>
+
+          <p>
+            <strong class="font-normal text-neutral-900">
+              Derecho de portabilidad:
+            </strong>
+            es el derecho a recibir de ANCODARQ, S.L los datos personales que el usuario le haya facilitado, en un formato estructurado, de uso común y lectura mecánica, y a transmitirlos a otro responsable.
+          </p>
+
+          <p>
+            <strong class="font-normal text-neutral-900">
+              Derecho de Oposición:
+            </strong>
+            es el derecho del usuario a que no se lleve a cabo el tratamiento de sus datos de carácter personal o se cese el tratamiento de los mismos por parte de ANCODARQ, S.L.
+          </p>
+
         </div>
-        <div class="mt-8 flex items-center gap-5 text-neutral-900">
-          <a href="https://www.linkedin.com/company/ancodarq-sl" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-400 p-1" aria-label="LinkedIn ANCODARQ">in</a>
-          <a href="https://www.instagram.com/ancodarq/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-400 p-1" title="ANCODARQ" aria-label="Instagram ANCODARQ">◎</a>
-          <a href="https://www.instagram.com/escuadra_construcciones/" target="_blank" rel="noopener noreferrer" class="hover:text-neutral-400 p-1" title="ESCUADRA" aria-label="Instagram ESCUADRA">◎</a>
-        </div>
-      </div>
-    </div>
-    <div class="flex flex-col md:flex-row justify-between items-center text-[11px] font-light text-neutral-400">
-      <div>© ANCODARQ</div>
-      <div class="mt-4 md:mt-0 legal-inline">
-        <a href="../privacidad/" class="hover:text-neutral-800">Política de privacidad</a>
-        <span> · </span>
-        <a href="../aviso-legal/" class="hover:text-neutral-800">Aviso legal</a>
-        <span> · </span>
-        <a href="../cookies/" class="hover:text-neutral-800">Cookies</a>
-      </div>
-    </div>
-  </div>
-</footer>
 
-<script src="../js/main.js"></script>
-<script src="../js/projects.js"></script>
+
+        <p class="mb-6">
+          Para poder ejercer cualquiera de los derechos descritos anteriormente deberá cumplir con los siguientes requisitos.
+        </p>
+
+
+        <!-- REQUISITOS -->
+
+        <ul class="list-disc pl-6 space-y-4 mb-8">
+
+          <li>
+            Presentación de un escrito a la dirección: ANCODARQ, S.L. – C/ Teide nº 4, núcleo 2 planta baja, oficinas 1 y 2. 28703 S.S. de los Reyes. Madrid o bien a través del correo electrónico:
+            <a
+              href="mailto:ancodarq@ancodarq.com"
+              class="text-neutral-900 hover:text-neutral-500 transition-colors"
+            >
+              ancodarq@ancodarq.com
+            </a>
+          </li>
+
+          <li>
+            El escrito remitido por el titular de los datos que solicite el ejercicio deberá de cumplir los siguientes requisitos legales:
+
+            <ul class="list-disc pl-6 mt-4 space-y-3">
+
+              <li>
+                Nombre, apellidos del interesado y copia del DNI. En los excepcionales casos en que se admita la representación, será también necesaria la identificación por el mismo medio de la persona que le representa, así como el documento acreditativo de la representación. La fotocopia del DNI podrá ser sustituida siempre que se acredite la identidad por cualquier otro medio válido en derecho.
+              </li>
+
+              <li>
+                Petición en que se concreta la solicitud (ejercicio que se solicita o información a la que se quiere acceder). Si no hace referencia a un fichero concreto se le facilitará toda la información que se tenga con sus datos de carácter personal. Si solicita información de un fichero en concreto, solo la información de este fichero. Si solicita información relativa a un tercero nunca se podrá facilitar. Si lo solicita por teléfono se le indicará que lo haga por escrito y se le informará de cómo lo puede hacer y la dirección a la que tiene que enviarlo. Nunca se le dará información por teléfono.
+              </li>
+
+              <li>
+                Domicilio a efecto de notificaciones.
+              </li>
+
+              <li>
+                Fecha y firma del solicitante.
+              </li>
+
+              <li>
+                Documentos acreditativos de la petición que formula.
+              </li>
+
+            </ul>
+          </li>
+
+          <li>
+            El interesado debe utilizar cualquier medio que permita acreditar el envío y la recepción de la solicitud.
+          </li>
+
+        </ul>
+
+
+        <p>
+          ANCODARQ, S.L. será responsable del tratamiento de los datos introducidos en los formularios del sitio web y será también quien deberá adoptar las medidas técnicas y organizativas necesarias, según el riesgo que impliquen los tratamientos que se lleven a cabo en relación a los datos recabados, establecidas en la normativa de protección de datos, dirigidas a garantizar la seguridad de los datos de carácter personal y evitar su alteración, pérdida, tratamiento o acceso no autorizado.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER GLOBAL -->
+  <div id="site-footer"></div>
+
+
+  <!-- JS GLOBAL -->
+  <script src="../js/main.js?v=2"></script>
+
 </body>
 </html>
