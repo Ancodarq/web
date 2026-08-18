@@ -98,7 +98,6 @@ const PROJECTS_DATA = [
   category: "REFORMAS",
   location: "Madrid",
   year: "",
-
   coverImage: "assets/proyectos/09_JJ39/09_00 PORTADA.webp",
 
   description: "",
