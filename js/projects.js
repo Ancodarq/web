@@ -136,6 +136,7 @@ const PROJECTS_DATA = [
     "assets/proyectos/10_URB. LA MORALEJA/10_08.webp"
   ]
 },
+];
 function renderHomeProjects() {
   const container = document.getElementById("home-projects-preview");
   if (!container) return;
