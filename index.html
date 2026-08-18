@@ -185,7 +185,7 @@
     ];
 
     // --- HEADER ---
-    function Header({ currentRoute, navigate }) {
+   function Header({ currentRoute, navigate }) {
       const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
       const navItems = [
         { name: "INICIO", path: "/" },
@@ -197,22 +197,23 @@
 
       return (
         <header className="w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
-          <div className="w-[90%] mx-auto py-6 flex items-center justify-between">
-            <button onClick={() => navigate("/")} className="flex items-center gap-6 text-left group focus:outline-none">
+          <div className="w-[90%] mx-auto py-5 flex items-center justify-between">
+            {/* LOGOS CON TAMAÑO INCREMENTADO Y BALANCEADOS */}
+            <button onClick={() => navigate("/")} className="flex items-center gap-7 text-left group focus:outline-none">
               <img
                 src="./assets/logos/ancodarq-square.png"
                 alt="ANCODARQ"
-                className="h-9 w-auto object-contain shrink-0"
+                className="h-14 md:h-16 w-auto object-contain shrink-0"
                 onError={(e) => { e.currentTarget.style.display = 'none'; if (e.currentTarget.nextElementSibling) e.currentTarget.nextElementSibling.style.display = 'block'; }}
               />
               <span className="hidden font-urbanist font-medium tracking-widest text-xs">ANCODARQ</span>
               
-              <span className="w-px h-5 bg-neutral-200" />
+              <span className="w-px h-8 bg-neutral-200" />
 
               <img
-                src="./assets/logos/escuadra-square.png"
+                src="./assets/logos/escuadra-square.jpg"
                 alt="ESCUADRA CONSTRUCCIONES"
-                className="h-10 w-auto object-contain shrink-0 scale-110"
+                className="h-14 md:h-16 w-auto object-contain shrink-0 scale-110"
                 onError={(e) => { e.currentTarget.style.display = 'none'; if (e.currentTarget.nextElementSibling) e.currentTarget.nextElementSibling.style.display = 'block'; }}
               />
               <span className="hidden font-urbanist font-medium tracking-widest text-xs text-neutral-600">ESCUADRA</span>
