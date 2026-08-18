@@ -270,44 +270,44 @@ function Footer({ navigate }) {
       const [tooltip, setTooltip] = useState(null);
 
       return (
-        <footer className="w-full bg-white border-t border-neutral-100 pt-20 pb-12 font-prompt">
-          {/* Contenedor acotado y centrado */}
-          <div className="w-[90%] max-w-5xl mx-auto">
-            {/* ZONA SUPERIOR: LOGOS GRANDES + DATOS */}
-            <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-16">
-              {/* IZQUIERDA: LOGOS HORIZONTALES CON ESCALA GENEROSA */}
-              <div className="flex flex-col gap-8 w-full max-w-[300px]">
+        <footer className="w-full bg-white border-t border-neutral-100 pt-24 pb-10 font-prompt">
+          <div className="w-[90%] max-w-6xl mx-auto">
+            {/* BLOQUE PRINCIPAL: LOGOS A LA IZQUIERDA Y DATOS A LA DERECHA */}
+            <div className="flex flex-col md:flex-row justify-between items-start gap-16 mb-36 md:mb-48">
+              
+              {/* IZQUIERDA: LOGOS CON MAYOR SEPARACIÓN */}
+              <div className="flex flex-col gap-12 w-full max-w-[280px]">
                 <img
                   src="./assets/logos/ancodarq-horizontal.png"
                   alt="ANCODARQ"
-                  className="w-full h-auto object-contain self-start block"
+                  className="w-full h-auto object-contain block self-start"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
                 />
                 <img
                   src="./assets/logos/escuadra-horizontal.png"
                   alt="ESCUADRA CONSTRUCCIONES"
-                  className="w-full h-auto object-contain self-start block"
+                  className="w-full h-auto object-contain block self-start"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
                 />
               </div>
 
-              {/* DERECHA: DATOS DE CONTACTO + REDES */}
-              <div className="flex flex-col md:items-end text-left md:text-right font-light text-[12px] tracking-[0.15em] leading-relaxed text-neutral-800 pt-1">
+              {/* DERECHA: DATOS EDITORIALES E ICONOS */}
+              <div className="flex flex-col md:items-end text-left md:text-right font-light text-[12px] tracking-[0.18em] leading-relaxed text-neutral-800 pt-2">
                 <div>C. TEIDE, 4</div>
                 <div>SAN SEBASTIÁN DE LOS REYES — 28703 MADRID</div>
-                <div className="mt-2 text-neutral-900 font-normal">ANCODARQ@ANCODARQ.COM</div>
+                <div className="mt-3 text-neutral-900 font-normal">ANCODARQ@ANCODARQ.COM</div>
                 <div className="mt-1 flex flex-wrap md:justify-end gap-x-4">
                   <span>+34 916 570 819</span>
                   <span>+34 618 341 133</span>
                 </div>
 
-                {/* REDES SOCIALES */}
-                <div className="mt-6 flex items-center gap-5 text-neutral-900">
+                {/* ICONOS SOCIALES */}
+                <div className="mt-8 flex items-center gap-5 text-neutral-900">
                   <a
                     href="https://www.linkedin.com/company/ancodarq-sl"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-neutral-500 transition-colors p-1"
+                    className="hover:text-neutral-400 transition-colors p-1"
                     aria-label="LinkedIn"
                   >
                     <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -324,50 +324,49 @@ function Footer({ navigate }) {
                       href="https://www.instagram.com/ancodarq/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="hover:text-neutral-500 transition-colors p-1"
+                      className="hover:text-neutral-400 transition-colors p-1"
                       aria-label="Instagram ANCODARQ"
                     >
                       <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                         <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.13-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                      </svg>
-                    </a>
-                    {tooltip === "ANCODARQ" && (
-                      <span className="absolute -top-7 px-1.5 py-0.5 text-[9px] tracking-wider text-white bg-black pointer-events-none">
-                        ANCODARQ
-                      </span>
-                    )}
-                  </div>
+                    </svg>
+                  </a>
+                  {tooltip === "ANCODARQ" && (
+                    <span className="absolute -top-7 px-1.5 py-0.5 text-[9px] tracking-wider text-white bg-black pointer-events-none">
+                      ANCODARQ
+                    </span>
+                  )}
+                </div>
 
-                  <div
-                    className="relative flex items-center justify-center"
-                    onMouseEnter={() => setTooltip("ESCUADRA")}
-                    onMouseLeave={() => setTooltip(null)}
+                <div
+                  className="relative flex items-center justify-center"
+                  onMouseEnter={() => setTooltip("ESCUADRA")}
+                  onMouseLeave={() => setTooltip(null)}
+                >
+                  <a
+                    href="https://www.instagram.com/escuadra_construcciones/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-neutral-400 transition-colors p-1"
+                    aria-label="Instagram ESCUADRA"
                   >
-                    <a
-                      href="https://www.instagram.com/escuadra_construcciones/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-neutral-500 transition-colors p-1"
-                      aria-label="Instagram ESCUADRA"
-                    >
-                      <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.13-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                      </svg>
-                    </a>
-                    {tooltip === "ESCUADRA" && (
-                      <span className="absolute -top-7 px-1.5 py-0.5 text-[9px] tracking-wider text-white bg-black pointer-events-none">
-                        ESCUADRA
-                      </span>
-                    )}
-                  </div>
+                    <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.13-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                  </a>
+                  {tooltip === "ESCUADRA" && (
+                    <span className="absolute -top-7 px-1.5 py-0.5 text-[9px] tracking-wider text-white bg-black pointer-events-none">
+                      ESCUADRA
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
 
-            {/* LÍNEA INFERIOR */}
-            <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-neutral-100 text-[11px] font-light text-neutral-400">
+            {/* LÍNEA INFERIOR DE COPYRIGHT Y LEGALES */}
+            <div className="flex flex-col md:flex-row justify-between items-center text-[11px] font-light text-neutral-400">
               <div>© ANCODARQ</div>
-              <div className="mt-4 md:mt-0 flex gap-1">
+              <div className="mt-4 md:mt-0 flex gap-1.5">
                 <button onClick={() => navigate("/privacidad")} className="hover:text-neutral-800 transition-colors">Política de privacidad</button>
                 <span>·</span>
                 <button onClick={() => navigate("/aviso-legal")} className="hover:text-neutral-800 transition-colors">Aviso legal</button>
