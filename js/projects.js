@@ -281,6 +281,36 @@ const PROJECTS_DATA = [
     "assets/proyectos/38_TURIA/38_04.webp"
   ]
 }
+{
+  slug: "prado-largo",
+  name: "Prado Largo",
+  category: "OBRA NUEVA",
+  location: "Madrid",
+  year: "",
+
+  coverImage: "assets/proyectos/01_PRADO LARGO/01_00PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/01_PRADO LARGO/01_01.webp",
+    "assets/proyectos/01_PRADO LARGO/01_02.webp",
+    "assets/proyectos/01_PRADO LARGO/01_03.webp",
+    "assets/proyectos/01_PRADO LARGO/01_04.webp",
+    "assets/proyectos/01_PRADO LARGO/01_05.webp",
+    "assets/proyectos/01_PRADO LARGO/01_06.webp",
+    "assets/proyectos/01_PRADO LARGO/01_07.webp",
+    "assets/proyectos/01_PRADO LARGO/01_08.webp",
+    "assets/proyectos/01_PRADO LARGO/01_09.webp",
+    "assets/proyectos/01_PRADO LARGO/01_10.webp",
+    "assets/proyectos/01_PRADO LARGO/01_11.webp",
+    "assets/proyectos/01_PRADO LARGO/01_12.webp",
+    "assets/proyectos/01_PRADO LARGO/01_13.webp",
+    "assets/proyectos/01_PRADO LARGO/01_14.webp",
+    "assets/proyectos/01_PRADO LARGO/01_15.webp",
+    "assets/proyectos/01_PRADO LARGO/01_16.webp"
+  ]
+},
 ];
 function projectCard(project) {
   return `

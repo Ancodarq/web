@@ -314,10 +314,16 @@ function renderFooter() {
 // ======================================================
 
 const HERO_IMAGES = [
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80",
-  "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1800&q=80",
-  "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=80",
-  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=80"
+  "assets/home/Portada/00.webp",
+  "assets/home/Portada/01.webp",
+  "assets/home/Portada/02.webp",
+  "assets/home/Portada/03.webp",
+  "assets/home/Portada/04.webp",
+  "assets/home/Portada/05.webp",
+  "assets/home/Portada/06.webp",
+  "assets/home/Portada/07.webp",
+  "assets/home/Portada/08.webp",
+  "assets/home/Portada/09.webp"
 ];
 
 function initHero() {
@@ -327,10 +333,13 @@ function initHero() {
 
   let currentHeroIdx = 0;
 
+  // Mostrar inmediatamente la primera imagen real
+  img.src = siteUrl(HERO_IMAGES[0]);
+
   setInterval(() => {
     currentHeroIdx = (currentHeroIdx + 1) % HERO_IMAGES.length;
-    img.src = HERO_IMAGES[currentHeroIdx];
-  }, 3000);
+    img.src = siteUrl(HERO_IMAGES[currentHeroIdx]);
+  }, 2500);
 }
 
 
