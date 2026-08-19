@@ -311,6 +311,114 @@ const PROJECTS_DATA = [
     "assets/proyectos/01_PRADO LARGO/01_16.webp"
   ]
 },
+{
+  slug: "somosaguas-campo7",
+  name: "Somosaguas (Campo 7)",
+  category: "",
+  location: "",
+  year: "",
+
+  coverImage: "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_00PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_01.webp",
+    "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_02.webp"
+  ]
+},
+
+{
+  slug: "skybar",
+  name: "Skybar",
+  category: "",
+  location: "",
+  year: "",
+
+  coverImage: "assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/24_SKYBAR/24_01.webp",
+    "assets/proyectos/24_SKYBAR/24_02.webp",
+    "assets/proyectos/24_SKYBAR/24_03.webp",
+    "assets/proyectos/24_SKYBAR/24_04.webp",
+    "assets/proyectos/24_SKYBAR/24_05.webp",
+    "assets/proyectos/24_SKYBAR/24_06.webp",
+    "assets/proyectos/24_SKYBAR/24_07.webp"
+  ]
+},
+
+{
+  slug: "vinitus-gv4",
+  name: "Vinitus GV4",
+  category: "",
+  location: "",
+  year: "",
+
+  coverImage: "assets/proyectos/25_VINITUS GV4/25_00PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/25_VINITUS GV4/25_01.webp",
+    "assets/proyectos/25_VINITUS GV4/25_02.webp",
+    "assets/proyectos/25_VINITUS GV4/25_03.webp",
+    "assets/proyectos/25_VINITUS GV4/25_04.webp",
+    "assets/proyectos/25_VINITUS GV4/25_05.webp",
+    "assets/proyectos/25_VINITUS GV4/25_06.webp"
+  ]
+},
+
+{
+  slug: "manero",
+  name: "Manero",
+  category: "",
+  location: "",
+  year: "",
+
+  coverImage: "assets/proyectos/27_MANERO/27_00PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/27_MANERO/27_01.webp",
+    "assets/proyectos/27_MANERO/27_02.webp",
+    "assets/proyectos/27_MANERO/27_03.webp",
+    "assets/proyectos/27_MANERO/27_04.webp",
+    "assets/proyectos/27_MANERO/27_05.webp",
+    "assets/proyectos/27_MANERO/27_06.webp",
+    "assets/proyectos/27_MANERO/27_08.webp",
+    "assets/proyectos/27_MANERO/27_09.webp",
+    "assets/proyectos/27_MANERO/27_10.webp",
+    "assets/proyectos/27_MANERO/27_11.webp",
+    "assets/proyectos/27_MANERO/27_12.webp"
+  ]
+},
+
+{
+  slug: "vinitus-alcala",
+  name: "Vinitus Alcalá",
+  category: "",
+  location: "",
+  year: "",
+
+  coverImage: "assets/proyectos/39_VINITUS_ALCALÁ/39_00PORTADA.webp",
+
+  description: "",
+
+  gallery: [
+    "assets/proyectos/39_VINITUS_ALCALÁ/39_01.webp",
+    "assets/proyectos/39_VINITUS_ALCALÁ/39_02.webp",
+    "assets/proyectos/39_VINITUS_ALCALÁ/39_03.webp",
+    "assets/proyectos/39_VINITUS_ALCALÁ/39_04.webp",
+    "assets/proyectos/39_VINITUS_ALCALÁ/39_05.webp",
+    "assets/proyectos/39_VINITUS_ALCALÁ/39_06.webp",
+    "assets/proyectos/39_VINITUS_ALCALÁ/39_07.webp",
+    "assets/proyectos/39_VINITUS_ALCALÁ/39_08.webp"
+  ]
+},
 ];
 function projectCard(project) {
   return `
