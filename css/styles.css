@@ -18,49 +18,44 @@ body { background:#fff; color:#1a1a1a; margin:0; padding:0; }
 /* ======================================================
    GALERÍA DE PROYECTOS
    ====================================================== */
+/* ======================================================
+   GALERÍA DE PROYECTOS
+   ====================================================== */
 
 .project-gallery-grid {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-  grid-auto-flow: dense;
+  gap: 24px;
 }
 
 .project-gallery-item {
   display: block;
   width: 100%;
+  aspect-ratio: 4 / 3;
+
   padding: 0;
+  margin: 0;
   border: 0;
+
   background: #f5f5f5;
   overflow: hidden;
+
   cursor: zoom-in;
-  aspect-ratio: 4 / 3;
 }
 
 .project-gallery-item img {
   width: 100%;
   height: 100%;
+
   display: block;
   object-fit: cover;
+
   transition: transform 0.35s ease;
 }
 
 .project-gallery-item:hover img {
   transform: scale(1.015);
-}
-
-
-/* Horizontales especialmente panorámicas */
-.project-gallery-item--wide {
-  grid-column: span 2;
-  aspect-ratio: 8 / 3;
-}
-
-
-/* Verticales */
-.project-gallery-item--vertical {
-  aspect-ratio: 3 / 4;
 }
 
 
@@ -200,50 +195,16 @@ body { background:#fff; color:#1a1a1a; margin:0; padding:0; }
 /* ======================================================
    RESPONSIVE
    ====================================================== */
-
 @media (max-width: 1024px) {
-
   .project-gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
   }
-
-  .project-lightbox {
-    padding: 30px 65px 105px;
-  }
-
 }
 
-
 @media (max-width: 767px) {
-
   .project-gallery-grid {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 14px;
   }
-
-  .project-gallery-item,
-  .project-gallery-item--wide {
-    grid-column: span 1;
-    aspect-ratio: 4 / 3;
-  }
-
-  .project-gallery-item--vertical {
-    aspect-ratio: 3 / 4;
-  }
-
-  .project-lightbox {
-    padding: 50px 15px 95px;
-  }
-
-  .project-lightbox-arrow {
-    width: 42px;
-    height: 80px;
-    font-size: 45px;
-  }
-
-  .project-lightbox-thumb {
-    width: 72px;
-    height: 48px;
-  }
-
 }

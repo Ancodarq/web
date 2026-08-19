@@ -392,56 +392,27 @@ function renderProjectDetail() {
   const project = PROJECTS_DATA.find(p => p.slug === slug);
 
   if (!project) {
-    container.innerHTML =
-      '<p class="text-sm text-neutral-500">Proyecto no encontrado.</p>';
-    return;
-  }
+   container.innerHTML = `
+  <div class="project-gallery-grid">
 
-  currentProjectImages = [
-    project.coverImage,
-    ...(project.gallery || [])
-  ];
+    ${currentProjectImages.map((img, index) => `
+      <button
+        type="button"
+        class="project-gallery-item"
+        onclick="openProjectLightbox(${index})"
+        aria-label="Abrir imagen ${index + 1}"
+      >
+        <img
+          src="${siteUrl(img)}"
+          alt="${project.name}"
+          loading="lazy"
+        />
+      </button>
+    `).join("")}
 
-  container.innerHTML = `
-    <div class="project-gallery-grid">
-
-      ${currentProjectImages.map((img, index) => `
-        <button
-          type="button"
-          class="project-gallery-item"
-          onclick="openProjectLightbox(${index})"
-          aria-label="Abrir imagen ${index + 1}"
-        >
-          <img
-            src="${siteUrl(img)}"
-            alt="${project.name}"
-            loading="lazy"
-            onload="classifyProjectImage(this)"
-          />
-        </button>
-      `).join("")}
-
-    </div>
-  `;
+  </div>
+`;
 }
-
-
-// Clasifica automáticamente cada foto según su proporción.
-// Las panorámicas pueden ocupar dos columnas.
-function classifyProjectImage(img) {
-  const item = img.closest(".project-gallery-item");
-  if (!item) return;
-
-  const ratio = img.naturalWidth / img.naturalHeight;
-
-  if (ratio >= 1.55) {
-    item.classList.add("project-gallery-item--wide");
-  } else if (ratio <= 0.82) {
-    item.classList.add("project-gallery-item--vertical");
-  }
-}
-
-
 // ======================================================
 // LIGHTBOX
 // ======================================================
