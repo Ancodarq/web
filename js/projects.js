@@ -376,32 +376,32 @@ gridCont.innerHTML = filtered.map(p => projectCard(p)).join("");
 function renderProjectDetail() {
   const container = document.getElementById("project-detail-content");
   if (!container) return;
- const params = new URLSearchParams(window.location.search);
-const slug = params.get("slug");
+
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get("slug");
+
   const project = PROJECTS_DATA.find(p => p.slug === slug);
+
   if (!project) {
-    container.innerHTML = '<p class="text-sm text-neutral-500">Proyecto no encontrado.</p>';
+    container.innerHTML =
+      '<p class="text-sm text-neutral-500">Proyecto no encontrado.</p>';
     return;
   }
+
+  const allImages = [
+    project.coverImage,
+    ...(project.gallery || [])
+  ];
+
   container.innerHTML = `
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20 items-start">
-      <div class="md:col-span-7">
-        <h1 class="text-2xl md:text-4xl font-urbanist font-light tracking-tight text-black mb-4">${project.name}</h1>
-        <p class="text-sm md:text-base text-neutral-600 font-light max-w-xl leading-relaxed">${project.description}</p>
-      </div>
-      <div class="md:col-span-5 grid grid-cols-2 gap-6 text-[12px] font-light tracking-wider border-t md:border-t-0 md:border-l border-neutral-100 pt-6 md:pt-0 md:pl-10">
-        <div><span class="text-neutral-400 block mb-1">CATEGORÍA</span><span class="text-black">${project.category}</span></div>
-        <div><span class="text-neutral-400 block mb-1">AÑO</span><span class="text-black">${project.year}</span></div>
-        <div><span class="text-neutral-400 block mb-1">UBICACIÓN</span><span class="text-black">${project.location}</span></div>
-      </div>
-    </div>
-    <div class="flex flex-col gap-16">
-      <div class="w-full bg-neutral-50 overflow-hidden">
-      <img src="${siteUrl(project.coverImage)}" alt="${project.name}" class="w-full h-auto object-contain mx-auto" />
-      </div>
-      ${(project.gallery || []).map(img => `
-        <div class="w-full bg-neutral-50 overflow-hidden">
-          <img src="${siteUrl(img)}" alt="${project.name}" class="w-full h-auto object-contain mx-auto" />
+    <div class="columns-1 md:columns-2 lg:columns-3 gap-3 md:gap-4">
+      ${allImages.map(img => `
+        <div class="mb-3 md:mb-4 break-inside-avoid">
+          <img
+            src="${siteUrl(img)}"
+            alt="${project.name}"
+            class="w-full h-auto block"
+          />
         </div>
       `).join("")}
     </div>
