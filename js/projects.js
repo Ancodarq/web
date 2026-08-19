@@ -135,7 +135,7 @@ const PROJECTS_DATA = [
     "assets/proyectos/10_URB. LA MORALEJA/10_07.webp",
     "assets/proyectos/10_URB. LA MORALEJA/10_08.webp"
   ]
-}
+},
 {
   slug: "mirasierra",
   name: "Mirasierra",
@@ -280,7 +280,7 @@ const PROJECTS_DATA = [
     "assets/proyectos/38_TURIA/38_03.webp",
     "assets/proyectos/38_TURIA/38_04.webp"
   ]
-}
+},
 {
   slug: "prado-largo",
   name: "Prado Largo",
