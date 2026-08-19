@@ -381,7 +381,6 @@ gridCont.innerHTML = filtered.map(p => projectCard(p)).join("");
 let currentProjectImages = [];
 let currentLightboxIndex = 0;
 
-
 function renderProjectDetail() {
   const container = document.getElementById("project-detail-content");
   if (!container) return;
@@ -392,26 +391,36 @@ function renderProjectDetail() {
   const project = PROJECTS_DATA.find(p => p.slug === slug);
 
   if (!project) {
-   container.innerHTML = `
-  <div class="project-gallery-grid">
+    container.innerHTML =
+      '<p class="text-sm text-neutral-500">Proyecto no encontrado.</p>';
+    return;
+  }
 
-    ${currentProjectImages.map((img, index) => `
-      <button
-        type="button"
-        class="project-gallery-item"
-        onclick="openProjectLightbox(${index})"
-        aria-label="Abrir imagen ${index + 1}"
-      >
-        <img
-          src="${siteUrl(img)}"
-          alt="${project.name}"
-          loading="lazy"
-        />
-      </button>
-    `).join("")}
+  currentProjectImages = [
+    project.coverImage,
+    ...(project.gallery || [])
+  ];
 
-  </div>
-`;
+  container.innerHTML = `
+    <div class="project-gallery-grid">
+
+      ${currentProjectImages.map((img, index) => `
+        <button
+          type="button"
+          class="project-gallery-item"
+          onclick="openProjectLightbox(${index})"
+          aria-label="Abrir imagen ${index + 1}"
+        >
+          <img
+            src="${siteUrl(img)}"
+            alt="${project.name}"
+            loading="lazy"
+          />
+        </button>
+      `).join("")}
+
+    </div>
+  `;
 }
 // ======================================================
 // LIGHTBOX
