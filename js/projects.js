@@ -373,6 +373,15 @@ function renderProjectsGallery() {
 gridCont.innerHTML = filtered.map(p => projectCard(p)).join("");
 }
 
+// ======================================================
+// DETALLE DE PROYECTO
+// Grilla editorial + lightbox
+// ======================================================
+
+let currentProjectImages = [];
+let currentLightboxIndex = 0;
+
+
 function renderProjectDetail() {
   const container = document.getElementById("project-detail-content");
   if (!container) return;
@@ -388,25 +397,198 @@ function renderProjectDetail() {
     return;
   }
 
-  const allImages = [
+  currentProjectImages = [
     project.coverImage,
     ...(project.gallery || [])
   ];
 
   container.innerHTML = `
-    <div class="columns-1 md:columns-2 lg:columns-3 gap-3 md:gap-4">
-      ${allImages.map(img => `
-        <div class="mb-3 md:mb-4 break-inside-avoid">
+    <div class="project-gallery-grid">
+
+      ${currentProjectImages.map((img, index) => `
+        <button
+          type="button"
+          class="project-gallery-item"
+          onclick="openProjectLightbox(${index})"
+          aria-label="Abrir imagen ${index + 1}"
+        >
           <img
             src="${siteUrl(img)}"
             alt="${project.name}"
-            class="w-full h-auto block"
+            loading="lazy"
+            onload="classifyProjectImage(this)"
           />
-        </div>
+        </button>
       `).join("")}
+
     </div>
   `;
 }
+
+
+// Clasifica automáticamente cada foto según su proporción.
+// Las panorámicas pueden ocupar dos columnas.
+function classifyProjectImage(img) {
+  const item = img.closest(".project-gallery-item");
+  if (!item) return;
+
+  const ratio = img.naturalWidth / img.naturalHeight;
+
+  if (ratio >= 1.55) {
+    item.classList.add("project-gallery-item--wide");
+  } else if (ratio <= 0.82) {
+    item.classList.add("project-gallery-item--vertical");
+  }
+}
+
+
+// ======================================================
+// LIGHTBOX
+// ======================================================
+
+function openProjectLightbox(index) {
+  if (!currentProjectImages.length) return;
+
+  currentLightboxIndex = index;
+
+  const overlay = document.createElement("div");
+  overlay.id = "project-lightbox";
+  overlay.className = "project-lightbox";
+
+  overlay.innerHTML = `
+    <button
+      class="project-lightbox-close"
+      onclick="closeProjectLightbox()"
+      aria-label="Cerrar"
+    >
+      ×
+    </button>
+
+    <button
+      class="project-lightbox-arrow project-lightbox-arrow--left"
+      onclick="event.stopPropagation(); changeProjectLightbox(-1)"
+      aria-label="Imagen anterior"
+    >
+      ‹
+    </button>
+
+    <div class="project-lightbox-main">
+      <img
+        id="project-lightbox-image"
+        src="${siteUrl(currentProjectImages[currentLightboxIndex])}"
+        alt=""
+      />
+    </div>
+
+    <button
+      class="project-lightbox-arrow project-lightbox-arrow--right"
+      onclick="event.stopPropagation(); changeProjectLightbox(1)"
+      aria-label="Imagen siguiente"
+    >
+      ›
+    </button>
+
+    <div class="project-lightbox-thumbs">
+      ${currentProjectImages.map((img, i) => `
+        <button
+          type="button"
+          class="project-lightbox-thumb ${i === currentLightboxIndex ? "is-active" : ""}"
+          onclick="event.stopPropagation(); setProjectLightboxImage(${i})"
+          aria-label="Ver imagen ${i + 1}"
+        >
+          <img src="${siteUrl(img)}" alt="" />
+        </button>
+      `).join("")}
+    </div>
+  `;
+
+  overlay.addEventListener("click", (event) => {
+    if (event.target === overlay) {
+      closeProjectLightbox();
+    }
+  });
+
+  document.body.appendChild(overlay);
+  document.body.style.overflow = "hidden";
+}
+
+
+function closeProjectLightbox() {
+  const overlay = document.getElementById("project-lightbox");
+
+  if (overlay) {
+    overlay.remove();
+  }
+
+  document.body.style.overflow = "";
+}
+
+
+function changeProjectLightbox(direction) {
+  if (!currentProjectImages.length) return;
+
+  currentLightboxIndex =
+    (currentLightboxIndex + direction + currentProjectImages.length)
+    % currentProjectImages.length;
+
+  updateProjectLightbox();
+}
+
+
+function setProjectLightboxImage(index) {
+  currentLightboxIndex = index;
+  updateProjectLightbox();
+}
+
+
+function updateProjectLightbox() {
+  const image = document.getElementById("project-lightbox-image");
+
+  if (image) {
+    image.src = siteUrl(currentProjectImages[currentLightboxIndex]);
+  }
+
+  document
+    .querySelectorAll(".project-lightbox-thumb")
+    .forEach((thumb, index) => {
+      thumb.classList.toggle(
+        "is-active",
+        index === currentLightboxIndex
+      );
+    });
+
+  const activeThumb = document.querySelector(
+    ".project-lightbox-thumb.is-active"
+  );
+
+  if (activeThumb) {
+    activeThumb.scrollIntoView({
+      behavior: "smooth",
+      inline: "center",
+      block: "nearest"
+    });
+  }
+}
+
+
+// Teclado: ESC / ← / →
+document.addEventListener("keydown", (event) => {
+  const lightbox = document.getElementById("project-lightbox");
+
+  if (!lightbox) return;
+
+  if (event.key === "Escape") {
+    closeProjectLightbox();
+  }
+
+  if (event.key === "ArrowLeft") {
+    changeProjectLightbox(-1);
+  }
+
+  if (event.key === "ArrowRight") {
+    changeProjectLightbox(1);
+  }
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   renderHomeProjects();
