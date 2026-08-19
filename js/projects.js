@@ -136,6 +136,151 @@ const PROJECTS_DATA = [
     "assets/proyectos/10_URB. LA MORALEJA/10_08.webp"
   ]
 }
+{
+  slug: "mirasierra",
+  name: "Mirasierra",
+  category: "COMERCIAL",
+  location: "Madrid",
+  year: "",
+  coverImage: "assets/proyectos/16_MIRASIERRA/16_00PORTADA.webp",
+  description: "",
+  gallery: [
+    "assets/proyectos/16_MIRASIERRA/16_01.webp",
+    "assets/proyectos/16_MIRASIERRA/16_02.webp",
+    "assets/proyectos/16_MIRASIERRA/16_03.webp",
+    "assets/proyectos/16_MIRASIERRA/16_04.webp",
+    "assets/proyectos/16_MIRASIERRA/16_05.webp",
+    "assets/proyectos/16_MIRASIERRA/16_06.webp"
+  ]
+},
+{
+  slug: "teatro-la-latina",
+  name: "Teatro La Latina",
+  category: "COMERCIAL",
+  location: "Madrid",
+  year: "",
+  coverImage: "assets/proyectos/20_TEATRO LA LATINA/20_00PORTADA.webp",
+  description: "",
+  gallery: [
+    "assets/proyectos/20_TEATRO LA LATINA/20_01.webp",
+    "assets/proyectos/20_TEATRO LA LATINA/20_02.webp",
+    "assets/proyectos/20_TEATRO LA LATINA/20_03.webp",
+    "assets/proyectos/20_TEATRO LA LATINA/20_04.webp",
+    "assets/proyectos/20_TEATRO LA LATINA/20_05.webp"
+  ]
+},
+{
+  slug: "apolo",
+  name: "Apolo",
+  category: "COMERCIAL",
+  location: "Madrid",
+  year: "",
+  coverImage: "assets/proyectos/19_APOLO/19_00PORTADA.webp",
+  description: "",
+  gallery: [
+    "assets/proyectos/19_APOLO/19_01.webp",
+    "assets/proyectos/19_APOLO/19_02.webp",
+    "assets/proyectos/19_APOLO/19_03.webp",
+    "assets/proyectos/19_APOLO/19_04.webp",
+    "assets/proyectos/19_APOLO/19_05.webp",
+    "assets/proyectos/19_APOLO/19_06.webp",
+    "assets/proyectos/19_APOLO/19_07.webp",
+    "assets/proyectos/19_APOLO/19_08.webp",
+    "assets/proyectos/19_APOLO/19_09.webp",
+    "assets/proyectos/19_APOLO/19_20.webp"
+  ]
+},
+{
+  slug: "la-prairie",
+  name: "La Prairie",
+  category: "COMERCIAL",
+  location: "",
+  year: "",
+  coverImage: "assets/proyectos/22_LA PRAIRIE/22_00PORTADA.webp",
+  description: "",
+  gallery: [
+    "assets/proyectos/22_LA PRAIRIE/22_01.webp",
+    "assets/proyectos/22_LA PRAIRIE/22_02.webp",
+    "assets/proyectos/22_LA PRAIRIE/22_03.webp",
+    "assets/proyectos/22_LA PRAIRIE/22_04.webp",
+    "assets/proyectos/22_LA PRAIRIE/22_05.webp",
+    "assets/proyectos/22_LA PRAIRIE/22_06.webp",
+    "assets/proyectos/22_LA PRAIRIE/22_07.webp",
+    "assets/proyectos/22_LA PRAIRIE/22_08.webp",
+    "assets/proyectos/22_LA PRAIRIE/22_09.webp"
+  ]
+},
+{
+  slug: "grace",
+  name: "Grace",
+  category: "COMERCIAL",
+  location: "",
+  year: "",
+  coverImage: "assets/proyectos/23_GRACE/23_00PORTADA.webp",
+  description: "",
+  gallery: [
+    "assets/proyectos/23_GRACE/23_01.webp",
+    "assets/proyectos/23_GRACE/23_02.webp",
+    "assets/proyectos/23_GRACE/23_03.webp",
+    "assets/proyectos/23_GRACE/23_04.webp",
+    "assets/proyectos/23_GRACE/23_05.webp",
+    "assets/proyectos/23_GRACE/23_06.webp",
+    "assets/proyectos/23_GRACE/23_07.webp",
+    "assets/proyectos/23_GRACE/23_08.webp",
+    "assets/proyectos/23_GRACE/23_09.webp",
+    "assets/proyectos/23_GRACE/23_10.webp",
+    "assets/proyectos/23_GRACE/23_11.webp",
+    "assets/proyectos/23_GRACE/23_12.webp"
+  ]
+},
+{
+  slug: "aeropuerto",
+  name: "Aeropuerto",
+  category: "COMERCIAL",
+  location: "",
+  year: "",
+  coverImage: "assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+  description: "",
+  gallery: [
+    "assets/proyectos/30_AEROPUERTO/30_01.webp",
+    "assets/proyectos/30_AEROPUERTO/30_02.webp",
+    "assets/proyectos/30_AEROPUERTO/30_03.webp",
+    "assets/proyectos/30_AEROPUERTO/30_04.webp",
+    "assets/proyectos/30_AEROPUERTO/30_05.webp",
+    "assets/proyectos/30_AEROPUERTO/30_06.webp",
+    "assets/proyectos/30_AEROPUERTO/30_07.webp"
+  ]
+},
+{
+  slug: "oesia-sevilla",
+  name: "Oesia Sevilla",
+  category: "OFICINAS",
+  location: "Sevilla",
+  year: "",
+  coverImage: "assets/proyectos/33_OESIA SEVILLA/33_01.webp",
+  description: "",
+  gallery: [
+    "assets/proyectos/33_OESIA SEVILLA/33_02.webp",
+    "assets/proyectos/33_OESIA SEVILLA/33_03.webp",
+    "assets/proyectos/33_OESIA SEVILLA/33_04.webp",
+    "assets/proyectos/33_OESIA SEVILLA/33_05.webp"
+  ]
+},
+{
+  slug: "turia",
+  name: "Turia",
+  category: "OBRA NUEVA",
+  location: "",
+  year: "",
+  coverImage: "assets/proyectos/38_TURIA/38_00PORTADA.webp",
+  description: "",
+  gallery: [
+    "assets/proyectos/38_TURIA/38_01.webp",
+    "assets/proyectos/38_TURIA/38_02.webp",
+    "assets/proyectos/38_TURIA/38_03.webp",
+    "assets/proyectos/38_TURIA/38_04.webp"
+  ]
+}
 ];
 function projectCard(project) {
   return `
