@@ -1,91 +1,262 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>ANCODARQ — Arquitectura y Construcción</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap"
+    rel="stylesheet"
+  >
+
   <script src="https://cdn.tailwindcss.com"></script>
+
   <script>
-    tailwind.config={theme:{extend:{fontFamily:{prompt:["Prompt","sans-serif"],urbanist:["Urbanist","sans-serif"]}}}}
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            prompt: ["Prompt", "sans-serif"],
+            urbanist: ["Urbanist", "sans-serif"]
+          }
+        }
+      }
+    }
   </script>
+
   <link rel="stylesheet" href="css/styles.css" />
 </head>
+
+
 <body class="font-prompt antialiased min-h-screen flex flex-col">
 
-<div id="site-header"></div>
+  <!-- HEADER -->
+  <div id="site-header"></div>
 
 
-<main class="flex-grow">
- <section class="w-full pt-32 pb-10 bg-white flex justify-center">
-  <div
-    class="w-[82%] max-w-[1450px] h-[calc(100vh-190px)] max-h-[760px] min-h-[480px] bg-neutral-50 overflow-hidden"
-  >
-    <img
-      id="hero-img"
-      src="assets/home/Portada/00.webp"
-      alt="ANCODARQ Arquitectura"
-      class="w-full h-full object-cover select-none"
-    />
-  </div>
-</section>
+  <main class="flex-grow">
 
-<section class="w-full py-20 md:py-32 bg-white font-prompt">
+    <!-- ===================================================== -->
+    <!-- HERO -->
+    <!-- ===================================================== -->
 
-  <div class="w-[90%] mx-auto mb-14">
-    <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 uppercase">
-      NOSOTROS
-    </div>
-  </div>
+    <section class="w-full pt-32 pb-10 bg-white flex justify-center">
 
-  <div class="md:col-span-6 pr-0 md:pr-6">
-  <div class="w-full h-full min-h-[520px] bg-neutral-100 overflow-hidden">
-    <!-- AQUÍ IRÁ LA FOTO -->
-  </div>
-</div>
-        <div class="text-[13px] md:text-[13.5px] leading-[1.75] text-neutral-800 font-light space-y-5 text-justify">
-          <p>ANCODARQ desarrolla proyectos de construcción, rehabilitación, reformas y arquitectura desde una visión integral del proceso.</p>
-          <p>Nuestro equipo combina experiencia técnica, capacidad de ejecución y atención al detalle para abordar cada proyecto desde sus primeras decisiones hasta su materialización final.</p>
-          <p>Trabajamos en ámbitos residenciales, comerciales, oficinas y obra pública, adaptándonos a las necesidades específicas de cada cliente y cada espacio.</p>
+      <div
+        class="w-[82%] max-w-[1450px] h-[calc(100vh-190px)] max-h-[760px] min-h-[480px] bg-neutral-50 overflow-hidden"
+      >
+
+        <img
+          id="hero-img"
+          src="assets/home/Portada/00.webp"
+          alt="ANCODARQ Arquitectura"
+          class="w-full h-full object-cover select-none"
+        />
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================== -->
+    <!-- NOSOTROS -->
+    <!-- ===================================================== -->
+
+    <section class="w-full py-20 md:py-24 bg-white font-prompt">
+
+      <!--
+        MISMO ANCHO GENERAL QUE EL HERO:
+        82% con máximo de 1450px
+      -->
+      <div class="w-[82%] max-w-[1450px] mx-auto">
+
+        <!-- TÍTULO -->
+        <div
+          class="text-[11px] font-light tracking-[0.25em] text-neutral-500 uppercase mb-12"
+        >
+          NOSOTROS
         </div>
-        <div class="mt-12 flex flex-col items-end gap-3">
-          <span class="text-[9px] tracking-[0.25em] font-normal text-neutral-500 uppercase">CERTIFICACIONES</span>
-          <img src="./assets/logos/iso-certifications.png" alt="Certificaciones ISO" class="h-12 w-auto object-contain" />
+
+
+        <!-- FOTO + TEXTO -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 items-stretch"
+        >
+
+          <!-- ========================= -->
+          <!-- FOTO IZQUIERDA -->
+          <!-- ========================= -->
+
+          <div class="md:col-span-6">
+
+            <div
+              class="w-full h-full min-h-[480px] bg-neutral-100 overflow-hidden"
+            >
+
+              <!--
+                CUANDO TENGAS LA FOTO,
+                sustituye este comentario por:
+
+                <img
+                  src="assets/home/nosotros.webp"
+                  alt="ANCODARQ"
+                  class="w-full h-full object-cover"
+                />
+              -->
+
+            </div>
+
+          </div>
+
+
+          <!-- ========================= -->
+          <!-- CONTENIDO DERECHA -->
+          <!-- ========================= -->
+
+          <div
+            class="md:col-span-6 flex flex-col justify-between"
+          >
+
+            <!-- TEXTO -->
+
+            <div
+              class="text-[13px] md:text-[13.5px] leading-[1.75] text-neutral-800 font-light space-y-5 text-justify"
+            >
+
+              <p>
+                ANCODARQ desarrolla proyectos de construcción,
+                rehabilitación, reformas y arquitectura desde una
+                visión integral del proceso.
+              </p>
+
+              <p>
+                Nuestro equipo combina experiencia técnica,
+                capacidad de ejecución y atención al detalle para
+                abordar cada proyecto desde sus primeras decisiones
+                hasta su materialización final.
+              </p>
+
+              <p>
+                Trabajamos en ámbitos residenciales, comerciales,
+                oficinas y obra pública, adaptándonos a las
+                necesidades específicas de cada cliente y cada
+                espacio.
+              </p>
+
+            </div>
+
+
+            <!-- CERTIFICACIONES -->
+
+            <div class="mt-12 flex flex-col items-end gap-3">
+
+              <span
+                class="text-[9px] tracking-[0.25em] font-normal text-neutral-500 uppercase"
+              >
+                CERTIFICACIONES
+              </span>
+
+              <img
+                src="assets/logos/iso-certifications.png"
+                alt="Certificaciones ISO"
+                class="h-12 w-auto object-contain"
+              />
+
+              <a
+                href="assets/documentos/politica-calidad-medio-ambiente.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mt-3 text-[9px] tracking-[0.18em] font-light text-neutral-500 hover:text-black transition-colors uppercase"
+              >
+                POLÍTICA DE CALIDAD Y MEDIO AMBIENTE →
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================== -->
+    <!-- SERVICIOS -->
+    <!-- ===================================================== -->
+
+    <section class="w-full py-20 md:py-32 bg-white font-prompt">
+
+      <div class="w-[90%] mx-auto">
+
+        <div
+          class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-16 uppercase"
+        >
+          SERVICIOS
+        </div>
+
+        <div
+          id="home-services-grid"
+          class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================== -->
+    <!-- PROYECTOS -->
+    <!-- ===================================================== -->
+
+    <section class="w-full py-20 md:py-32 bg-white font-prompt">
+
+      <div class="w-[90%] mx-auto">
+
+        <div class="flex justify-between items-baseline mb-16">
+
+          <h2
+            class="text-xl md:text-2xl font-urbanist font-light tracking-wide text-black"
+          >
+            PROYECTOS
+          </h2>
+
           <a
-  href="assets/documentos/politica-calidad-medio-ambiente.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  class="mt-3 text-[9px] tracking-[0.18em] font-light text-neutral-500 hover:text-black transition-colors uppercase"
->
-  POLÍTICA DE CALIDAD Y MEDIO AMBIENTE →
-</a>
+            href="proyectos/"
+            class="text-[11px] font-light tracking-[0.2em] text-neutral-500 hover:text-black"
+          >
+            VER TODOS
+          </a>
+
         </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-  <section class="w-full py-20 md:py-32 bg-white font-prompt">
-    <div class="w-[90%] mx-auto">
-      <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-16 uppercase">SERVICIOS</div>
-      <div id="home-services-grid" class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-10"></div>
-    </div>
-  </section>
-  <section class="w-full py-20 md:py-32 bg-white font-prompt">
-    <div class="w-[90%] mx-auto">
-      <div class="flex justify-between items-baseline mb-16">
-        <h2 class="text-xl md:text-2xl font-urbanist font-light tracking-wide text-black">PROYECTOS</h2>
-        <a href="proyectos/" class="text-[11px] font-light tracking-[0.2em] text-neutral-500 hover:text-black">VER TODOS</a>
-      </div>
-      <div id="home-projects-preview" class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8"></div>
-    </div>
-  </section>
-</main>
+        <div
+          id="home-projects-preview"
+          class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8"
+        ></div>
 
-<div id="site-footer"></div>
-<script src="js/main.js"></script>
-<script src="js/projects.js"></script>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <div id="site-footer"></div>
+
+
+  <!-- SCRIPTS -->
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+
 </body>
+
 </html>
