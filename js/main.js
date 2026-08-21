@@ -299,56 +299,13 @@ function renderFooter() {
 
           </div>
 
-        </div>
-
-      </div>
-
-    </footer>
-  `;
-}        <!-- LÍNEA INFERIOR -->
-        <div class="w-full flex flex-col md:flex-row justify-between items-center mt-4 text-[9px] font-light tracking-[0.12em] text-neutral-400">
-
-          <div class="whitespace-nowrap">
-            © ANCODARQ
-          </div>
-
-          <div class="mt-2 md:mt-0 whitespace-nowrap">
-
-            <a
-              href="${siteUrl("privacidad/")}"
-              class="hover:text-neutral-800 transition-colors"
-            >
-              Política de privacidad
-            </a>
-
-            <span class="mx-2">·</span>
-
-            <a
-              href="${siteUrl("aviso-legal/")}"
-              class="hover:text-neutral-800 transition-colors"
-            >
-              Aviso legal
-            </a>
-
-            <span class="mx-2">·</span>
-
-            <a
-              href="${siteUrl("cookies/")}"
-              class="hover:text-neutral-800 transition-colors"
-            >
-              Cookies
-            </a>
-
-          </div>
-
-        </div>
+                </div>
 
       </div>
 
     </footer>
   `;
 }
-
 
 // ======================================================
 // HERO
