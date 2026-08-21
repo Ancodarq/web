@@ -412,8 +412,7 @@ function projectCard(project) {
       href="${siteUrl(`proyectos/detalle.html?slug=${project.slug}`)}"
       class="group block"
     >
-
-      <div class="relative w-full aspect-[4/3] bg-neutral-100 overflow-hidden">
+<div class="relative w-full aspect-[16/10] bg-neutral-100 overflow-hidden">
 
         <!-- IMAGEN -->
         <img
