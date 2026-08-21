@@ -476,12 +476,13 @@ function renderProjectsGallery() {
 
   if (!filterCont || !gridCont) return;
 
-  const cats = [
-    "TODOS",
-    "OBRA NUEVA",
-    "REFORMAS",
-    "COMERCIAL",
-    "OFICINAS"
+ const cats = [
+  "TODOS",
+  "OBRA NUEVA",
+  "REFORMAS",
+  "COMERCIAL",
+  "OFICINAS",
+  "OBRAS EN EJECUCIÓN"
   ];
 
   filterCont.innerHTML = cats.map(c => `
