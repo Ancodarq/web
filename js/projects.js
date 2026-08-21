@@ -520,7 +520,6 @@ function renderProjectsGallery() {
     .join("");
 }
 
-
 // ======================================================
 // DETALLE DE PROYECTO
 // Grilla editorial + lightbox
@@ -550,23 +549,27 @@ function renderProjectDetail() {
   ];
 
   container.innerHTML = `
-    <div class="project-gallery-grid">
+    <div class="mb-8 md:mb-10">
+      <h1 class="text-[13px] md:text-[15px] font-light tracking-[0.18em] text-neutral-800 uppercase">
+        ${project.name}
+      </h1>
+    </div>
 
-      ${currentProjectImages.map((img, index) => `
+    <div class="project-gallery-grid">
+      ${currentProjectImages.map((src, index) => `
         <button
           type="button"
           class="project-gallery-item"
           onclick="openProjectLightbox(${index})"
-          aria-label="Abrir imagen ${index + 1}"
+          aria-label="Abrir imagen ${index + 1} de ${project.name}"
         >
           <img
-            src="${siteUrl(img)}"
-            alt="${project.name}"
-            loading="lazy"
+            src="${siteUrl(src)}"
+            alt="${project.name} — imagen ${index + 1}"
+            loading="${index < 3 ? 'eager' : 'lazy'}"
           />
         </button>
       `).join("")}
-
     </div>
   `;
 }
