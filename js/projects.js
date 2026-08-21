@@ -263,8 +263,8 @@ const PROJECTS_DATA = [
   },
 
   {
-    slug: "edificio-prefabricado-de-construccion-metalica-para-oficinas-y-laboratorios",
-    name: "EDIFICIO PREFABRICADO DE CONSTRUCCIÓN METÁLICA PARA OFICINAS Y LABORATORIOS",
+  slug: "vivienda-unifamiliar-villaviciosa-de-odon",
+name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     category: "OBRA NUEVA",
     location: "",
     year: "",
