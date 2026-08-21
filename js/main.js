@@ -131,16 +131,15 @@ function renderFooter() {
   if (!container) return;
 
   container.innerHTML = `
-    <footer class="w-full bg-white border-t border-neutral-100 pt-14 pb-6 font-prompt">
+    <footer class="w-full bg-white border-t border-neutral-100 pt-9 pb-4 font-prompt">
 
       <div class="w-[90%] mx-auto">
 
         <!-- BLOQUE PRINCIPAL -->
-        <div class="flex flex-col md:flex-row justify-between items-start gap-12 mb-14 md:mb-16">
-
+        <div class="flex flex-col md:flex-row justify-between items-start gap-10 mb-8 md:mb-9">
 
           <!-- LOGOS RECTANGULARES -->
-          <div class="flex flex-col gap-10 w-full max-w-[260px]">
+          <div class="flex flex-col gap-6 w-full max-w-[235px]">
 
             <img
               src="${siteUrl("assets/logos/ancodarq-horizontal.png")}"
@@ -158,7 +157,7 @@ function renderFooter() {
 
 
           <!-- CONTACTO -->
-          <div class="flex flex-col md:items-end text-left md:text-right font-light text-[12px] tracking-[0.18em] leading-relaxed text-neutral-800 pt-1">
+          <div class="flex flex-col md:items-end text-left md:text-right font-light text-[11px] tracking-[0.18em] leading-relaxed text-neutral-800 pt-1">
 
             <div>C. TEIDE, 4</div>
 
@@ -168,23 +167,23 @@ function renderFooter() {
 
             <a
               href="mailto:ancodarq@ancodarq.com"
-              class="mt-4 text-neutral-900 font-normal hover:text-neutral-500"
+              class="mt-3 text-neutral-900 font-normal hover:text-neutral-500 transition-colors"
             >
               ANCODARQ@ANCODARQ.COM
             </a>
 
-            <div class="mt-1.5 flex flex-wrap md:justify-end gap-x-4">
+            <div class="mt-1 flex flex-wrap md:justify-end gap-x-4">
 
               <a
                 href="tel:+34916570819"
-                class="hover:text-neutral-500"
+                class="hover:text-neutral-500 transition-colors"
               >
                 +34 916 570 819
               </a>
 
               <a
                 href="tel:+34618341133"
-                class="hover:text-neutral-500"
+                class="hover:text-neutral-500 transition-colors"
               >
                 +34 618 341 133
               </a>
@@ -193,20 +192,20 @@ function renderFooter() {
 
 
             <!-- REDES SOCIALES -->
-            <div class="mt-6 flex items-center gap-6 text-neutral-900">
+            <div class="mt-4 flex items-center gap-5">
 
               <!-- LinkedIn ANCODARQ -->
               <a
                 href="https://www.linkedin.com/company/ancodarq-sl"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="hover:text-neutral-400 transition-colors"
+                class="text-neutral-900 hover:text-neutral-400 transition-colors"
                 aria-label="LinkedIn ANCODARQ"
                 title="LinkedIn ANCODARQ"
               >
 
                 <svg
-                  class="w-5 h-5 fill-current"
+                  class="w-[18px] h-[18px] fill-current"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
@@ -221,13 +220,13 @@ function renderFooter() {
                 href="https://www.instagram.com/ancodarq/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="hover:text-neutral-400 transition-colors"
+                class="text-[#B51817] hover:opacity-60 transition-opacity"
                 aria-label="Instagram ANCODARQ"
                 title="Instagram ANCODARQ"
               >
 
                 <svg
-                  class="w-5 h-5 fill-current"
+                  class="w-[18px] h-[18px] fill-current"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
@@ -242,13 +241,13 @@ function renderFooter() {
                 href="https://www.instagram.com/escuadra_construcciones/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="hover:text-neutral-400 transition-colors"
+                class="text-[#07758C] hover:opacity-60 transition-opacity"
                 aria-label="Instagram ESCUADRA"
                 title="Instagram ESCUADRA"
               >
 
                 <svg
-                  class="w-5 h-5 fill-current"
+                  class="w-[18px] h-[18px] fill-current"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
@@ -265,17 +264,17 @@ function renderFooter() {
 
 
         <!-- LÍNEA INFERIOR -->
-        <div class="w-full flex flex-col md:flex-row justify-between items-center mt-8 text-[10px] font-light tracking-[0.12em] text-neutral-400">
+        <div class="w-full flex flex-col md:flex-row justify-between items-center mt-4 text-[9px] font-light tracking-[0.12em] text-neutral-400">
 
           <div class="whitespace-nowrap">
             © ANCODARQ
           </div>
 
-          <div class="mt-3 md:mt-0 whitespace-nowrap">
+          <div class="mt-2 md:mt-0 whitespace-nowrap">
 
             <a
               href="${siteUrl("privacidad/")}"
-              class="hover:text-neutral-800"
+              class="hover:text-neutral-800 transition-colors"
             >
               Política de privacidad
             </a>
@@ -284,7 +283,7 @@ function renderFooter() {
 
             <a
               href="${siteUrl("aviso-legal/")}"
-              class="hover:text-neutral-800"
+              class="hover:text-neutral-800 transition-colors"
             >
               Aviso legal
             </a>
@@ -293,7 +292,49 @@ function renderFooter() {
 
             <a
               href="${siteUrl("cookies/")}"
-              class="hover:text-neutral-800"
+              class="hover:text-neutral-800 transition-colors"
+            >
+              Cookies
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+  `;
+}        <!-- LÍNEA INFERIOR -->
+        <div class="w-full flex flex-col md:flex-row justify-between items-center mt-4 text-[9px] font-light tracking-[0.12em] text-neutral-400">
+
+          <div class="whitespace-nowrap">
+            © ANCODARQ
+          </div>
+
+          <div class="mt-2 md:mt-0 whitespace-nowrap">
+
+            <a
+              href="${siteUrl("privacidad/")}"
+              class="hover:text-neutral-800 transition-colors"
+            >
+              Política de privacidad
+            </a>
+
+            <span class="mx-2">·</span>
+
+            <a
+              href="${siteUrl("aviso-legal/")}"
+              class="hover:text-neutral-800 transition-colors"
+            >
+              Aviso legal
+            </a>
+
+            <span class="mx-2">·</span>
+
+            <a
+              href="${siteUrl("cookies/")}"
+              class="hover:text-neutral-800 transition-colors"
             >
               Cookies
             </a>
