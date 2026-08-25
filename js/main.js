@@ -131,7 +131,7 @@ function renderFooter() {
   if (!container) return;
 
   container.innerHTML = `
-    <footer class="w-full bg-white border-t border-neutral-100 pt-9 pb-4 font-prompt">
+    <footer class="w-full bg-neutral-100 border-t border-neutral-200 pt-9 pb-4 font-prompt">
 
       <div class="w-[90%] mx-auto">
 
