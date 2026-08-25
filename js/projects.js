@@ -230,11 +230,12 @@ const PROJECTS_DATA = [
   {
     slug: "oficinas-y-centro-de-control-aereo",
     name: "OFICINAS Y CENTRO DE CONTROL AÉREO",
-    category: "COMERCIAL",
-    location: "",
+    category: "OFICINAS",
+    location: "Aeropuerto Madrid",
     year: "",
     coverImage: "assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
-    description: "",
+    description: "Aeropuerto Madrid",
+    studioClient: "Estudio Belén Ferrándiz",
     gallery: [
       "assets/proyectos/30_AEROPUERTO/30_01.webp",
       "assets/proyectos/30_AEROPUERTO/30_02.webp",
@@ -242,7 +243,13 @@ const PROJECTS_DATA = [
       "assets/proyectos/30_AEROPUERTO/30_04.webp",
       "assets/proyectos/30_AEROPUERTO/30_05.webp",
       "assets/proyectos/30_AEROPUERTO/30_06.webp",
-      "assets/proyectos/30_AEROPUERTO/30_07.webp"
+      "assets/proyectos/30_AEROPUERTO/30_07.webp",
+      "assets/proyectos/30_AEROPUERTO/30_08.webp",
+      "assets/proyectos/30_AEROPUERTO/30_09.webp",
+      "assets/proyectos/30_AEROPUERTO/30_10.webp",
+      "assets/proyectos/30_AEROPUERTO/30_11.webp",
+      "assets/proyectos/30_AEROPUERTO/30_12.webp",
+      "assets/proyectos/30_AEROPUERTO/30_13.webp"
     ]
   },
 
@@ -281,6 +288,24 @@ const PROJECTS_DATA = [
       "assets/proyectos/32_BOLTON/32_07.webp",
       "assets/proyectos/32_BOLTON/32_08.webp",
       "assets/proyectos/32_BOLTON/32_09.webp"
+    ]
+  },
+
+  {
+    slug: "oficinas-manoteras",
+    name: "OFICINAS MANOTERAS",
+    category: "OFICINAS",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/37_VEGANOX/37_00 PORTADA.webp",
+    description: "Manoteras, Madrid",
+    studioClient: "",
+    gallery: [
+      "assets/proyectos/37_VEGANOX/37_01.webp",
+      "assets/proyectos/37_VEGANOX/37_02.webp",
+      "assets/proyectos/37_VEGANOX/37_03.webp",
+      "assets/proyectos/37_VEGANOX/37_04.webp",
+      "assets/proyectos/37_VEGANOX/37_05.webp"
     ]
   },
 
