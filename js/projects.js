@@ -553,6 +553,15 @@ function renderProjectDetail() {
       <h1 class="text-[13px] md:text-[15px] font-light tracking-[0.18em] text-neutral-800 uppercase">
         ${project.name}
       </h1>
+
+      <div class="mt-4 space-y-1 font-light">
+        <p class="text-[13px] leading-relaxed text-neutral-600">
+          ${project.description || "Mini descripción"}
+        </p>
+        <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
+          ${project.studioClient || "Estudio / cliente"}
+        </p>
+      </div>
     </div>
 
     <div class="project-gallery-grid">
