@@ -263,6 +263,43 @@ const PROJECTS_DATA = [
   },
 
   {
+    slug: "oficinas-torre-omu-madrid",
+    name: "OFICINAS TORRE OMU",
+    category: "OFICINAS",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/32_BOLTON/32_00PORTADA.jpg",
+    description: "Madrid",
+    studioClient: "",
+    gallery: [
+      "assets/proyectos/32_BOLTON/32_01.jpg",
+      "assets/proyectos/32_BOLTON/32_02.webp",
+      "assets/proyectos/32_BOLTON/32_03.webp",
+      "assets/proyectos/32_BOLTON/32_04.webp",
+      "assets/proyectos/32_BOLTON/32_05.webp",
+      "assets/proyectos/32_BOLTON/32_06.webp",
+      "assets/proyectos/32_BOLTON/32_07.webp",
+      "assets/proyectos/32_BOLTON/32_08.webp",
+      "assets/proyectos/32_BOLTON/32_09.webp"
+    ]
+  },
+
+  {
+    slug: "edificio-prefabricado-construccion-metalica-oficinas-laboratorios",
+    name: "EDIFICIO PREFABRICADO DE CONSTRUCCIÓN METÁLICA PARA OFICINAS Y LABORATORIOS",
+    category: "OFICINAS",
+    location: "Valdepeñas, Ciudad Real",
+    year: "",
+    coverImage: "assets/proyectos/34_VDP/34_00 PORTADA.webp",
+    description: "Valdepeñas, Ciudad Real",
+    studioClient: "",
+    gallery: [
+      "assets/proyectos/34_VDP/34_01.webp",
+      "assets/proyectos/34_VDP/34_02.webp"
+    ]
+  },
+
+  {
   slug: "vivienda-unifamiliar-villaviciosa-de-odon",
 name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     category: "OBRA NUEVA",
