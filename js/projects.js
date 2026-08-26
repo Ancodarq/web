@@ -463,6 +463,27 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
   }
 ];
 
+// Orden de aparición en el home y en la galería general.
+// Los proyectos no incluidos aquí se muestran después, conservando su orden actual.
+const PROJECT_DISPLAY_ORDER = [
+  "01", "24", "30", "07", "28", "08", "23", "10", "38",
+  "09", "25", "32", "02", "34", "37", "03", "29"
+];
+
+function getProjectNumber(project) {
+  const match = project.coverImage.match(/\/([0-9]{2})_/);
+  return match ? match[1] : "";
+}
+
+const ORDERED_PROJECTS_DATA = [
+  ...PROJECT_DISPLAY_ORDER.flatMap(number =>
+    PROJECTS_DATA.filter(project => getProjectNumber(project) === number)
+  ),
+  ...PROJECTS_DATA.filter(
+    project => !PROJECT_DISPLAY_ORDER.includes(getProjectNumber(project))
+  )
+];
+
 
 // ======================================================
 // TARJETAS DE PROYECTO
@@ -518,7 +539,7 @@ function renderHomeProjects() {
   const container = document.getElementById("home-projects-preview");
   if (!container) return;
 
-  container.innerHTML = PROJECTS_DATA
+  container.innerHTML = ORDERED_PROJECTS_DATA
     .slice(0, 6)
     .map(p => projectCard(p))
     .join("");
@@ -574,8 +595,8 @@ function renderProjectsGallery() {
 
   const filtered =
     activeFilter === "TODOS"
-      ? PROJECTS_DATA
-      : PROJECTS_DATA.filter(p => p.category === activeFilter);
+      ? ORDERED_PROJECTS_DATA
+      : ORDERED_PROJECTS_DATA.filter(p => p.category === activeFilter);
 
   gridCont.innerHTML = filtered
     .map(p => projectCard(p))

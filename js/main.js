@@ -57,7 +57,7 @@ function renderHeader() {
           <img
             src="${siteUrl("assets/logos/escuadra-square.png")}"
             alt="ESCUADRA CONSTRUCCIONES"
-            class="h-16 md:h-20 w-auto object-contain shrink-0 scale-[1.35]"
+            class="h-16 md:h-20 w-auto object-contain shrink-0"
           />
 
         </a>
