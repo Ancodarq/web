@@ -55,7 +55,7 @@ function renderHeader() {
           <span class="w-px h-10 bg-neutral-200"></span>
 
           <img
-            src="${siteUrl("assets/logos/escuadra-square.jpg")}"
+            src="${siteUrl("assets/logos/escuadra-square.png")}"
             alt="ESCUADRA CONSTRUCCIONES"
             class="h-16 md:h-20 w-auto object-contain shrink-0 scale-110"
           />

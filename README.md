@@ -7,7 +7,7 @@ Esta versión parte del HTML generado anteriormente y lo reorganiza como una web
 Copia los archivos de logo reales dentro de `assets/logos/` con estos nombres:
 
 - ancodarq-square.png
-- escuadra-square.jpg
+- escuadra-square.png
 - ancodarq-horizontal.png
 - escuadra-horizontal.png
 - iso-certifications.png
