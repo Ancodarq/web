@@ -361,8 +361,6 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
       "assets/proyectos/01_PRADO LARGO/01_10.webp",
       "assets/proyectos/01_PRADO LARGO/01_11.webp",
       "assets/proyectos/01_PRADO LARGO/01_12.webp",
-      "assets/proyectos/01_PRADO LARGO/01_13.webp",
-      "assets/proyectos/01_PRADO LARGO/01_14.webp",
       "assets/proyectos/01_PRADO LARGO/01_15.webp",
       "assets/proyectos/01_PRADO LARGO/01_16.webp"
     ]
