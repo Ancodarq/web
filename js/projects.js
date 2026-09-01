@@ -7,6 +7,7 @@ const PROJECTS_DATA = [
     year: "2025",
     coverImage: "assets/proyectos/28_TEATRO_APOLO_WEB/28_00 PORTADA.webp",
     description: "",
+    studioClient: "Estudio Lola Rúa",
     gallery: [
       "assets/proyectos/28_TEATRO_APOLO_WEB/28_01.webp",
       "assets/proyectos/28_TEATRO_APOLO_WEB/28_02.webp",
@@ -28,6 +29,7 @@ const PROJECTS_DATA = [
     year: "2025",
     coverImage: "assets/proyectos/29_VIP_TEATRO_ALCALA/29_00 PORTADA.webp",
     description: "",
+    studioClient: "Estudio Lola Rúa",
     gallery: [
       "assets/proyectos/29_VIP_TEATRO_ALCALA/29_01.webp",
       "assets/proyectos/29_VIP_TEATRO_ALCALA/29_02.webp",
@@ -48,6 +50,7 @@ const PROJECTS_DATA = [
     year: "",
     coverImage: "assets/proyectos/03_COTOS/03_00 PORTADA.webp",
     description: "",
+    studioClient: "Estudio F102",
     gallery: [
       "assets/proyectos/03_COTOS/03_01.webp",
       "assets/proyectos/03_COTOS/03_02.webp",
@@ -79,6 +82,7 @@ const PROJECTS_DATA = [
     year: "",
     coverImage: "assets/proyectos/07_LA FINCA/07_00 PORTADA.webp",
     description: "",
+    studioClient: "Estudio Otto Medem",
     gallery: [
       "assets/proyectos/07_LA FINCA/07_01.webp"
     ]
@@ -92,6 +96,7 @@ const PROJECTS_DATA = [
     year: "",
     coverImage: "assets/proyectos/09_JJ39/09_00 PORTADA.webp",
     description: "",
+    studioClient: "Brage Tuñón Arquitectos",
     gallery: [
       "assets/proyectos/09_JJ39/09_01.webp",
       "assets/proyectos/09_JJ39/09_02.webp",
@@ -113,6 +118,7 @@ const PROJECTS_DATA = [
     year: "",
     coverImage: "assets/proyectos/10_URB. LA MORALEJA/10_00 PORTADA.webp",
     description: "",
+    studioClient: "DSTUDIO",
     gallery: [
       "assets/proyectos/10_URB. LA MORALEJA/10_01.webp",
       "assets/proyectos/10_URB. LA MORALEJA/10_02.webp",
@@ -211,6 +217,7 @@ const PROJECTS_DATA = [
     year: "",
     coverImage: "assets/proyectos/23_GRACE/23_00PORTADA.webp",
     description: "",
+    studioClient: "MIL STUDIO",
     gallery: [
       "assets/proyectos/23_GRACE/23_01.webp",
       "assets/proyectos/23_GRACE/23_02.webp",
@@ -332,6 +339,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     year: "",
     coverImage: "assets/proyectos/38_TURIA/38_00PORTADA.webp",
     description: "",
+    studioClient: "Estudio Utrilla",
     gallery: [
       "assets/proyectos/38_TURIA/38_01.webp",
       "assets/proyectos/38_TURIA/38_02.webp",
@@ -348,6 +356,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     year: "",
     coverImage: "assets/proyectos/01_PRADO LARGO/01_00PORTADA.webp",
     description: "",
+    studioClient: "Estudio Otto Medem",
     gallery: [
       "assets/proyectos/01_PRADO LARGO/01_01.webp",
       "assets/proyectos/01_PRADO LARGO/01_02.webp",
@@ -374,6 +383,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     year: "",
     coverImage: "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_00PORTADA.webp",
     description: "",
+    studioClient: "Estudio Otto Medem",
     gallery: [
       "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_01.webp",
       "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_02.webp"
@@ -388,6 +398,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     year: "",
     coverImage: "assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
     description: "",
+    studioClient: "Estudio Room 1804",
     gallery: [
       "assets/proyectos/24_SKYBAR/24_01.webp",
       "assets/proyectos/24_SKYBAR/24_02.webp",
@@ -425,6 +436,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     year: "",
     coverImage: "assets/proyectos/27_MANERO/27_00PORTADA.webp",
     description: "",
+    studioClient: "Lázaro Rosa Violán",
     gallery: [
       "assets/proyectos/27_MANERO/27_01.webp",
       "assets/proyectos/27_MANERO/27_02.webp",
