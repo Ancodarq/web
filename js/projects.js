@@ -278,7 +278,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "oficinas-torre-omu-madrid",
-    name: "OFICINAS TORRE OMU",
+    name: "OFICINAS TORRE OMBÚ",
     category: "OFICINAS",
     location: "Madrid",
     year: "",
@@ -469,6 +469,24 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
       "assets/proyectos/39_VINITUS_ALCALÁ/39_06.webp",
       "assets/proyectos/39_VINITUS_ALCALÁ/39_07.webp",
       "assets/proyectos/39_VINITUS_ALCALÁ/39_08.webp"
+    ]
+  },
+
+  {
+    slug: "restaurante-viso-94",
+    name: "RESTAURANTE VISO 94",
+    category: "COMERCIAL",
+    location: "",
+    year: "",
+    coverImage: "assets/proyectos/40_VISO 94/40_0PORTADA.webp",
+    description: "",
+    studioClient: "Estudio Ilmio Design",
+    gallery: [
+      "assets/proyectos/40_VISO 94/40_01.webp",
+      "assets/proyectos/40_VISO 94/40_02.webp",
+      "assets/proyectos/40_VISO 94/40_03.webp",
+      "assets/proyectos/40_VISO 94/40_04.webp",
+      "assets/proyectos/40_VISO 94/40_05.webp"
     ]
   }
 ];
