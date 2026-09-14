@@ -330,25 +330,27 @@ const SERVICES_DATA = [
   {
     id: "01",
     title: "RESIDENCIAL",
-    image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+    image: siteUrl("assets/proyectos/01_PRADO LARGO/01_08.webp"),
+    imagePosition: "center 85%",
     description:
       "Proyectos de vivienda, rehabilitación y obra nueva desarrollados de forma integral, desde las primeras decisiones de proyecto hasta la ejecución y definición final de los espacios."
   },
 
   {
     id: "02",
-    title: "OBRA PÚBLICA",
-    image: "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80",
+    title: "LOCALES Y OFICINAS",
+    image: siteUrl("assets/proyectos/23_GRACE/23_02.webp"),
+    imagePosition: "center 85%",
     description:
-      "Ejecución y rehabilitación de edificios públicos, culturales, educativos, sanitarios y administrativos, incluyendo estructura, instalaciones, envolventes y acabados."
+      "Diseño, reforma y ejecución de espacios comerciales y profesionales adaptados a las necesidades funcionales, técnicas y de identidad de cada cliente."
   },
 
   {
     id: "03",
-    title: "LOCALES Y OFICINAS",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+    title: "OBRA PÚBLICA",
+    image: siteUrl("assets/Obra publica.jpg"),
     description:
-      "Diseño, reforma y ejecución de espacios comerciales y profesionales adaptados a las necesidades funcionales, técnicas y de identidad de cada cliente."
+      "Ejecución y rehabilitación de edificios públicos, culturales, educativos, sanitarios y administrativos, incluyendo estructura, instalaciones, envolventes y acabados."
   }
 ];
 
@@ -367,6 +369,7 @@ function renderServicesGrid(containerId) {
             src="${srv.image}"
             alt="${srv.title}"
             class="w-full h-full object-cover"
+            style="object-position: ${srv.imagePosition || 'center'};"
           />
         </div>
 

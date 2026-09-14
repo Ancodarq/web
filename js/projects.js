@@ -90,7 +90,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "vivienda-salamanca",
-    name: "VIVIENDA SALAMANCA",
+    name: "REFORMA VIVIENDA SALAMANCA",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
@@ -487,6 +487,32 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
       "assets/proyectos/40_VISO 94/40_03.webp",
       "assets/proyectos/40_VISO 94/40_04.webp",
       "assets/proyectos/40_VISO 94/40_05.webp"
+    ]
+  },
+
+  {
+    slug: "vivienda-odonnell",
+    name: "REFORMA VIVIENDA SALAMANCA",
+    category: "REFORMAS",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
+    description: "",
+    gallery: [
+      "assets/proyectos/41_ODONNELL/41_01.webp",
+      "assets/proyectos/41_ODONNELL/41_02.webp",
+      "assets/proyectos/41_ODONNELL/41_03.webp",
+      "assets/proyectos/41_ODONNELL/41_04.webp",
+      "assets/proyectos/41_ODONNELL/41_05.webp",
+      "assets/proyectos/41_ODONNELL/41_06.webp",
+      "assets/proyectos/41_ODONNELL/41_07.webp",
+      "assets/proyectos/41_ODONNELL/41_08.webp",
+      "assets/proyectos/41_ODONNELL/41_09.webp",
+      "assets/proyectos/41_ODONNELL/41_10.webp",
+      "assets/proyectos/41_ODONNELL/41_11.webp",
+      "assets/proyectos/41_ODONNELL/41_12.webp",
+      "assets/proyectos/41_ODONNELL/41_13.webp",
+      "assets/proyectos/41_ODONNELL/DSC_0556.webp"
     ]
   }
 ];
