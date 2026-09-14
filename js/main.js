@@ -235,27 +235,6 @@ function renderFooter() {
 
               </a>
 
-
-              <!-- Instagram ESCUADRA -->
-              <a
-                href="https://www.instagram.com/escuadra_construcciones/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-[#07758C] hover:opacity-60 transition-opacity"
-                aria-label="Instagram ESCUADRA"
-                title="Instagram ESCUADRA"
-              >
-
-                <svg
-                  class="w-[18px] h-[18px] fill-current"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                >
-                  <path d="M7 2C4.24 2 2 4.24 2 7V17C2 19.76 4.24 22 7 22H17C19.76 22 22 19.76 22 17V7C22 4.24 19.76 2 17 2H7M7 4H17C18.66 4 20 5.34 20 7V17C20 18.66 18.66 20 17 20H7C5.34 20 4 18.66 4 17V7C4 5.34 5.34 4 7 4M17.5 5.5A1.25 1.25 0 1 0 17.5 8A1.25 1.25 0 0 0 17.5 5.5M12 7A5 5 0 1 0 12 17A5 5 0 0 0 12 7M12 9A3 3 0 1 1 12 15A3 3 0 0 1 12 9Z"/>
-                </svg>
-
-              </a>
-
             </div>
 
           </div>
@@ -323,7 +302,6 @@ const HERO_IMAGES = [
   "assets/home/Portada/09.webp",
   "assets/home/Portada/10.webp",
   "assets/home/Portada/11.webp",
-  "assets/home/Portada/12.webp",
   "assets/home/Portada/13.webp"
 ];
 
