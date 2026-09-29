@@ -487,7 +487,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
 
   {
     slug: "reforma-piso-salamanca",
-    name: "REFORMA PISO SALAMANCA",
+    name: "REFORMA VIVIENDA SALAMANCA",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
@@ -501,6 +501,25 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
       "assets/proyectos/41_VILLANUEVA/41_04.webp",
       "assets/proyectos/41_VILLANUEVA/41_05.webp",
       "assets/proyectos/41_VILLANUEVA/41_06.webp"
+    ]
+  },
+
+  {
+    slug: "terraza-isla-del-sur",
+    name: "TERRAZA ISLA DEL SUR",
+    category: "",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/42_ ISLA DEL SUR/36_0 PORTADA.webp",
+    description: "",
+    studioClient: "Coll i Fulcarà Arquitectes",
+    gallery: [
+      "assets/proyectos/42_ ISLA DEL SUR/36_01.webp",
+      "assets/proyectos/42_ ISLA DEL SUR/36_02.webp",
+      "assets/proyectos/42_ ISLA DEL SUR/36_03.webp",
+      "assets/proyectos/42_ ISLA DEL SUR/36_04.webp",
+      "assets/proyectos/42_ ISLA DEL SUR/36_05.webp",
+      "assets/proyectos/42_ ISLA DEL SUR/36_06.webp"
     ]
   }
 ];
