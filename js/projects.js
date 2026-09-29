@@ -483,6 +483,25 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
       "assets/proyectos/41_ODONNELL/41_13.webp",
       "assets/proyectos/41_ODONNELL/DSC_0556.webp"
     ]
+  },
+
+  {
+    slug: "reforma-piso-salamanca",
+    name: "REFORMA PISO SALAMANCA",
+    category: "REFORMAS",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/41_VILLANUEVA/41_0 PORTADA.webp",
+    description: "",
+    studioClient: "",
+    gallery: [
+      "assets/proyectos/41_VILLANUEVA/41_01.webp",
+      "assets/proyectos/41_VILLANUEVA/41_02.webp",
+      "assets/proyectos/41_VILLANUEVA/41_03.webp",
+      "assets/proyectos/41_VILLANUEVA/41_04.webp",
+      "assets/proyectos/41_VILLANUEVA/41_05.webp",
+      "assets/proyectos/41_VILLANUEVA/41_06.webp"
+    ]
   }
 ];
 
