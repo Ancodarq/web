@@ -66,6 +66,7 @@ const PROJECTS_DATA = [
     year: "",
     coverImage: "assets/proyectos/02_ALAMOS DE BULARAS/02_00 PORTADA.webp",
     description: "",
+    hideStudio: true,
     gallery: [
       "assets/proyectos/02_ALAMOS DE BULARAS/02_01.webp",
       "assets/proyectos/02_ALAMOS DE BULARAS/02_03.webp",
@@ -111,27 +112,6 @@ const PROJECTS_DATA = [
   },
 
   {
-    slug: "urbanizacion-exterior-la-moraleja",
-    name: "URBANIZACIÓN EXTERIOR LA MORALEJA",
-    category: "OBRA NUEVA",
-    location: "La Moraleja, Madrid",
-    year: "",
-    coverImage: "assets/proyectos/10_URB. LA MORALEJA/10_00 PORTADA.webp",
-    description: "",
-    studioClient: "DSTUDIO",
-    gallery: [
-      "assets/proyectos/10_URB. LA MORALEJA/10_01.webp",
-      "assets/proyectos/10_URB. LA MORALEJA/10_02.webp",
-      "assets/proyectos/10_URB. LA MORALEJA/10_03.webp",
-      "assets/proyectos/10_URB. LA MORALEJA/10_04.webp",
-      "assets/proyectos/10_URB. LA MORALEJA/10_05.webp",
-      "assets/proyectos/10_URB. LA MORALEJA/10_06.webp",
-      "assets/proyectos/10_URB. LA MORALEJA/10_07.webp",
-      "assets/proyectos/10_URB. LA MORALEJA/10_08.webp"
-    ]
-  },
-
-  {
     slug: "consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
     name: "CONSULTAS, RECEPCIÓN Y QUIRÓFANO EN HOSPITAL OFTALMOLÓGICO",
     category: "COMERCIAL",
@@ -139,6 +119,7 @@ const PROJECTS_DATA = [
     year: "",
     coverImage: "assets/proyectos/16_MIRASIERRA/16_00PORTADA.webp",
     description: "",
+    hideStudio: true,
     gallery: [
       "assets/proyectos/16_MIRASIERRA/16_01.webp",
       "assets/proyectos/16_MIRASIERRA/16_02.webp",
@@ -157,6 +138,7 @@ const PROJECTS_DATA = [
     year: "",
     coverImage: "assets/proyectos/20_TEATRO LA LATINA/20_00PORTADA.webp",
     description: "",
+    hideStudio: true,
     gallery: [
       "assets/proyectos/20_TEATRO LA LATINA/20_01.webp",
       "assets/proyectos/20_TEATRO LA LATINA/20_02.webp",
@@ -192,7 +174,7 @@ const PROJECTS_DATA = [
     slug: "centro-medico-clinique-la-prairie",
     name: "CENTRO MÉDICO CLINIQUE LA PRAIRIE",
     category: "COMERCIAL",
-    location: "",
+    location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/22_LA PRAIRIE/22_00PORTADA.webp",
     description: "",
@@ -213,7 +195,7 @@ const PROJECTS_DATA = [
     slug: "restaurante-espectaculo-grace",
     name: "RESTAURANTE / ESPECTÁCULO GRACE",
     category: "COMERCIAL",
-    location: "",
+    location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/23_GRACE/23_00PORTADA.webp",
     description: "",
@@ -285,6 +267,7 @@ const PROJECTS_DATA = [
     coverImage: "assets/proyectos/32_BOLTON/32_00PORTADA.jpg",
     description: "Madrid",
     studioClient: "",
+    hideStudio: true,
     gallery: [
       "assets/proyectos/32_BOLTON/32_01.jpg",
       "assets/proyectos/32_BOLTON/32_02.webp",
@@ -307,6 +290,7 @@ const PROJECTS_DATA = [
     coverImage: "assets/proyectos/37_VEGANOX/37_00 PORTADA.webp",
     description: "Manoteras, Madrid",
     studioClient: "",
+    hideStudio: true,
     gallery: [
       "assets/proyectos/37_VEGANOX/37_01.webp",
       "assets/proyectos/37_VEGANOX/37_02.webp",
@@ -325,6 +309,7 @@ const PROJECTS_DATA = [
     coverImage: "assets/proyectos/34_VDP/34_00 PORTADA.webp",
     description: "Valdepeñas, Ciudad Real",
     studioClient: "",
+    hideStudio: true,
     gallery: [
       "assets/proyectos/34_VDP/34_01.webp",
       "assets/proyectos/34_VDP/34_02.webp"
@@ -335,7 +320,7 @@ const PROJECTS_DATA = [
   slug: "vivienda-unifamiliar-villaviciosa-de-odon",
 name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     category: "OBRA NUEVA",
-    location: "",
+    location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/38_TURIA/38_00PORTADA.webp",
     description: "",
@@ -379,7 +364,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     slug: "vivienda-unifamiliar-somosaguas",
     name: "VIVIENDA UNIFAMILIAR SOMOSAGUAS",
     category: "",
-    location: "",
+    location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_00PORTADA.webp",
     description: "",
@@ -394,7 +379,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     slug: "restaurante-espectaculo-skybar",
     name: "RESTAURANTE / ESPECTÁCULO - SKYBAR",
     category: "",
-    location: "",
+    location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
     description: "",
@@ -414,10 +399,11 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     slug: "restaurante-vinitus",
     name: "RESTAURANTE VINITUS",
     category: "",
-    location: "",
+    location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/25_VINITUS GV4/25_00PORTADA.webp",
     description: "",
+    studioClient: "ArqSocis",
     gallery: [
       "assets/proyectos/25_VINITUS GV4/25_01.webp",
       "assets/proyectos/25_VINITUS GV4/25_02.webp",
@@ -430,9 +416,9 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
 
   {
     slug: "restaurante-espectaculo-barrio-las-cortes",
-    name: "RESTAURANTE / ESPECTÁCULO BARRIO LAS CORTES",
+    name: "RESTAURANTE MANERO",
     category: "",
-    location: "",
+    location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/27_MANERO/27_00PORTADA.webp",
     description: "",
@@ -456,10 +442,11 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     slug: "vinitus-alcala",
     name: "Vinitus Alcalá",
     category: "",
-    location: "",
+    location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/39_VINITUS_ALCALÁ/39_00PORTADA.webp",
     description: "",
+    studioClient: "ArqSocis",
     gallery: [
       "assets/proyectos/39_VINITUS_ALCALÁ/39_01.webp",
       "assets/proyectos/39_VINITUS_ALCALÁ/39_02.webp",
@@ -469,24 +456,6 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
       "assets/proyectos/39_VINITUS_ALCALÁ/39_06.webp",
       "assets/proyectos/39_VINITUS_ALCALÁ/39_07.webp",
       "assets/proyectos/39_VINITUS_ALCALÁ/39_08.webp"
-    ]
-  },
-
-  {
-    slug: "restaurante-viso-94",
-    name: "RESTAURANTE VISO 94",
-    category: "COMERCIAL",
-    location: "",
-    year: "",
-    coverImage: "assets/proyectos/40_VISO 94/40_0PORTADA.webp",
-    description: "",
-    studioClient: "Estudio Ilmio Design",
-    gallery: [
-      "assets/proyectos/40_VISO 94/40_01.webp",
-      "assets/proyectos/40_VISO 94/40_02.webp",
-      "assets/proyectos/40_VISO 94/40_03.webp",
-      "assets/proyectos/40_VISO 94/40_04.webp",
-      "assets/proyectos/40_VISO 94/40_05.webp"
     ]
   },
 
@@ -520,7 +489,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
 // Orden de aparición en el home y en la galería general.
 // Los proyectos no incluidos aquí se muestran después, conservando su orden actual.
 const PROJECT_DISPLAY_ORDER = [
-  "01", "24", "30", "07", "28", "08", "23", "10", "38",
+  "01", "24", "30", "07", "28", "08", "23", "38",
   "09", "25", "32", "02", "34", "37", "03", "29"
 ];
 
@@ -692,12 +661,14 @@ function renderProjectDetail() {
       </h1>
 
       <div class="mt-4 space-y-1 font-light">
-        <p class="text-[13px] leading-relaxed text-neutral-600">
-          ${project.description || "Mini descripción"}
-        </p>
         <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
-          ${project.studioClient || "Estudio / cliente"}
+          UBICACIÓN: ${project.location || ""}
         </p>
+        ${project.hideStudio || !project.studioClient?.trim() ? "" : `
+          <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
+            ESTUDIO: ${project.studioClient || ""}
+          </p>
+        `}
       </div>
     </div>
 
