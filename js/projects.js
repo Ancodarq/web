@@ -619,6 +619,9 @@ function renderHomeProjects() {
 
   container.innerHTML = ORDERED_PROJECTS_DATA
     .slice(0, 6)
+    .map(project => project.slug === "vivienda-unifamiliar-la-finca"
+      ? PROJECTS_DATA.find(candidate => candidate.slug === "vivienda-odonnell")
+      : project)
     .map(p => projectCard(p))
     .join("");
 }
