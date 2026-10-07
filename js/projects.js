@@ -530,7 +530,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     year: "",
     coverImage: "assets/proyectos/43_SOTO DE LA MORALEJA/43_0PORTADA.webp",
     description: "",
-    studioClient: "Belén Ferrandiz",
+    studioClient: "Estudio Belén Ferrándiz",
     gallery: [
       "assets/proyectos/43_SOTO DE LA MORALEJA/43_01.webp",
       "assets/proyectos/43_SOTO DE LA MORALEJA/43_02.webp",
