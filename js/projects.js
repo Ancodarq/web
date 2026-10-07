@@ -521,6 +521,23 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
       "assets/proyectos/42_ ISLA DEL SUR/36_05.webp",
       "assets/proyectos/42_ ISLA DEL SUR/36_06.webp"
     ]
+  },
+  {
+    slug: "reforma-vivienda-soto-de-la-moraleja",
+    name: "REFORMA VIVIENDA SOTO DE LA MORALEJA",
+    category: "REFORMAS",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/43_SOTO DE LA MORALEJA/43_0PORTADA.webp",
+    description: "",
+    studioClient: "Belén Ferrandiz",
+    gallery: [
+      "assets/proyectos/43_SOTO DE LA MORALEJA/43_01.webp",
+      "assets/proyectos/43_SOTO DE LA MORALEJA/43_02.webp",
+      "assets/proyectos/43_SOTO DE LA MORALEJA/43_03.webp",
+      "assets/proyectos/43_SOTO DE LA MORALEJA/43_04.webp",
+      "assets/proyectos/43_SOTO DE LA MORALEJA/43_05.webp"
+    ]
   }
 ];
 
