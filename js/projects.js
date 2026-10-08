@@ -481,7 +481,11 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
       "assets/proyectos/41_ODONNELL/41_11.webp",
       "assets/proyectos/41_ODONNELL/41_12.webp",
       "assets/proyectos/41_ODONNELL/41_13.webp",
-      "assets/proyectos/41_ODONNELL/DSC_0556.webp"
+      "assets/proyectos/41_ODONNELL/41_14.webp",
+      "assets/proyectos/41_ODONNELL/41_15.jpg",
+      "assets/proyectos/41_ODONNELL/41_16.jpg",
+      "assets/proyectos/41_ODONNELL/41_17.jpg",
+      "assets/proyectos/41_ODONNELL/41_18.jpg"
     ]
   },
 
@@ -538,6 +542,17 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
       "assets/proyectos/43_SOTO DE LA MORALEJA/43_04.webp",
       "assets/proyectos/43_SOTO DE LA MORALEJA/43_05.webp"
     ]
+  },
+  {
+    slug: "obras-varias-mercado-maravillas",
+    name: "OBRAS VARIAS MERCADO MARAVILLAS",
+    category: "COMERCIAL",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/44_MERCADO MARAVILLAS/44_0PORTADA.png",
+    description: "",
+    studioClient: "",
+    gallery: []
   }
 ];
 
@@ -652,7 +667,7 @@ function renderProjectsGallery() {
     <button
       type="button"
       data-cat="${c}"
-      class="project-filter py-1 relative transition-colors duration-150 ${
+      class="project-filter py-1 relative transition-colors duration-150 ${c === "OBRAS EN EJECUCIÓN" ? "ml-auto" : ""} ${
         activeFilter === c
           ? "text-black font-normal"
           : "text-neutral-400 hover:text-black"
@@ -676,7 +691,7 @@ function renderProjectsGallery() {
 
   const filtered =
     activeFilter === "TODOS"
-      ? ORDERED_PROJECTS_DATA
+      ? ORDERED_PROJECTS_DATA.filter(p => p.category !== "OBRAS EN EJECUCIÓN")
       : ORDERED_PROJECTS_DATA.filter(p => p.category === activeFilter);
 
   gridCont.innerHTML = filtered
