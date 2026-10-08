@@ -300,9 +300,12 @@ const HERO_IMAGES = [
   "assets/home/Portada/06.webp",
   "assets/home/Portada/07.webp",
   "assets/home/Portada/09.webp",
-  "assets/home/Portada/10.webp",
+  "assets/home/Portada/10.JPG",
   "assets/home/Portada/11.webp",
-  "assets/home/Portada/13.webp"
+  "assets/home/Portada/13.webp",
+  "assets/home/Portada/14.jpg",
+  "assets/home/Portada/15.webp",
+  "assets/home/Portada/16.jpeg"
 ];
 
 function initHero() {
