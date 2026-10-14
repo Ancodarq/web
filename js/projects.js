@@ -553,6 +553,24 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
     description: "",
     studioClient: "",
     gallery: []
+  },
+  {
+    slug: "oficinas-oesia-zaragoza",
+    name: "OFICINAS OESÍA ZARAGOZA",
+    category: "OFICINAS",
+    location: "Zaragoza",
+    year: "",
+    coverImage: "assets/proyectos/45_ OESIA ZARAGOZA/45_0 PORTADA.webp",
+    description: "",
+    hideStudio: true,
+    gallery: [
+      "assets/proyectos/45_ OESIA ZARAGOZA/45_01.webp",
+      "assets/proyectos/45_ OESIA ZARAGOZA/45_02.webp",
+      "assets/proyectos/45_ OESIA ZARAGOZA/45_03.webp",
+      "assets/proyectos/45_ OESIA ZARAGOZA/45_04.webp",
+      "assets/proyectos/45_ OESIA ZARAGOZA/45_05.webp",
+      "assets/proyectos/45_ OESIA ZARAGOZA/45_06.webp"
+    ]
   }
 ];
 
