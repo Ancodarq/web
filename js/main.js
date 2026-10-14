@@ -299,6 +299,7 @@ const HERO_IMAGES = [
   "assets/home/Portada/07.png",
   "assets/home/Portada/05.png",
   "assets/home/Portada/05B.png",
+  "assets/home/Portada/05C.png",
   "assets/home/Portada/08.png",
   "assets/home/Portada/06.png",
   "assets/home/Portada/09.png",
