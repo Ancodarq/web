@@ -291,21 +291,28 @@ function renderFooter() {
 // ======================================================
 
 const HERO_IMAGES = [
-  "assets/home/Portada/00.webp",
-  "assets/home/Portada/01.webp",
-  "assets/home/Portada/02.webp",
-  "assets/home/Portada/03.webp",
-  "assets/home/Portada/04.webp",
-  "assets/home/Portada/05.webp",
-  "assets/home/Portada/06.webp",
-  "assets/home/Portada/07.webp",
-  "assets/home/Portada/09.webp",
-  "assets/home/Portada/10.JPG",
-  "assets/home/Portada/11.webp",
-  "assets/home/Portada/13.webp",
-  "assets/home/Portada/14.jpg",
-  "assets/home/Portada/15.webp",
-  "assets/home/Portada/16.jpeg"
+  "assets/home/Portada/01.png",
+  "assets/home/Portada/01B.png",
+  "assets/home/Portada/02.png",
+  "assets/home/Portada/04.png",
+  "assets/home/Portada/03.png",
+  "assets/home/Portada/07.png",
+  "assets/home/Portada/05.png",
+  "assets/home/Portada/05B.png",
+  "assets/home/Portada/08.png",
+  "assets/home/Portada/06.png",
+  "assets/home/Portada/09.png",
+  "assets/home/Portada/13.png",
+  "assets/home/Portada/17.png",
+  "assets/home/Portada/12.png",
+  "assets/home/Portada/11.png",
+  "assets/home/Portada/14.png",
+  "assets/home/Portada/14B.png",
+  "assets/home/Portada/10.png",
+  "assets/home/Portada/10B.png",
+  "assets/home/Portada/15.png",
+  "assets/home/Portada/16.png",
+  "assets/home/Portada/18.png"
 ];
 
 function initHero() {
