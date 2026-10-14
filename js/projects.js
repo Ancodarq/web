@@ -577,21 +577,25 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
 // Orden de aparición en el home y en la galería general.
 // Los proyectos no incluidos aquí se muestran después, conservando su orden actual.
 const PROJECT_DISPLAY_ORDER = [
-  "01", "24", "30", "07", "28", "08", "23", "38",
-  "09", "25", "32", "02", "34", "37", "03", "29"
+  "01", "24", "30", "08", "28", "09", "23", "38",
+  "39", "07", "32", "02", "34", "37", "03", "29",
+  "41_ODONNELL", "16", "43", "27", "33", "19",
+  "41_VILLANUEVA", "25", "42", "44", "45", "20", "22"
 ];
 
-function getProjectNumber(project) {
-  const match = project.coverImage.match(/\/([0-9]{2})_/);
-  return match ? match[1] : "";
+function getProjectOrderKey(project) {
+  const match = project.coverImage.match(/\/([0-9]{2})_([^/]+)\//);
+  if (!match) return "";
+  // Las dos carpetas 41 corresponden a proyectos distintos.
+  return match[1] === "41" ? `${match[1]}_${match[2]}` : match[1];
 }
 
 const ORDERED_PROJECTS_DATA = [
-  ...PROJECT_DISPLAY_ORDER.flatMap(number =>
-    PROJECTS_DATA.filter(project => getProjectNumber(project) === number)
+  ...PROJECT_DISPLAY_ORDER.flatMap(key =>
+    PROJECTS_DATA.filter(project => getProjectOrderKey(project) === key)
   ),
   ...PROJECTS_DATA.filter(
-    project => !PROJECT_DISPLAY_ORDER.includes(getProjectNumber(project))
+    project => !PROJECT_DISPLAY_ORDER.includes(getProjectOrderKey(project))
   )
 ];
 
