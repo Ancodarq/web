@@ -336,7 +336,7 @@ const SERVICES_DATA = [
     image: siteUrl("assets/proyectos/01_PRADO LARGO/01_08.webp"),
     imagePosition: "center 85%",
     description:
-      "Proyectos de vivienda, rehabilitación y obra nueva desarrollados de forma integral, desde las primeras decisiones de proyecto hasta la ejecución y definición final de los espacios."
+      "Construcción de viviendas, reformas integrales y rehabilitación de edificios. Coordinamos los trabajos y cuidamos la ejecución para adaptar cada espacio a las necesidades de quienes lo habitan."
   },
 
   {
@@ -345,7 +345,7 @@ const SERVICES_DATA = [
     image: siteUrl("assets/proyectos/23_GRACE/23_02.webp"),
     imagePosition: "center 85%",
     description:
-      "Diseño, reforma y ejecución de espacios comerciales y profesionales adaptados a las necesidades funcionales, técnicas y de identidad de cada cliente."
+      "Reforma y adecuación de espacios comerciales y de trabajo. Integramos las necesidades de cada actividad, las instalaciones y los acabados en la ejecución de la obra."
   },
 
   {
@@ -353,7 +353,7 @@ const SERVICES_DATA = [
     title: "OBRA PÚBLICA",
     image: siteUrl("assets/Obra publica.jpg"),
     description:
-      "Ejecución y rehabilitación de edificios públicos, culturales, educativos, sanitarios y administrativos, incluyendo estructura, instalaciones, envolventes y acabados."
+      "Construcción y rehabilitación de edificios y equipamientos públicos. Realizamos intervenciones en estructuras, instalaciones, fachadas y espacios interiores."
   }
 ];
 
