@@ -136,7 +136,7 @@ function renderFooter() {
       <div class="w-[90%] mx-auto">
 
         <!-- BLOQUE PRINCIPAL -->
-        <div class="flex flex-col md:flex-row justify-between items-start gap-10 mb-8 md:mb-9">
+        <div class="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] items-start gap-10 mb-8 md:mb-9">
 
           <!-- LOGOS RECTANGULARES -->
           <div class="flex flex-col gap-6 w-full max-w-[235px]">
@@ -155,6 +155,17 @@ function renderFooter() {
 
           </div>
 
+
+          <!-- EMPRESA FUNDADA EN 1995 -->
+          <div class="flex items-center justify-center self-center w-full">
+            <img
+              src="${siteUrl("assets/logos/1995.png")}"
+              alt="Empresa fundada en 1995"
+              width="5905"
+              height="781"
+              class="w-full max-w-[300px] h-auto object-contain"
+            />
+          </div>
 
           <!-- CONTACTO -->
           <div class="flex flex-col md:items-end text-left md:text-right font-light text-[11px] tracking-[0.18em] leading-relaxed text-neutral-800 pt-1">
