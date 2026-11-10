@@ -354,7 +354,7 @@ const SERVICES_DATA = [
   {
     id: "01",
     title: "RESIDENCIAL",
-    image: siteUrl("assets/proyectos/01_PRADO LARGO/01_08.webp"),
+    image: siteUrl("assets/proyectos/01_PRADO LARGO/01_05.webp"),
     imagePosition: "center 85%",
     description:
       "Construcción de viviendas, reformas integrales y rehabilitación de edificios. Coordinamos los trabajos y cuidamos la ejecución para adaptar cada espacio a las necesidades de quienes lo habitan."
@@ -363,18 +363,18 @@ const SERVICES_DATA = [
   {
     id: "02",
     title: "LOCALES Y OFICINAS",
-    image: siteUrl("assets/proyectos/23_GRACE/23_02.webp"),
+    image: siteUrl("assets/proyectos/23_GRACE/23_00PORTADA.webp"),
     imagePosition: "center 85%",
     description:
-      "Reforma y adecuación de espacios comerciales y de trabajo. Integramos las necesidades de cada actividad, las instalaciones y los acabados en la ejecución de la obra."
+      "Reforma y adecuación de espacios comerciales y oficinas. Hacemos propias las necesidades de cada actividad, resolviendo desde la arquitectura y las instalaciones hasta los acabados finales."
   },
 
   {
     id: "03",
     title: "OBRA PÚBLICA",
-    image: siteUrl("assets/Obra publica.jpg"),
+    image: siteUrl("assets/home/obra-publica-biblioteca-rioja.jpg"),
     description:
-      "Construcción y rehabilitación de edificios y equipamientos públicos. Realizamos intervenciones en estructuras, instalaciones, fachadas y espacios interiores."
+      "Rehabilitación y restauración de edificios y equipamientos públicos. Desarollamos intervenciones en estructuras, instalaciones, fachadas y espacios interiores."
   }
 ];
 
@@ -482,12 +482,26 @@ function initNavigation() {
 // INICIALIZACIÓN
 // ======================================================
 
+// Barreras de interfaz: una imagen pública sigue siendo recuperable desde el navegador.
+// Delegación para incluir las fotos cargadas después por filtros y por el visor.
+function initImageDownloadDeterrents() {
+  const imageSurface = "img, .project-link, .project-gallery-item, .project-lightbox-main, .project-lightbox-thumb";
+  const blockImageAction = event => {
+    if (event.target instanceof Element && event.target.closest(imageSurface)) {
+      event.preventDefault();
+    }
+  };
+  document.addEventListener("contextmenu", blockImageAction);
+  document.addEventListener("dragstart", blockImageAction);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
 
   // Elementos globales
   renderHeader();
   renderFooter();
   initNavigation();
+  initImageDownloadDeterrents();
 
   // Mantener el texto existente también como nombre accesible del campo.
   document.querySelectorAll("form input[placeholder], form textarea[placeholder]").forEach(field => {

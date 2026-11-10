@@ -1,0 +1,1408 @@
+{
+  "phase": "typography",
+  "results": [
+    {
+      "page": "/index.html",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1905,
+      "labels": [
+        {
+          "text": "NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        },
+        {
+          "text": "CERTIFICACIONES",
+          "font": "Urbanist, sans-serif",
+          "size": "10px",
+          "weight": "400",
+          "tracking": "2.4px",
+          "color": "rgb(115, 115, 115)",
+          "line": "15px",
+          "align": "left"
+        },
+        {
+          "text": "SERVICIOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        },
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Más de 30 años construyendo confianza",
+          "font": "Urbanist, sans-serif",
+          "size": "32px",
+          "weight": "400",
+          "tracking": "-1.12px",
+          "color": "rgb(26, 26, 26)",
+          "line": "35.84px",
+          "align": "start"
+        },
+        {
+          "text": "Construimos espacios. Materializamos proyectos.",
+          "font": "Urbanist, sans-serif",
+          "size": "32px",
+          "weight": "400",
+          "tracking": "-1.12px",
+          "color": "rgb(26, 26, 26)",
+          "line": "35.84px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 999,
+      "snap": "y",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/nosotros/",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "labels": [
+        {
+          "text": "NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Más de 30 años construyendo confianza",
+          "font": "Urbanist, sans-serif",
+          "size": "32px",
+          "weight": "400",
+          "tracking": "-1.12px",
+          "color": "rgb(0, 0, 0)",
+          "line": "35.84px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/servicios/",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1905,
+      "labels": [
+        {
+          "text": "SERVICIOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Construimos espacios. Materializamos proyectos.",
+          "font": "Urbanist, sans-serif",
+          "size": "32px",
+          "weight": "400",
+          "tracking": "-1.12px",
+          "color": "rgb(26, 26, 26)",
+          "line": "35.84px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/proyectos/",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1905,
+      "labels": [
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/contacto/",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "labels": [],
+      "titles": [
+        {
+          "text": "CONTACTO",
+          "font": "Urbanist, sans-serif",
+          "size": "32px",
+          "weight": "400",
+          "tracking": "-1.12px",
+          "color": "rgb(0, 0, 0)",
+          "line": "35.84px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": [
+        true
+      ]
+    },
+    {
+      "page": "/trabaja-con-nosotros/",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1905,
+      "labels": [
+        {
+          "text": "TRABAJA CON NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Trabaja con nosotros",
+          "font": "Urbanist, sans-serif",
+          "size": "32px",
+          "weight": "400",
+          "tracking": "-1.12px",
+          "color": "rgb(0, 0, 0)",
+          "line": "35.84px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": [
+        true
+      ]
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1905,
+      "labels": [],
+      "titles": [
+        {
+          "text": "REFORMA VIVIENDA SALAMANCA",
+          "font": "Urbanist, sans-serif",
+          "size": "32px",
+          "weight": "400",
+          "tracking": "-1.12px",
+          "color": "rgb(26, 26, 26)",
+          "line": "35.84px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/index.html",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1425,
+      "labels": [
+        {
+          "text": "NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        },
+        {
+          "text": "CERTIFICACIONES",
+          "font": "Urbanist, sans-serif",
+          "size": "10px",
+          "weight": "400",
+          "tracking": "2.4px",
+          "color": "rgb(115, 115, 115)",
+          "line": "15px",
+          "align": "left"
+        },
+        {
+          "text": "SERVICIOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        },
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Más de 30 años construyendo confianza",
+          "font": "Urbanist, sans-serif",
+          "size": "28.8px",
+          "weight": "400",
+          "tracking": "-1.008px",
+          "color": "rgb(26, 26, 26)",
+          "line": "32.256px",
+          "align": "start"
+        },
+        {
+          "text": "Construimos espacios. Materializamos proyectos.",
+          "font": "Urbanist, sans-serif",
+          "size": "28.8px",
+          "weight": "400",
+          "tracking": "-1.008px",
+          "color": "rgb(26, 26, 26)",
+          "line": "32.256px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 819,
+      "snap": "y",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/nosotros/",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1425,
+      "labels": [
+        {
+          "text": "NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Más de 30 años construyendo confianza",
+          "font": "Urbanist, sans-serif",
+          "size": "28.8px",
+          "weight": "400",
+          "tracking": "-1.008px",
+          "color": "rgb(0, 0, 0)",
+          "line": "32.256px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/servicios/",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1425,
+      "labels": [
+        {
+          "text": "SERVICIOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Construimos espacios. Materializamos proyectos.",
+          "font": "Urbanist, sans-serif",
+          "size": "28.8px",
+          "weight": "400",
+          "tracking": "-1.008px",
+          "color": "rgb(26, 26, 26)",
+          "line": "32.256px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/proyectos/",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1425,
+      "labels": [
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/contacto/",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1425,
+      "labels": [],
+      "titles": [
+        {
+          "text": "CONTACTO",
+          "font": "Urbanist, sans-serif",
+          "size": "28.8px",
+          "weight": "400",
+          "tracking": "-1.008px",
+          "color": "rgb(0, 0, 0)",
+          "line": "32.256px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": [
+        true
+      ]
+    },
+    {
+      "page": "/trabaja-con-nosotros/",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1425,
+      "labels": [
+        {
+          "text": "TRABAJA CON NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Trabaja con nosotros",
+          "font": "Urbanist, sans-serif",
+          "size": "28.8px",
+          "weight": "400",
+          "tracking": "-1.008px",
+          "color": "rgb(0, 0, 0)",
+          "line": "32.256px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": [
+        true
+      ]
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1425,
+      "labels": [],
+      "titles": [
+        {
+          "text": "REFORMA VIVIENDA SALAMANCA",
+          "font": "Urbanist, sans-serif",
+          "size": "28.8px",
+          "weight": "400",
+          "tracking": "-1.008px",
+          "color": "rgb(26, 26, 26)",
+          "line": "32.256px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/index.html",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1351,
+      "labels": [
+        {
+          "text": "NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        },
+        {
+          "text": "CERTIFICACIONES",
+          "font": "Urbanist, sans-serif",
+          "size": "10px",
+          "weight": "400",
+          "tracking": "2.4px",
+          "color": "rgb(115, 115, 115)",
+          "line": "15px",
+          "align": "left"
+        },
+        {
+          "text": "SERVICIOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        },
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Más de 30 años construyendo confianza",
+          "font": "Urbanist, sans-serif",
+          "size": "27.32px",
+          "weight": "400",
+          "tracking": "-0.9562px",
+          "color": "rgb(26, 26, 26)",
+          "line": "30.5984px",
+          "align": "start"
+        },
+        {
+          "text": "Construimos espacios. Materializamos proyectos.",
+          "font": "Urbanist, sans-serif",
+          "size": "27.32px",
+          "weight": "400",
+          "tracking": "-0.9562px",
+          "color": "rgb(26, 26, 26)",
+          "line": "30.5984px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 685.625,
+      "snap": "y",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/nosotros/",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1351,
+      "labels": [
+        {
+          "text": "NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Más de 30 años construyendo confianza",
+          "font": "Urbanist, sans-serif",
+          "size": "27.32px",
+          "weight": "400",
+          "tracking": "-0.9562px",
+          "color": "rgb(0, 0, 0)",
+          "line": "30.5984px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/servicios/",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1351,
+      "labels": [
+        {
+          "text": "SERVICIOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Construimos espacios. Materializamos proyectos.",
+          "font": "Urbanist, sans-serif",
+          "size": "27.32px",
+          "weight": "400",
+          "tracking": "-0.9562px",
+          "color": "rgb(26, 26, 26)",
+          "line": "30.5984px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/proyectos/",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1351,
+      "labels": [
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/contacto/",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1351,
+      "labels": [],
+      "titles": [
+        {
+          "text": "CONTACTO",
+          "font": "Urbanist, sans-serif",
+          "size": "27.32px",
+          "weight": "400",
+          "tracking": "-0.9562px",
+          "color": "rgb(0, 0, 0)",
+          "line": "30.5984px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": [
+        true
+      ]
+    },
+    {
+      "page": "/trabaja-con-nosotros/",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1351,
+      "labels": [
+        {
+          "text": "TRABAJA CON NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Trabaja con nosotros",
+          "font": "Urbanist, sans-serif",
+          "size": "27.32px",
+          "weight": "400",
+          "tracking": "-0.9562px",
+          "color": "rgb(0, 0, 0)",
+          "line": "30.5984px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": [
+        true
+      ]
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "width": 1366,
+      "height": 768,
+      "scrollWidth": 1351,
+      "labels": [],
+      "titles": [
+        {
+          "text": "REFORMA VIVIENDA SALAMANCA",
+          "font": "Urbanist, sans-serif",
+          "size": "27.32px",
+          "weight": "400",
+          "tracking": "-0.9562px",
+          "color": "rgb(26, 26, 26)",
+          "line": "30.5984px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 16,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/index.html",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 753,
+      "labels": [
+        {
+          "text": "NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        },
+        {
+          "text": "CERTIFICACIONES",
+          "font": "Urbanist, sans-serif",
+          "size": "10px",
+          "weight": "400",
+          "tracking": "2.4px",
+          "color": "rgb(115, 115, 115)",
+          "line": "15px",
+          "align": "left"
+        },
+        {
+          "text": "SERVICIOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        },
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Más de 30 años construyendo confianza",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(26, 26, 26)",
+          "line": "27.3px",
+          "align": "start"
+        },
+        {
+          "text": "Construimos espacios. Materializamos proyectos.",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(26, 26, 26)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 482.625,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/nosotros/",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 753,
+      "labels": [
+        {
+          "text": "NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Más de 30 años construyendo confianza",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(0, 0, 0)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/servicios/",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 753,
+      "labels": [
+        {
+          "text": "SERVICIOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Construimos espacios. Materializamos proyectos.",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(26, 26, 26)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/proyectos/",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 753,
+      "labels": [
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/contacto/",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 753,
+      "labels": [],
+      "titles": [
+        {
+          "text": "CONTACTO",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(0, 0, 0)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": [
+        true
+      ]
+    },
+    {
+      "page": "/trabaja-con-nosotros/",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 753,
+      "labels": [
+        {
+          "text": "TRABAJA CON NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Trabaja con nosotros",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(0, 0, 0)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": [
+        true
+      ]
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 753,
+      "labels": [],
+      "titles": [
+        {
+          "text": "REFORMA VIVIENDA SALAMANCA",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(26, 26, 26)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/index.html",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "labels": [
+        {
+          "text": "NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        },
+        {
+          "text": "CERTIFICACIONES",
+          "font": "Urbanist, sans-serif",
+          "size": "10px",
+          "weight": "400",
+          "tracking": "2.4px",
+          "color": "rgb(115, 115, 115)",
+          "line": "15px",
+          "align": "left"
+        },
+        {
+          "text": "SERVICIOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        },
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Más de 30 años construyendo confianza",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(26, 26, 26)",
+          "line": "27.3px",
+          "align": "start"
+        },
+        {
+          "text": "Construimos espacios. Materializamos proyectos.",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(26, 26, 26)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 303.25,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/nosotros/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "labels": [
+        {
+          "text": "NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Más de 30 años construyendo confianza",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(0, 0, 0)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/servicios/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "labels": [
+        {
+          "text": "SERVICIOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Construimos espacios. Materializamos proyectos.",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(26, 26, 26)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/proyectos/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "labels": [
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "PROYECTOS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    },
+    {
+      "page": "/contacto/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "labels": [],
+      "titles": [
+        {
+          "text": "CONTACTO",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(0, 0, 0)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": [
+        true
+      ]
+    },
+    {
+      "page": "/trabaja-con-nosotros/",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "labels": [
+        {
+          "text": "TRABAJA CON NOSOTROS",
+          "font": "Urbanist, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "tracking": "2.88px",
+          "color": "rgb(115, 115, 115)",
+          "line": "18px",
+          "align": "left"
+        }
+      ],
+      "titles": [
+        {
+          "text": "Trabaja con nosotros",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(0, 0, 0)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": [
+        true
+      ]
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 375,
+      "labels": [],
+      "titles": [
+        {
+          "text": "REFORMA VIVIENDA SALAMANCA",
+          "font": "Urbanist, sans-serif",
+          "size": "26px",
+          "weight": "400",
+          "tracking": "-0.91px",
+          "color": "rgb(26, 26, 26)",
+          "line": "27.3px",
+          "align": "start"
+        }
+      ],
+      "headingOffset": 24,
+      "snap": "none",
+      "brokenImages": [],
+      "disabledForms": []
+    }
+  ],
+  "interactions": [
+    {
+      "name": "snap-target",
+      "width": 1920,
+      "selector": "#home-about > .site-container",
+      "top": 121,
+      "header": 105
+    },
+    {
+      "name": "snap-target",
+      "width": 1920,
+      "selector": ".services-section > .site-container",
+      "top": 121.140625,
+      "header": 105
+    },
+    {
+      "name": "snap-target",
+      "width": 1920,
+      "selector": "#home-projects > .site-container",
+      "top": 120.890625,
+      "header": 105
+    },
+    {
+      "name": "native-wheel",
+      "width": 1920,
+      "scrollY": 983,
+      "top": 121
+    },
+    {
+      "name": "snap-target",
+      "width": 1440,
+      "selector": "#home-about > .site-container",
+      "top": 121,
+      "header": 105
+    },
+    {
+      "name": "snap-target",
+      "width": 1440,
+      "selector": ".services-section > .site-container",
+      "top": 120.875,
+      "header": 105
+    },
+    {
+      "name": "snap-target",
+      "width": 1440,
+      "selector": "#home-projects > .site-container",
+      "top": 121.03125,
+      "header": 105
+    },
+    {
+      "name": "native-wheel",
+      "width": 1440,
+      "scrollY": 803,
+      "top": 121
+    },
+    {
+      "name": "snap-target",
+      "width": 1366,
+      "selector": "#home-about > .site-container",
+      "top": 120.625,
+      "header": 105
+    },
+    {
+      "name": "snap-target",
+      "width": 1366,
+      "selector": ".services-section > .site-container",
+      "top": 120.953125,
+      "header": 105
+    },
+    {
+      "name": "snap-target",
+      "width": 1366,
+      "selector": "#home-projects > .site-container",
+      "top": 121.3125,
+      "header": 105
+    },
+    {
+      "name": "native-wheel",
+      "width": 1366,
+      "scrollY": 670,
+      "top": 120.625
+    },
+    {
+      "name": "reduced-motion",
+      "snap": "none",
+      "behavior": "auto"
+    },
+    {
+      "name": "filter",
+      "active": "OBRA NUEVA",
+      "projects": 5
+    },
+    {
+      "name": "lightbox-next",
+      "counter": "02 / 10"
+    },
+    {
+      "name": "lightbox-escape",
+      "closed": true
+    }
+  ],
+  "errors": [],
+  "brokenLocalResources": []
+}

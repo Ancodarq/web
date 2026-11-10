@@ -2,11 +2,128 @@
    Los gaps y los anchos de lectura se definen dentro del contenedor. */
 :root {
   --site-gutter: max(16px, 3%);
-  --site-header-height: 121px;
+  --site-header-height: 105px;
+  --corporate-title-size: clamp(26px, 2vw, 32px);
+  --heading-line-height: 1.05;
+  --label-title-gap: 16px;
+  --page-heading-offset: 16px;
+  --copy-size: 16px;
+  --copy-leading: 1.8;
+  --paragraph-gap: 18px;
+  --secondary-title-size: clamp(17px, 1.6vw, 23px);
+  --section-space: clamp(32px, 4vw, 56px);
+  --section-heading-gap: clamp(24px, 2.5vw, 32px);
+  --hero-frame-space: 32px;
+}
+
+.corporate-title,
+body .corporate-page .corporate-title {
+  font-family: "Urbanist", sans-serif;
+  font-size: var(--corporate-title-size);
+  font-weight: 400;
+  line-height: var(--heading-line-height);
+  letter-spacing: -.035em;
+}
+
+/* Jerarquía tomada de Nosotros en la HOME; las páginas legales no se incluyen. */
+body .corporate-page {
+  padding-top: calc(var(--site-header-height) + var(--page-heading-offset));
+}
+
+body .corporate-page > .about-page,
+body .corporate-page > .services-section {
+  padding-top: 0;
+}
+
+body .corporate-page .corporate-title {
+  margin-block: 0 var(--section-heading-gap);
+}
+
+body .corporate-page .section-label {
+  margin-block: 0 var(--label-title-gap);
+}
+
+body .corporate-page .services-title {
+  margin-block: var(--label-title-gap) 0;
+}
+
+.corporate-copy,
+body .corporate-page .about-page-copy {
+  font-family: "Urbanist", sans-serif;
+  font-size: var(--copy-size);
+  font-weight: 400;
+  line-height: var(--copy-leading);
+}
+
+body .corporate-page .about-page-copy p + p {
+  margin-top: var(--paragraph-gap);
+}
+
+.corporate-secondary-title,
+.services-section .service-title {
+  font-family: "Urbanist", sans-serif;
+  font-size: var(--secondary-title-size);
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: .035em;
+}
+
+.corporate-link,
+body .corporate-link {
+  font-family: "Prompt", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: .2em;
+}
+
+.corporate-page > .site-container > .corporate-link {
+  display: block;
+  width: fit-content;
+  margin-bottom: var(--section-heading-gap);
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --heading-line-height: 1.12;
+    --label-title-gap: 8px;
+    --section-heading-gap: 20px;
+    --copy-size: clamp(14px, 1.05vw, 16px);
+    --copy-leading: 1.6;
+    --paragraph-gap: 12px;
+  }
+}
+
+/* Alineación nativa, opcional: sin capturar eventos de rueda ni limitar alturas. */
+@media (min-width: 1101px) and (prefers-reduced-motion: no-preference) {
+  html.home-page { scroll-snap-type: y proximity; }
+  .home-page .home-section > .site-container,
+  .home-page .home-hero > .site-container {
+    scroll-snap-align: start;
+  }
+  .home-page .home-hero > .site-container {
+    scroll-margin-top: var(--hero-frame-space);
+  }
+}
+
+/* Dificultar el guardado casual sin bloquear el visor ni los gestos táctiles. */
+img {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+img, .project-link, .project-gallery-item,
+.project-lightbox-main, .project-lightbox-thumb {
+  -webkit-touch-callout: none;
 }
 
 html {
-  scroll-padding-top: calc(var(--site-header-height) + 16px);
+  scroll-padding-top: var(--site-header-height);
+}
+
+.home-page .home-section > .site-container {
+  scroll-margin-top: var(--page-heading-offset);
 }
 
 .site-container {
@@ -18,7 +135,29 @@ html {
   padding-inline: var(--site-gutter);
 }
 
+/* Centrar el marco de portada entre la cabecera fija y el final de la sección. */
+body .home-hero {
+  padding-top: calc(var(--site-header-height) + var(--hero-frame-space));
+  padding-bottom: var(--hero-frame-space);
+}
+
 /* La cabecera conserva su composición de escritorio a partir de 1101 px. */
+.site-header .site-header-row {
+  padding-block: 16px;
+}
+
+.site-header .site-logos {
+  gap: 24px;
+}
+
+.site-header .site-logos img {
+  height: 72px;
+}
+
+.site-header .site-logos > span {
+  height: 36px;
+}
+
 .site-menu-toggle {
   align-items: center;
   min-width: 44px;
@@ -35,7 +174,7 @@ html {
 }
 
 .site-mobile-menu {
-  max-height: calc(100dvh - var(--site-header-height, 121px));
+  max-height: calc(100dvh - var(--site-header-height, 105px));
   overflow-y: auto;
   overscroll-behavior: contain;
 }
@@ -62,21 +201,27 @@ main h1, main h2, .project-adjacent-nav a {
 @media (max-width: 1100px) {
   :root {
     --site-gutter: 32px;
-    --site-header-height: 89px;
+    --site-header-height: 81px;
+    --hero-frame-space: 20px;
+    --page-heading-offset: 24px;
   }
 
   .site-header .site-header-row {
-    padding-block: 12px;
+    padding-block: 10px;
     gap: 16px;
   }
 
   .site-header .site-logos {
-    gap: 20px;
+    gap: 18px;
     flex-shrink: 0;
   }
 
   .site-header .site-logos img {
-    height: 64px;
+    height: 60px;
+  }
+
+  .site-header .site-logos > span {
+    height: 32px;
   }
 
   .site-header .site-nav {
@@ -105,8 +250,8 @@ main h1, main h2, .project-adjacent-nav a {
   body .home-hero {
     height: auto;
     min-height: 0;
-    padding-top: calc(var(--site-header-height) + 20px);
-    padding-bottom: 20px;
+    padding-top: calc(var(--site-header-height) + var(--hero-frame-space));
+    padding-bottom: var(--hero-frame-space);
   }
 
   .home-hero > .site-container {
@@ -152,19 +297,19 @@ main h1, main h2, .project-adjacent-nav a {
 @media (max-width: 767px) {
   :root {
     --site-gutter: 20px;
-    --site-header-height: 81px;
+    --site-header-height: 73px;
   }
 
   .site-header .site-logos {
-    gap: 16px;
+    gap: 14px;
   }
 
   .site-header .site-logos img {
-    height: 56px;
+    height: 52px;
   }
 
   .site-header .site-logos > span {
-    height: 28px;
+    height: 26px;
   }
 
   .home-hero > .site-container {
@@ -193,7 +338,6 @@ main h1, main h2, .project-adjacent-nav a {
   }
 
   .about-page #nosotros-title {
-    font-size: clamp(30px, 6vw, 44px);
     margin-bottom: 28px;
   }
 
@@ -220,11 +364,19 @@ main h1, main h2, .project-adjacent-nav a {
 @media (max-width: 359px) {
   :root {
     --site-gutter: 16px;
-    --site-header-height: 73px;
+    --site-header-height: 65px;
   }
 
   .site-header .site-logos img {
-    height: 48px;
+    height: 44px;
+  }
+
+  .site-header .site-logos {
+    gap: 12px;
+  }
+
+  .site-header .site-logos > span {
+    height: 24px;
   }
 }
 
@@ -244,31 +396,78 @@ main h1, main h2, .project-adjacent-nav a {
 
 /* Composición editorial exclusiva de Nosotros en la portada. */
 #home-about {
-  padding-block: clamp(40px, 5vw, 72px);
+  padding-block: var(--section-space);
 }
 
 #home-about .about-heading {
-  margin-bottom: clamp(28px, 3vw, 44px);
+  margin-bottom: var(--section-heading-gap);
+}
+
+/* Un solo intervalo entre bloques consecutivos de la portada. */
+#home-about.home-section {
+  padding-top: calc(var(--section-space) - var(--hero-frame-space));
+}
+
+.services-section.home-section,
+#home-projects.home-section {
+  padding-top: 0;
+  padding-bottom: var(--section-space);
+}
+
+#home-projects > .site-container > div:first-child {
+  margin-bottom: var(--section-heading-gap);
+}
+
+/* Solo la portada en escritorio: repartir la altura libre entre ambas filas,
+   reservando cabecera, títulos, gaps, enlace y 8px de respiración inferior.
+   En ventanas muy bajas se conserva una altura legible y el scroll natural. */
+@media (min-width: 1101px) {
+  #home-projects.home-section {
+    padding-bottom: 8px;
+    --home-projects-row-height: max(120px, calc(
+      (100dvh - var(--site-header-height) - var(--page-heading-offset)
+      - 8px - 18px - var(--label-title-gap)
+      - var(--corporate-title-size) * var(--heading-line-height)
+      - var(--section-heading-gap) + 1px - 12px - 16px - 16.5px) / 2
+    ));
+  }
+
+  #home-projects .projects-heading {
+    margin-bottom: calc(var(--section-heading-gap) - 1px);
+  }
+
+  #home-projects-preview > .project-link > div {
+    height: var(--home-projects-row-height);
+    aspect-ratio: auto;
+  }
+
+  #home-projects-preview > .project-link > div > img {
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 #home-about .about-label,
-.services-section .services-label {
+.services-section .services-label,
+body .projects-label,
+body .section-label {
   display: block;
-  font-size: 10px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: .24em;
   line-height: 1.5;
   color: #737373;
+  text-align: left;
 }
 
 #home-about h2,
 .services-section .services-title {
-  margin: 16px 0 0;
+  margin: var(--label-title-gap) 0 0;
   max-width: 1000px;
-  font-size: clamp(30px, 3.2vw, 48px);
   font-weight: 400;
   letter-spacing: -.035em;
-  line-height: 1.05;
+  line-height: var(--heading-line-height);
   color: #1a1a1a;
 }
 
@@ -301,14 +500,14 @@ main h1, main h2, .project-adjacent-nav a {
 
 #home-about .about-copy {
   max-width: 60ch;
-  font-size: clamp(15px, 1.15vw, 17px);
+  font-size: var(--copy-size);
   font-weight: 400;
-  line-height: 1.8;
+  line-height: var(--copy-leading);
   text-align: left;
 }
 
 #home-about .about-copy p + p {
-  margin-top: 18px;
+  margin-top: var(--paragraph-gap);
 }
 
 #home-about strong {
@@ -334,6 +533,11 @@ main h1, main h2, .project-adjacent-nav a {
   margin-top: 10px;
 }
 
+/* Es un rótulo auxiliar, no una etiqueta de sección. */
+#home-about .about-certifications-mark .about-label {
+  font-size: 10px;
+}
+
 #home-about .about-certifications a {
   font-size: 10px;
   line-height: 1.8;
@@ -345,6 +549,51 @@ main h1, main h2, .project-adjacent-nav a {
   color: #1a1a1a;
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+/* Compactar Nosotros en escritorio sin ocultar contenido ni comprimir el móvil. */
+@media (min-width: 1024px) {
+  #home-about h2 {
+    margin-top: var(--label-title-gap);
+  }
+
+  #home-about .about-heading {
+    margin-bottom: var(--section-heading-gap);
+  }
+
+  #home-about .about-layout {
+    gap: clamp(28px, 3vw, 48px);
+  }
+
+  #home-about .about-photo {
+    min-height: 0;
+  }
+
+  #home-about .about-copy {
+    font-size: var(--copy-size);
+    line-height: var(--copy-leading);
+  }
+
+  #home-about .about-copy p + p {
+    margin-top: var(--paragraph-gap);
+  }
+
+  #home-about .about-certifications {
+    margin-top: 16px;
+    padding-top: 12px;
+    gap: 16px;
+  }
+
+  #home-about .about-certifications-mark {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #home-about .about-certifications-mark img {
+    height: 36px;
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -377,11 +626,11 @@ main h1, main h2, .project-adjacent-nav a {
 }
 
 .services-section {
-  padding-block: clamp(40px, 5vw, 72px);
+  padding-block: var(--section-space);
 }
 
 .services-section .services-heading {
-  margin-bottom: clamp(28px, 3vw, 44px);
+  margin-bottom: var(--section-heading-gap);
 }
 
 .services-section .services-title {
@@ -401,7 +650,7 @@ main h1, main h2, .project-adjacent-nav a {
 .services-section .service-image {
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .services-section .service-image img {
@@ -428,19 +677,15 @@ main h1, main h2, .project-adjacent-nav a {
 
 .services-section .service-title {
   margin: 0;
-  font-size: clamp(17px, 1.6vw, 23px);
-  font-weight: 500;
-  line-height: 1.3;
-  letter-spacing: .035em;
   color: #1a1a1a;
 }
 
 .services-section .service-description {
   max-width: 46ch;
   margin: 0;
-  font-size: clamp(15px, 1.15vw, 17px);
+  font-size: var(--copy-size);
   font-weight: 400;
-  line-height: 1.8;
+  line-height: var(--copy-leading);
   color: #525252;
 }
 
@@ -466,23 +711,26 @@ main h1, main h2, .project-adjacent-nav a {
     gap: 36px;
   }
 
-  .services-section .service-image {
-    margin-bottom: 20px;
-  }
-
   .services-section .service-description {
     max-width: 60ch;
   }
 }
 
 .projects-label {
-  margin: 16px 0 24px;
-  font-family: "Urbanist", sans-serif;
-  font-size: 10px;
-  font-weight: 400;
-  letter-spacing: .24em;
-  line-height: 1.5;
-  color: #737373;
+  margin: 0 0 var(--section-heading-gap);
+}
+
+.projects-heading {
+  margin-bottom: var(--section-heading-gap);
+}
+
+.projects-heading .projects-label {
+  margin-bottom: var(--label-title-gap);
+}
+
+.projects-heading .corporate-title,
+body .corporate-page .projects-heading .corporate-title {
+  margin: 0;
 }
 
 #categories-filter {
@@ -636,10 +884,10 @@ body {
 
 .project-detail-title {
   font-family: "Urbanist", sans-serif;
-  font-size: clamp(23px, 2.2vw, 30px);
+  font-size: var(--corporate-title-size);
   font-weight: 400;
-  line-height: 1.25;
-  letter-spacing: .045em;
+  line-height: var(--heading-line-height);
+  letter-spacing: -.035em;
   text-transform: uppercase;
 }
 
@@ -647,8 +895,8 @@ body {
   max-width: 65ch;
   margin-top: 24px;
   font-family: "Urbanist", sans-serif;
-  font-size: 15px;
-  line-height: 1.8;
+  font-size: var(--copy-size);
+  line-height: var(--copy-leading);
 }
 
 .project-additional-details dl {
@@ -944,5 +1192,49 @@ body {
 
   .project-lightbox-close {
     top: max(8px, env(safe-area-inset-top));
+  }
+}
+
+/* Composición compacta de Nosotros: geometría local, tipografía compartida. */
+
+@media (min-width: 1280px) and (min-height: 680px) {
+  .about-page-main { --about-available-height: calc(100dvh - var(--site-header-height)); }
+
+  .about-page-main #nosotros-title { max-width: none; }
+
+  .about-page-main .about-page-layout {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(28px, 3vw, 48px);
+  }
+
+  .about-page-main .about-page-layout > div {
+    grid-column: auto;
+  }
+
+  .about-page-main .about-page-photo {
+    height: clamp(320px, calc(var(--about-available-height) - 132px), 560px);
+    aspect-ratio: auto;
+  }
+
+  .about-page-main .about-page-photo img {
+    object-fit: cover;
+    object-position: 48% center;
+  }
+
+  .about-page-main .about-page-copy { max-width: 64ch; }
+
+  .about-page-main .about-page-certifications {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: none;
+    gap: 8px 24px;
+    margin-top: 16px;
+  }
+
+  .about-page-main .about-page-certifications a {
+    margin-top: 0;
+    font-size: 10px;
+    line-height: 1.6;
   }
 }
