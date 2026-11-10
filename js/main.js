@@ -302,30 +302,32 @@ function renderFooter() {
 // ======================================================
 
 const HERO_IMAGES = [
-  "assets/home/Portada/01.png",
-  "assets/home/Portada/01B.png",
-  "assets/home/Portada/02.png",
-  "assets/home/Portada/04.png",
-  "assets/home/Portada/03.png",
-  "assets/home/Portada/07.png",
-  "assets/home/Portada/05.png",
-  "assets/home/Portada/05B.png",
-  "assets/home/Portada/05C.png",
+  "assets/home/Portada/01 OK.png",
+  "assets/home/Portada/02 OK.png",
+  "assets/home/Portada/03 OK.png",
+  "assets/home/Portada/04 OK.png",
+  "assets/home/Portada/08 OK.jpg",
   "assets/home/Portada/08.png",
-  "assets/home/Portada/06.png",
-  "assets/home/Portada/09.png",
-  "assets/home/Portada/13.png",
-  "assets/home/Portada/17.png",
   "assets/home/Portada/12.png",
-  "assets/home/Portada/11.png",
-  "assets/home/Portada/14.png",
-  "assets/home/Portada/14B.png",
-  "assets/home/Portada/10.png",
-  "assets/home/Portada/10B.png",
-  "assets/home/Portada/15.png",
-  "assets/home/Portada/16.png",
-  "assets/home/Portada/18.png"
+  "assets/home/Portada/17 OK.png",
+  "assets/home/Portada/25_02.jpg",
+  "assets/home/Portada/BF OK.jpeg",
+  "assets/home/Portada/DSC_2436.webp",
+  "assets/home/Portada/IMG_2091 OK.JPG",
+  "assets/home/Portada/IMG_7763.webp",
+  "assets/home/Portada/MM OK.webp",
+  "assets/home/Portada/MP OK.jpeg"
 ];
+
+// Encuadres sobre la foto original: el resto permanece centrado.
+const HERO_IMAGE_POSITIONS = {
+  "01 OK.png": "35% center",
+  "02 OK.png": "center 40%",
+  "03 OK.png": "center 40%",
+  "08 OK.jpg": "center 62%",
+  "IMG_2091 OK.JPG": "center 45%",
+  "MM OK.webp": "center 40%"
+};
 
 function initHero() {
   const img = document.getElementById("hero-img");
@@ -334,14 +336,21 @@ function initHero() {
 
   let currentHeroIdx = 0;
 
-  // Mostrar inmediatamente la primera imagen real
-  img.src = siteUrl(HERO_IMAGES[0]);
+  function showHeroImage(index) {
+    const path = HERO_IMAGES[index];
+    const filename = path.split("/").pop();
+    img.style.objectPosition = HERO_IMAGE_POSITIONS[filename] || "center center";
+    img.src = siteUrl(path);
+  }
+
+  // Aplicar también el encuadre inicial cuando se prefiere movimiento reducido.
+  showHeroImage(0);
 
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
   setInterval(() => {
     currentHeroIdx = (currentHeroIdx + 1) % HERO_IMAGES.length;
-    img.src = siteUrl(HERO_IMAGES[currentHeroIdx]);
+    showHeroImage(currentHeroIdx);
   }, 2500);
 }
 
