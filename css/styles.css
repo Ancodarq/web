@@ -131,6 +131,13 @@ html {
   margin-inline: auto;
 }
 
+/* Prueba de proporción: ampliar solo los márgenes de la foto de portada. */
+@media (min-width: 1101px) {
+  .home-page .home-hero > .site-container {
+    width: 88%;
+  }
+}
+
 .site-gutters {
   padding-inline: var(--site-gutter);
 }
