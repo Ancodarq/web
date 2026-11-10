@@ -91,7 +91,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "vivienda-salamanca",
-    name: "REFORMA VIVIENDA SALAMANCA",
+    name: "REFORMA VIVIENDA RETIRO",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
@@ -113,7 +113,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
-    name: "CONSULTAS, RECEPCIÓN Y QUIRÓFANO EN HOSPITAL OFTALMOLÓGICO",
+    name: "REHABILITACIÓN HOSPITAL OFTALMOLÓGICO",
     category: "COMERCIAL",
     location: "Madrid",
     year: "",
@@ -132,7 +132,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "teatro-la-latina",
-    name: "TEATRO LA LATINA",
+    name: "REHABILITACIÓN TEATRO LA LATINA",
     category: "COMERCIAL",
     location: "Madrid",
     year: "",
@@ -150,7 +150,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "teatro-nuevo-apolo",
-    name: "TEATRO NUEVO APOLO",
+    name: "REHABILITACIÓN TEATRO NUEVO APOLO",
     category: "COMERCIAL",
     location: "Madrid",
     year: "",
@@ -218,7 +218,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "oficinas-y-centro-de-control-aereo",
-    name: "OFICINAS Y CENTRO DE CONTROL AÉREO",
+    name: "OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS",
     category: "OFICINAS",
     location: "Aeropuerto Madrid",
     year: "",
@@ -244,7 +244,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "oficinas-grupo-oesia",
-    name: "OFICINAS GRUPO OESÍA",
+    name: "OFICINAS OESÍA SEVILLA",
     category: "OFICINAS",
     location: "Sevilla",
     year: "",
@@ -302,7 +302,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "edificio-prefabricado-construccion-metalica-oficinas-laboratorios",
-    name: "EDIFICIO PREFABRICADO DE CONSTRUCCIÓN METÁLICA PARA OFICINAS Y LABORATORIOS",
+    name: "EDIFICIO DE OFICINAS Y LABORATORIOS CIUDAD REAL",
     category: "OFICINAS",
     location: "Valdepeñas, Ciudad Real",
     year: "",
@@ -318,7 +318,7 @@ const PROJECTS_DATA = [
 
   {
   slug: "vivienda-unifamiliar-villaviciosa-de-odon",
-name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
+name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "OBRA NUEVA",
     location: "Madrid",
     year: "",
@@ -377,7 +377,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
 
   {
     slug: "restaurante-espectaculo-skybar",
-    name: "RESTAURANTE / ESPECTÁCULO - SKYBAR",
+    name: "RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU",
     category: "",
     location: "Madrid",
     year: "",
@@ -397,7 +397,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
 
   {
     slug: "restaurante-vinitus",
-    name: "RESTAURANTE VINITUS",
+    name: "RESTAURANTE VINITUS GRAN VÍA",
     category: "",
     location: "Madrid",
     year: "",
@@ -440,7 +440,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
 
   {
     slug: "vinitus-alcala",
-    name: "Vinitus Alcalá",
+    name: "RESTAURANTE VINITUS ALCALÁ",
     category: "",
     location: "Madrid",
     year: "",
@@ -510,7 +510,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
 
   {
     slug: "terraza-isla-del-sur",
-    name: "TERRAZA ISLA DEL SUR",
+    name: "RESTAURANTE ISLA DEL SUR",
     category: "",
     location: "Madrid",
     year: "",
@@ -545,7 +545,7 @@ name: "VIVIENDA UNIFAMILIAR EN VILLAVICIOSA DE ODÓN",
   },
   {
     slug: "obras-varias-mercado-maravillas",
-    name: "OBRAS VARIAS MERCADO MARAVILLAS",
+    name: "REHABILITACIÓN MERCADO MARAVILLAS",
     category: "COMERCIAL",
     location: "Madrid",
     year: "",
