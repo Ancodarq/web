@@ -18,16 +18,20 @@
 <div id="site-header"></div>
 
 <main class="flex-grow pt-[132px] pb-16 font-prompt">
-  <div class="w-[90%] mx-auto">
+  <div class="site-container">
+
+    <h1 class="projects-label">PROYECTOS</h1>
 
     <div
       id="categories-filter"
-      class="flex flex-wrap gap-8 text-[12px] tracking-[0.2em] font-light mb-5"
+      class="flex flex-wrap text-[12px] tracking-[0.2em] font-light"
+      role="group"
+      aria-label="Filtrar proyectos por categoría"
     ></div>
 
     <div
       id="proyectos-gallery-grid"
-      class="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-4"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4"
     ></div>
 
   </div>

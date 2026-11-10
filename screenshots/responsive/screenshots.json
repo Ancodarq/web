@@ -1,0 +1,4687 @@
+{
+  "phase": "screenshots",
+  "results": [
+    {
+      "page": "/index.html",
+      "width": 375,
+      "height": 812,
+      "documentHeight": 5244,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "textClips": [
+        {
+          "tag": "H2",
+          "class": "",
+          "text": "Más de 30 años construyendo confianza"
+        },
+        {
+          "tag": "H2",
+          "class": "services-title",
+          "text": "Construimos espacios. Materializamos proyectos."
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/home/Portada/01.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1600,
+          "naturalHeight": 1000
+        },
+        {
+          "src": "/assets/home/nosotros.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1448,
+          "naturalHeight": 1086
+        },
+        {
+          "src": "/assets/logos/iso-certifications.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 94.8125,
+          "displayHeight": 44,
+          "naturalWidth": 487,
+          "naturalHeight": 226
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/Obra%20publica.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 642,
+          "naturalHeight": 480
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1383
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        },
+        {
+          "left": 20,
+          "right": 20
+        },
+        {
+          "left": 20,
+          "right": 20
+        },
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "inicio-mobile-375.png",
+      "fullPage": true,
+      "pngWidth": 375,
+      "pngHeight": 5244
+    },
+    {
+      "page": "/index.html",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 5328,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "textClips": [
+        {
+          "tag": "H2",
+          "class": "",
+          "text": "Más de 30 años construyendo confianza"
+        },
+        {
+          "tag": "H2",
+          "class": "services-title",
+          "text": "Construimos espacios. Materializamos proyectos."
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/home/Portada/01.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1600,
+          "naturalHeight": 1000
+        },
+        {
+          "src": "/assets/home/nosotros.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1448,
+          "naturalHeight": 1086
+        },
+        {
+          "src": "/assets/logos/iso-certifications.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 94.8125,
+          "displayHeight": 44,
+          "naturalWidth": 487,
+          "naturalHeight": 226
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/Obra%20publica.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 642,
+          "naturalHeight": 480
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1383
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        },
+        {
+          "left": 20,
+          "right": 20
+        },
+        {
+          "left": 20,
+          "right": 20
+        },
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "inicio-mobile-390.png",
+      "fullPage": true,
+      "pngWidth": 390,
+      "pngHeight": 5328
+    },
+    {
+      "page": "/index.html",
+      "width": 768,
+      "height": 1024,
+      "documentHeight": 4045,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/home/Portada/01.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 689,
+          "displayHeight": 430.625,
+          "naturalWidth": 1600,
+          "naturalHeight": 1000
+        },
+        {
+          "src": "/assets/home/nosotros.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 689,
+          "displayHeight": 516.75,
+          "naturalWidth": 1448,
+          "naturalHeight": 1086
+        },
+        {
+          "src": "/assets/logos/iso-certifications.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 94.8125,
+          "displayHeight": 44,
+          "naturalWidth": 487,
+          "naturalHeight": 226
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 332.5,
+          "displayHeight": 249.375,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 332.5,
+          "displayHeight": 249.375,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/Obra%20publica.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 332.5,
+          "displayHeight": 249.375,
+          "naturalWidth": 642,
+          "naturalHeight": 480
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1383
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 50.1875,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 42.0625,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 27.546875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        },
+        {
+          "left": 32,
+          "right": 32
+        },
+        {
+          "left": 32,
+          "right": 32
+        },
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "inicio-tablet-768.png",
+      "fullPage": true,
+      "pngWidth": 768,
+      "pngHeight": 4045
+    },
+    {
+      "page": "/index.html",
+      "width": 1024,
+      "height": 768,
+      "documentHeight": 2923,
+      "clientWidth": 1009,
+      "scrollWidth": 1009,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/home/Portada/01.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 945,
+          "displayHeight": 590.625,
+          "naturalWidth": 1600,
+          "naturalHeight": 1000
+        },
+        {
+          "src": "/assets/home/nosotros.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 452.015625,
+          "displayHeight": 604,
+          "naturalWidth": 1448,
+          "naturalHeight": 1086
+        },
+        {
+          "src": "/assets/logos/iso-certifications.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 94.8125,
+          "displayHeight": 44,
+          "naturalWidth": 487,
+          "naturalHeight": 226
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 294.515625,
+          "displayHeight": 220.875,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 294.515625,
+          "displayHeight": 220.875,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/Obra%20publica.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 294.53125,
+          "displayHeight": 220.890625,
+          "naturalWidth": 642,
+          "naturalHeight": 480
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1383
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 293.671875,
+          "displayHeight": 38.828125,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        },
+        {
+          "left": 32,
+          "right": 32
+        },
+        {
+          "left": 32,
+          "right": 32
+        },
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "inicio-tablet-1024.png",
+      "fullPage": true,
+      "pngWidth": 1024,
+      "pngHeight": 2923
+    },
+    {
+      "page": "/index.html",
+      "width": 1440,
+      "height": 900,
+      "documentHeight": 3484,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "textClips": [
+        {
+          "tag": "H2",
+          "class": "",
+          "text": "Más de 30 años construyendo confianza"
+        },
+        {
+          "tag": "H2",
+          "class": "services-title",
+          "text": "Construimos espacios. Materializamos proyectos."
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 62.0625,
+          "displayHeight": 80,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 63.4375,
+          "displayHeight": 80,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/home/Portada/01.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 1339.5,
+          "displayHeight": 716,
+          "naturalWidth": 1600,
+          "naturalHeight": 1000
+        },
+        {
+          "src": "/assets/home/nosotros.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 640.953125,
+          "displayHeight": 619.1875,
+          "naturalWidth": 1448,
+          "naturalHeight": 1086
+        },
+        {
+          "src": "/assets/logos/iso-certifications.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 94.8125,
+          "displayHeight": 44,
+          "naturalWidth": 487,
+          "naturalHeight": 226
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 417.703125,
+          "displayHeight": 313.265625,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 417.703125,
+          "displayHeight": 313.265625,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/Obra%20publica.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 417.71875,
+          "displayHeight": 313.28125,
+          "naturalWidth": 642,
+          "naturalHeight": 480
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1383
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 42.75,
+          "right": 42.75
+        },
+        {
+          "left": 42.75,
+          "right": 42.75
+        },
+        {
+          "left": 42.75,
+          "right": 42.75
+        },
+        {
+          "left": 42.75,
+          "right": 42.75
+        }
+      ],
+      "filename": "inicio-desktop-1440.png",
+      "fullPage": true,
+      "pngWidth": 1440,
+      "pngHeight": 3484
+    },
+    {
+      "page": "/nosotros/",
+      "width": 375,
+      "height": 812,
+      "documentHeight": 1991,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/home/nosotros.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1448,
+          "naturalHeight": 1086
+        },
+        {
+          "src": "/assets/logos/iso-certifications.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 86.1875,
+          "displayHeight": 40,
+          "naturalWidth": 487,
+          "naturalHeight": 226
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "nosotros-mobile-375.png",
+      "fullPage": true,
+      "pngWidth": 375,
+      "pngHeight": 1991
+    },
+    {
+      "page": "/nosotros/",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 2003,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/home/nosotros.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1448,
+          "naturalHeight": 1086
+        },
+        {
+          "src": "/assets/logos/iso-certifications.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 86.1875,
+          "displayHeight": 40,
+          "naturalWidth": 487,
+          "naturalHeight": 226
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "nosotros-mobile-390.png",
+      "fullPage": true,
+      "pngWidth": 390,
+      "pngHeight": 2003
+    },
+    {
+      "page": "/nosotros/",
+      "width": 768,
+      "height": 1024,
+      "documentHeight": 1607,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "textClips": [
+        {
+          "tag": "H1",
+          "class": "font-urbanist text-4xl md:text-5xl lg:text-6xl leading-[1.1] font-light text-black max-w-4xl mb-10 md:mb-12",
+          "text": "Más de 30 años construyendo confianza"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/home/nosotros.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 689,
+          "displayHeight": 516.75,
+          "naturalWidth": 1448,
+          "naturalHeight": 1086
+        },
+        {
+          "src": "/assets/logos/iso-certifications.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 86.1875,
+          "displayHeight": 40,
+          "naturalWidth": 487,
+          "naturalHeight": 226
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 50.1875,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 42.0625,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 27.546875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "nosotros-tablet-768.png",
+      "fullPage": true,
+      "pngWidth": 768,
+      "pngHeight": 1607
+    },
+    {
+      "page": "/nosotros/",
+      "width": 1024,
+      "height": 768,
+      "documentHeight": 1472,
+      "clientWidth": 1009,
+      "scrollWidth": 1009,
+      "textClips": [
+        {
+          "tag": "H1",
+          "class": "font-urbanist text-4xl md:text-5xl lg:text-6xl leading-[1.1] font-light text-black max-w-4xl mb-10 md:mb-12",
+          "text": "Más de 30 años construyendo confianza"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/home/nosotros.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 614,
+          "displayHeight": 460.5,
+          "naturalWidth": 1448,
+          "naturalHeight": 1086
+        },
+        {
+          "src": "/assets/logos/iso-certifications.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 86.1875,
+          "displayHeight": 40,
+          "naturalWidth": 487,
+          "naturalHeight": 226
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 293.671875,
+          "displayHeight": 38.828125,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "nosotros-tablet-1024.png",
+      "fullPage": true,
+      "pngWidth": 1024,
+      "pngHeight": 1472
+    },
+    {
+      "page": "/nosotros/",
+      "width": 1440,
+      "height": 900,
+      "documentHeight": 1426,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "textClips": [
+        {
+          "tag": "H1",
+          "class": "font-urbanist text-4xl md:text-5xl lg:text-6xl leading-[1.1] font-light text-black max-w-4xl mb-10 md:mb-12",
+          "text": "Más de 30 años construyendo confianza"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 62.0625,
+          "displayHeight": 80,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 63.4375,
+          "displayHeight": 80,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/home/nosotros.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 877,
+          "displayHeight": 657.75,
+          "naturalWidth": 1448,
+          "naturalHeight": 1086
+        },
+        {
+          "src": "/assets/logos/iso-certifications.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 86.1875,
+          "displayHeight": 40,
+          "naturalWidth": 487,
+          "naturalHeight": 226
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 42.75,
+          "right": 42.75
+        }
+      ],
+      "filename": "nosotros-desktop-1440.png",
+      "fullPage": true,
+      "pngWidth": 1440,
+      "pngHeight": 1426
+    },
+    {
+      "page": "/servicios/",
+      "width": 375,
+      "height": 812,
+      "documentHeight": 2258,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "textClips": [
+        {
+          "tag": "H1",
+          "class": "services-title",
+          "text": "Construimos espacios. Materializamos proyectos."
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/Obra%20publica.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 642,
+          "naturalHeight": 480
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "servicios-mobile-375.png",
+      "fullPage": true,
+      "pngWidth": 375,
+      "pngHeight": 2258
+    },
+    {
+      "page": "/servicios/",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 2291,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "textClips": [
+        {
+          "tag": "H1",
+          "class": "services-title",
+          "text": "Construimos espacios. Materializamos proyectos."
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/Obra%20publica.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 642,
+          "naturalHeight": 480
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "servicios-mobile-390.png",
+      "fullPage": true,
+      "pngWidth": 390,
+      "pngHeight": 2291
+    },
+    {
+      "page": "/servicios/",
+      "width": 768,
+      "height": 1024,
+      "documentHeight": 1573,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 332.5,
+          "displayHeight": 249.375,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 332.5,
+          "displayHeight": 249.375,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/Obra%20publica.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 332.5,
+          "displayHeight": 249.375,
+          "naturalWidth": 642,
+          "naturalHeight": 480
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 50.1875,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 42.0625,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 27.546875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "servicios-tablet-768.png",
+      "fullPage": true,
+      "pngWidth": 768,
+      "pngHeight": 1573
+    },
+    {
+      "page": "/servicios/",
+      "width": 1024,
+      "height": 768,
+      "documentHeight": 1039,
+      "clientWidth": 1009,
+      "scrollWidth": 1009,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 294.515625,
+          "displayHeight": 220.875,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 294.515625,
+          "displayHeight": 220.875,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/Obra%20publica.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 294.53125,
+          "displayHeight": 220.890625,
+          "naturalWidth": 642,
+          "naturalHeight": 480
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 293.671875,
+          "displayHeight": 38.828125,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "servicios-tablet-1024.png",
+      "fullPage": true,
+      "pngWidth": 1024,
+      "pngHeight": 1039
+    },
+    {
+      "page": "/servicios/",
+      "width": 1440,
+      "height": 900,
+      "documentHeight": 1188,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "textClips": [
+        {
+          "tag": "H1",
+          "class": "services-title",
+          "text": "Construimos espacios. Materializamos proyectos."
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 62.0625,
+          "displayHeight": 80,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 63.4375,
+          "displayHeight": 80,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 417.703125,
+          "displayHeight": 313.265625,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 417.703125,
+          "displayHeight": 313.265625,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/Obra%20publica.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 417.71875,
+          "displayHeight": 313.28125,
+          "naturalWidth": 642,
+          "naturalHeight": 480
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 42.75,
+          "right": 42.75
+        }
+      ],
+      "filename": "servicios-desktop-1440.png",
+      "fullPage": true,
+      "pngWidth": 1440,
+      "pngHeight": 1188
+    },
+    {
+      "page": "/proyectos/",
+      "width": 375,
+      "height": 812,
+      "documentHeight": 7135,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1383
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/38_TURIA/38_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1600
+        },
+        {
+          "src": "/assets/proyectos/39_VINITUS_ALCAL%C3%81/39_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 1600,
+          "naturalHeight": 1066
+        },
+        {
+          "src": "/assets/proyectos/07_LA%20FINCA/07_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/32_BOLTON/32_00PORTADA.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 3837,
+          "naturalHeight": 2558
+        },
+        {
+          "src": "/assets/proyectos/02_ALAMOS%20DE%20BULARAS/02_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/34_VDP/34_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/37_VEGANOX/37_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 1024,
+          "naturalHeight": 683
+        },
+        {
+          "src": "/assets/proyectos/03_COTOS/03_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1125
+        },
+        {
+          "src": "/assets/proyectos/29_VIP_TEATRO_ALCALA/29_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/16_MIRASIERRA/16_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/43_SOTO%20DE%20LA%20MORALEJA/43_0PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/27_MANERO/27_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 1470,
+          "naturalHeight": 1959
+        },
+        {
+          "src": "/assets/proyectos/33_OESIA%20SEVILLA/33_01.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/19_APOLO/19_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/41_VILLANUEVA/41_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/25_VINITUS%20GV4/25_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/42_%20ISLA%20DEL%20SUR/36_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/44_MERCADO%20MARAVILLAS/44_0PORTADA.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 986,
+          "naturalHeight": 660
+        },
+        {
+          "src": "/assets/proyectos/45_%20OESIA%20ZARAGOZA/45_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/20_TEATRO%20LA%20LATINA/20_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/22_LA%20PRAIRIE/22_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 200,
+          "naturalWidth": 828,
+          "naturalHeight": 489
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "proyectos-mobile-375.png",
+      "fullPage": true,
+      "pngWidth": 375,
+      "pngHeight": 7135
+    },
+    {
+      "page": "/proyectos/",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 7407,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1383
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/38_TURIA/38_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1600
+        },
+        {
+          "src": "/assets/proyectos/39_VINITUS_ALCAL%C3%81/39_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 1600,
+          "naturalHeight": 1066
+        },
+        {
+          "src": "/assets/proyectos/07_LA%20FINCA/07_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/32_BOLTON/32_00PORTADA.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 3837,
+          "naturalHeight": 2558
+        },
+        {
+          "src": "/assets/proyectos/02_ALAMOS%20DE%20BULARAS/02_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/34_VDP/34_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/37_VEGANOX/37_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 1024,
+          "naturalHeight": 683
+        },
+        {
+          "src": "/assets/proyectos/03_COTOS/03_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1125
+        },
+        {
+          "src": "/assets/proyectos/29_VIP_TEATRO_ALCALA/29_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/16_MIRASIERRA/16_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/43_SOTO%20DE%20LA%20MORALEJA/43_0PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/27_MANERO/27_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 1470,
+          "naturalHeight": 1959
+        },
+        {
+          "src": "/assets/proyectos/33_OESIA%20SEVILLA/33_01.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/19_APOLO/19_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/41_VILLANUEVA/41_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/25_VINITUS%20GV4/25_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/42_%20ISLA%20DEL%20SUR/36_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/44_MERCADO%20MARAVILLAS/44_0PORTADA.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 986,
+          "naturalHeight": 660
+        },
+        {
+          "src": "/assets/proyectos/45_%20OESIA%20ZARAGOZA/45_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/20_TEATRO%20LA%20LATINA/20_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/22_LA%20PRAIRIE/22_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 209.375,
+          "naturalWidth": 828,
+          "naturalHeight": 489
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "proyectos-mobile-390.png",
+      "fullPage": true,
+      "pngWidth": 390,
+      "pngHeight": 7407
+    },
+    {
+      "page": "/proyectos/",
+      "width": 768,
+      "height": 1024,
+      "documentHeight": 3871,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1383
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/38_TURIA/38_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1600
+        },
+        {
+          "src": "/assets/proyectos/39_VINITUS_ALCAL%C3%81/39_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 1600,
+          "naturalHeight": 1066
+        },
+        {
+          "src": "/assets/proyectos/07_LA%20FINCA/07_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/32_BOLTON/32_00PORTADA.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 3837,
+          "naturalHeight": 2558
+        },
+        {
+          "src": "/assets/proyectos/02_ALAMOS%20DE%20BULARAS/02_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/34_VDP/34_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/37_VEGANOX/37_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 1024,
+          "naturalHeight": 683
+        },
+        {
+          "src": "/assets/proyectos/03_COTOS/03_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1125
+        },
+        {
+          "src": "/assets/proyectos/29_VIP_TEATRO_ALCALA/29_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/16_MIRASIERRA/16_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/43_SOTO%20DE%20LA%20MORALEJA/43_0PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/27_MANERO/27_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 1470,
+          "naturalHeight": 1959
+        },
+        {
+          "src": "/assets/proyectos/33_OESIA%20SEVILLA/33_01.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/19_APOLO/19_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/41_VILLANUEVA/41_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/25_VINITUS%20GV4/25_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/42_%20ISLA%20DEL%20SUR/36_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/44_MERCADO%20MARAVILLAS/44_0PORTADA.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 986,
+          "naturalHeight": 660
+        },
+        {
+          "src": "/assets/proyectos/45_%20OESIA%20ZARAGOZA/45_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/20_TEATRO%20LA%20LATINA/20_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/22_LA%20PRAIRIE/22_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 328.5,
+          "displayHeight": 205.3125,
+          "naturalWidth": 828,
+          "naturalHeight": 489
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 50.1875,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 42.0625,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 27.546875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "proyectos-tablet-768.png",
+      "fullPage": true,
+      "pngWidth": 768,
+      "pngHeight": 3871
+    },
+    {
+      "page": "/proyectos/",
+      "width": 1024,
+      "height": 768,
+      "documentHeight": 2529,
+      "clientWidth": 1009,
+      "scrollWidth": 1009,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1383
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/38_TURIA/38_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1600
+        },
+        {
+          "src": "/assets/proyectos/39_VINITUS_ALCAL%C3%81/39_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 1600,
+          "naturalHeight": 1066
+        },
+        {
+          "src": "/assets/proyectos/07_LA%20FINCA/07_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/32_BOLTON/32_00PORTADA.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 3837,
+          "naturalHeight": 2558
+        },
+        {
+          "src": "/assets/proyectos/02_ALAMOS%20DE%20BULARAS/02_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/34_VDP/34_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/37_VEGANOX/37_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 1024,
+          "naturalHeight": 683
+        },
+        {
+          "src": "/assets/proyectos/03_COTOS/03_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1125
+        },
+        {
+          "src": "/assets/proyectos/29_VIP_TEATRO_ALCALA/29_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/16_MIRASIERRA/16_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/43_SOTO%20DE%20LA%20MORALEJA/43_0PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/27_MANERO/27_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 1470,
+          "naturalHeight": 1959
+        },
+        {
+          "src": "/assets/proyectos/33_OESIA%20SEVILLA/33_01.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/19_APOLO/19_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/41_VILLANUEVA/41_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/25_VINITUS%20GV4/25_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/42_%20ISLA%20DEL%20SUR/36_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/44_MERCADO%20MARAVILLAS/44_0PORTADA.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 986,
+          "naturalHeight": 660
+        },
+        {
+          "src": "/assets/proyectos/45_%20OESIA%20ZARAGOZA/45_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/20_TEATRO%20LA%20LATINA/20_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.65625,
+          "displayHeight": 183.53125,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/22_LA%20PRAIRIE/22_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 293.671875,
+          "displayHeight": 183.53125,
+          "naturalWidth": 828,
+          "naturalHeight": 489
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 293.671875,
+          "displayHeight": 38.828125,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "proyectos-tablet-1024.png",
+      "fullPage": true,
+      "pngWidth": 1024,
+      "pngHeight": 2529
+    },
+    {
+      "page": "/proyectos/",
+      "width": 1440,
+      "height": 900,
+      "documentHeight": 3351,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 62.0625,
+          "displayHeight": 80,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 63.4375,
+          "displayHeight": 80,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1383
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/23_GRACE/23_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/38_TURIA/38_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1600
+        },
+        {
+          "src": "/assets/proyectos/39_VINITUS_ALCAL%C3%81/39_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 1600,
+          "naturalHeight": 1066
+        },
+        {
+          "src": "/assets/proyectos/07_LA%20FINCA/07_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/32_BOLTON/32_00PORTADA.jpg",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 3837,
+          "naturalHeight": 2558
+        },
+        {
+          "src": "/assets/proyectos/02_ALAMOS%20DE%20BULARAS/02_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/34_VDP/34_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/37_VEGANOX/37_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 1024,
+          "naturalHeight": 683
+        },
+        {
+          "src": "/assets/proyectos/03_COTOS/03_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1125
+        },
+        {
+          "src": "/assets/proyectos/29_VIP_TEATRO_ALCALA/29_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/16_MIRASIERRA/16_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/43_SOTO%20DE%20LA%20MORALEJA/43_0PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/27_MANERO/27_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 1470,
+          "naturalHeight": 1959
+        },
+        {
+          "src": "/assets/proyectos/33_OESIA%20SEVILLA/33_01.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/19_APOLO/19_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 1500,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/41_VILLANUEVA/41_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/25_VINITUS%20GV4/25_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/42_%20ISLA%20DEL%20SUR/36_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1500
+        },
+        {
+          "src": "/assets/proyectos/44_MERCADO%20MARAVILLAS/44_0PORTADA.png",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 986,
+          "naturalHeight": 660
+        },
+        {
+          "src": "/assets/proyectos/45_%20OESIA%20ZARAGOZA/45_0%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 1600,
+          "naturalHeight": 1200
+        },
+        {
+          "src": "/assets/proyectos/20_TEATRO%20LA%20LATINA/20_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.15625,
+          "displayHeight": 265.71875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/22_LA%20PRAIRIE/22_00PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 425.171875,
+          "displayHeight": 265.71875,
+          "naturalWidth": 828,
+          "naturalHeight": 489
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 42.75,
+          "right": 42.75
+        }
+      ],
+      "filename": "proyectos-desktop-1440.png",
+      "fullPage": true,
+      "pngWidth": 1440,
+      "pngHeight": 3351
+    },
+    {
+      "page": "/contacto/",
+      "width": 375,
+      "height": 812,
+      "documentHeight": 1974,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "contacto-mobile-375.png",
+      "fullPage": true,
+      "pngWidth": 375,
+      "pngHeight": 1974
+    },
+    {
+      "page": "/contacto/",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1974,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "contacto-mobile-390.png",
+      "fullPage": true,
+      "pngWidth": 390,
+      "pngHeight": 1974
+    },
+    {
+      "page": "/contacto/",
+      "width": 768,
+      "height": 1024,
+      "documentHeight": 1484,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 50.1875,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 42.0625,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 27.546875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "contacto-tablet-768.png",
+      "fullPage": true,
+      "pngWidth": 768,
+      "pngHeight": 1484
+    },
+    {
+      "page": "/contacto/",
+      "width": 1024,
+      "height": 768,
+      "documentHeight": 1077,
+      "clientWidth": 1009,
+      "scrollWidth": 1009,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 293.671875,
+          "displayHeight": 38.828125,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "contacto-tablet-1024.png",
+      "fullPage": true,
+      "pngWidth": 1024,
+      "pngHeight": 1077
+    },
+    {
+      "page": "/contacto/",
+      "width": 1440,
+      "height": 900,
+      "documentHeight": 1026,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 62.0625,
+          "displayHeight": 80,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 63.4375,
+          "displayHeight": 80,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 42.75,
+          "right": 42.75
+        }
+      ],
+      "filename": "contacto-desktop-1440.png",
+      "fullPage": true,
+      "pngWidth": 1440,
+      "pngHeight": 1026
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "width": 375,
+      "height": 812,
+      "documentHeight": 3658,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_01.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_03.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_04.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_05.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_06.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_07.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_09.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 320,
+          "displayHeight": 240,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "ficha-salamanca-mobile-375.png",
+      "fullPage": true,
+      "pngWidth": 375,
+      "pngHeight": 3658
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "viewer": true,
+      "width": 375,
+      "height": 812,
+      "filename": "visor-mobile-375.png",
+      "fullPage": true,
+      "pngWidth": 375,
+      "pngHeight": 812
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 3771,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 43.4375,
+          "displayHeight": 56,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 44.40625,
+          "displayHeight": 56,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_01.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_03.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_04.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_05.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_06.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_07.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_09.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335,
+          "displayHeight": 251.25,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 20,
+          "right": 20
+        }
+      ],
+      "filename": "ficha-salamanca-mobile-390.png",
+      "fullPage": true,
+      "pngWidth": 390,
+      "pngHeight": 3771
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "viewer": true,
+      "width": 390,
+      "height": 844,
+      "filename": "visor-mobile-390.png",
+      "fullPage": true,
+      "pngWidth": 390,
+      "pngHeight": 844
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "width": 768,
+      "height": 1024,
+      "documentHeight": 2115,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335.5,
+          "displayHeight": 251.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_01.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335.5,
+          "displayHeight": 251.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335.5,
+          "displayHeight": 251.625,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_03.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335.5,
+          "displayHeight": 251.625,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_04.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335.5,
+          "displayHeight": 251.625,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_05.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335.5,
+          "displayHeight": 251.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_06.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335.5,
+          "displayHeight": 251.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_07.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335.5,
+          "displayHeight": 251.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335.5,
+          "displayHeight": 251.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_09.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 335.5,
+          "displayHeight": 251.625,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 50.1875,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 42.0625,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 208.328125,
+          "displayHeight": 27.546875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "ficha-salamanca-tablet-768.png",
+      "fullPage": true,
+      "pngWidth": 768,
+      "pngHeight": 2115
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "viewer": true,
+      "width": 768,
+      "height": 1024,
+      "filename": "visor-tablet-768.png",
+      "fullPage": true,
+      "pngWidth": 768,
+      "pngHeight": 1024
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "width": 1024,
+      "height": 768,
+      "documentHeight": 2577,
+      "clientWidth": 1009,
+      "scrollWidth": 1009,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 49.65625,
+          "displayHeight": 64,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 50.75,
+          "displayHeight": 64,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 463.5,
+          "displayHeight": 347.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_01.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 463.5,
+          "displayHeight": 347.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 463.5,
+          "displayHeight": 347.625,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_03.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 463.5,
+          "displayHeight": 347.625,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_04.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 463.5,
+          "displayHeight": 347.625,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_05.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 463.5,
+          "displayHeight": 347.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_06.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 463.5,
+          "displayHeight": 347.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_07.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 463.5,
+          "displayHeight": 347.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 463.5,
+          "displayHeight": 347.625,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_09.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 463.5,
+          "displayHeight": 347.625,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 293.671875,
+          "displayHeight": 38.828125,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 32,
+          "right": 32
+        }
+      ],
+      "filename": "ficha-salamanca-tablet-1024.png",
+      "fullPage": true,
+      "pngWidth": 1024,
+      "pngHeight": 2577
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "viewer": true,
+      "width": 1024,
+      "height": 768,
+      "filename": "visor-tablet-1024.png",
+      "fullPage": true,
+      "pngWidth": 1024,
+      "pngHeight": 768
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "width": 1440,
+      "height": 900,
+      "documentHeight": 2151,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "textClips": [],
+      "images": [
+        {
+          "src": "/assets/logos/ancodarq-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 62.0625,
+          "displayHeight": 80,
+          "naturalWidth": 2587,
+          "naturalHeight": 3334
+        },
+        {
+          "src": "/assets/logos/escuadra-square.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 63.4375,
+          "displayHeight": 80,
+          "naturalWidth": 1406,
+          "naturalHeight": 1773
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 430.5,
+          "displayHeight": 322.875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_01.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 430.5,
+          "displayHeight": 322.875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_02.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 430.5,
+          "displayHeight": 322.875,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_03.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 430.5,
+          "displayHeight": 322.875,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_04.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 430.5,
+          "displayHeight": 322.875,
+          "naturalWidth": 1333,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_05.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 430.5,
+          "displayHeight": 322.875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_06.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 430.5,
+          "displayHeight": 322.875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_07.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 430.5,
+          "displayHeight": 322.875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1334
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_08.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 430.5,
+          "displayHeight": 322.875,
+          "naturalWidth": 2000,
+          "naturalHeight": 1333
+        },
+        {
+          "src": "/assets/proyectos/09_JJ39/09_09.webp",
+          "loaded": true,
+          "fit": "cover",
+          "displayWidth": 430.5,
+          "displayHeight": 322.875,
+          "naturalWidth": 1334,
+          "naturalHeight": 2000
+        },
+        {
+          "src": "/assets/logos/ancodarq-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 56.625,
+          "naturalWidth": 3129,
+          "naturalHeight": 754
+        },
+        {
+          "src": "/assets/logos/escuadra-horizontal.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 235,
+          "displayHeight": 47.453125,
+          "naturalWidth": 1431,
+          "naturalHeight": 289
+        },
+        {
+          "src": "/assets/logos/1995.png",
+          "loaded": true,
+          "fit": "contain",
+          "displayWidth": 300,
+          "displayHeight": 39.671875,
+          "naturalWidth": 5905,
+          "naturalHeight": 781
+        }
+      ],
+      "containers": [
+        {
+          "left": 42.75,
+          "right": 42.75
+        }
+      ],
+      "filename": "ficha-salamanca-desktop-1440.png",
+      "fullPage": true,
+      "pngWidth": 1440,
+      "pngHeight": 2151
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "viewer": true,
+      "width": 1440,
+      "height": 900,
+      "filename": "visor-desktop-1440.png",
+      "fullPage": true,
+      "pngWidth": 1440,
+      "pngHeight": 900
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "brokenLocalResources": []
+}

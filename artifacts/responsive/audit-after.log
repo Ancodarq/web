@@ -1,0 +1,245 @@
+Revisado: /aviso-legal/index.html
+Revisado: /contacto/index.html
+Revisado: /cookies/index.html
+Revisado: /index.html
+Revisado: /nosotros/index.html
+Revisado: /privacidad/index.html
+Revisado: /proyectos/espacio-retail-serrano/index.html
+Revisado: /proyectos/index.html
+Revisado: /proyectos/reforma-duplex-chamberi/index.html
+Revisado: /proyectos/rehabilitacion-edificio-claudio-coello/index.html
+Revisado: /proyectos/sede-corporativa-castellana/index.html
+Revisado: /proyectos/vivienda-somontes/index.html
+Revisado: /proyectos/vivienda-unifamiliar-la-moraleja/index.html
+Revisado: /servicios/index.html
+Revisado: /trabaja-con-nosotros/index.html
+Revisado: /proyectos/detalle.html?slug=vivienda-salamanca
+Recursos locales comprobados: 93
+{
+  "views": 160,
+  "overflowViews": [],
+  "missingProjects": [
+    "/proyectos/espacio-retail-serrano/index.html",
+    "/proyectos/reforma-duplex-chamberi/index.html",
+    "/proyectos/rehabilitacion-edificio-claudio-coello/index.html",
+    "/proyectos/sede-corporativa-castellana/index.html",
+    "/proyectos/vivienda-somontes/index.html",
+    "/proyectos/vivienda-unifamiliar-la-moraleja/index.html"
+  ],
+  "interactions": [
+    {
+      "name": "form",
+      "path": "/contacto/",
+      "blocksEmpty": true,
+      "fields": [
+        {
+          "type": "text",
+          "name": "Nombre *",
+          "width": 361.34375
+        },
+        {
+          "type": "email",
+          "name": "Email *",
+          "width": 361.359375
+        },
+        {
+          "type": "tel",
+          "name": "Teléfono",
+          "width": 361.34375
+        },
+        {
+          "type": "text",
+          "name": "Empresa",
+          "width": 361.359375
+        },
+        {
+          "type": "text",
+          "name": "Asunto",
+          "width": 754.703125
+        },
+        {
+          "type": "textarea",
+          "name": "Mensaje *",
+          "width": 754.703125
+        }
+      ]
+    },
+    {
+      "name": "form",
+      "path": "/trabaja-con-nosotros/",
+      "blocksEmpty": true,
+      "fields": [
+        {
+          "type": "text",
+          "name": "Nombre y apellidos *",
+          "width": 432
+        },
+        {
+          "type": "email",
+          "name": "Email *",
+          "width": 432
+        },
+        {
+          "type": "tel",
+          "name": "Teléfono *",
+          "width": 432
+        },
+        {
+          "type": "text",
+          "name": "Área / Perfil profesional *",
+          "width": 432
+        },
+        {
+          "type": "textarea",
+          "name": "Carta de presentación o comentarios",
+          "width": 896
+        },
+        {
+          "type": "file",
+          "name": "Adjuntar CV (PDF) *",
+          "width": 896
+        }
+      ]
+    },
+    {
+      "name": "menu",
+      "open": true,
+      "closed": true,
+      "aria": "true"
+    },
+    {
+      "name": "filters",
+      "results": [
+        {
+          "category": "TODOS",
+          "count": 29,
+          "selected": "TODOS"
+        },
+        {
+          "category": "OBRA NUEVA",
+          "count": 5,
+          "selected": "OBRA NUEVA"
+        },
+        {
+          "category": "REFORMAS",
+          "count": 4,
+          "selected": "REFORMAS"
+        },
+        {
+          "category": "COMERCIAL",
+          "count": 8,
+          "selected": "COMERCIAL"
+        },
+        {
+          "category": "OFICINAS",
+          "count": 6,
+          "selected": "OFICINAS"
+        },
+        {
+          "category": "OBRAS EN EJECUCIÓN",
+          "count": 0,
+          "selected": "OBRAS EN EJECUCIÓN"
+        }
+      ]
+    },
+    {
+      "name": "lightbox-layout",
+      "width": 320,
+      "height": 640,
+      "image": {
+        "x": 48,
+        "y": 239.359375,
+        "w": 224,
+        "h": 149.28125
+      },
+      "fits": true,
+      "stripFits": true,
+      "fit": "contain"
+    },
+    {
+      "name": "lightbox-layout",
+      "width": 390,
+      "height": 844,
+      "image": {
+        "x": 48,
+        "y": 318.03125,
+        "w": 294,
+        "h": 195.9375
+      },
+      "fits": true,
+      "stripFits": true,
+      "fit": "contain"
+    },
+    {
+      "name": "lightbox-layout",
+      "width": 844,
+      "height": 390,
+      "image": {
+        "x": 225.453125,
+        "y": 56,
+        "w": 393.09375,
+        "h": 261.984375
+      },
+      "fits": true,
+      "stripFits": true,
+      "fit": "contain"
+    },
+    {
+      "name": "lightbox-layout",
+      "width": 768,
+      "height": 1024,
+      "image": {
+        "x": 90,
+        "y": 300.046875,
+        "w": 588,
+        "h": 391.890625
+      },
+      "fits": true,
+      "stripFits": true,
+      "fit": "contain"
+    },
+    {
+      "name": "lightbox-layout",
+      "width": 1024,
+      "height": 768,
+      "image": {
+        "x": 90,
+        "y": 86.734375,
+        "w": 844,
+        "h": 562.515625
+      },
+      "fits": true,
+      "stripFits": true,
+      "fit": "contain"
+    },
+    {
+      "name": "lightbox-layout",
+      "width": 1440,
+      "height": 900,
+      "image": {
+        "x": 188.875,
+        "y": 80,
+        "w": 1062.25,
+        "h": 707.984375
+      },
+      "fits": true,
+      "stripFits": true,
+      "fit": "contain"
+    },
+    {
+      "name": "keyboard-next",
+      "counter": "02 / 10"
+    },
+    {
+      "name": "swipe-next",
+      "counter": "03 / 10"
+    },
+    {
+      "name": "escape",
+      "closed": true,
+      "unlocked": true,
+      "restoredScroll": 100
+    }
+  ],
+  "errors": []
+}

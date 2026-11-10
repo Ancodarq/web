@@ -19,7 +19,7 @@ function getActiveSection() {
   if (path.includes("/proyectos")) return "proyectos";
   if (path.includes("/contacto")) return "contacto";
 
-  return "inicio";
+  return path === SITE_ROOT.pathname || path === new URL("index.html", SITE_ROOT).pathname ? "inicio" : null;
 }
 
 
@@ -39,12 +39,12 @@ function renderHeader() {
     }`;
 
   container.innerHTML = `
-    <header class="w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
+    <header class="site-header w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
 
-      <div class="w-[90%] mx-auto py-5 flex items-center justify-between">
+      <div class="site-header-row site-container py-5 flex items-center justify-between">
 
         <!-- LOGOS -->
-        <a href="${siteUrl("index.html")}" class="flex items-center gap-7">
+        <a href="${siteUrl("index.html")}" class="site-logos flex items-center gap-7">
 
           <img
             src="${siteUrl("assets/logos/ancodarq-square.png")}"
@@ -64,7 +64,7 @@ function renderHeader() {
 
 
         <!-- NAVEGACIÓN DESKTOP -->
-        <nav class="hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
+        <nav class="site-nav hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
 
           <a href="${siteUrl("index.html")}" class="${navClass("inicio")}">
             INICIO
@@ -92,7 +92,7 @@ function renderHeader() {
         <!-- BOTÓN MÓVIL -->
         <button
           onclick="toggleMobileMenu()"
-          class="md:hidden flex flex-col justify-center gap-1.5 w-6 h-6 p-0 focus:outline-none"
+          class="site-menu-toggle md:hidden flex flex-col justify-center gap-1.5 w-6 h-6 p-0"
           aria-label="Menú"
         >
           <span class="w-full h-px bg-black"></span>
@@ -106,7 +106,7 @@ function renderHeader() {
       <!-- MENÚ MÓVIL -->
       <div
         id="mobile-menu"
-        class="hidden md:hidden bg-white w-full border-b border-neutral-200 px-[5%] py-8 flex flex-col gap-6 font-prompt font-light text-sm tracking-[0.2em]"
+        class="site-mobile-menu hidden md:hidden bg-white w-full border-b border-neutral-200 site-gutters py-8 flex flex-col gap-6 font-prompt font-light text-sm tracking-[0.2em]"
       >
 
         <a href="${siteUrl("index.html")}" class="text-neutral-500">INICIO</a>
@@ -131,9 +131,9 @@ function renderFooter() {
   if (!container) return;
 
   container.innerHTML = `
-    <footer class="w-full bg-white border-t border-neutral-100 pt-9 pb-4 font-prompt">
+    <footer class="site-footer w-full bg-white border-t border-neutral-100 pt-9 pb-4 font-prompt">
 
-      <div class="w-[90%] mx-auto">
+      <div class="site-container">
 
         <!-- BLOQUE PRINCIPAL -->
         <div class="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] items-start gap-10 mb-8 md:mb-9">
@@ -337,6 +337,8 @@ function initHero() {
   // Mostrar inmediatamente la primera imagen real
   img.src = siteUrl(HERO_IMAGES[0]);
 
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
   setInterval(() => {
     currentHeroIdx = (currentHeroIdx + 1) % HERO_IMAGES.length;
     img.src = siteUrl(HERO_IMAGES[currentHeroIdx]);
@@ -384,26 +386,29 @@ function renderServicesGrid(containerId) {
 
   container.innerHTML = SERVICES_DATA.map(
     srv => `
-      <article class="flex flex-col">
+      <article class="service-item">
 
-        <div class="w-full aspect-[4/3] bg-neutral-100 mb-8 overflow-hidden">
+        <div class="service-image">
           <img
             src="${srv.image}"
             alt="${srv.title}"
+            loading="lazy"
             class="w-full h-full object-cover"
             style="object-position: ${srv.imagePosition || 'center'};"
           />
         </div>
 
-        <span class="font-urbanist font-light text-sm text-neutral-400 mb-2">
+        <div class="service-heading">
+        <span class="service-number" aria-hidden="true">
           ${srv.id}
         </span>
 
-        <h3 class="font-prompt text-[13px] tracking-[0.2em] font-medium text-black mb-4">
+        <h3 class="service-title">
           ${srv.title}
         </h3>
+        </div>
 
-        <p class="font-prompt text-[13px] leading-relaxed text-neutral-600 font-light">
+        <p class="service-description">
           ${srv.description}
         </p>
 
@@ -419,12 +424,59 @@ function renderServicesGrid(containerId) {
 
 function toggleMobileMenu() {
   const menu = document.getElementById("mobile-menu");
-
-  if (menu) {
-    menu.classList.toggle("hidden");
-  }
+  if (!menu) return;
+  setMobileMenuOpen(menu.classList.contains("hidden"));
 }
 
+function setMobileMenuOpen(open, restoreFocus = false) {
+  const menu = document.getElementById("mobile-menu");
+  const button = document.querySelector(".site-menu-toggle");
+  if (!menu || !button) return;
+  menu.classList.toggle("hidden", !open);
+  button.setAttribute("aria-expanded", String(open));
+  if (restoreFocus) button.focus();
+}
+
+function initNavigation() {
+  const header = document.querySelector(".site-header");
+  const menu = document.getElementById("mobile-menu");
+  const button = header?.querySelector(".site-menu-toggle");
+  if (!header || !menu || !button) return;
+  button.setAttribute("aria-controls", "mobile-menu");
+  button.setAttribute("aria-expanded", "false");
+  const active = getActiveSection();
+  header.querySelectorAll("nav a, #mobile-menu a").forEach(link => {
+    const linkPath = new URL(link.href).pathname;
+    const expected = active === "inicio" ? new URL("index.html", SITE_ROOT).pathname : active ? new URL(active + "/", SITE_ROOT).pathname : null;
+    const isActive = linkPath === expected;
+    link.classList.toggle("is-active", isActive);
+    if (isActive) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
+  menu.addEventListener("click", event => {
+    if (event.target.closest("a")) setMobileMenuOpen(false);
+  });
+  document.addEventListener("click", event => {
+    if (!header.contains(event.target)) setMobileMenuOpen(false);
+  });
+  document.addEventListener("keydown", event => {
+    if (menu.classList.contains("hidden")) return;
+    if (event.key === "Escape") {
+      event.preventDefault();
+      setMobileMenuOpen(false, true);
+    } else if (event.key === "Tab") {
+      const last = menu.querySelector("a:last-child");
+      if (event.shiftKey && document.activeElement === button) {
+        event.preventDefault(); last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault(); button.focus();
+      }
+    }
+  });
+  window.matchMedia("(min-width: 1101px)").addEventListener("change", event => {
+    if (event.matches) setMobileMenuOpen(false);
+  });
+}
 
 // ======================================================
 // INICIALIZACIÓN
@@ -435,6 +487,21 @@ document.addEventListener("DOMContentLoaded", () => {
   // Elementos globales
   renderHeader();
   renderFooter();
+  initNavigation();
+
+  // Mantener el texto existente también como nombre accesible del campo.
+  document.querySelectorAll("form input[placeholder], form textarea[placeholder]").forEach(field => {
+    if (!field.labels?.length && !field.hasAttribute("aria-label")) {
+      field.setAttribute("aria-label", field.getAttribute("placeholder"));
+    }
+  });
+  document.querySelectorAll('form input[type="file"]').forEach((field, index) => {
+    const label = field.parentElement.querySelector("label");
+    if (label && !field.labels?.length) {
+      field.id ||= `attachment-${index}`;
+      label.htmlFor = field.id;
+    }
+  });
 
   // Home
   initHero();

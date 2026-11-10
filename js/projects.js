@@ -91,7 +91,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "vivienda-salamanca",
-    name: "REFORMA VIVIENDA RETIRO",
+    name: "REFORMA VIVIENDA SALAMANCA",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
@@ -461,7 +461,7 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
 
   {
     slug: "vivienda-odonnell",
-    name: "REFORMA VIVIENDA SALAMANCA",
+    name: "REFORMA VIVIENDA RETIRO",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
@@ -608,7 +608,7 @@ function projectCard(project) {
   return `
     <a
       href="${siteUrl(`proyectos/detalle.html?slug=${project.slug}`)}"
-      class="group block"
+      class="project-link group block"
     >
 <div class="relative w-full aspect-[16/10] bg-neutral-100 overflow-hidden">
 
@@ -616,17 +616,19 @@ function projectCard(project) {
         <img
           src="${siteUrl(project.coverImage)}"
           alt="${project.name}"
+          loading="lazy"
+          decoding="async"
           class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.015]"
         />
 
         <!-- CAPA OSCURA -->
         <div
-          class="absolute inset-0 bg-black/0 group-hover:bg-black/55 transition-colors duration-300"
+          class="project-shade absolute inset-0 bg-black/0 group-hover:bg-black/55 transition-colors duration-300"
         ></div>
 
         <!-- NOMBRE DEL PROYECTO -->
         <div
-          class="absolute inset-0 flex items-center justify-center
+          class="project-caption absolute inset-0 flex items-center justify-center
                  opacity-0 group-hover:opacity-100
                  transition-opacity duration-300
                  px-6 text-center"
@@ -689,7 +691,9 @@ function renderProjectsGallery() {
     <button
       type="button"
       data-cat="${c}"
-      class="project-filter py-1 relative transition-colors duration-150 ${c === "OBRAS EN EJECUCIÓN" ? "ml-auto" : ""} ${
+      aria-pressed="${activeFilter === c}"
+      aria-controls="proyectos-gallery-grid"
+      class="project-filter py-1 relative transition-colors duration-150 ${c === "OBRAS EN EJECUCIÓN" ? "project-filter-ongoing" : ""} ${
         activeFilter === c
           ? "text-black font-normal"
           : "text-neutral-400 hover:text-black"
@@ -708,6 +712,8 @@ function renderProjectsGallery() {
     btn.addEventListener("click", () => {
       activeFilter = btn.dataset.cat;
       renderProjectsGallery();
+      Array.from(filterCont.querySelectorAll(".project-filter"))
+        .find(candidate => candidate.dataset.cat === activeFilter)?.focus({ preventScroll: true });
     });
   });
 
@@ -716,9 +722,9 @@ function renderProjectsGallery() {
       ? ORDERED_PROJECTS_DATA.filter(p => p.category !== "OBRAS EN EJECUCIÓN")
       : ORDERED_PROJECTS_DATA.filter(p => p.category === activeFilter);
 
-  gridCont.innerHTML = filtered
-    .map(p => projectCard(p))
-    .join("");
+  gridCont.innerHTML = filtered.length
+    ? filtered.map(p => projectCard(p)).join("")
+    : '<p class="projects-empty" role="status">No hay proyectos disponibles en esta categoría.</p>';
 }
 
 // ======================================================
@@ -728,6 +734,39 @@ function renderProjectsGallery() {
 
 let currentProjectImages = [];
 let currentLightboxIndex = 0;
+let currentProjectName = "";
+let lightboxTrigger = null;
+let previousBodyOverflow = "";
+let lightboxScrollPosition = 0;
+let previousBodyPosition = null;
+
+// Campos opcionales: se muestran únicamente cuando existan datos reales.
+function projectAdditionalDetails(project) {
+  const fields = [
+    ["Tipología", project.typology],
+    ["Tipo de intervención", project.interventionType],
+    ["Alcance de los trabajos", project.scope]
+  ].filter(([, value]) => typeof value === "string" && value.trim());
+  const description = typeof project.description === "string" ? project.description.trim() : "";
+  if (!fields.length && !description) return "";
+  return `<div class="project-additional-details">
+    ${fields.length ? `<dl>${fields.map(([label, value]) => `<div><dt>${label}</dt><dd>${value}</dd></div>`).join("")}</dl>` : ""}
+    ${description ? `<p>${description}</p>` : ""}
+  </div>`;
+}
+
+function projectAdjacentNavigation(project) {
+  const index = ORDERED_PROJECTS_DATA.findIndex(candidate => candidate.slug === project.slug);
+  const previous = ORDERED_PROJECTS_DATA[index - 1];
+  const next = ORDERED_PROJECTS_DATA[index + 1];
+  const link = (item, direction, label) => item
+    ? `<a class="project-${direction}" rel="${direction === "previous" ? "prev" : "next"}" href="${siteUrl(`proyectos/detalle.html?slug=${item.slug}`)}"><span>${label}</span><span>${item.name}</span></a>`
+    : "";
+  return `<nav class="project-adjacent-nav" aria-label="Navegación entre proyectos">
+    ${link(previous, "previous", "← PROYECTO ANTERIOR")}
+    ${link(next, "next", "PROYECTO SIGUIENTE →")}
+  </nav>`;
+}
 
 function renderProjectDetail() {
   const container = document.getElementById("project-detail-content");
@@ -748,10 +787,11 @@ function renderProjectDetail() {
     project.coverImage,
     ...(project.gallery || [])
   ];
+  currentProjectName = project.name;
 
   container.innerHTML = `
     <div class="mb-8 md:mb-10">
-      <h1 class="text-[13px] md:text-[15px] font-light tracking-[0.18em] text-neutral-800 uppercase">
+      <h1 class="project-detail-title">
         ${project.name}
       </h1>
 
@@ -765,6 +805,7 @@ function renderProjectDetail() {
           </p>
         `}
       </div>
+      ${projectAdditionalDetails(project)}
     </div>
 
     <div class="project-gallery-grid">
@@ -779,10 +820,12 @@ function renderProjectDetail() {
             src="${siteUrl(src)}"
             alt="${project.name} — imagen ${index + 1}"
             loading="${index < 3 ? 'eager' : 'lazy'}"
+            decoding="async"
           />
         </button>
       `).join("")}
     </div>
+    ${projectAdjacentNavigation(project)}
   `;
 }
 
@@ -792,13 +835,25 @@ function renderProjectDetail() {
 // ======================================================
 
 function openProjectLightbox(index) {
-  if (!currentProjectImages.length) return;
+  if (!currentProjectImages.length || document.getElementById("project-lightbox")) return;
 
   currentLightboxIndex = index;
+  lightboxTrigger = document.activeElement;
+  previousBodyOverflow = document.body.style.overflow;
+  lightboxScrollPosition = window.scrollY;
+  previousBodyPosition = {
+    position: document.body.style.position,
+    top: document.body.style.top,
+    left: document.body.style.left,
+    right: document.body.style.right
+  };
 
   const overlay = document.createElement("div");
   overlay.id = "project-lightbox";
   overlay.className = "project-lightbox";
+  overlay.setAttribute("role", "dialog");
+  overlay.setAttribute("aria-modal", "true");
+  overlay.setAttribute("aria-label", `Fotografías de ${currentProjectName}`);
 
   overlay.innerHTML = `
     <button
@@ -821,7 +876,7 @@ function openProjectLightbox(index) {
       <img
         id="project-lightbox-image"
         src="${siteUrl(currentProjectImages[currentLightboxIndex])}"
-        alt=""
+        alt="${currentProjectName} — imagen ${currentLightboxIndex + 1}"
       />
     </div>
 
@@ -833,7 +888,8 @@ function openProjectLightbox(index) {
       ›
     </button>
 
-    <div class="project-lightbox-thumbs">
+    <p class="project-lightbox-counter" aria-live="polite" aria-atomic="true"></p>
+    <div class="project-lightbox-thumbs" role="group" aria-label="Miniaturas">
       ${currentProjectImages.map((img, i) => `
         <button
           type="button"
@@ -843,7 +899,7 @@ function openProjectLightbox(index) {
           onclick="event.stopPropagation(); setProjectLightboxImage(${i})"
           aria-label="Ver imagen ${i + 1}"
         >
-          <img src="${siteUrl(img)}" alt="" />
+          <img src="${siteUrl(img)}" alt="" loading="lazy" decoding="async" />
         </button>
       `).join("")}
     </div>
@@ -857,17 +913,44 @@ function openProjectLightbox(index) {
 
   document.body.appendChild(overlay);
   document.body.style.overflow = "hidden";
+  Object.assign(document.body.style, {
+    position: "fixed", top: `-${lightboxScrollPosition}px`, left: "0", right: "0"
+  });
+  const main = overlay.querySelector(".project-lightbox-main");
+  let touchStart = null;
+  main.addEventListener("touchstart", event => {
+    touchStart = event.touches.length === 1
+      ? { x: event.touches[0].clientX, y: event.touches[0].clientY }
+      : null;
+  }, { passive: true });
+  main.addEventListener("touchmove", event => {
+    if (event.touches.length !== 1) touchStart = null;
+  }, { passive: true });
+  main.addEventListener("touchcancel", () => { touchStart = null; }, { passive: true });
+  main.addEventListener("touchend", event => {
+    if (!touchStart || !event.changedTouches.length) return;
+    const dx = event.changedTouches[0].clientX - touchStart.x;
+    const dy = event.changedTouches[0].clientY - touchStart.y;
+    touchStart = null;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      changeProjectLightbox(dx < 0 ? 1 : -1);
+    }
+  }, { passive: true });
+  updateProjectLightbox();
+  overlay.querySelector(".project-lightbox-close").focus();
 }
 
 
 function closeProjectLightbox() {
   const overlay = document.getElementById("project-lightbox");
 
-  if (overlay) {
-    overlay.remove();
-  }
+  if (!overlay) return;
+  overlay.remove();
 
-  document.body.style.overflow = "";
+  document.body.style.overflow = previousBodyOverflow;
+  if (previousBodyPosition) Object.assign(document.body.style, previousBodyPosition);
+  window.scrollTo({ top: lightboxScrollPosition, behavior: "instant" });
+  lightboxTrigger?.focus({ preventScroll: true });
 }
 
 
@@ -895,7 +978,11 @@ function updateProjectLightbox() {
     image.src = siteUrl(
       currentProjectImages[currentLightboxIndex]
     );
+    image.alt = `${currentProjectName} — imagen ${currentLightboxIndex + 1}`;
   }
+
+  const counter = document.querySelector(".project-lightbox-counter");
+  if (counter) counter.textContent = `${String(currentLightboxIndex + 1).padStart(2, "0")} / ${String(currentProjectImages.length).padStart(2, "0")}`;
 
   document
     .querySelectorAll(".project-lightbox-thumb")
@@ -904,6 +991,7 @@ function updateProjectLightbox() {
         "is-active",
         index === currentLightboxIndex
       );
+      thumb.setAttribute("aria-pressed", String(index === currentLightboxIndex));
     });
 
   const activeThumb = document.querySelector(
@@ -911,10 +999,10 @@ function updateProjectLightbox() {
   );
 
   if (activeThumb) {
-    activeThumb.scrollIntoView({
-      behavior: "smooth",
-      inline: "center",
-      block: "nearest"
+    const strip = activeThumb.parentElement;
+    strip.scrollTo({
+      left: activeThumb.offsetLeft - strip.clientWidth / 2 + activeThumb.offsetWidth / 2,
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth"
     });
   }
 }
@@ -928,6 +1016,20 @@ document.addEventListener("keydown", (event) => {
   const lightbox = document.getElementById("project-lightbox");
 
   if (!lightbox) return;
+
+  if (["Escape", "ArrowLeft", "ArrowRight"].includes(event.key)) event.preventDefault();
+  if (event.key === "Tab") {
+    const buttons = Array.from(lightbox.querySelectorAll("button"));
+    const first = buttons[0];
+    const last = buttons[buttons.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  }
 
   if (event.key === "Escape") {
     closeProjectLightbox();

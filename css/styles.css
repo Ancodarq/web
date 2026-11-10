@@ -1,5 +1,600 @@
-html { 
-  scroll-behavior: smooth; 
+/* Retícula exterior compartida por páginas, cabecera y pie.
+   Los gaps y los anchos de lectura se definen dentro del contenedor. */
+:root {
+  --site-gutter: max(16px, 3%);
+  --site-header-height: 121px;
+}
+
+html {
+  scroll-padding-top: calc(var(--site-header-height) + 16px);
+}
+
+.site-container {
+  width: calc(100% - var(--site-gutter) - var(--site-gutter));
+  margin-inline: auto;
+}
+
+.site-gutters {
+  padding-inline: var(--site-gutter);
+}
+
+/* La cabecera conserva su composición de escritorio a partir de 1101 px. */
+.site-menu-toggle {
+  align-items: center;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.site-menu-toggle span {
+  max-width: 24px;
+}
+
+.site-menu-toggle:focus-visible {
+  outline: 2px solid #B51817;
+  outline-offset: 3px;
+}
+
+.site-mobile-menu {
+  max-height: calc(100dvh - var(--site-header-height, 121px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.site-mobile-menu a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+}
+
+.site-mobile-menu a.is-active {
+  color: #B51817;
+  font-weight: 400;
+}
+
+main .grid > * {
+  min-width: 0;
+}
+
+main h1, main h2, .project-adjacent-nav a {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 1100px) {
+  :root {
+    --site-gutter: 32px;
+    --site-header-height: 89px;
+  }
+
+  .site-header .site-header-row {
+    padding-block: 12px;
+    gap: 16px;
+  }
+
+  .site-header .site-logos {
+    gap: 20px;
+    flex-shrink: 0;
+  }
+
+  .site-header .site-logos img {
+    height: 64px;
+  }
+
+  .site-header .site-nav {
+    display: none;
+  }
+
+  .site-header .site-menu-toggle {
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  .site-header .site-mobile-menu:not(.hidden) {
+    display: flex;
+    gap: 8px;
+    padding-block: 12px 20px;
+  }
+
+  body > main, #site-header + main {
+    padding-top: calc(var(--site-header-height) + 24px);
+  }
+
+  #site-header + main:has(.home-hero) {
+    padding-top: 0;
+  }
+
+  body .home-hero {
+    height: auto;
+    min-height: 0;
+    padding-top: calc(var(--site-header-height) + 20px);
+    padding-bottom: 20px;
+  }
+
+  .home-hero > .site-container {
+    height: auto;
+    aspect-ratio: 16 / 10;
+  }
+
+  .site-footer {
+    padding-top: 40px;
+  }
+
+  .site-footer > .site-container > div:first-child {
+    margin-bottom: 40px;
+    gap: 32px;
+  }
+
+  form input:not([type="checkbox"]), form textarea {
+    font-size: 16px;
+    max-width: 100%;
+    min-width: 0;
+    min-height: 44px;
+  }
+
+  form input[type="file"] {
+    width: 100%;
+  }
+
+  form label {
+    min-height: 44px;
+  }
+
+  form input[type="checkbox"] {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+  }
+
+  form button[type="submit"] {
+    min-height: 44px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --site-gutter: 20px;
+    --site-header-height: 81px;
+  }
+
+  .site-header .site-logos {
+    gap: 16px;
+  }
+
+  .site-header .site-logos img {
+    height: 56px;
+  }
+
+  .site-header .site-logos > span {
+    height: 28px;
+  }
+
+  .home-hero > .site-container {
+    aspect-ratio: 4 / 3;
+  }
+
+  .site-container .legal-inline {
+    white-space: normal;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .site-footer a {
+    overflow-wrap: anywhere;
+  }
+
+  .site-footer a[href^="tel:"], .site-footer a[href^="mailto:"],
+  .site-footer a[aria-label] {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  .site-footer a[aria-label] {
+    min-width: 44px;
+  }
+
+  .about-page #nosotros-title {
+    font-size: clamp(30px, 6vw, 44px);
+    margin-bottom: 28px;
+  }
+
+  .about-page .about-page-layout > div:last-child > div {
+    max-width: 65ch;
+    font-size: 16px;
+    line-height: 1.85;
+  }
+
+  .about-page .about-page-certifications a,
+  #home-about .about-certifications a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 11px;
+  }
+
+  .project-adjacent-nav {
+    gap: 20px;
+    margin-top: 28px;
+  }
+}
+
+@media (max-width: 359px) {
+  :root {
+    --site-gutter: 16px;
+    --site-header-height: 73px;
+  }
+
+  .site-header .site-logos img {
+    height: 48px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .about-page .about-page-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about-page .about-page-layout > div {
+    grid-column: auto;
+  }
+
+  .about-page .about-page-layout > div:last-child > div {
+    max-width: 68ch;
+  }
+}
+
+/* Composición editorial exclusiva de Nosotros en la portada. */
+#home-about {
+  padding-block: clamp(40px, 5vw, 72px);
+}
+
+#home-about .about-heading {
+  margin-bottom: clamp(28px, 3vw, 44px);
+}
+
+#home-about .about-label,
+.services-section .services-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: .24em;
+  line-height: 1.5;
+  color: #737373;
+}
+
+#home-about h2,
+.services-section .services-title {
+  margin: 16px 0 0;
+  max-width: 1000px;
+  font-size: clamp(30px, 3.2vw, 48px);
+  font-weight: 400;
+  letter-spacing: -.035em;
+  line-height: 1.05;
+  color: #1a1a1a;
+}
+
+#home-about .about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 64px);
+  align-items: stretch;
+}
+
+#home-about .about-photo {
+  position: relative;
+  min-height: 440px;
+  overflow: hidden;
+}
+
+#home-about .about-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 48% center;
+}
+
+#home-about .about-content {
+  min-width: 0;
+  max-width: 620px;
+}
+
+#home-about .about-copy {
+  max-width: 60ch;
+  font-size: clamp(15px, 1.15vw, 17px);
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: left;
+}
+
+#home-about .about-copy p + p {
+  margin-top: 18px;
+}
+
+#home-about strong {
+  font-weight: 500;
+}
+
+#home-about .about-certifications {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid #dedede;
+}
+
+#home-about .about-certifications-mark img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 44px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+#home-about .about-certifications a {
+  font-size: 10px;
+  line-height: 1.8;
+  letter-spacing: .1em;
+  color: #525252;
+}
+
+#home-about .about-certifications a:hover {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 1023px) {
+  #home-about .about-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  #home-about .about-photo {
+    min-height: 0;
+    aspect-ratio: 4 / 3;
+  }
+
+  #home-about .about-content,
+  #home-about .about-copy {
+    max-width: none;
+  }
+
+  #home-about .about-copy {
+    max-width: 68ch;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 479px) {
+  #home-about .about-certifications {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+
+.services-section {
+  padding-block: clamp(40px, 5vw, 72px);
+}
+
+.services-section .services-heading {
+  margin-bottom: clamp(28px, 3vw, 44px);
+}
+
+.services-section .services-title {
+  max-width: 1100px;
+}
+
+.services-section .services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(24px, 3vw, 48px);
+}
+
+.services-section .service-item {
+  min-width: 0;
+}
+
+.services-section .service-image {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.services-section .service-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.services-section .service-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.services-section .service-number {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .08em;
+  color: #737373;
+}
+
+.services-section .service-title {
+  margin: 0;
+  font-size: clamp(17px, 1.6vw, 23px);
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: .035em;
+  color: #1a1a1a;
+}
+
+.services-section .service-description {
+  max-width: 46ch;
+  margin: 0;
+  font-size: clamp(15px, 1.15vw, 17px);
+  font-weight: 400;
+  line-height: 1.8;
+  color: #525252;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .services-section .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .services-section .service-heading {
+    display: block;
+    min-height: 60px;
+  }
+
+  .services-section .service-number {
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .services-section .services-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 36px;
+  }
+
+  .services-section .service-image {
+    margin-bottom: 20px;
+  }
+
+  .services-section .service-description {
+    max-width: 60ch;
+  }
+}
+
+.projects-label {
+  margin: 16px 0 24px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: .24em;
+  line-height: 1.5;
+  color: #737373;
+}
+
+#categories-filter {
+  align-items: center;
+  gap: 8px 28px;
+  margin-bottom: 24px;
+  font-family: "Urbanist", sans-serif;
+}
+
+#categories-filter .project-filter {
+  min-height: 44px;
+}
+
+#categories-filter .project-filter-ongoing {
+  margin-left: auto;
+}
+
+#categories-filter .project-filter:focus-visible,
+:is(#proyectos-gallery-grid, #home-projects-preview) .project-link:focus-visible {
+  outline: 2px solid #B51817;
+  outline-offset: 4px;
+}
+
+#proyectos-gallery-grid .project-link {
+  font-family: "Urbanist", sans-serif;
+}
+
+/* Priorizar las fachadas frente al cielo o el pavimento del original. */
+#proyectos-gallery-grid .project-link[href$="slug=vivienda-unifamiliar-la-finca"] img {
+  object-position: center 75%;
+}
+
+#proyectos-gallery-grid .project-link[href$="slug=vivienda-unifamiliar-somosaguas"] img {
+  object-position: center 60%;
+}
+
+#proyectos-gallery-grid .project-link[href$="slug=edificio-prefabricado-construccion-metalica-oficinas-laboratorios"] img {
+  object-position: center top;
+}
+
+:is(#proyectos-gallery-grid, #home-projects-preview) .project-link:hover .project-shade,
+:is(#proyectos-gallery-grid, #home-projects-preview) .project-link:focus-visible .project-shade {
+  background: rgb(0 0 0 / 65%);
+}
+
+:is(#proyectos-gallery-grid, #home-projects-preview) .project-link:focus-visible .project-caption {
+  opacity: 1;
+}
+
+:is(#proyectos-gallery-grid, #home-projects-preview) .project-caption span {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#proyectos-gallery-grid .projects-empty {
+  grid-column: 1 / -1;
+  padding-block: 24px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 15px;
+  color: #525252;
+}
+
+@media (any-hover: none), (any-pointer: coarse) {
+  :is(#proyectos-gallery-grid, #home-projects-preview) .project-caption {
+    opacity: 1;
+    align-items: flex-end;
+    padding: 20px;
+  }
+
+  :is(#proyectos-gallery-grid, #home-projects-preview) .project-shade {
+    background: linear-gradient(transparent 25%, rgb(0 0 0 / 85%) 100%);
+  }
+}
+
+@media (max-width: 767px) {
+  #categories-filter {
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    padding-bottom: 4px;
+    scrollbar-width: thin;
+  }
+
+  #categories-filter .project-filter {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  #categories-filter .project-filter-ongoing {
+    margin-left: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  :is(#proyectos-gallery-grid, #home-projects-preview) .project-link *,
+  .project-gallery-grid .project-gallery-item img,
+  .project-gallery-grid .project-gallery-item:hover img,
+  .project-lightbox .project-lightbox-thumb {
+    transition: none;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body { 
@@ -38,6 +633,66 @@ body {
 /* ======================================================
    GALERÍA DENTRO DE CADA PROYECTO
    ====================================================== */
+
+.project-detail-title {
+  font-family: "Urbanist", sans-serif;
+  font-size: clamp(23px, 2.2vw, 30px);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: .045em;
+  text-transform: uppercase;
+}
+
+.project-additional-details {
+  max-width: 65ch;
+  margin-top: 24px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.project-additional-details dl {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.project-additional-details dt {
+  font-size: 11px;
+  letter-spacing: .1em;
+  color: #737373;
+}
+
+.project-adjacent-nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+  font-family: "Urbanist", sans-serif;
+}
+
+.project-adjacent-nav a {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.project-adjacent-nav a span:first-child {
+  font-size: 10px;
+  letter-spacing: .12em;
+  color: #737373;
+}
+
+.project-adjacent-nav .project-next {
+  grid-column: 2;
+  text-align: right;
+}
+
+.project-adjacent-nav a:hover span:first-child {
+  color: #1a1a1a;
+}
 
 .project-gallery-grid {
   width: 100%;
@@ -105,7 +760,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 90px 120px;
+  padding: 80px 90px 112px;
+  box-sizing: border-box;
 }
 
 .project-lightbox-main {
@@ -114,6 +770,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 0;
+  min-height: 0;
+  touch-action: pan-y pinch-zoom;
 }
 
 .project-lightbox-main img {
@@ -130,8 +789,10 @@ body {
 
 .project-lightbox-close {
   position: absolute;
-  top: 12px;
-  left: 16px;
+  top: max(16px, env(safe-area-inset-top));
+  left: max(16px, env(safe-area-inset-left));
+  width: 48px;
+  height: 48px;
   z-index: 3;
   border: 0;
   background: transparent;
@@ -166,11 +827,11 @@ body {
 }
 
 .project-lightbox-arrow--left {
-  left: 0;
+  left: env(safe-area-inset-left, 0px);
 }
 
 .project-lightbox-arrow--right {
-  right: 0;
+  right: env(safe-area-inset-right, 0px);
 }
 
 
@@ -178,19 +839,39 @@ body {
 
 .project-lightbox-thumbs {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 100%;
+  box-sizing: border-box;
+  bottom: max(16px, env(safe-area-inset-bottom));
 
   display: flex;
   justify-content: flex-start;
   align-items: center;
 
   gap: 8px;
-  padding: 0 20px;
+  padding: 0 max(20px, env(safe-area-inset-left)) 0 max(20px, env(safe-area-inset-right));
 
   overflow-x: auto;
   scrollbar-width: none;
+}
+
+.project-lightbox-counter {
+  position: absolute;
+  top: max(30px, env(safe-area-inset-top));
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+  font-size: 12px;
+  letter-spacing: .15em;
+  color: #fff;
+}
+
+.project-lightbox button:focus-visible {
+  outline: 2px solid white;
+  outline-offset: -4px;
 }
 
 .project-lightbox-thumbs::-webkit-scrollbar {
@@ -204,8 +885,9 @@ body {
   height: 60px;
 
   padding: 0;
-  border: 1px solid transparent;
-  opacity: 0.65;
+  border: 2px solid transparent;
+  opacity: 0.5;
+  transition: opacity .2s ease, border-color .2s ease;
 
   background: transparent;
   cursor: pointer;
@@ -227,18 +909,40 @@ body {
 
 
 /* ======================================================
-   RESPONSIVE
+   RESPONSIVE DEL VISOR
    ====================================================== */
-@media (max-width: 1024px) {
-  .project-gallery-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 18px;
+@media (max-width: 767px) {
+  .project-lightbox {
+    padding: max(72px, env(safe-area-inset-top)) max(48px, env(safe-area-inset-right)) max(84px, calc(env(safe-area-inset-bottom) + 64px)) max(48px, env(safe-area-inset-left));
+  }
+
+  .project-lightbox-arrow {
+    width: 44px;
+    height: 72px;
+    font-size: 44px;
+  }
+
+  .project-lightbox-thumb {
+    width: 66px;
+    height: 44px;
   }
 }
 
-@media (max-width: 767px) {
-  .project-gallery-grid {
-    grid-template-columns: 1fr;
-    gap: 14px;
+@media (max-height: 500px) and (orientation: landscape) {
+  .project-lightbox {
+    padding: max(56px, env(safe-area-inset-top)) max(64px, env(safe-area-inset-right)) max(72px, calc(env(safe-area-inset-bottom) + 60px)) max(64px, env(safe-area-inset-left));
+  }
+
+  .project-lightbox-thumb {
+    width: 60px;
+    height: 44px;
+  }
+
+  .project-lightbox-counter {
+    top: 24px;
+  }
+
+  .project-lightbox-close {
+    top: max(8px, env(safe-area-inset-top));
   }
 }

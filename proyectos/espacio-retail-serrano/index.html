@@ -15,27 +15,27 @@
 </head>
 <body class="font-prompt antialiased min-h-screen flex flex-col">
 
-<header class="w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
-  <div class="w-[90%] mx-auto py-5 flex items-center justify-between">
-    <a href="../../index.html" class="flex items-center gap-7">
+<header class="site-header w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
+  <div class="site-header-row site-container py-5 flex items-center justify-between">
+    <a href="../../index.html" class="site-logos flex items-center gap-7">
       <img src="../../assets/logos/ancodarq-square.png" alt="ANCODARQ" class="h-14 md:h-16 w-auto object-contain shrink-0" />
       <span class="w-px h-8 bg-neutral-200"></span>
       <img src="../../assets/logos/escuadra-square.png" alt="ESCUADRA CONSTRUCCIONES" class="h-14 md:h-16 w-auto object-contain shrink-0" />
     </a>
-    <nav class="hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
+    <nav class="site-nav hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
       <a href="../../index.html" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">INICIO</a>
       <a href="../../nosotros/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">NOSOTROS</a>
       <a href="../../servicios/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">SERVICIOS</a>
       <a href="../../proyectos/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors is-active">PROYECTOS</a>
       <a href="../../contacto/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors">CONTACTO</a>
     </nav>
-    <button onclick="toggleMobileMenu()" class="md:hidden flex flex-col justify-center gap-1.5 w-6 h-6 p-0 focus:outline-none" aria-label="Menú">
+    <button onclick="toggleMobileMenu()" class="site-menu-toggle md:hidden flex flex-col justify-center gap-1.5 w-6 h-6 p-0" aria-label="Menú">
       <span class="w-full h-px bg-black"></span>
       <span class="w-full h-px bg-black"></span>
       <span class="w-full h-px bg-black"></span>
     </button>
   </div>
-  <div id="mobile-menu" class="hidden md:hidden bg-white w-full border-b border-neutral-200 px-[5%] py-8 flex flex-col gap-6 font-prompt font-light text-sm tracking-[0.2em]">
+  <div id="mobile-menu" class="site-mobile-menu hidden md:hidden bg-white w-full border-b border-neutral-200 site-gutters py-8 flex flex-col gap-6 font-prompt font-light text-sm tracking-[0.2em]">
     <a href="../../index.html" class="text-neutral-500">INICIO</a>
     <a href="../../nosotros/" class="text-neutral-500">NOSOTROS</a>
     <a href="../../servicios/" class="text-neutral-500">SERVICIOS</a>
@@ -47,14 +47,14 @@
 
 <script>document.addEventListener("DOMContentLoaded",()=>{document.body.dataset.projectSlug="espacio-retail-serrano";});</script>
 <main class="flex-grow pt-36 pb-32 font-prompt">
-  <div class="w-[90%] mx-auto">
+  <div class="site-container">
     <a href="../" class="text-[11px] font-light tracking-[0.2em] text-neutral-400 hover:text-black mb-12 inline-block">← VOLVER A PROYECTOS</a>
     <div id="project-detail-content"></div>
   </div>
 </main>
 
-<footer class="w-full bg-white border-t border-neutral-100 pt-28 pb-12 font-prompt">
-  <div class="w-[90%] mx-auto">
+<footer class="site-footer w-full bg-white border-t border-neutral-100 pt-28 pb-12 font-prompt">
+  <div class="site-container">
     <div class="flex flex-col md:flex-row justify-between items-start gap-16 mb-44 md:mb-56">
       <div class="flex flex-col gap-12 w-full max-w-[320px]">
         <img src="../../assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full h-auto object-contain block self-start" />
