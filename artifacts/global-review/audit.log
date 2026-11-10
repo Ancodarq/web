@@ -1,0 +1,285 @@
+Revisado: /aviso-legal/index.html
+Revisado: /contacto/index.html
+Revisado: /cookies/index.html
+Revisado: /index.html
+Revisado: /nosotros/index.html
+Revisado: /privacidad/index.html
+Revisado: /proyectos/espacio-retail-serrano/index.html
+Revisado: /proyectos/index.html
+Revisado: /proyectos/reforma-duplex-chamberi/index.html
+Revisado: /proyectos/rehabilitacion-edificio-claudio-coello/index.html
+Revisado: /proyectos/sede-corporativa-castellana/index.html
+Revisado: /proyectos/vivienda-somontes/index.html
+Revisado: /proyectos/vivienda-unifamiliar-la-moraleja/index.html
+Revisado: /servicios/index.html
+Revisado: /trabaja-con-nosotros/index.html
+Revisado: /proyectos/detalle.html?slug=vivienda-salamanca
+{
+  "views": 16,
+  "overflowViews": [],
+  "missingProjects": [],
+  "interactions": [
+    {
+      "name": "project-detail",
+      "slug": "sala-vip-teatro-nuevo-apolo",
+      "title": "SALA VIP TEATRO NUEVO APOLO",
+      "count": 10,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-somosaguas",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-salamanca"
+    },
+    {
+      "name": "project-detail",
+      "slug": "sala-vip-teatro-nuevo-alcala",
+      "title": "SALA VIP TEATRO NUEVO ALCALÁ",
+      "count": 9,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-cotos-de-monterrey",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-odonnell"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-cotos-de-monterrey",
+      "title": "VIVIENDA UNIFAMILIAR COTOS DE MONTERREY",
+      "count": 4,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-manoteras",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-alcala"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-los-alamos-de-bularas",
+      "title": "VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS",
+      "count": 5,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-torre-omu-madrid",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=edificio-prefabricado-construccion-metalica-oficinas-laboratorios"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-la-finca",
+      "title": "VIVIENDA UNIFAMILIAR LA FINCA",
+      "count": 2,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vinitus-alcala",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-torre-omu-madrid"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-salamanca",
+      "title": "REFORMA VIVIENDA SALAMANCA",
+      "count": 10,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-apolo",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-grace"
+    },
+    {
+      "name": "project-detail",
+      "slug": "consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
+      "title": "REHABILITACIÓN HOSPITAL OFTALMOLÓGICO",
+      "count": 7,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-odonnell",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=reforma-vivienda-soto-de-la-moraleja"
+    },
+    {
+      "name": "project-detail",
+      "slug": "teatro-la-latina",
+      "title": "REHABILITACIÓN TEATRO LA LATINA",
+      "count": 6,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-oesia-zaragoza",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=centro-medico-clinique-la-prairie"
+    },
+    {
+      "name": "project-detail",
+      "slug": "teatro-nuevo-apolo",
+      "title": "REHABILITACIÓN TEATRO NUEVO APOLO",
+      "count": 11,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-grupo-oesia",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=reforma-piso-salamanca"
+    },
+    {
+      "name": "project-detail",
+      "slug": "centro-medico-clinique-la-prairie",
+      "title": "CENTRO MÉDICO CLINIQUE LA PRAIRIE",
+      "count": 10,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=teatro-la-latina",
+      "next": null
+    },
+    {
+      "name": "project-detail",
+      "slug": "restaurante-espectaculo-grace",
+      "title": "RESTAURANTE / ESPECTÁCULO GRACE",
+      "count": 13,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-salamanca",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-villaviciosa-de-odon"
+    },
+    {
+      "name": "project-detail",
+      "slug": "oficinas-y-centro-de-control-aereo",
+      "title": "OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS",
+      "count": 14,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-skybar",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-somosaguas"
+    },
+    {
+      "name": "project-detail",
+      "slug": "oficinas-grupo-oesia",
+      "title": "OFICINAS OESÍA SEVILLA",
+      "count": 5,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-barrio-las-cortes",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=teatro-nuevo-apolo"
+    },
+    {
+      "name": "project-detail",
+      "slug": "oficinas-torre-omu-madrid",
+      "title": "OFICINAS TORRE OMBÚ",
+      "count": 10,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-la-finca",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-los-alamos-de-bularas"
+    },
+    {
+      "name": "project-detail",
+      "slug": "oficinas-manoteras",
+      "title": "OFICINAS MANOTERAS",
+      "count": 6,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=edificio-prefabricado-construccion-metalica-oficinas-laboratorios",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-cotos-de-monterrey"
+    },
+    {
+      "name": "project-detail",
+      "slug": "edificio-prefabricado-construccion-metalica-oficinas-laboratorios",
+      "title": "EDIFICIO DE OFICINAS Y LABORATORIOS CIUDAD REAL",
+      "count": 3,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-los-alamos-de-bularas",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-manoteras"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-villaviciosa-de-odon",
+      "title": "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
+      "count": 5,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-grace",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vinitus-alcala"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-prado-largo",
+      "title": "VIVIENDA UNIFAMILIAR PRADO LARGO",
+      "count": 15,
+      "previous": null,
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-skybar"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-somosaguas",
+      "title": "VIVIENDA UNIFAMILIAR SOMOSAGUAS",
+      "count": 3,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-y-centro-de-control-aereo",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-apolo"
+    },
+    {
+      "name": "project-detail",
+      "slug": "restaurante-espectaculo-skybar",
+      "title": "RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU",
+      "count": 8,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-prado-largo",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-y-centro-de-control-aereo"
+    },
+    {
+      "name": "project-detail",
+      "slug": "restaurante-vinitus",
+      "title": "RESTAURANTE VINITUS GRAN VÍA",
+      "count": 7,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=reforma-piso-salamanca",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=terraza-isla-del-sur"
+    },
+    {
+      "name": "project-detail",
+      "slug": "restaurante-espectaculo-barrio-las-cortes",
+      "title": "RESTAURANTE MANERO",
+      "count": 12,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=reforma-vivienda-soto-de-la-moraleja",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-grupo-oesia"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vinitus-alcala",
+      "title": "RESTAURANTE VINITUS ALCALÁ",
+      "count": 9,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-villaviciosa-de-odon",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-la-finca"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-odonnell",
+      "title": "REFORMA VIVIENDA RETIRO",
+      "count": 19,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-alcala",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=consultas-recepcion-y-quirofano-en-hospital-oftalmologico"
+    },
+    {
+      "name": "project-detail",
+      "slug": "reforma-piso-salamanca",
+      "title": "REFORMA VIVIENDA SALAMANCA",
+      "count": 7,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=teatro-nuevo-apolo",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-vinitus"
+    },
+    {
+      "name": "project-detail",
+      "slug": "terraza-isla-del-sur",
+      "title": "RESTAURANTE ISLA DEL SUR",
+      "count": 7,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-vinitus",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=obras-varias-mercado-maravillas"
+    },
+    {
+      "name": "project-detail",
+      "slug": "reforma-vivienda-soto-de-la-moraleja",
+      "title": "REFORMA VIVIENDA SOTO DE LA MORALEJA",
+      "count": 6,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-barrio-las-cortes"
+    },
+    {
+      "name": "project-detail",
+      "slug": "obras-varias-mercado-maravillas",
+      "title": "REHABILITACIÓN MERCADO MARAVILLAS",
+      "count": 1,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=terraza-isla-del-sur",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-oesia-zaragoza"
+    },
+    {
+      "name": "project-detail",
+      "slug": "oficinas-oesia-zaragoza",
+      "title": "OFICINAS OESÍA ZARAGOZA",
+      "count": 7,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=obras-varias-mercado-maravillas",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=teatro-la-latina"
+    },
+    {
+      "name": "invalid-slug-injection",
+      "executed": false,
+      "unknown": true,
+      "unexpectedImage": false
+    },
+    {
+      "name": "tailwind-blocked",
+      "headerPosition": "static",
+      "headerImages": [
+        {
+          "width": 43.4375,
+          "height": 56
+        },
+        {
+          "width": 44.40625,
+          "height": 56
+        }
+      ],
+      "mainDisplay": "block"
+    },
+    {
+      "name": "javascript-disabled",
+      "header": false,
+      "cards": 0,
+      "mainText": "PROYECTOS"
+    }
+  ],
+  "errors": [
+    "Uncaught: ReferenceError: tailwind is not defined\n    at http://127.0.0.1:53925/contacto/:12:5"
+  ]
+}

@@ -49,26 +49,50 @@
   <div class="site-container"><div class="w-full max-w-4xl">
     <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-8 uppercase">TRABAJA CON NOSOTROS</div>
     <h1 class="text-2xl md:text-3xl font-urbanist font-light tracking-wide text-black mb-16">Trabaja con nosotros</h1>
-    <form action="#" onsubmit="event.preventDefault();" class="flex flex-col gap-8">
+    <!--
+      INTEGRACIÓN PENDIENTE — añadir action con la URL HTTPS real de recepción.
+      Configurar y probar el servidor antes de quitar disabled del botón; sin action
+      HTML enviaría a esta página. Mantener POST y multipart/form-data para el CV.
+      Datos: application_full_name, application_email, application_phone,
+      application_profile, application_cover_letter, application_cv (archivo) y
+      application_privacy_accepted (accepted). Las cadenas llevan maxlength en HTML.
+      Servidor: repetir required, formato de email, longitudes y aceptación; validar
+      contenido/tipo real del PDF y máximo 5.000.000 bytes, no confiar en nombre/MIME
+      del navegador. Limitar cuerpo de petición; aplicar antispam, límites de frecuencia
+      y protección CSRF/origen según arquitectura. Analizar archivos antes de usarlos;
+      guardar CV fuera del directorio público, con nombres internos, permisos mínimos,
+      acceso autenticado y política de conservación/eliminación de datos personales.
+      No poner credenciales en HTML/JS. Validar destino y transporte HTTPS en despliegue.
+      Éxito: únicamente tras confirmación real del servidor. Error: conservar campos
+      no sensibles y mostrar respuesta accesible; el archivo puede requerir reselección.
+      No hay backend ni mensajes de éxito simulados en esta preparación.
+    -->
+    <form id="application-form" method="post" enctype="multipart/form-data" aria-describedby="application-form-status" class="flex flex-col gap-8">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <input type="text" placeholder="Nombre y apellidos *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
-        <input type="email" placeholder="Email *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+        <label for="application-name" class="sr-only">Nombre y apellidos</label>
+        <input id="application-name" name="application_full_name" type="text" autocomplete="name" maxlength="100" placeholder="Nombre y apellidos *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+        <label for="application-email" class="sr-only">Email</label>
+        <input id="application-email" name="application_email" type="email" autocomplete="email" maxlength="254" placeholder="Email *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <input type="tel" placeholder="Teléfono *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
-        <input type="text" placeholder="Área / Perfil profesional *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+        <label for="application-phone" class="sr-only">Teléfono</label>
+        <input id="application-phone" name="application_phone" type="tel" autocomplete="tel" maxlength="40" placeholder="Teléfono *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+        <label for="application-profile" class="sr-only">Área / Perfil profesional</label>
+        <input id="application-profile" name="application_profile" type="text" maxlength="160" placeholder="Área / Perfil profesional *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
       </div>
-      <textarea rows="4" placeholder="Carta de presentación o comentarios" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light resize-none"></textarea>
+      <label for="application-letter" class="sr-only">Carta de presentación o comentarios</label>
+      <textarea id="application-letter" name="application_cover_letter" rows="4" maxlength="5000" placeholder="Carta de presentación o comentarios" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light resize-none"></textarea>
       <div class="flex flex-col gap-2 pt-2">
-        <label class="text-[12px] font-light text-neutral-500">Adjuntar CV (PDF) *</label>
-        <input type="file" accept=".pdf,application/pdf" required class="text-xs font-light text-neutral-600" />
+        <label for="application-cv" class="text-[12px] font-light text-neutral-500">Adjuntar CV (PDF) *</label>
+        <input id="application-cv" name="application_cv" type="file" accept=".pdf,application/pdf" aria-describedby="application-cv-help" required class="text-xs font-light text-neutral-600" />
+        <span id="application-cv-help" class="sr-only">Archivo PDF de hasta 5 MB (5.000.000 bytes). La recepción del formulario está pendiente de activación.</span>
       </div>
-      <label class="flex items-center gap-3 text-[12px] font-light text-neutral-500">
-        <input type="checkbox" required class="w-3.5 h-3.5 accent-black rounded-none" />
-        He leído y acepto la Política de Privacidad.
+      <label for="application-privacy" class="flex items-center gap-3 text-[12px] font-light text-neutral-500">
+        <input id="application-privacy" name="application_privacy_accepted" type="checkbox" value="accepted" required class="w-3.5 h-3.5 accent-black rounded-none" />
+        <span>He leído y acepto la <a href="../privacidad/">Política de Privacidad</a>.</span>
       </label>
-      <button type="submit" class="self-start mt-4 px-8 py-3 bg-black text-white text-[11px] tracking-[0.2em] font-light hover:bg-neutral-800 uppercase">ENVIAR CANDIDATURA</button>
-      <p class="text-[11px] text-neutral-400">Formulario pendiente de conexión al sistema de recepción de candidaturas por el equipo informático.</p>
+      <button id="application-submit" type="submit" disabled aria-describedby="application-form-status" class="self-start mt-4 px-8 py-3 bg-black text-white text-[11px] tracking-[0.2em] font-light hover:bg-neutral-800 uppercase">ENVIAR CANDIDATURA</button>
+      <p id="application-form-status" role="status" class="text-[11px] text-neutral-400">Formulario pendiente de conexión al sistema de recepción de candidaturas por el equipo informático.</p>
     </form>
   </div></div>
 </main>
@@ -110,5 +134,28 @@
 
 <script src="../js/main.js"></script>
 <script src="../js/projects.js"></script>
+<script>
+  // Comprobación orientativa del navegador; el servidor debe verificar el contenido real.
+  // No activa el formulario, no envía archivos ni procesa respuestas de un endpoint.
+  (() => {
+    const cv = document.getElementById("application-cv");
+    const maxBytes = 5_000_000;
+    function validateCv() {
+      const file = cv.files[0];
+      let message = "";
+      if (file && (!/\.pdf$/i.test(file.name) || (file.type && file.type !== "application/pdf"))) {
+        message = "El currículum debe estar en formato PDF.";
+      } else if (file && file.size > maxBytes) {
+        message = "El PDF no puede superar los 5 MB (5.000.000 bytes).";
+      }
+      cv.setCustomValidity(message);
+      return !message;
+    }
+    cv.addEventListener("change", () => {
+      if (!validateCv()) cv.reportValidity();
+    });
+    cv.form.addEventListener("reset", () => cv.setCustomValidity(""));
+  })();
+</script>
 </body>
 </html>

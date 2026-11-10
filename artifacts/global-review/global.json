@@ -1,0 +1,4507 @@
+{
+  "phase": "global",
+  "results": [
+    {
+      "url": "/aviso-legal/index.html",
+      "title": "Aviso legal — ANCODARQ",
+      "h1": [
+        "Aviso legal"
+      ],
+      "missingProject": false,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "in",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/escuadra_construcciones/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/contacto/index.html",
+      "title": "Contacto — ANCODARQ",
+      "h1": [],
+      "missingProject": false,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ancodarq@ancodarq.com",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/trabaja-con-nosotros/",
+          "text": "ENVIAR CV →",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/1995.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [
+        {
+          "action": "#",
+          "method": "get",
+          "inlineSubmit": "event.preventDefault();",
+          "fields": [
+            {
+              "type": "text",
+              "name": "",
+              "id": "",
+              "required": true,
+              "accept": null,
+              "label": "Nombre *"
+            },
+            {
+              "type": "email",
+              "name": "",
+              "id": "",
+              "required": true,
+              "accept": null,
+              "label": "Email *"
+            },
+            {
+              "type": "tel",
+              "name": "",
+              "id": "",
+              "required": false,
+              "accept": null,
+              "label": "Teléfono"
+            },
+            {
+              "type": "text",
+              "name": "",
+              "id": "",
+              "required": false,
+              "accept": null,
+              "label": "Empresa"
+            },
+            {
+              "type": "text",
+              "name": "",
+              "id": "",
+              "required": false,
+              "accept": null,
+              "label": "Asunto"
+            },
+            {
+              "type": "textarea",
+              "name": "",
+              "id": "",
+              "required": true,
+              "accept": null,
+              "label": "Mensaje *"
+            },
+            {
+              "type": "checkbox",
+              "name": "",
+              "id": "",
+              "required": true,
+              "accept": null,
+              "label": "He leído y acepto la Política de Privacidad."
+            },
+            {
+              "type": "submit",
+              "name": "",
+              "id": "",
+              "accept": null,
+              "label": null
+            }
+          ]
+        }
+      ],
+      "contrast": [
+        {
+          "text": "Formulario pendiente de conexión al sistema de correo por el equipo informático.",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 2
+    },
+    {
+      "url": "/cookies/index.html",
+      "title": "Política de cookies — ANCODARQ",
+      "h1": [
+        "Política de cookies"
+      ],
+      "missingProject": false,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "in",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/escuadra_construcciones/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/index.html",
+      "title": "ANCODARQ — Arquitectura y Construcción",
+      "h1": [],
+      "missingProject": false,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/assets/documentos/politica-calidad-medio-ambiente.pdf",
+          "text": "POLÍTICA DE CALIDAD Y MEDIO AMBIENTE →",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-prado-largo",
+          "text": "VIVIENDA UNIFAMILIAR PRADO LARGO",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-skybar",
+          "text": "RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-y-centro-de-control-aereo",
+          "text": "OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-somosaguas",
+          "text": "VIVIENDA UNIFAMILIAR SOMOSAGUAS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-apolo",
+          "text": "SALA VIP TEATRO NUEVO APOLO",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-salamanca",
+          "text": "REFORMA VIVIENDA SALAMANCA",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "VER MÁS →",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/home/Portada/01.png",
+        "http://127.0.0.1:53925/assets/home/nosotros.png",
+        "http://127.0.0.1:53925/assets/logos/iso-certifications.png",
+        "http://127.0.0.1:53925/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+        "http://127.0.0.1:53925/assets/proyectos/23_GRACE/23_02.webp",
+        "http://127.0.0.1:53925/assets/Obra%20publica.jpg",
+        "http://127.0.0.1:53925/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/1995.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/nosotros/index.html",
+      "title": "Nosotros — ANCODARQ",
+      "h1": [
+        "Más de 30 años construyendo confianza"
+      ],
+      "missingProject": false,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/assets/documentos/politica-calidad-medio-ambiente.pdf",
+          "text": "POLÍTICA DE CALIDAD Y MEDIO AMBIENTE →",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/home/nosotros.png",
+        "http://127.0.0.1:53925/assets/logos/iso-certifications.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/1995.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/privacidad/index.html",
+      "title": "Política de privacidad — ANCODARQ",
+      "h1": [
+        "POLÍTICA DE PRIVACIDAD"
+      ],
+      "missingProject": false,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ancodarq@ancodarq.com",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/1995.png",
+        "http://127.0.0.1:53925/js/main.js?v=2"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/proyectos/espacio-retail-serrano/index.html",
+      "title": "Proyecto — ANCODARQ",
+      "h1": [],
+      "missingProject": true,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "← VOLVER A PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "in",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/escuadra_construcciones/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "← VOLVER A PROYECTOS",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/proyectos/index.html",
+      "title": "Proyectos — ANCODARQ",
+      "h1": [
+        "PROYECTOS"
+      ],
+      "missingProject": false,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-prado-largo",
+          "text": "VIVIENDA UNIFAMILIAR PRADO LARGO",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-skybar",
+          "text": "RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-y-centro-de-control-aereo",
+          "text": "OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-somosaguas",
+          "text": "VIVIENDA UNIFAMILIAR SOMOSAGUAS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-apolo",
+          "text": "SALA VIP TEATRO NUEVO APOLO",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-salamanca",
+          "text": "REFORMA VIVIENDA SALAMANCA",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-grace",
+          "text": "RESTAURANTE / ESPECTÁCULO GRACE",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-villaviciosa-de-odon",
+          "text": "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vinitus-alcala",
+          "text": "RESTAURANTE VINITUS ALCALÁ",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-la-finca",
+          "text": "VIVIENDA UNIFAMILIAR LA FINCA",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-torre-omu-madrid",
+          "text": "OFICINAS TORRE OMBÚ",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-los-alamos-de-bularas",
+          "text": "VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=edificio-prefabricado-construccion-metalica-oficinas-laboratorios",
+          "text": "EDIFICIO DE OFICINAS Y LABORATORIOS CIUDAD REAL",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-manoteras",
+          "text": "OFICINAS MANOTERAS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-cotos-de-monterrey",
+          "text": "VIVIENDA UNIFAMILIAR COTOS DE MONTERREY",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-alcala",
+          "text": "SALA VIP TEATRO NUEVO ALCALÁ",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-odonnell",
+          "text": "REFORMA VIVIENDA RETIRO",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
+          "text": "REHABILITACIÓN HOSPITAL OFTALMOLÓGICO",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=reforma-vivienda-soto-de-la-moraleja",
+          "text": "REFORMA VIVIENDA SOTO DE LA MORALEJA",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-barrio-las-cortes",
+          "text": "RESTAURANTE MANERO",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-grupo-oesia",
+          "text": "OFICINAS OESÍA SEVILLA",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=teatro-nuevo-apolo",
+          "text": "REHABILITACIÓN TEATRO NUEVO APOLO",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=reforma-piso-salamanca",
+          "text": "REFORMA VIVIENDA SALAMANCA",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-vinitus",
+          "text": "RESTAURANTE VINITUS GRAN VÍA",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=terraza-isla-del-sur",
+          "text": "RESTAURANTE ISLA DEL SUR",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=obras-varias-mercado-maravillas",
+          "text": "REHABILITACIÓN MERCADO MARAVILLAS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-oesia-zaragoza",
+          "text": "OFICINAS OESÍA ZARAGOZA",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=teatro-la-latina",
+          "text": "REHABILITACIÓN TEATRO LA LATINA",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=centro-medico-clinique-la-prairie",
+          "text": "CENTRO MÉDICO CLINIQUE LA PRAIRIE",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/23_GRACE/23_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/38_TURIA/38_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/39_VINITUS_ALCAL%C3%81/39_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/07_LA%20FINCA/07_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/32_BOLTON/32_00PORTADA.jpg",
+        "http://127.0.0.1:53925/assets/proyectos/02_ALAMOS%20DE%20BULARAS/02_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/34_VDP/34_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/37_VEGANOX/37_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/03_COTOS/03_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/29_VIP_TEATRO_ALCALA/29_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/16_MIRASIERRA/16_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/43_SOTO%20DE%20LA%20MORALEJA/43_0PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/27_MANERO/27_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/33_OESIA%20SEVILLA/33_01.webp",
+        "http://127.0.0.1:53925/assets/proyectos/19_APOLO/19_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/41_VILLANUEVA/41_0%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/25_VINITUS%20GV4/25_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/42_%20ISLA%20DEL%20SUR/36_0%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/44_MERCADO%20MARAVILLAS/44_0PORTADA.png",
+        "http://127.0.0.1:53925/assets/proyectos/45_%20OESIA%20ZARAGOZA/45_0%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/20_TEATRO%20LA%20LATINA/20_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/22_LA%20PRAIRIE/22_00PORTADA.webp",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/1995.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js?v=8"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "OBRA NUEVA",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 12,
+          "ratio": 2.52
+        },
+        {
+          "text": "REFORMAS",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 12,
+          "ratio": 2.52
+        },
+        {
+          "text": "COMERCIAL",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 12,
+          "ratio": 2.52
+        },
+        {
+          "text": "OFICINAS",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 12,
+          "ratio": 2.52
+        },
+        {
+          "text": "OBRAS EN EJECUCIÓN",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 12,
+          "ratio": 2.52
+        },
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/proyectos/reforma-duplex-chamberi/index.html",
+      "title": "Proyecto — ANCODARQ",
+      "h1": [],
+      "missingProject": true,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "← VOLVER A PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "in",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/escuadra_construcciones/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "← VOLVER A PROYECTOS",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/proyectos/rehabilitacion-edificio-claudio-coello/index.html",
+      "title": "Proyecto — ANCODARQ",
+      "h1": [],
+      "missingProject": true,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "← VOLVER A PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "in",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/escuadra_construcciones/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "← VOLVER A PROYECTOS",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/proyectos/sede-corporativa-castellana/index.html",
+      "title": "Proyecto — ANCODARQ",
+      "h1": [],
+      "missingProject": true,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "← VOLVER A PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "in",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/escuadra_construcciones/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "← VOLVER A PROYECTOS",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/proyectos/vivienda-somontes/index.html",
+      "title": "Proyecto — ANCODARQ",
+      "h1": [],
+      "missingProject": true,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "← VOLVER A PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "in",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/escuadra_construcciones/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "← VOLVER A PROYECTOS",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/proyectos/vivienda-unifamiliar-la-moraleja/index.html",
+      "title": "Proyecto — ANCODARQ",
+      "h1": [],
+      "missingProject": true,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "← VOLVER A PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "in",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/escuadra_construcciones/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "← VOLVER A PROYECTOS",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/servicios/index.html",
+      "title": "Servicios — ANCODARQ",
+      "h1": [
+        "Construimos espacios. Materializamos proyectos."
+      ],
+      "missingProject": false,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/proyectos/01_PRADO%20LARGO/01_08.webp",
+        "http://127.0.0.1:53925/assets/proyectos/23_GRACE/23_02.webp",
+        "http://127.0.0.1:53925/assets/Obra%20publica.jpg",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/1995.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 1
+    },
+    {
+      "url": "/trabaja-con-nosotros/index.html",
+      "title": "Trabaja con nosotros — ANCODARQ",
+      "h1": [
+        "Trabaja con nosotros"
+      ],
+      "missingProject": false,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "in",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/escuadra_construcciones/",
+          "text": "◎",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/js/main.js",
+        "http://127.0.0.1:53925/js/projects.js"
+      ],
+      "forms": [
+        {
+          "action": "#",
+          "method": "get",
+          "inlineSubmit": "event.preventDefault();",
+          "fields": [
+            {
+              "type": "text",
+              "name": "",
+              "id": "",
+              "required": true,
+              "accept": null,
+              "label": "Nombre y apellidos *"
+            },
+            {
+              "type": "email",
+              "name": "",
+              "id": "",
+              "required": true,
+              "accept": null,
+              "label": "Email *"
+            },
+            {
+              "type": "tel",
+              "name": "",
+              "id": "",
+              "required": true,
+              "accept": null,
+              "label": "Teléfono *"
+            },
+            {
+              "type": "text",
+              "name": "",
+              "id": "",
+              "required": true,
+              "accept": null,
+              "label": "Área / Perfil profesional *"
+            },
+            {
+              "type": "textarea",
+              "name": "",
+              "id": "",
+              "required": false,
+              "accept": null,
+              "label": "Carta de presentación o comentarios"
+            },
+            {
+              "type": "file",
+              "name": "",
+              "id": "attachment-0",
+              "required": true,
+              "accept": ".pdf,application/pdf",
+              "label": "Adjuntar CV (PDF) *"
+            },
+            {
+              "type": "checkbox",
+              "name": "",
+              "id": "",
+              "required": true,
+              "accept": null,
+              "label": "He leído y acepto la Política de Privacidad."
+            },
+            {
+              "type": "submit",
+              "name": "",
+              "id": "",
+              "accept": null,
+              "label": null
+            }
+          ]
+        }
+      ],
+      "contrast": [
+        {
+          "text": "Formulario pendiente de conexión al sistema de recepción de candidaturas por el equipo inf",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 2
+    },
+    {
+      "url": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "title": "Proyecto — ANCODARQ",
+      "h1": [
+        "REFORMA VIVIENDA SALAMANCA"
+      ],
+      "missingProject": false,
+      "description": null,
+      "canonical": null,
+      "links": [
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/index.html",
+          "text": "INICIO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/nosotros/",
+          "text": "NOSOTROS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/servicios/",
+          "text": "SERVICIOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/contacto/",
+          "text": "CONTACTO",
+          "target": "",
+          "rel": "",
+          "visible": false
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/",
+          "text": "← VOLVER A PROYECTOS",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-apolo",
+          "text": "← PROYECTO ANTERIORSALA VIP TEATRO NUEVO APOLO",
+          "target": "",
+          "rel": "prev",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-grace",
+          "text": "PROYECTO SIGUIENTE →RESTAURANTE / ESPECTÁCULO GRACE",
+          "target": "",
+          "rel": "next",
+          "visible": true
+        },
+        {
+          "url": "mailto:ancodarq@ancodarq.com",
+          "text": "ANCODARQ@ANCODARQ.COM",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34916570819",
+          "text": "+34 916 570 819",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "tel:+34618341133",
+          "text": "+34 618 341 133",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "https://www.linkedin.com/company/ancodarq-sl",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "https://www.instagram.com/ancodarq/",
+          "text": "",
+          "target": "_blank",
+          "rel": "noopener noreferrer",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/privacidad/",
+          "text": "Política de privacidad",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/aviso-legal/",
+          "text": "Aviso legal",
+          "target": "",
+          "rel": "",
+          "visible": true
+        },
+        {
+          "url": "http://127.0.0.1:53925/cookies/",
+          "text": "Cookies",
+          "target": "",
+          "rel": "",
+          "visible": true
+        }
+      ],
+      "localResources": [
+        "http://127.0.0.1:53925/css/styles.css",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-square.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-square.png",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_00%20PORTADA.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_01.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_02.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_03.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_04.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_05.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_06.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_07.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_08.webp",
+        "http://127.0.0.1:53925/assets/proyectos/09_JJ39/09_09.webp",
+        "http://127.0.0.1:53925/assets/logos/ancodarq-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/escuadra-horizontal.png",
+        "http://127.0.0.1:53925/assets/logos/1995.png",
+        "http://127.0.0.1:53925/js/main.js?v=2",
+        "http://127.0.0.1:53925/js/projects.js?v=8"
+      ],
+      "forms": [],
+      "contrast": [
+        {
+          "text": "← VOLVER A PROYECTOS",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "UBICACIÓN: Madrid",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "ESTUDIO: Brage Tuñón Arquitectos",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 11,
+          "ratio": 2.52
+        },
+        {
+          "text": "Política de privacidad",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Aviso legal",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        },
+        {
+          "text": "Cookies",
+          "color": "rgb(163, 163, 163)",
+          "background": "rgb(255, 255, 255)",
+          "size": 9,
+          "ratio": 2.52
+        }
+      ],
+      "cookie": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "externalScripts": [
+        {
+          "src": "https://cdn.tailwindcss.com/",
+          "integrity": null
+        }
+      ],
+      "inlineHandlerCount": 11
+    }
+  ],
+  "interactions": [
+    {
+      "name": "project-detail",
+      "slug": "sala-vip-teatro-nuevo-apolo",
+      "title": "SALA VIP TEATRO NUEVO APOLO",
+      "count": 10,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-somosaguas",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-salamanca"
+    },
+    {
+      "name": "project-detail",
+      "slug": "sala-vip-teatro-nuevo-alcala",
+      "title": "SALA VIP TEATRO NUEVO ALCALÁ",
+      "count": 9,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-cotos-de-monterrey",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-odonnell"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-cotos-de-monterrey",
+      "title": "VIVIENDA UNIFAMILIAR COTOS DE MONTERREY",
+      "count": 4,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-manoteras",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-alcala"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-los-alamos-de-bularas",
+      "title": "VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS",
+      "count": 5,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-torre-omu-madrid",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=edificio-prefabricado-construccion-metalica-oficinas-laboratorios"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-la-finca",
+      "title": "VIVIENDA UNIFAMILIAR LA FINCA",
+      "count": 2,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vinitus-alcala",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-torre-omu-madrid"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-salamanca",
+      "title": "REFORMA VIVIENDA SALAMANCA",
+      "count": 10,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-apolo",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-grace"
+    },
+    {
+      "name": "project-detail",
+      "slug": "consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
+      "title": "REHABILITACIÓN HOSPITAL OFTALMOLÓGICO",
+      "count": 7,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-odonnell",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=reforma-vivienda-soto-de-la-moraleja"
+    },
+    {
+      "name": "project-detail",
+      "slug": "teatro-la-latina",
+      "title": "REHABILITACIÓN TEATRO LA LATINA",
+      "count": 6,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-oesia-zaragoza",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=centro-medico-clinique-la-prairie"
+    },
+    {
+      "name": "project-detail",
+      "slug": "teatro-nuevo-apolo",
+      "title": "REHABILITACIÓN TEATRO NUEVO APOLO",
+      "count": 11,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-grupo-oesia",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=reforma-piso-salamanca"
+    },
+    {
+      "name": "project-detail",
+      "slug": "centro-medico-clinique-la-prairie",
+      "title": "CENTRO MÉDICO CLINIQUE LA PRAIRIE",
+      "count": 10,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=teatro-la-latina",
+      "next": null
+    },
+    {
+      "name": "project-detail",
+      "slug": "restaurante-espectaculo-grace",
+      "title": "RESTAURANTE / ESPECTÁCULO GRACE",
+      "count": 13,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-salamanca",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-villaviciosa-de-odon"
+    },
+    {
+      "name": "project-detail",
+      "slug": "oficinas-y-centro-de-control-aereo",
+      "title": "OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS",
+      "count": 14,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-skybar",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-somosaguas"
+    },
+    {
+      "name": "project-detail",
+      "slug": "oficinas-grupo-oesia",
+      "title": "OFICINAS OESÍA SEVILLA",
+      "count": 5,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-barrio-las-cortes",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=teatro-nuevo-apolo"
+    },
+    {
+      "name": "project-detail",
+      "slug": "oficinas-torre-omu-madrid",
+      "title": "OFICINAS TORRE OMBÚ",
+      "count": 10,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-la-finca",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-los-alamos-de-bularas"
+    },
+    {
+      "name": "project-detail",
+      "slug": "oficinas-manoteras",
+      "title": "OFICINAS MANOTERAS",
+      "count": 6,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=edificio-prefabricado-construccion-metalica-oficinas-laboratorios",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-cotos-de-monterrey"
+    },
+    {
+      "name": "project-detail",
+      "slug": "edificio-prefabricado-construccion-metalica-oficinas-laboratorios",
+      "title": "EDIFICIO DE OFICINAS Y LABORATORIOS CIUDAD REAL",
+      "count": 3,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-los-alamos-de-bularas",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-manoteras"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-villaviciosa-de-odon",
+      "title": "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
+      "count": 5,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-grace",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vinitus-alcala"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-prado-largo",
+      "title": "VIVIENDA UNIFAMILIAR PRADO LARGO",
+      "count": 15,
+      "previous": null,
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-skybar"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-unifamiliar-somosaguas",
+      "title": "VIVIENDA UNIFAMILIAR SOMOSAGUAS",
+      "count": 3,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-y-centro-de-control-aereo",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-apolo"
+    },
+    {
+      "name": "project-detail",
+      "slug": "restaurante-espectaculo-skybar",
+      "title": "RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU",
+      "count": 8,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-prado-largo",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-y-centro-de-control-aereo"
+    },
+    {
+      "name": "project-detail",
+      "slug": "restaurante-vinitus",
+      "title": "RESTAURANTE VINITUS GRAN VÍA",
+      "count": 7,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=reforma-piso-salamanca",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=terraza-isla-del-sur"
+    },
+    {
+      "name": "project-detail",
+      "slug": "restaurante-espectaculo-barrio-las-cortes",
+      "title": "RESTAURANTE MANERO",
+      "count": 12,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=reforma-vivienda-soto-de-la-moraleja",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-grupo-oesia"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vinitus-alcala",
+      "title": "RESTAURANTE VINITUS ALCALÁ",
+      "count": 9,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-villaviciosa-de-odon",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=vivienda-unifamiliar-la-finca"
+    },
+    {
+      "name": "project-detail",
+      "slug": "vivienda-odonnell",
+      "title": "REFORMA VIVIENDA RETIRO",
+      "count": 19,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-alcala",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=consultas-recepcion-y-quirofano-en-hospital-oftalmologico"
+    },
+    {
+      "name": "project-detail",
+      "slug": "reforma-piso-salamanca",
+      "title": "REFORMA VIVIENDA SALAMANCA",
+      "count": 7,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=teatro-nuevo-apolo",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-vinitus"
+    },
+    {
+      "name": "project-detail",
+      "slug": "terraza-isla-del-sur",
+      "title": "RESTAURANTE ISLA DEL SUR",
+      "count": 7,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-vinitus",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=obras-varias-mercado-maravillas"
+    },
+    {
+      "name": "project-detail",
+      "slug": "reforma-vivienda-soto-de-la-moraleja",
+      "title": "REFORMA VIVIENDA SOTO DE LA MORALEJA",
+      "count": 6,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=restaurante-espectaculo-barrio-las-cortes"
+    },
+    {
+      "name": "project-detail",
+      "slug": "obras-varias-mercado-maravillas",
+      "title": "REHABILITACIÓN MERCADO MARAVILLAS",
+      "count": 1,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=terraza-isla-del-sur",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=oficinas-oesia-zaragoza"
+    },
+    {
+      "name": "project-detail",
+      "slug": "oficinas-oesia-zaragoza",
+      "title": "OFICINAS OESÍA ZARAGOZA",
+      "count": 7,
+      "previous": "http://127.0.0.1:53925/proyectos/detalle.html?slug=obras-varias-mercado-maravillas",
+      "next": "http://127.0.0.1:53925/proyectos/detalle.html?slug=teatro-la-latina"
+    },
+    {
+      "name": "invalid-slug-injection",
+      "executed": false,
+      "unknown": true,
+      "unexpectedImage": false
+    },
+    {
+      "name": "tailwind-blocked",
+      "headerPosition": "static",
+      "headerImages": [
+        {
+          "width": 43.4375,
+          "height": 56
+        },
+        {
+          "width": 44.40625,
+          "height": 56
+        }
+      ],
+      "mainDisplay": "block"
+    },
+    {
+      "name": "javascript-disabled",
+      "header": false,
+      "cards": 0,
+      "mainText": "PROYECTOS"
+    }
+  ],
+  "errors": [
+    "Uncaught: ReferenceError: tailwind is not defined\n    at http://127.0.0.1:53925/contacto/:12:5"
+  ],
+  "brokenLocalResources": [],
+  "data": {
+    "projects": [
+      {
+        "slug": "sala-vip-teatro-nuevo-apolo",
+        "name": "SALA VIP TEATRO NUEVO APOLO",
+        "category": "COMERCIAL",
+        "images": [
+          "assets/proyectos/28_TEATRO_APOLO_WEB/28_00 PORTADA.webp",
+          "assets/proyectos/28_TEATRO_APOLO_WEB/28_01.webp",
+          "assets/proyectos/28_TEATRO_APOLO_WEB/28_02.webp",
+          "assets/proyectos/28_TEATRO_APOLO_WEB/28_03.webp",
+          "assets/proyectos/28_TEATRO_APOLO_WEB/28_04.webp",
+          "assets/proyectos/28_TEATRO_APOLO_WEB/28_05.webp",
+          "assets/proyectos/28_TEATRO_APOLO_WEB/28_06.webp",
+          "assets/proyectos/28_TEATRO_APOLO_WEB/28_07.webp",
+          "assets/proyectos/28_TEATRO_APOLO_WEB/28_08.webp",
+          "assets/proyectos/28_TEATRO_APOLO_WEB/28_09.webp"
+        ]
+      },
+      {
+        "slug": "sala-vip-teatro-nuevo-alcala",
+        "name": "SALA VIP TEATRO NUEVO ALCALÁ",
+        "category": "COMERCIAL",
+        "images": [
+          "assets/proyectos/29_VIP_TEATRO_ALCALA/29_00 PORTADA.webp",
+          "assets/proyectos/29_VIP_TEATRO_ALCALA/29_01.webp",
+          "assets/proyectos/29_VIP_TEATRO_ALCALA/29_02.webp",
+          "assets/proyectos/29_VIP_TEATRO_ALCALA/29_03.webp",
+          "assets/proyectos/29_VIP_TEATRO_ALCALA/29_04.webp",
+          "assets/proyectos/29_VIP_TEATRO_ALCALA/29_05.webp",
+          "assets/proyectos/29_VIP_TEATRO_ALCALA/29_06.webp",
+          "assets/proyectos/29_VIP_TEATRO_ALCALA/29_07.webp",
+          "assets/proyectos/29_VIP_TEATRO_ALCALA/29_08.webp"
+        ]
+      },
+      {
+        "slug": "vivienda-unifamiliar-cotos-de-monterrey",
+        "name": "VIVIENDA UNIFAMILIAR COTOS DE MONTERREY",
+        "category": "OBRA NUEVA",
+        "images": [
+          "assets/proyectos/03_COTOS/03_00 PORTADA.webp",
+          "assets/proyectos/03_COTOS/03_01.webp",
+          "assets/proyectos/03_COTOS/03_02.webp",
+          "assets/proyectos/03_COTOS/03_03.webp"
+        ]
+      },
+      {
+        "slug": "vivienda-unifamiliar-los-alamos-de-bularas",
+        "name": "VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS",
+        "category": "OBRA NUEVA",
+        "images": [
+          "assets/proyectos/02_ALAMOS DE BULARAS/02_00 PORTADA.webp",
+          "assets/proyectos/02_ALAMOS DE BULARAS/02_01.webp",
+          "assets/proyectos/02_ALAMOS DE BULARAS/02_03.webp",
+          "assets/proyectos/02_ALAMOS DE BULARAS/02_04.webp",
+          "assets/proyectos/02_ALAMOS DE BULARAS/02_05.webp"
+        ]
+      },
+      {
+        "slug": "vivienda-unifamiliar-la-finca",
+        "name": "VIVIENDA UNIFAMILIAR LA FINCA",
+        "category": "OBRA NUEVA",
+        "images": [
+          "assets/proyectos/07_LA FINCA/07_00 PORTADA.webp",
+          "assets/proyectos/07_LA FINCA/07_01.webp"
+        ]
+      },
+      {
+        "slug": "vivienda-salamanca",
+        "name": "REFORMA VIVIENDA SALAMANCA",
+        "category": "REFORMAS",
+        "images": [
+          "assets/proyectos/09_JJ39/09_00 PORTADA.webp",
+          "assets/proyectos/09_JJ39/09_01.webp",
+          "assets/proyectos/09_JJ39/09_02.webp",
+          "assets/proyectos/09_JJ39/09_03.webp",
+          "assets/proyectos/09_JJ39/09_04.webp",
+          "assets/proyectos/09_JJ39/09_05.webp",
+          "assets/proyectos/09_JJ39/09_06.webp",
+          "assets/proyectos/09_JJ39/09_07.webp",
+          "assets/proyectos/09_JJ39/09_08.webp",
+          "assets/proyectos/09_JJ39/09_09.webp"
+        ]
+      },
+      {
+        "slug": "consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
+        "name": "REHABILITACIÓN HOSPITAL OFTALMOLÓGICO",
+        "category": "COMERCIAL",
+        "images": [
+          "assets/proyectos/16_MIRASIERRA/16_00PORTADA.webp",
+          "assets/proyectos/16_MIRASIERRA/16_01.webp",
+          "assets/proyectos/16_MIRASIERRA/16_02.webp",
+          "assets/proyectos/16_MIRASIERRA/16_03.webp",
+          "assets/proyectos/16_MIRASIERRA/16_04.webp",
+          "assets/proyectos/16_MIRASIERRA/16_05.webp",
+          "assets/proyectos/16_MIRASIERRA/16_06.webp"
+        ]
+      },
+      {
+        "slug": "teatro-la-latina",
+        "name": "REHABILITACIÓN TEATRO LA LATINA",
+        "category": "COMERCIAL",
+        "images": [
+          "assets/proyectos/20_TEATRO LA LATINA/20_00PORTADA.webp",
+          "assets/proyectos/20_TEATRO LA LATINA/20_01.webp",
+          "assets/proyectos/20_TEATRO LA LATINA/20_02.webp",
+          "assets/proyectos/20_TEATRO LA LATINA/20_03.webp",
+          "assets/proyectos/20_TEATRO LA LATINA/20_04.webp",
+          "assets/proyectos/20_TEATRO LA LATINA/20_05.webp"
+        ]
+      },
+      {
+        "slug": "teatro-nuevo-apolo",
+        "name": "REHABILITACIÓN TEATRO NUEVO APOLO",
+        "category": "COMERCIAL",
+        "images": [
+          "assets/proyectos/19_APOLO/19_00PORTADA.webp",
+          "assets/proyectos/19_APOLO/19_01.webp",
+          "assets/proyectos/19_APOLO/19_02.webp",
+          "assets/proyectos/19_APOLO/19_03.webp",
+          "assets/proyectos/19_APOLO/19_04.webp",
+          "assets/proyectos/19_APOLO/19_05.webp",
+          "assets/proyectos/19_APOLO/19_06.webp",
+          "assets/proyectos/19_APOLO/19_07.webp",
+          "assets/proyectos/19_APOLO/19_08.webp",
+          "assets/proyectos/19_APOLO/19_09.webp",
+          "assets/proyectos/19_APOLO/19_20.webp"
+        ]
+      },
+      {
+        "slug": "centro-medico-clinique-la-prairie",
+        "name": "CENTRO MÉDICO CLINIQUE LA PRAIRIE",
+        "category": "COMERCIAL",
+        "images": [
+          "assets/proyectos/22_LA PRAIRIE/22_00PORTADA.webp",
+          "assets/proyectos/22_LA PRAIRIE/22_01.webp",
+          "assets/proyectos/22_LA PRAIRIE/22_02.webp",
+          "assets/proyectos/22_LA PRAIRIE/22_03.webp",
+          "assets/proyectos/22_LA PRAIRIE/22_04.webp",
+          "assets/proyectos/22_LA PRAIRIE/22_05.webp",
+          "assets/proyectos/22_LA PRAIRIE/22_06.webp",
+          "assets/proyectos/22_LA PRAIRIE/22_07.webp",
+          "assets/proyectos/22_LA PRAIRIE/22_08.webp",
+          "assets/proyectos/22_LA PRAIRIE/22_09.webp"
+        ]
+      },
+      {
+        "slug": "restaurante-espectaculo-grace",
+        "name": "RESTAURANTE / ESPECTÁCULO GRACE",
+        "category": "COMERCIAL",
+        "images": [
+          "assets/proyectos/23_GRACE/23_00PORTADA.webp",
+          "assets/proyectos/23_GRACE/23_01.webp",
+          "assets/proyectos/23_GRACE/23_02.webp",
+          "assets/proyectos/23_GRACE/23_03.webp",
+          "assets/proyectos/23_GRACE/23_04.webp",
+          "assets/proyectos/23_GRACE/23_05.webp",
+          "assets/proyectos/23_GRACE/23_06.webp",
+          "assets/proyectos/23_GRACE/23_07.webp",
+          "assets/proyectos/23_GRACE/23_08.webp",
+          "assets/proyectos/23_GRACE/23_09.webp",
+          "assets/proyectos/23_GRACE/23_10.webp",
+          "assets/proyectos/23_GRACE/23_11.webp",
+          "assets/proyectos/23_GRACE/23_12.webp"
+        ]
+      },
+      {
+        "slug": "oficinas-y-centro-de-control-aereo",
+        "name": "OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS",
+        "category": "OFICINAS",
+        "images": [
+          "assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+          "assets/proyectos/30_AEROPUERTO/30_01.webp",
+          "assets/proyectos/30_AEROPUERTO/30_02.webp",
+          "assets/proyectos/30_AEROPUERTO/30_03.webp",
+          "assets/proyectos/30_AEROPUERTO/30_04.webp",
+          "assets/proyectos/30_AEROPUERTO/30_05.webp",
+          "assets/proyectos/30_AEROPUERTO/30_06.webp",
+          "assets/proyectos/30_AEROPUERTO/30_07.webp",
+          "assets/proyectos/30_AEROPUERTO/30_08.webp",
+          "assets/proyectos/30_AEROPUERTO/30_09.webp",
+          "assets/proyectos/30_AEROPUERTO/30_10.webp",
+          "assets/proyectos/30_AEROPUERTO/30_11.webp",
+          "assets/proyectos/30_AEROPUERTO/30_12.webp",
+          "assets/proyectos/30_AEROPUERTO/30_13.webp"
+        ]
+      },
+      {
+        "slug": "oficinas-grupo-oesia",
+        "name": "OFICINAS OESÍA SEVILLA",
+        "category": "OFICINAS",
+        "images": [
+          "assets/proyectos/33_OESIA SEVILLA/33_01.webp",
+          "assets/proyectos/33_OESIA SEVILLA/33_02.webp",
+          "assets/proyectos/33_OESIA SEVILLA/33_03.webp",
+          "assets/proyectos/33_OESIA SEVILLA/33_04.webp",
+          "assets/proyectos/33_OESIA SEVILLA/33_05.webp"
+        ]
+      },
+      {
+        "slug": "oficinas-torre-omu-madrid",
+        "name": "OFICINAS TORRE OMBÚ",
+        "category": "OFICINAS",
+        "images": [
+          "assets/proyectos/32_BOLTON/32_00PORTADA.jpg",
+          "assets/proyectos/32_BOLTON/32_01.jpg",
+          "assets/proyectos/32_BOLTON/32_02.webp",
+          "assets/proyectos/32_BOLTON/32_03.webp",
+          "assets/proyectos/32_BOLTON/32_04.webp",
+          "assets/proyectos/32_BOLTON/32_05.webp",
+          "assets/proyectos/32_BOLTON/32_06.webp",
+          "assets/proyectos/32_BOLTON/32_07.webp",
+          "assets/proyectos/32_BOLTON/32_08.webp",
+          "assets/proyectos/32_BOLTON/32_09.webp"
+        ]
+      },
+      {
+        "slug": "oficinas-manoteras",
+        "name": "OFICINAS MANOTERAS",
+        "category": "OFICINAS",
+        "images": [
+          "assets/proyectos/37_VEGANOX/37_00 PORTADA.webp",
+          "assets/proyectos/37_VEGANOX/37_01.webp",
+          "assets/proyectos/37_VEGANOX/37_02.webp",
+          "assets/proyectos/37_VEGANOX/37_03.webp",
+          "assets/proyectos/37_VEGANOX/37_04.webp",
+          "assets/proyectos/37_VEGANOX/37_05.webp"
+        ]
+      },
+      {
+        "slug": "edificio-prefabricado-construccion-metalica-oficinas-laboratorios",
+        "name": "EDIFICIO DE OFICINAS Y LABORATORIOS CIUDAD REAL",
+        "category": "OFICINAS",
+        "images": [
+          "assets/proyectos/34_VDP/34_00 PORTADA.webp",
+          "assets/proyectos/34_VDP/34_01.webp",
+          "assets/proyectos/34_VDP/34_02.webp"
+        ]
+      },
+      {
+        "slug": "vivienda-unifamiliar-villaviciosa-de-odon",
+        "name": "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
+        "category": "OBRA NUEVA",
+        "images": [
+          "assets/proyectos/38_TURIA/38_00PORTADA.webp",
+          "assets/proyectos/38_TURIA/38_01.webp",
+          "assets/proyectos/38_TURIA/38_02.webp",
+          "assets/proyectos/38_TURIA/38_03.webp",
+          "assets/proyectos/38_TURIA/38_04.webp"
+        ]
+      },
+      {
+        "slug": "vivienda-unifamiliar-prado-largo",
+        "name": "VIVIENDA UNIFAMILIAR PRADO LARGO",
+        "category": "OBRA NUEVA",
+        "images": [
+          "assets/proyectos/01_PRADO LARGO/01_00PORTADA.webp",
+          "assets/proyectos/01_PRADO LARGO/01_01.webp",
+          "assets/proyectos/01_PRADO LARGO/01_02.webp",
+          "assets/proyectos/01_PRADO LARGO/01_03.webp",
+          "assets/proyectos/01_PRADO LARGO/01_04.webp",
+          "assets/proyectos/01_PRADO LARGO/01_05.webp",
+          "assets/proyectos/01_PRADO LARGO/01_06.webp",
+          "assets/proyectos/01_PRADO LARGO/01_07.webp",
+          "assets/proyectos/01_PRADO LARGO/01_08.webp",
+          "assets/proyectos/01_PRADO LARGO/01_09.webp",
+          "assets/proyectos/01_PRADO LARGO/01_10.webp",
+          "assets/proyectos/01_PRADO LARGO/01_11.webp",
+          "assets/proyectos/01_PRADO LARGO/01_12.webp",
+          "assets/proyectos/01_PRADO LARGO/01_15.webp",
+          "assets/proyectos/01_PRADO LARGO/01_16.webp"
+        ]
+      },
+      {
+        "slug": "vivienda-unifamiliar-somosaguas",
+        "name": "VIVIENDA UNIFAMILIAR SOMOSAGUAS",
+        "category": "",
+        "images": [
+          "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_00PORTADA.webp",
+          "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_01.webp",
+          "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_02.webp"
+        ]
+      },
+      {
+        "slug": "restaurante-espectaculo-skybar",
+        "name": "RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU",
+        "category": "",
+        "images": [
+          "assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+          "assets/proyectos/24_SKYBAR/24_01.webp",
+          "assets/proyectos/24_SKYBAR/24_02.webp",
+          "assets/proyectos/24_SKYBAR/24_03.webp",
+          "assets/proyectos/24_SKYBAR/24_04.webp",
+          "assets/proyectos/24_SKYBAR/24_05.webp",
+          "assets/proyectos/24_SKYBAR/24_06.webp",
+          "assets/proyectos/24_SKYBAR/24_07.webp"
+        ]
+      },
+      {
+        "slug": "restaurante-vinitus",
+        "name": "RESTAURANTE VINITUS GRAN VÍA",
+        "category": "",
+        "images": [
+          "assets/proyectos/25_VINITUS GV4/25_00PORTADA.webp",
+          "assets/proyectos/25_VINITUS GV4/25_01.webp",
+          "assets/proyectos/25_VINITUS GV4/25_02.webp",
+          "assets/proyectos/25_VINITUS GV4/25_03.webp",
+          "assets/proyectos/25_VINITUS GV4/25_04.webp",
+          "assets/proyectos/25_VINITUS GV4/25_05.webp",
+          "assets/proyectos/25_VINITUS GV4/25_06.webp"
+        ]
+      },
+      {
+        "slug": "restaurante-espectaculo-barrio-las-cortes",
+        "name": "RESTAURANTE MANERO",
+        "category": "",
+        "images": [
+          "assets/proyectos/27_MANERO/27_00PORTADA.webp",
+          "assets/proyectos/27_MANERO/27_01.webp",
+          "assets/proyectos/27_MANERO/27_02.webp",
+          "assets/proyectos/27_MANERO/27_03.webp",
+          "assets/proyectos/27_MANERO/27_04.webp",
+          "assets/proyectos/27_MANERO/27_05.webp",
+          "assets/proyectos/27_MANERO/27_06.webp",
+          "assets/proyectos/27_MANERO/27_08.webp",
+          "assets/proyectos/27_MANERO/27_09.webp",
+          "assets/proyectos/27_MANERO/27_10.webp",
+          "assets/proyectos/27_MANERO/27_11.webp",
+          "assets/proyectos/27_MANERO/27_12.webp"
+        ]
+      },
+      {
+        "slug": "vinitus-alcala",
+        "name": "RESTAURANTE VINITUS ALCALÁ",
+        "category": "",
+        "images": [
+          "assets/proyectos/39_VINITUS_ALCALÁ/39_00PORTADA.webp",
+          "assets/proyectos/39_VINITUS_ALCALÁ/39_01.webp",
+          "assets/proyectos/39_VINITUS_ALCALÁ/39_02.webp",
+          "assets/proyectos/39_VINITUS_ALCALÁ/39_03.webp",
+          "assets/proyectos/39_VINITUS_ALCALÁ/39_04.webp",
+          "assets/proyectos/39_VINITUS_ALCALÁ/39_05.webp",
+          "assets/proyectos/39_VINITUS_ALCALÁ/39_06.webp",
+          "assets/proyectos/39_VINITUS_ALCALÁ/39_07.webp",
+          "assets/proyectos/39_VINITUS_ALCALÁ/39_08.webp"
+        ]
+      },
+      {
+        "slug": "vivienda-odonnell",
+        "name": "REFORMA VIVIENDA RETIRO",
+        "category": "REFORMAS",
+        "images": [
+          "assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
+          "assets/proyectos/41_ODONNELL/41_01.webp",
+          "assets/proyectos/41_ODONNELL/41_02.webp",
+          "assets/proyectos/41_ODONNELL/41_03.webp",
+          "assets/proyectos/41_ODONNELL/41_04.webp",
+          "assets/proyectos/41_ODONNELL/41_05.webp",
+          "assets/proyectos/41_ODONNELL/41_06.webp",
+          "assets/proyectos/41_ODONNELL/41_07.webp",
+          "assets/proyectos/41_ODONNELL/41_08.webp",
+          "assets/proyectos/41_ODONNELL/41_09.webp",
+          "assets/proyectos/41_ODONNELL/41_10.webp",
+          "assets/proyectos/41_ODONNELL/41_11.webp",
+          "assets/proyectos/41_ODONNELL/41_12.webp",
+          "assets/proyectos/41_ODONNELL/41_13.webp",
+          "assets/proyectos/41_ODONNELL/41_14.webp",
+          "assets/proyectos/41_ODONNELL/41_15.jpg",
+          "assets/proyectos/41_ODONNELL/41_16.jpg",
+          "assets/proyectos/41_ODONNELL/41_17.jpg",
+          "assets/proyectos/41_ODONNELL/41_18.jpg"
+        ]
+      },
+      {
+        "slug": "reforma-piso-salamanca",
+        "name": "REFORMA VIVIENDA SALAMANCA",
+        "category": "REFORMAS",
+        "images": [
+          "assets/proyectos/41_VILLANUEVA/41_0 PORTADA.webp",
+          "assets/proyectos/41_VILLANUEVA/41_01.webp",
+          "assets/proyectos/41_VILLANUEVA/41_02.webp",
+          "assets/proyectos/41_VILLANUEVA/41_03.webp",
+          "assets/proyectos/41_VILLANUEVA/41_04.webp",
+          "assets/proyectos/41_VILLANUEVA/41_05.webp",
+          "assets/proyectos/41_VILLANUEVA/41_06.webp"
+        ]
+      },
+      {
+        "slug": "terraza-isla-del-sur",
+        "name": "RESTAURANTE ISLA DEL SUR",
+        "category": "",
+        "images": [
+          "assets/proyectos/42_ ISLA DEL SUR/36_0 PORTADA.webp",
+          "assets/proyectos/42_ ISLA DEL SUR/36_01.webp",
+          "assets/proyectos/42_ ISLA DEL SUR/36_02.webp",
+          "assets/proyectos/42_ ISLA DEL SUR/36_03.webp",
+          "assets/proyectos/42_ ISLA DEL SUR/36_04.webp",
+          "assets/proyectos/42_ ISLA DEL SUR/36_05.webp",
+          "assets/proyectos/42_ ISLA DEL SUR/36_06.webp"
+        ]
+      },
+      {
+        "slug": "reforma-vivienda-soto-de-la-moraleja",
+        "name": "REFORMA VIVIENDA SOTO DE LA MORALEJA",
+        "category": "REFORMAS",
+        "images": [
+          "assets/proyectos/43_SOTO DE LA MORALEJA/43_0PORTADA.webp",
+          "assets/proyectos/43_SOTO DE LA MORALEJA/43_01.webp",
+          "assets/proyectos/43_SOTO DE LA MORALEJA/43_02.webp",
+          "assets/proyectos/43_SOTO DE LA MORALEJA/43_03.webp",
+          "assets/proyectos/43_SOTO DE LA MORALEJA/43_04.webp",
+          "assets/proyectos/43_SOTO DE LA MORALEJA/43_05.webp"
+        ]
+      },
+      {
+        "slug": "obras-varias-mercado-maravillas",
+        "name": "REHABILITACIÓN MERCADO MARAVILLAS",
+        "category": "COMERCIAL",
+        "images": [
+          "assets/proyectos/44_MERCADO MARAVILLAS/44_0PORTADA.png"
+        ]
+      },
+      {
+        "slug": "oficinas-oesia-zaragoza",
+        "name": "OFICINAS OESÍA ZARAGOZA",
+        "category": "OFICINAS",
+        "images": [
+          "assets/proyectos/45_ OESIA ZARAGOZA/45_0 PORTADA.webp",
+          "assets/proyectos/45_ OESIA ZARAGOZA/45_01.webp",
+          "assets/proyectos/45_ OESIA ZARAGOZA/45_02.webp",
+          "assets/proyectos/45_ OESIA ZARAGOZA/45_03.webp",
+          "assets/proyectos/45_ OESIA ZARAGOZA/45_04.webp",
+          "assets/proyectos/45_ OESIA ZARAGOZA/45_05.webp",
+          "assets/proyectos/45_ OESIA ZARAGOZA/45_06.webp"
+        ]
+      }
+    ],
+    "hero": [
+      "assets/home/Portada/01.png",
+      "assets/home/Portada/01B.png",
+      "assets/home/Portada/02.png",
+      "assets/home/Portada/04.png",
+      "assets/home/Portada/03.png",
+      "assets/home/Portada/07.png",
+      "assets/home/Portada/05.png",
+      "assets/home/Portada/05B.png",
+      "assets/home/Portada/05C.png",
+      "assets/home/Portada/08.png",
+      "assets/home/Portada/06.png",
+      "assets/home/Portada/09.png",
+      "assets/home/Portada/13.png",
+      "assets/home/Portada/17.png",
+      "assets/home/Portada/12.png",
+      "assets/home/Portada/11.png",
+      "assets/home/Portada/14.png",
+      "assets/home/Portada/14B.png",
+      "assets/home/Portada/10.png",
+      "assets/home/Portada/10B.png",
+      "assets/home/Portada/15.png",
+      "assets/home/Portada/16.png",
+      "assets/home/Portada/18.png"
+    ]
+  },
+  "resourceCount": 327,
+  "heroBytes": 68265906,
+  "externalDomains": [
+    "fonts.googleapis.com",
+    "cdn.tailwindcss.com",
+    "fonts.gstatic.com"
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "phase": "forms",
+  "results": [
+    {
+      "page": "/contacto/",
+      "width": 375,
+      "height": 1974,
+      "layoutIdentical": true,
+      "identical": false,
+      "changedPixels": 40,
+      "totalPixels": 740250
+    },
+    {
+      "page": "/contacto/",
+      "width": 390,
+      "height": 1974,
+      "layoutIdentical": true,
+      "identical": false,
+      "changedPixels": 40,
+      "totalPixels": 769860
+    },
+    {
+      "page": "/contacto/",
+      "width": 768,
+      "height": 1484,
+      "layoutIdentical": true,
+      "identical": false,
+      "changedPixels": 40,
+      "totalPixels": 1139712
+    },
+    {
+      "page": "/contacto/",
+      "width": 1024,
+      "height": 1077,
+      "layoutIdentical": true,
+      "identical": true,
+      "changedPixels": 0,
+      "totalPixels": 1102848
+    },
+    {
+      "page": "/contacto/",
+      "width": 1440,
+      "height": 1026,
+      "layoutIdentical": true,
+      "identical": true,
+      "changedPixels": 0,
+      "totalPixels": 1477440
+    },
+    {
+      "page": "/trabaja-con-nosotros/",
+      "width": 375,
+      "height": 1908,
+      "layoutIdentical": true,
+      "identical": false,
+      "changedPixels": 40,
+      "totalPixels": 715500
+    },
+    {
+      "page": "/trabaja-con-nosotros/",
+      "width": 390,
+      "height": 1908,
+      "layoutIdentical": true,
+      "identical": false,
+      "changedPixels": 40,
+      "totalPixels": 744120
+    },
+    {
+      "page": "/trabaja-con-nosotros/",
+      "width": 768,
+      "height": 1425,
+      "layoutIdentical": true,
+      "identical": false,
+      "changedPixels": 40,
+      "totalPixels": 1094400
+    },
+    {
+      "page": "/trabaja-con-nosotros/",
+      "width": 1024,
+      "height": 1425,
+      "layoutIdentical": true,
+      "identical": false,
+      "changedPixels": 40,
+      "totalPixels": 1459200
+    },
+    {
+      "page": "/trabaja-con-nosotros/",
+      "width": 1440,
+      "height": 1510,
+      "layoutIdentical": true,
+      "identical": true,
+      "changedPixels": 0,
+      "totalPixels": 2174400
+    }
+  ],
+  "interactions": [
+    {
+      "name": "structure",
+      "page": "/contacto/",
+      "method": "post",
+      "enctype": "application/x-www-form-urlencoded",
+      "hasAction": false,
+      "inlineHandler": false,
+      "disabled": true,
+      "fields": [
+        {
+          "id": "contact-name",
+          "name": "contact_name",
+          "type": "text",
+          "required": true,
+          "maxLength": 100,
+          "label": true
+        },
+        {
+          "id": "contact-email",
+          "name": "contact_email",
+          "type": "email",
+          "required": true,
+          "maxLength": 254,
+          "label": true
+        },
+        {
+          "id": "contact-phone",
+          "name": "contact_phone",
+          "type": "tel",
+          "required": false,
+          "maxLength": 40,
+          "label": true
+        },
+        {
+          "id": "contact-company",
+          "name": "contact_company",
+          "type": "text",
+          "required": false,
+          "maxLength": 160,
+          "label": true
+        },
+        {
+          "id": "contact-subject",
+          "name": "contact_subject",
+          "type": "text",
+          "required": false,
+          "maxLength": 200,
+          "label": true
+        },
+        {
+          "id": "contact-message",
+          "name": "contact_message",
+          "type": "textarea",
+          "required": true,
+          "maxLength": 5000,
+          "label": true
+        },
+        {
+          "id": "contact-privacy",
+          "name": "contact_privacy_accepted",
+          "type": "checkbox",
+          "required": true,
+          "maxLength": -1,
+          "label": true
+        }
+      ],
+      "privacy": "http://127.0.0.1:36227/privacidad/",
+      "mailAlternative": true
+    },
+    {
+      "name": "required-email",
+      "page": "/contacto/",
+      "emptyInvalid": true,
+      "rejectsBadEmail": true
+    },
+    {
+      "name": "maxlength",
+      "id": "contact-name",
+      "max": 100,
+      "length": 100,
+      "passes": true
+    },
+    {
+      "name": "maxlength",
+      "id": "contact-email",
+      "max": 254,
+      "length": 254,
+      "passes": true
+    },
+    {
+      "name": "maxlength",
+      "id": "contact-phone",
+      "max": 40,
+      "length": 40,
+      "passes": true
+    },
+    {
+      "name": "maxlength",
+      "id": "contact-company",
+      "max": 160,
+      "length": 160,
+      "passes": true
+    },
+    {
+      "name": "maxlength",
+      "id": "contact-subject",
+      "max": 200,
+      "length": 200,
+      "passes": true
+    },
+    {
+      "name": "maxlength",
+      "id": "contact-message",
+      "max": 5000,
+      "length": 5000,
+      "passes": true
+    },
+    {
+      "name": "inactive-ui",
+      "page": "/contacto/",
+      "postRequests": 0
+    },
+    {
+      "name": "structure",
+      "page": "/trabaja-con-nosotros/",
+      "method": "post",
+      "enctype": "multipart/form-data",
+      "hasAction": false,
+      "inlineHandler": false,
+      "disabled": true,
+      "fields": [
+        {
+          "id": "application-name",
+          "name": "application_full_name",
+          "type": "text",
+          "required": true,
+          "maxLength": 100,
+          "label": true
+        },
+        {
+          "id": "application-email",
+          "name": "application_email",
+          "type": "email",
+          "required": true,
+          "maxLength": 254,
+          "label": true
+        },
+        {
+          "id": "application-phone",
+          "name": "application_phone",
+          "type": "tel",
+          "required": true,
+          "maxLength": 40,
+          "label": true
+        },
+        {
+          "id": "application-profile",
+          "name": "application_profile",
+          "type": "text",
+          "required": true,
+          "maxLength": 160,
+          "label": true
+        },
+        {
+          "id": "application-letter",
+          "name": "application_cover_letter",
+          "type": "textarea",
+          "required": false,
+          "maxLength": 5000,
+          "label": true
+        },
+        {
+          "id": "application-cv",
+          "name": "application_cv",
+          "type": "file",
+          "required": true,
+          "maxLength": -1,
+          "label": true
+        },
+        {
+          "id": "application-privacy",
+          "name": "application_privacy_accepted",
+          "type": "checkbox",
+          "required": true,
+          "maxLength": -1,
+          "label": true
+        }
+      ],
+      "privacy": "http://127.0.0.1:36227/privacidad/",
+      "mailAlternative": true
+    },
+    {
+      "name": "required-email",
+      "page": "/trabaja-con-nosotros/",
+      "emptyInvalid": true,
+      "rejectsBadEmail": true
+    },
+    {
+      "name": "maxlength",
+      "id": "application-name",
+      "max": 100,
+      "length": 100,
+      "passes": true
+    },
+    {
+      "name": "maxlength",
+      "id": "application-email",
+      "max": 254,
+      "length": 254,
+      "passes": true
+    },
+    {
+      "name": "maxlength",
+      "id": "application-phone",
+      "max": 40,
+      "length": 40,
+      "passes": true
+    },
+    {
+      "name": "maxlength",
+      "id": "application-profile",
+      "max": 160,
+      "length": 160,
+      "passes": true
+    },
+    {
+      "name": "maxlength",
+      "id": "application-letter",
+      "max": 5000,
+      "length": 5000,
+      "passes": true
+    },
+    {
+      "name": "cv-validation",
+      "filename": "cv.pdf",
+      "size": 80,
+      "expected": true,
+      "actual": true,
+      "error": "",
+      "attached": true
+    },
+    {
+      "name": "cv-validation",
+      "filename": "cv.PDF",
+      "size": 5000000,
+      "expected": true,
+      "actual": true,
+      "error": "",
+      "attached": true
+    },
+    {
+      "name": "cv-validation",
+      "filename": "large.pdf",
+      "size": 5000001,
+      "expected": false,
+      "actual": false,
+      "error": "El PDF no puede superar los 5 MB (5.000.000 bytes).",
+      "attached": true
+    },
+    {
+      "name": "cv-validation",
+      "filename": "cv.docx",
+      "size": 80,
+      "expected": false,
+      "actual": false,
+      "error": "El currículum debe estar en formato PDF.",
+      "attached": true
+    },
+    {
+      "name": "cv-validation",
+      "filename": "fake.pdf",
+      "size": 80,
+      "expected": false,
+      "actual": false,
+      "error": "El currículum debe estar en formato PDF.",
+      "attached": true
+    },
+    {
+      "name": "cv-validation",
+      "filename": "cv.pdf",
+      "size": 80,
+      "expected": true,
+      "actual": true,
+      "error": "",
+      "attached": true
+    },
+    {
+      "name": "inactive-ui",
+      "page": "/trabaja-con-nosotros/",
+      "postRequests": 0
+    }
+  ],
+  "errors": [],
+  "brokenLocalResources": []
+}

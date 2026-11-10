@@ -20,7 +20,7 @@
 
 <main class="flex-grow pt-36 pb-32 font-prompt">
   <div class="site-container">
-    <div class="text-[11px] font-light tracking-[0.25em] text-neutral-500 mb-8 uppercase">CONTACTO</div>
+    <h1 class="font-urbanist font-light text-[28px] md:text-[32px] lg:text-[36px] leading-tight tracking-[0.04em] text-black mb-6">CONTACTO</h1>
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
       <div class="lg:col-span-5">
         <div class="text-sm font-light leading-loose text-neutral-700">
@@ -37,23 +37,43 @@
         </div>
       </div>
       <div class="lg:col-span-7">
-        <form action="#" onsubmit="event.preventDefault();" class="flex flex-col gap-8">
+        <!--
+          INTEGRACIÓN PENDIENTE — no hay endpoint configurado.
+          Configurar action con la URL HTTPS real antes de quitar disabled del botón.
+          No habilitar el botón si falta action: HTML enviaría a esta misma página.
+          POST: contact_name, contact_email, contact_phone, contact_company,
+          contact_subject, contact_message y contact_privacy_accepted (valor accepted).
+          Repetir required, email y maxlength en servidor; limitar peticiones, aplicar
+          antispam y protección CSRF/origen según la arquitectura. No incluir claves
+          en el navegador. Minimizar datos, restringir acceso y fijar su conservación.
+          El servidor debe devolver un resultado verificable: confirmar éxito solo
+          tras aceptación real; en error, conservar datos y mostrar un mensaje accesible.
+          Actualmente no se implementa envío ni se muestra ningún éxito simulado.
+        -->
+        <form id="contact-form" method="post" aria-describedby="contact-form-status" class="flex flex-col gap-8">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <input type="text" placeholder="Nombre *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
-            <input type="email" placeholder="Email *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+            <label for="contact-name" class="sr-only">Nombre</label>
+            <input id="contact-name" name="contact_name" type="text" autocomplete="name" maxlength="100" placeholder="Nombre *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+            <label for="contact-email" class="sr-only">Email</label>
+            <input id="contact-email" name="contact_email" type="email" autocomplete="email" maxlength="254" placeholder="Email *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <input type="tel" placeholder="Teléfono" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
-            <input type="text" placeholder="Empresa" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+            <label for="contact-phone" class="sr-only">Teléfono</label>
+            <input id="contact-phone" name="contact_phone" type="tel" autocomplete="tel" maxlength="40" placeholder="Teléfono" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+            <label for="contact-company" class="sr-only">Empresa</label>
+            <input id="contact-company" name="contact_company" type="text" autocomplete="organization" maxlength="160" placeholder="Empresa" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
           </div>
-          <input type="text" placeholder="Asunto" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
-          <textarea rows="4" placeholder="Mensaje *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light resize-none"></textarea>
-          <label class="flex items-center gap-3 text-[12px] font-light text-neutral-500">
-            <input type="checkbox" required class="w-3.5 h-3.5 accent-black rounded-none" />
-            He leído y acepto la Política de Privacidad.
+          <label for="contact-subject" class="sr-only">Asunto</label>
+          <input id="contact-subject" name="contact_subject" type="text" maxlength="200" placeholder="Asunto" class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light" />
+          <label for="contact-message" class="sr-only">Mensaje</label>
+          <textarea id="contact-message" name="contact_message" rows="4" maxlength="5000" placeholder="Mensaje *" required class="w-full pb-3 border-b border-neutral-200 focus:border-black outline-none bg-transparent text-sm font-light resize-none"></textarea>
+          <label for="contact-privacy" class="flex items-center gap-3 text-[12px] font-light text-neutral-500">
+            <input id="contact-privacy" name="contact_privacy_accepted" type="checkbox" value="accepted" required class="w-3.5 h-3.5 accent-black rounded-none" />
+            <span>He leído y acepto la <a href="../privacidad/">Política de Privacidad</a>.</span>
           </label>
-          <button type="submit" class="self-start mt-4 px-8 py-3 bg-black text-white text-[11px] tracking-[0.2em] font-light hover:bg-neutral-800 uppercase">ENVIAR</button>
-          <p class="text-[11px] text-neutral-400">Formulario pendiente de conexión al sistema de correo por el equipo informático.</p>
+          <button id="contact-submit" type="submit" disabled aria-describedby="contact-form-status" class="self-start mt-4 px-8 py-3 bg-black text-white text-[11px] tracking-[0.2em] font-light hover:bg-neutral-800 uppercase">ENVIAR</button>
+          <!-- Alternativa ya visible en el bloque de contacto: mailto:ancodarq@ancodarq.com. -->
+          <p id="contact-form-status" role="status" class="text-[11px] text-neutral-400">Formulario pendiente de conexión al sistema de correo por el equipo informático.</p>
         </form>
       </div>
     </div>

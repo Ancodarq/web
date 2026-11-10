@@ -1,0 +1,4258 @@
+{
+  "phase": "legal-final",
+  "results": [
+    {
+      "page": "/aviso-legal/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/contacto/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": false,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/cookies/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/nosotros/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/privacidad/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/proyectos/espacio-retail-serrano/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/proyectos/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/proyectos/reforma-duplex-chamberi/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/proyectos/rehabilitacion-edificio-claudio-coello/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/proyectos/sede-corporativa-castellana/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/proyectos/vivienda-somontes/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/proyectos/vivienda-unifamiliar-la-moraleja/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/servicios/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/trabaja-con-nosotros/index.html",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": false,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    },
+    {
+      "page": "/proyectos/detalle.html?slug=vivienda-salamanca",
+      "legal": [
+        {
+          "text": "Política de privacidad",
+          "url": "http://127.0.0.1:38844/privacidad/",
+          "status": 200
+        },
+        {
+          "text": "Aviso legal",
+          "url": "http://127.0.0.1:38844/aviso-legal/",
+          "status": 200
+        },
+        {
+          "text": "Cookies",
+          "url": "http://127.0.0.1:38844/cookies/",
+          "status": 200
+        }
+      ],
+      "documentCookies": "",
+      "localStorageKeys": [],
+      "sessionStorageKeys": [],
+      "cacheStorageKeys": [],
+      "indexedDB": [],
+      "serviceWorkers": 0,
+      "formActive": null,
+      "externalScripts": [
+        "https://cdn.tailwindcss.com/"
+      ],
+      "iframes": [],
+      "scrollWidth": 375,
+      "clientWidth": 375
+    }
+  ],
+  "interactions": [],
+  "errors": [],
+  "brokenLocalResources": [],
+  "resources": [
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.3",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.2",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.40",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.34",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.30",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.50",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.51",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.76",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.80",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.86",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.94",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.95",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.122",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.126",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.132",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.141",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.142",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.165",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.169",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.175",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.173",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.202",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.203",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.226",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.230",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.234",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.236",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.250",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.251",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.274",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.278",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.282",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.284",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.292",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.293",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.317",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.321",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.325",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.327",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.339",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.340",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.394",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.398",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.402",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.404",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.421",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.422",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.446",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.450",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.454",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.456",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.468",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.469",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.493",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.497",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.501",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.503",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.515",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.516",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.540",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.544",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.548",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.550",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.562",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.563",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.587",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.591",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.595",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.597",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.609",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.610",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.634",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.638",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.642",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.644",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.656",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.657",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.676",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.680",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.684",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.686",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.706",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.707",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.735",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.739",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.743",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.745",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.753",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.754",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.773",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.777",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.781",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.783",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.811",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.812",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.840",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.844",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.848",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.850",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.858",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.859",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.886",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.890",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.894",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.896",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.905",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.906",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.934",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.938",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.942",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.944",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.952",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.953",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.981",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.985",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.989",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.991",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.999",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1000",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1028",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1032",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1036",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1038",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1046",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1047",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1075",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1079",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1083",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1085",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1093",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1094",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1122",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1126",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1130",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1132",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1140",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1141",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1169",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1173",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1177",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1179",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1187",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1188",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1216",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1220",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1224",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1226",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1234",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1235",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1263",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1267",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1271",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1273",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1281",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1282",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1305",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1309",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1313",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1315",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1323",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1324",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1347",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1351",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1355",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1357",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1365",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1366",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1384",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1388",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1392",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1394",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1407",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1408",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1431",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1435",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1439",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1441",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1449",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1450",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1468",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1472",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1476",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1478",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1491",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1492",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1515",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1519",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1523",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1525",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1533",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1534",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1552",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1556",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1560",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1562",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1575",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1576",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1599",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1603",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1607",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1609",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1617",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1618",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1636",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1640",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1644",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1646",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1659",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1660",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1683",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1687",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1691",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1693",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1701",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1702",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1730",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1734",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1738",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1740",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1748",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1749",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1777",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1781",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1785",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1787",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1795",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1796",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1824",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1828",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1832",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1834",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1842",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1843",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1871",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1875",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1879",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1881",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1889",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1890",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1918",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1922",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1926",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1928",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1936",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1937",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1965",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1969",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1973",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.1975",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.1983",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.1984",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2012",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2016",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2020",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2022",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.2030",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.2031",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2059",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2063",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2067",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2069",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.2077",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.2078",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2106",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2110",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2114",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2116",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Urbanist:wght@200;300;400;500&display=swap",
+      "status": 200,
+      "type": "Stylesheet",
+      "requestId": "24780.2124",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://cdn.tailwindcss.com/3.4.17",
+      "status": 200,
+      "type": "Script",
+      "requestId": "24780.2125",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Cy_gIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2153",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W__XJnvUD7dzB2KYNod.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2157",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/prompt/v12/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2161",
+      "hasSetCookie": false
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/urbanist/v18/L0x-DF02iFML4hGCyMqlbS0.woff2",
+      "status": 200,
+      "type": "Font",
+      "requestId": "24780.2163",
+      "hasSetCookie": false
+    }
+  ],
+  "cookies": [],
+  "legalDestinations": [
+    "/privacidad/",
+    "/aviso-legal/",
+    "/cookies/"
+  ],
+  "tailwindStorageTokens": [],
+  "visualChecks": [
+    {
+      "page": "/aviso-legal/",
+      "width": 375,
+      "height": 812,
+      "styleSame": true,
+      "before": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 360,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 360,
+          "height": 725.734375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 320,
+          "height": 32,
+          "x": 20,
+          "font": "300 24px / 32px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 320,
+          "height": 112,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 320,
+          "height": 40,
+          "x": 20,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 360,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 360,
+          "height": 725.734375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 320,
+          "height": 32,
+          "x": 20,
+          "font": "300 24px / 32px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 320,
+          "height": 1924,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 320,
+          "height": 1852,
+          "x": 20,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/aviso-legal/",
+      "width": 390,
+      "height": 844,
+      "styleSame": true,
+      "before": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 375,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 375,
+          "height": 725.734375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 335,
+          "height": 32,
+          "x": 20,
+          "font": "300 24px / 32px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 335,
+          "height": 112,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 335,
+          "height": 40,
+          "x": 20,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 375,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 375,
+          "height": 725.734375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 335,
+          "height": 32,
+          "x": 20,
+          "font": "300 24px / 32px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 335,
+          "height": 1884,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 335,
+          "height": 1812,
+          "x": 20,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/aviso-legal/",
+      "width": 768,
+      "height": 1024,
+      "styleSame": false,
+      "before": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 768,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 768,
+          "height": 407.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 704,
+          "height": 36,
+          "x": 32,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 704,
+          "height": 96,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 704,
+          "height": 20,
+          "x": 32,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 753,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 753,
+          "height": 407.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 689,
+          "height": 36,
+          "x": 32,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 689,
+          "height": 1208,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 689,
+          "height": 1132,
+          "x": 32,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/aviso-legal/",
+      "width": 1024,
+      "height": 768,
+      "styleSame": true,
+      "before": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 1009,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1009,
+          "height": 407.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 896,
+          "height": 36,
+          "x": 32,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 945,
+          "height": 96,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 896,
+          "height": 20,
+          "x": 32,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1009,
+        "clientWidth": 1009,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 1009,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1009,
+          "height": 407.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 896,
+          "height": 36,
+          "x": 32,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 945,
+          "height": 1048,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 896,
+          "height": 972,
+          "x": 32,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1009,
+        "clientWidth": 1009,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/aviso-legal/",
+      "width": 1440,
+      "height": 900,
+      "styleSame": true,
+      "before": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 1425,
+          "height": 105,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1425,
+          "height": 591.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 896,
+          "height": 36,
+          "x": 42.75,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 1339.5,
+          "height": 96,
+          "x": 42.75,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 42.75px"
+        },
+        "text": {
+          "width": 896,
+          "height": 20,
+          "x": 42.75,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1425,
+        "clientWidth": 1425,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 1425,
+          "height": 105,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1425,
+          "height": 591.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 896,
+          "height": 36,
+          "x": 42.75,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 1339.5,
+          "height": 1048,
+          "x": 42.75,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 42.75px"
+        },
+        "text": {
+          "width": 896,
+          "height": 972,
+          "x": 42.75,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1425,
+        "clientWidth": 1425,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/privacidad/",
+      "width": 375,
+      "height": 812,
+      "styleSame": false,
+      "before": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 360,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 360,
+          "height": 585.375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 320,
+          "height": 18,
+          "x": 20,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 320,
+          "height": 3524,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 320,
+          "height": 3450,
+          "x": 20,
+          "font": "300 13px / 24.05px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 360,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 360,
+          "height": 581.375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "36px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 320,
+          "height": 18,
+          "x": 20,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 320,
+          "height": 3536.28125,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 320,
+          "height": 3462.28125,
+          "x": 20,
+          "font": "300 13px / 24.05px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/privacidad/",
+      "width": 390,
+      "height": 844,
+      "styleSame": false,
+      "before": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 375,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 375,
+          "height": 585.375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 335,
+          "height": 18,
+          "x": 20,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 335,
+          "height": 3355.671875,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 335,
+          "height": 3281.671875,
+          "x": 20,
+          "font": "300 13px / 24.05px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 375,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 375,
+          "height": 581.375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "36px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 335,
+          "height": 18,
+          "x": 20,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 335,
+          "height": 3488.1875,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 335,
+          "height": 3414.1875,
+          "x": 20,
+          "font": "300 13px / 24.05px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/privacidad/",
+      "width": 768,
+      "height": 1024,
+      "styleSame": false,
+      "before": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 753,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 753,
+          "height": 271.75,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 689,
+          "height": 18,
+          "x": 32,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 689,
+          "height": 2052,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 689,
+          "height": 1970,
+          "x": 32,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 753,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 753,
+          "height": 267.75,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "36px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 689,
+          "height": 18,
+          "x": 32,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 689,
+          "height": 2144.71875,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 689,
+          "height": 2062.71875,
+          "x": 32,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/privacidad/",
+      "width": 1024,
+      "height": 768,
+      "styleSame": false,
+      "before": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 1009,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1009,
+          "height": 253.875,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 945,
+          "height": 18,
+          "x": 32,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 945,
+          "height": 1702.4375,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 896,
+          "height": 1620.4375,
+          "x": 32,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1009,
+        "clientWidth": 1009,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 1009,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1009,
+          "height": 249.875,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "36px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 945,
+          "height": 18,
+          "x": 32,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 945,
+          "height": 1870.0625,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 896,
+          "height": 1788.0625,
+          "x": 32,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1009,
+        "clientWidth": 1009,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/privacidad/",
+      "width": 1440,
+      "height": 900,
+      "styleSame": true,
+      "before": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 1425,
+          "height": 121,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1425,
+          "height": 230.578125,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "36px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 1024,
+          "height": 18,
+          "x": 42.75,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 1339.5,
+          "height": 1702.4375,
+          "x": 42.75,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 42.75px"
+        },
+        "text": {
+          "width": 896,
+          "height": 1620.4375,
+          "x": 42.75,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1425,
+        "clientWidth": 1425,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 1425,
+          "height": 121,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1425,
+          "height": 230.578125,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "36px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 1024,
+          "height": 18,
+          "x": 42.75,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 1339.5,
+          "height": 1870.0625,
+          "x": 42.75,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 42.75px"
+        },
+        "text": {
+          "width": 896,
+          "height": 1788.0625,
+          "x": 42.75,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1425,
+        "clientWidth": 1425,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/cookies/",
+      "width": 375,
+      "height": 812,
+      "styleSame": true,
+      "before": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 360,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 360,
+          "height": 725.734375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 320,
+          "height": 32,
+          "x": 20,
+          "font": "300 24px / 32px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 320,
+          "height": 112,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 320,
+          "height": 40,
+          "x": 20,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 360,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 360,
+          "height": 725.734375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 320,
+          "height": 32,
+          "x": 20,
+          "font": "300 24px / 32px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 320,
+          "height": 2000,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 320,
+          "height": 1928,
+          "x": 20,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/cookies/",
+      "width": 390,
+      "height": 844,
+      "styleSame": true,
+      "before": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 375,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 375,
+          "height": 725.734375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 335,
+          "height": 32,
+          "x": 20,
+          "font": "300 24px / 32px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 335,
+          "height": 112,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 335,
+          "height": 40,
+          "x": 20,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 375,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 375,
+          "height": 725.734375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 335,
+          "height": 32,
+          "x": 20,
+          "font": "300 24px / 32px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 335,
+          "height": 1900,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 335,
+          "height": 1828,
+          "x": 20,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/cookies/",
+      "width": 768,
+      "height": 1024,
+      "styleSame": false,
+      "before": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 768,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 768,
+          "height": 407.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 704,
+          "height": 36,
+          "x": 32,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 704,
+          "height": 96,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 704,
+          "height": 20,
+          "x": 32,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 753,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 753,
+          "height": 407.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 689,
+          "height": 36,
+          "x": 32,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 689,
+          "height": 1184,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 689,
+          "height": 1108,
+          "x": 32,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/cookies/",
+      "width": 1024,
+      "height": 768,
+      "styleSame": true,
+      "before": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 1009,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1009,
+          "height": 407.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 896,
+          "height": 36,
+          "x": 32,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 945,
+          "height": 96,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 896,
+          "height": 20,
+          "x": 32,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1009,
+        "clientWidth": 1009,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 1009,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1009,
+          "height": 407.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 896,
+          "height": 36,
+          "x": 32,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 945,
+          "height": 984,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 896,
+          "height": 908,
+          "x": 32,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1009,
+        "clientWidth": 1009,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/cookies/",
+      "width": 1440,
+      "height": 900,
+      "styleSame": true,
+      "before": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 1425,
+          "height": 105,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1425,
+          "height": 591.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 896,
+          "height": 36,
+          "x": 42.75,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 1339.5,
+          "height": 96,
+          "x": 42.75,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 42.75px"
+        },
+        "text": {
+          "width": 896,
+          "height": 20,
+          "x": 42.75,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1425,
+        "clientWidth": 1425,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "CSS1Compat",
+        "header": {
+          "width": 1425,
+          "height": 105,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1425,
+          "height": 591.234375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "112px 0px 48px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 896,
+          "height": 36,
+          "x": 42.75,
+          "font": "300 30px / 36px Urbanist, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 0px 40px"
+        },
+        "container": {
+          "width": 1339.5,
+          "height": 984,
+          "x": 42.75,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 42.75px"
+        },
+        "text": {
+          "width": 896,
+          "height": 908,
+          "x": 42.75,
+          "font": "300 14px / 20px Prompt, sans-serif",
+          "color": "rgb(82, 82, 82)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1425,
+        "clientWidth": 1425,
+        "draft": true,
+        "pending": true
+      }
+    }
+  ]
+}

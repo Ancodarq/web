@@ -1,0 +1,609 @@
+{
+  "phase": "privacy-final",
+  "results": [],
+  "interactions": [],
+  "errors": [],
+  "brokenLocalResources": [],
+  "visualChecks": [
+    {
+      "page": "/privacidad/",
+      "width": 375,
+      "height": 812,
+      "styleSame": true,
+      "before": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 360,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 360,
+          "height": 585.375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 320,
+          "height": 18,
+          "x": 20,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 320,
+          "height": 3524,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 320,
+          "height": 3450,
+          "x": 20,
+          "font": "300 13px / 24.05px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 360,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 360,
+          "height": 585.375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 320,
+          "height": 18,
+          "x": 20,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 320,
+          "height": 3536.28125,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 320,
+          "height": 3462.28125,
+          "x": 20,
+          "font": "300 13px / 24.05px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 360,
+        "clientWidth": 360,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/privacidad/",
+      "width": 390,
+      "height": 844,
+      "styleSame": true,
+      "before": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 375,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 375,
+          "height": 585.375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 335,
+          "height": 18,
+          "x": 20,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 335,
+          "height": 3355.671875,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 335,
+          "height": 3281.671875,
+          "x": 20,
+          "font": "300 13px / 24.05px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 375,
+          "height": 81,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 375,
+          "height": 585.375,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 335,
+          "height": 18,
+          "x": 20,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 335,
+          "height": 3488.1875,
+          "x": 20,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 20px"
+        },
+        "text": {
+          "width": 335,
+          "height": 3414.1875,
+          "x": 20,
+          "font": "300 13px / 24.05px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 375,
+        "clientWidth": 375,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/privacidad/",
+      "width": 768,
+      "height": 1024,
+      "styleSame": true,
+      "before": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 753,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 753,
+          "height": 271.75,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 689,
+          "height": 18,
+          "x": 32,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 689,
+          "height": 2052,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 689,
+          "height": 1970,
+          "x": 32,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 753,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 753,
+          "height": 271.75,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 689,
+          "height": 18,
+          "x": 32,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 689,
+          "height": 2144.71875,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 689,
+          "height": 2062.71875,
+          "x": 32,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 753,
+        "clientWidth": 753,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/privacidad/",
+      "width": 1024,
+      "height": 768,
+      "styleSame": true,
+      "before": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 1009,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1009,
+          "height": 253.875,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 945,
+          "height": 18,
+          "x": 32,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 945,
+          "height": 1702.4375,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 896,
+          "height": 1620.4375,
+          "x": 32,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1009,
+        "clientWidth": 1009,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 1009,
+          "height": 89,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1009,
+          "height": 253.875,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "40px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 945,
+          "height": 18,
+          "x": 32,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 945,
+          "height": 1870.0625,
+          "x": 32,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 32px"
+        },
+        "text": {
+          "width": 896,
+          "height": 1788.0625,
+          "x": 32,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1009,
+        "clientWidth": 1009,
+        "draft": true,
+        "pending": true
+      }
+    },
+    {
+      "page": "/privacidad/",
+      "width": 1440,
+      "height": 900,
+      "styleSame": true,
+      "before": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 1425,
+          "height": 121,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1425,
+          "height": 230.578125,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "36px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 1024,
+          "height": 18,
+          "x": 42.75,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 1339.5,
+          "height": 1702.4375,
+          "x": 42.75,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 42.75px"
+        },
+        "text": {
+          "width": 896,
+          "height": 1620.4375,
+          "x": 42.75,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1425,
+        "clientWidth": 1425,
+        "draft": false,
+        "pending": false
+      },
+      "after": {
+        "compatMode": "BackCompat",
+        "header": {
+          "width": 1425,
+          "height": 121,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "footer": {
+          "width": 1425,
+          "height": 230.578125,
+          "x": 0,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(255, 255, 255)",
+          "padding": "36px 0px 16px",
+          "margin": "0px"
+        },
+        "title": {
+          "width": 1024,
+          "height": 18,
+          "x": 42.75,
+          "font": "12px / 18px Prompt, sans-serif",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "container": {
+          "width": 1339.5,
+          "height": 1870.0625,
+          "x": 42.75,
+          "font": "16px / 24px Prompt, sans-serif",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px 42.75px"
+        },
+        "text": {
+          "width": 896,
+          "height": 1788.0625,
+          "x": 42.75,
+          "font": "300 13.5px / 24.975px Prompt, sans-serif",
+          "color": "rgb(64, 64, 64)",
+          "background": "rgba(0, 0, 0, 0)",
+          "padding": "0px",
+          "margin": "0px"
+        },
+        "scrollWidth": 1425,
+        "clientWidth": 1425,
+        "draft": true,
+        "pending": true
+      }
+    }
+  ]
+}

@@ -6,7 +6,7 @@ const os = require('node:os');
 const { spawn } = require('node:child_process');
 const root = process.cwd();
 const phase = process.argv[2] || 'after';
-const out = path.join(root, phase === 'screenshots' ? 'screenshots/responsive' : 'artifacts/responsive');
+const out = path.join(root, phase === 'screenshots' ? 'screenshots/responsive' : phase === 'global' ? 'artifacts/global-review' : 'artifacts/responsive');
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 const mime = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.png': 'image/png', '.webp': 'image/webp', '.jpg': 'image/jpeg', '.pdf': 'application/pdf' };
 const pages = [];
@@ -70,6 +70,91 @@ const report = { phase, results: [], interactions: [], errors: [], brokenLocalRe
   };
   await send('Page.enable');
   await send('Runtime.enable');
+  if (phase === 'global') {
+    await send('Network.enable');
+    const domains = new Set();
+    const resources = new Set();
+    socket.addEventListener('message', event => {
+      const msg=JSON.parse(event.data);
+      if(msg.method==='Network.requestWillBeSent') domains.add(new URL(msg.params.request.url).hostname);
+    });
+    async function navigate(url) {
+      await send('Page.navigate',{url:base+url});
+      for(let i=0;i<100;i++) {
+        if(await evaluate(`document.readyState === 'complete' && !!document.querySelector('.site-header') && getComputedStyle(document.querySelector('.site-header')).position === 'fixed'`)) return;
+        await pause(100);
+      }
+      throw Error('Página no preparada: '+url);
+    }
+    await send('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:false});
+    for(const page of pages) {
+      await navigate(page);
+      const audit=await evaluate(`(() => {
+        const visible=el=>el.getClientRects().length && getComputedStyle(el).visibility!=='hidden';
+        const rgb=color=>{const m=color.match(/[\\d.]+/g);return m?m.slice(0,3).map(Number):[0,0,0]};
+        const luminance=color=>rgb(color).map(n=>{n/=255;return n<=.04045?n/12.92:((n+.055)/1.055)**2.4}).reduce((sum,v,i)=>sum+v*[.2126,.7152,.0722][i],0);
+        const contrast=[];
+        for(const el of document.querySelectorAll('a,p,label,button,h1,h2,h3,span')) {
+          if(!visible(el)||el.children.length||el.textContent.trim().length<2||el.closest('.project-link,.project-lightbox'))continue;
+          const style=getComputedStyle(el);
+          let bg='rgb(255,255,255)';
+          for(let node=el;node;node=node.parentElement){const c=getComputedStyle(node).backgroundColor;if(c!=='rgba(0, 0, 0, 0)'&&c!=='transparent'){bg=c;break;}}
+          const fg=luminance(style.color), back=luminance(bg);
+          const ratio=(Math.max(fg,back)+.05)/(Math.min(fg,back)+.05);
+          const size=parseFloat(style.fontSize), large=size>=24||(size>=18.66&&parseInt(style.fontWeight)>=700);
+          if(ratio<(large?3:4.5))contrast.push({text:el.textContent.trim().slice(0,90),color:style.color,background:bg,size,ratio:Math.round(ratio*100)/100});
+        }
+        return {
+          url:location.pathname+location.search,title:document.title,h1:[...document.querySelectorAll('h1')].map(el=>el.textContent.trim()),
+          missingProject:document.querySelector('#project-detail-content')?.textContent.includes('Proyecto no encontrado.')||false,
+          description:document.querySelector('meta[name="description"]')?.content||null,
+          canonical:document.querySelector('link[rel="canonical"]')?.href||null,
+          links:[...document.querySelectorAll('a[href]')].map(el=>({url:el.href,text:el.textContent.trim().slice(0,70),target:el.target,rel:el.rel,visible:!!visible(el)})),
+          localResources:[...document.querySelectorAll('img[src],script[src],link[rel="stylesheet"]')].map(el=>el.src||el.href).filter(url=>url.startsWith(location.origin)),
+          forms:[...document.forms].map(form=>({action:form.getAttribute('action'),method:form.method,inlineSubmit:form.getAttribute('onsubmit'),fields:[...form.elements].map(field=>({type:field.type,name:field.name,id:field.id,required:field.required,accept:field.accept||null,label:field.getAttribute('aria-label')||field.labels?.[0]?.textContent.trim()||null}))})),
+          contrast, cookie:document.cookie,localStorageKeys:Object.keys(localStorage),sessionStorageKeys:Object.keys(sessionStorage),
+          scrollWidth:document.documentElement.scrollWidth,clientWidth:document.documentElement.clientWidth,
+          externalScripts:[...document.scripts].filter(el=>el.src&&!el.src.startsWith(location.origin)).map(el=>({src:el.src,integrity:el.integrity||null})),
+          inlineHandlerCount:[...document.querySelectorAll('*')].reduce((n,el)=>n+[...el.attributes].filter(a=>a.name.startsWith('on')).length,0)
+        };
+      })()`);
+      for(const item of audit.links) if(item.url.startsWith(base))resources.add(item.url);
+      for(const url of audit.localResources)resources.add(url);
+      report.results.push(audit);
+      console.log('Revisado: '+page);
+    }
+    await navigate('/proyectos/');
+    const data=await evaluate(`({projects:PROJECTS_DATA.map(p=>({slug:p.slug,name:p.name,category:p.category,images:[p.coverImage,...(p.gallery||[])]})),hero:HERO_IMAGES})`);
+    report.data=data;
+    for(const project of data.projects) {
+      for(const asset of project.images) resources.add(base+'/'+asset);
+      await navigate('/proyectos/detalle.html?slug='+encodeURIComponent(project.slug));
+      report.interactions.push(await evaluate(`({name:'project-detail',slug:new URLSearchParams(location.search).get('slug'),title:document.querySelector('h1')?.textContent.trim(),count:document.querySelectorAll('.project-gallery-item').length,previous:document.querySelector('.project-previous')?.getAttribute('href')||null,next:document.querySelector('.project-next')?.getAttribute('href')||null})`));
+    }
+    for(const asset of data.hero)resources.add(base+'/'+asset);
+    for(const url of resources) {
+      const response=await fetch(url,{method:'HEAD'});
+      if(!response.ok)report.brokenLocalResources.push({url:url.replace(base,''),status:response.status});
+    }
+    report.resourceCount=resources.size;
+    const payload='<img src=x onerror="window.__auditInjected=true">';
+    await navigate('/proyectos/detalle.html?slug='+encodeURIComponent(payload));
+    report.interactions.push(await evaluate(`({name:'invalid-slug-injection',executed:window.__auditInjected===true,unknown:document.querySelector('#project-detail-content').textContent.includes('Proyecto no encontrado.'),unexpectedImage:!!document.querySelector('#project-detail-content img')})`));
+    await navigate('/index.html');
+    const heroBytes=data.hero.reduce((sum,p)=>sum+fs.statSync(path.join(root,p)).size,0);
+    report.heroBytes=heroBytes;
+    await send('Network.setBlockedURLs',{urls:['*cdn.tailwindcss.com*']});
+    await send('Network.setCacheDisabled',{cacheDisabled:true});
+    await navigate('/contacto/').catch(()=>{});
+    report.interactions.push(await evaluate(`({name:'tailwind-blocked',headerPosition:getComputedStyle(document.querySelector('.site-header')).position,headerImages:[...document.querySelector('.site-header').querySelectorAll('img')].map(img=>({width:img.getBoundingClientRect().width,height:img.getBoundingClientRect().height})),mainDisplay:getComputedStyle(document.querySelector('main')).display})`));
+    await send('Network.setBlockedURLs',{urls:[]});
+    await send('Emulation.setScriptExecutionDisabled',{value:true});
+    await send('Page.navigate',{url:base+'/proyectos/'});
+    await pause(700);
+    report.interactions.push(await evaluate(`({name:'javascript-disabled',header:!!document.querySelector('.site-header'),cards:document.querySelectorAll('.project-link').length,mainText:document.querySelector('main').textContent.trim()})`));
+    report.externalDomains=[...domains].filter(domain=>domain!=='127.0.0.1');
+    return;
+  }
   if (phase === 'screenshots') {
     const targets = [
       ['inicio', '/index.html'], ['nosotros', '/nosotros/'],
