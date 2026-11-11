@@ -571,6 +571,37 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
       "assets/proyectos/45_ OESIA ZARAGOZA/45_05.webp",
       "assets/proyectos/45_ OESIA ZARAGOZA/45_06.webp"
     ]
+  },
+  {
+    slug: "reforma-vivienda-pio-xii",
+    name: "REFORMA VIVIENDA PÍO XII",
+    category: "OBRAS EN EJECUCIÓN",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (5).jpeg",
+    description: "",
+    gallery: [
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.41 (1).jpeg",
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.42 (6).jpeg",
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.42.jpeg",
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (1).jpeg",
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (3).jpeg",
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-13 at 16.14.16sdf.jpeg"
+    ]
+  },
+  {
+    slug: "reforma-vivienda-chamartin",
+    name: "REFORMA VIVIENDA CHAMARTÍN",
+    category: "REFORMAS",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (1).jpeg",
+    description: "",
+    gallery: [
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51.jpeg",
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (3).jpeg",
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.52 (5).jpeg"
+    ]
   }
 ];
 
