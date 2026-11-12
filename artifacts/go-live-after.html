@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html>
+<html lang="es" class="home-page"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ANCODARQ — Arquitectura y Construcción</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&amp;family=Urbanist:wght@200;300;400;500&amp;display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            prompt: ["Prompt", "sans-serif"],
+            urbanist: ["Urbanist", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="css/styles.css">
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.left-0{left:0px}.top-0{top:0px}.z-50{z-index:50}.mx-2{margin-left:0.5rem;margin-right:0.5rem}.mt-4{margin-top:1rem}.mb-8{margin-bottom:2rem}.mt-1{margin-top:0.25rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.aspect-\[16\/10\]{aspect-ratio:16/10}.h-full{height:100%}.h-screen{height:100vh}.h-10{height:2.5rem}.h-16{height:4rem}.h-6{height:1.5rem}.h-\[18px\]{height:18px}.h-auto{height:auto}.h-px{height:1px}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-6{width:1.5rem}.w-\[18px\]{width:18px}.w-auto{width:auto}.w-px{width:1px}.max-w-\[235px\]{max-width:235px}.max-w-\[300px\]{max-width:300px}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.select-none{-webkit-user-select:none;user-select:none}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1\.5{gap:0.375rem}.gap-10{gap:2.5rem}.gap-5{gap:1.25rem}.gap-6{gap:1.5rem}.gap-7{gap:1.75rem}.gap-x-8{column-gap:2rem}.gap-y-3{row-gap:0.75rem}.gap-x-4{column-gap:1rem}.self-start{align-self:flex-start}.self-center{align-self:center}.overflow-hidden{overflow:hidden}.whitespace-nowrap{white-space:nowrap}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-neutral-100{--tw-border-opacity:1;border-color:rgb(245 245 245 / var(--tw-border-opacity, 1))}.border-neutral-200{--tw-border-opacity:1;border-color:rgb(229 229 229 / var(--tw-border-opacity, 1))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-neutral-200{--tw-bg-opacity:1;background-color:rgb(229 229 229 / var(--tw-bg-opacity, 1))}.bg-black\/0{background-color:rgb(0 0 0 / 0)}.bg-neutral-100{--tw-bg-opacity:1;background-color:rgb(245 245 245 / var(--tw-bg-opacity, 1))}.fill-current{fill:currentColor}.object-contain{object-fit:contain}.object-cover{object-fit:cover}.p-0{padding:0px}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.py-8{padding-top:2rem;padding-bottom:2rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pb-4{padding-bottom:1rem}.pt-1{padding-top:0.25rem}.pt-9{padding-top:2.25rem}.text-left{text-align:left}.text-center{text-align:center}.font-prompt{font-family:Prompt, sans-serif}.font-urbanist{font-family:Urbanist, sans-serif}.text-\[11px\]{font-size:11px}.text-\[12px\]{font-size:12px}.text-\[9px\]{font-size:9px}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-\[14px\]{font-size:14px}.font-light{font-weight:300}.font-normal{font-weight:400}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.tracking-\[0\.12em\]{letter-spacing:0.12em}.tracking-\[0\.18em\]{letter-spacing:0.18em}.tracking-\[0\.2em\]{letter-spacing:0.2em}.tracking-\[0\.15em\]{letter-spacing:0.15em}.text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115 / var(--tw-text-opacity, 1))}.text-\[\#B51817\]{--tw-text-opacity:1;color:rgb(181 24 23 / var(--tw-text-opacity, 1))}.text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163 / var(--tw-text-opacity, 1))}.text-neutral-800{--tw-text-opacity:1;color:rgb(38 38 38 / var(--tw-text-opacity, 1))}.text-neutral-900{--tw-text-opacity:1;color:rgb(23 23 23 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-0{opacity:0}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-500{transition-duration:500ms}.hover\:text-\[\#B51817\]:hover{--tw-text-opacity:1;color:rgb(181 24 23 / var(--tw-text-opacity, 1))}.hover\:text-black:hover{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.hover\:text-neutral-400:hover{--tw-text-opacity:1;color:rgb(163 163 163 / var(--tw-text-opacity, 1))}.hover\:text-neutral-500:hover{--tw-text-opacity:1;color:rgb(115 115 115 / var(--tw-text-opacity, 1))}.hover\:text-neutral-800:hover{--tw-text-opacity:1;color:rgb(38 38 38 / var(--tw-text-opacity, 1))}.hover\:opacity-60:hover{opacity:0.6}.group:hover .group-hover\:scale-\[1\.015\]{--tw-scale-x:1.015;--tw-scale-y:1.015;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:bg-black\/55{background-color:rgb(0 0 0 / 0.55)}.group:hover .group-hover\:opacity-100{opacity:1}@media (min-width: 768px){.md\:mb-9{margin-bottom:2.25rem}.md\:mt-0{margin-top:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:h-20{height:5rem}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-\[1fr_1fr_1fr\]{grid-template-columns:1fr 1fr 1fr}.md\:flex-row{flex-direction:row}.md\:items-end{align-items:flex-end}.md\:justify-end{justify-content:flex-end}.md\:text-right{text-align:right}.md\:text-\[15px\]{font-size:15px}}@media (min-width: 1024px){.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}</style></head>
+
+
+<body class="font-prompt antialiased min-h-screen flex flex-col">
+
+  <!-- HEADER -->
+  <div id="site-header">
+    <header class="site-header w-full bg-white fixed top-0 left-0 z-50 border-b border-neutral-100">
+
+      <div class="site-header-row site-container py-5 flex items-center justify-between">
+
+        <!-- LOGOS -->
+        <a href="http://127.0.0.1:5500/index.html" class="site-logos flex items-center gap-7">
+
+          <img src="http://127.0.0.1:5500/assets/logos/ancodarq-square.png" alt="ANCODARQ" class="h-16 md:h-20 w-auto object-contain shrink-0">
+
+          <span class="w-px h-10 bg-neutral-200"></span>
+
+          <img src="http://127.0.0.1:5500/assets/logos/escuadra-square.png" alt="ESCUADRA CONSTRUCCIONES" class="h-16 md:h-20 w-auto object-contain shrink-0">
+
+        </a>
+
+
+        <!-- NAVEGACIÓN DESKTOP -->
+        <nav class="site-nav hidden md:flex items-center gap-10 font-prompt font-light text-[12px] tracking-[0.2em] text-neutral-800">
+
+          <a href="http://127.0.0.1:5500/index.html" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors is-active" aria-current="page">
+            INICIO
+          </a>
+
+          <a href="http://127.0.0.1:5500/nosotros/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors ">
+            NOSOTROS
+          </a>
+
+          <a href="http://127.0.0.1:5500/servicios/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors ">
+            SERVICIOS
+          </a>
+
+          <a href="http://127.0.0.1:5500/proyectos/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors ">
+            PROYECTOS
+          </a>
+
+          <a href="http://127.0.0.1:5500/contacto/" class="nav-link relative py-1 text-neutral-500 hover:text-black transition-colors ">
+            CONTACTO
+          </a>
+
+        </nav>
+
+
+        <!-- BOTÓN MÓVIL -->
+        <button onclick="toggleMobileMenu()" class="site-menu-toggle md:hidden flex flex-col justify-center gap-1.5 w-6 h-6 p-0" aria-label="Menú" aria-controls="mobile-menu" aria-expanded="false">
+          <span class="w-full h-px bg-black"></span>
+          <span class="w-full h-px bg-black"></span>
+          <span class="w-full h-px bg-black"></span>
+        </button>
+
+      </div>
+
+
+      <!-- MENÚ MÓVIL -->
+      <div id="mobile-menu" class="site-mobile-menu hidden md:hidden bg-white w-full border-b border-neutral-200 site-gutters py-8 flex flex-col gap-6 font-prompt font-light text-sm tracking-[0.2em]">
+
+        <a href="http://127.0.0.1:5500/index.html" class="text-neutral-500 is-active" aria-current="page">INICIO</a>
+        <a href="http://127.0.0.1:5500/nosotros/" class="text-neutral-500">NOSOTROS</a>
+        <a href="http://127.0.0.1:5500/servicios/" class="text-neutral-500">SERVICIOS</a>
+        <a href="http://127.0.0.1:5500/proyectos/" class="text-neutral-500">PROYECTOS</a>
+        <a href="http://127.0.0.1:5500/contacto/" class="text-neutral-500">CONTACTO</a>
+
+      </div>
+
+    </header>
+  </div>
+  <main class="flex-grow">
+
+<!-- ===================================================== -->
+<!-- HERO -->
+<!-- ===================================================== -->
+
+<section class="home-hero w-full h-screen bg-white">
+  <div class="site-container h-full bg-neutral-50 overflow-hidden">
+    <img id="hero-img" src="http://127.0.0.1:5500/assets/home/Portada/00_01.jpg" alt="ANCODARQ Arquitectura" class="hero-image w-full h-full object-cover select-none" style="object-position: center 62%;">
+  </div>
+</section>
+    <!-- ===================================================== -->
+    <!-- NOSOTROS -->
+    <!-- ===================================================== -->
+
+    <section id="home-about" class="home-section w-full bg-white font-urbanist" aria-labelledby="home-about-title">
+      <div class="site-container">
+        <header class="about-heading">
+          <p class="about-label">NOSOTROS</p>
+          <h2 id="home-about-title" class="corporate-title">Más de 30 años construyendo confianza</h2>
+        </header>
+
+        <div class="about-layout">
+          <div class="about-photo">
+            <img src="assets/home/nosotros.png" alt="Interior de las oficinas de ANCODARQ en blanco y negro, con personas en movimiento" width="1448" height="1086" loading="lazy">
+          </div>
+
+          <div class="about-content">
+            <div class="about-copy">
+              <p>Desde 1995, en <strong>ANCODARQ | ESCUADRA</strong> desarrollamos nuestra actividad en el sector de la construcción, con una trayectoria consolidada en la rehabilitación y restauración de edificios, la transformación de viviendas y espacios comerciales, y la ejecución de proyectos residenciales de nueva planta.</p>
+              <p>Nuestra experiencia nos permite abordar cada proyecto desde una perspectiva integral. Contamos con un equipo propio que participa directamente en la planificación, supervisión y ejecución de las obras, garantizando una coordinación eficaz, un seguimiento continuo y una comunicación cercana con clientes y profesionales.</p>
+              <p>Entendemos nuestro trabajo desde la colaboración, el respeto por el proyecto, el rigor técnico y la atención al detalle, aspectos fundamentales para alcanzar un resultado de calidad.</p>
+              <p>Con sede en Madrid, seguimos construyendo sobre los valores que nos han acompañado desde nuestros inicios: experiencia, compromiso y confianza.</p>
+            </div>
+
+            <div class="about-certifications">
+              <div class="about-certifications-mark">
+                <span class="about-label">CERTIFICACIONES</span>
+                <img src="assets/logos/iso-certifications.png" alt="Certificaciones SGS ISO" loading="lazy">
+              </div>
+              <a href="assets/documentos/politica-calidad-medio-ambiente.pdf" target="_blank" rel="noopener noreferrer">POLÍTICA DE CALIDAD<br> Y MEDIO AMBIENTE →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===================================================== -->
+    <!-- SERVICIOS -->
+    <!-- ===================================================== -->
+
+    <section class="services-section home-section w-full bg-white font-urbanist" aria-labelledby="home-services-title">
+
+      <div class="site-container">
+
+        <header class="services-heading">
+          <p class="services-label">SERVICIOS</p>
+          <h2 id="home-services-title" class="services-title corporate-title">Construimos espacios. Materializamos proyectos.</h2>
+        </header>
+
+        <div id="home-services-grid" class="services-grid">
+      <article class="service-item">
+
+        <div class="service-image">
+          <img src="http://127.0.0.1:5500/assets/proyectos/01_PRADO%20LARGO/01_05.webp" alt="RESIDENCIAL" loading="lazy" class="w-full h-full object-cover" style="object-position: center 85%;">
+        </div>
+
+        <div class="service-heading">
+        <span class="service-number" aria-hidden="true">
+          01
+        </span>
+
+        <h3 class="service-title">
+          RESIDENCIAL
+        </h3>
+        </div>
+
+        <p class="service-description">
+          Construcción de viviendas, reformas integrales y rehabilitación de edificios. Coordinamos los trabajos y cuidamos la ejecución para adaptar cada espacio a las necesidades de quienes lo habitan.
+        </p>
+
+      </article>
+    
+      <article class="service-item">
+
+        <div class="service-image">
+          <img src="http://127.0.0.1:5500/assets/proyectos/23_GRACE/23_00PORTADA.webp" alt="LOCALES Y OFICINAS" loading="lazy" class="w-full h-full object-cover" style="object-position: center 85%;">
+        </div>
+
+        <div class="service-heading">
+        <span class="service-number" aria-hidden="true">
+          02
+        </span>
+
+        <h3 class="service-title">
+          LOCALES Y OFICINAS
+        </h3>
+        </div>
+
+        <p class="service-description">
+          Reforma y adecuación de espacios comerciales y oficinas. Hacemos propios los requerimientos de cada actividad, resolviendo desde la arquitectura y las instalaciones hasta los acabados finales.
+        </p>
+
+      </article>
+    
+      <article class="service-item">
+
+        <div class="service-image">
+          <img src="http://127.0.0.1:5500/assets/home/obra-publica-biblioteca-rioja.jpg" alt="OBRA PÚBLICA" loading="lazy" class="w-full h-full object-cover" style="object-position: center;">
+        </div>
+
+        <div class="service-heading">
+        <span class="service-number" aria-hidden="true">
+          03
+        </span>
+
+        <h3 class="service-title">
+          OBRA PÚBLICA
+        </h3>
+        </div>
+
+        <p class="service-description">
+          Rehabilitación y restauración de edificios y equipamientos públicos. Desarollamos intervenciones en estructuras, instalaciones, fachadas y espacios interiores.
+        </p>
+
+      </article>
+    </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="home-projects" class="home-section w-full bg-white font-prompt">
+
+  <div class="site-container">
+
+    <header class="projects-heading">
+      <p class="projects-label">
+        PROYECTOS
+      </p>
+      <h2 class="corporate-title">Nuestra trayectoria, reflejada en cada proyecto.</h2>
+    </header>
+
+    <div id="home-projects-preview" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-3">
+    <a href="http://127.0.0.1:5500/proyectos/detalle.html?slug=vivienda-unifamiliar-prado-largo" class="project-link group block">
+<div class="relative w-full aspect-[16/10] bg-neutral-100 overflow-hidden">
+
+        <!-- IMAGEN -->
+        <img src="http://127.0.0.1:5500/assets/proyectos/01_PRADO%20LARGO/01_00PORTADA.webp" alt="VIVIENDA UNIFAMILIAR PRADO LARGO" loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.015]">
+
+        <!-- CAPA OSCURA -->
+        <div class="project-shade absolute inset-0 bg-black/0 group-hover:bg-black/55 transition-colors duration-300"></div>
+
+        <!-- NOMBRE DEL PROYECTO -->
+        <div class="project-caption absolute inset-0 flex items-center justify-center
+                 opacity-0 group-hover:opacity-100
+                 transition-opacity duration-300
+                 px-6 text-center">
+          <span class="text-white text-[14px] md:text-[15px]
+                   font-light tracking-[0.15em] uppercase">
+            VIVIENDA UNIFAMILIAR PRADO LARGO
+          </span>
+        </div>
+
+      </div>
+
+    </a>
+  
+    <a href="http://127.0.0.1:5500/proyectos/detalle.html?slug=restaurante-espectaculo-skybar" class="project-link group block">
+<div class="relative w-full aspect-[16/10] bg-neutral-100 overflow-hidden">
+
+        <!-- IMAGEN -->
+        <img src="http://127.0.0.1:5500/assets/proyectos/24_SKYBAR/24_00PORTADA.webp" alt="RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU" loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.015]">
+
+        <!-- CAPA OSCURA -->
+        <div class="project-shade absolute inset-0 bg-black/0 group-hover:bg-black/55 transition-colors duration-300"></div>
+
+        <!-- NOMBRE DEL PROYECTO -->
+        <div class="project-caption absolute inset-0 flex items-center justify-center
+                 opacity-0 group-hover:opacity-100
+                 transition-opacity duration-300
+                 px-6 text-center">
+          <span class="text-white text-[14px] md:text-[15px]
+                   font-light tracking-[0.15em] uppercase">
+            RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU
+          </span>
+        </div>
+
+      </div>
+
+    </a>
+  
+    <a href="http://127.0.0.1:5500/proyectos/detalle.html?slug=oficinas-y-centro-de-control-aereo" class="project-link group block">
+<div class="relative w-full aspect-[16/10] bg-neutral-100 overflow-hidden">
+
+        <!-- IMAGEN -->
+        <img src="http://127.0.0.1:5500/assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp" alt="OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS" loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.015]">
+
+        <!-- CAPA OSCURA -->
+        <div class="project-shade absolute inset-0 bg-black/0 group-hover:bg-black/55 transition-colors duration-300"></div>
+
+        <!-- NOMBRE DEL PROYECTO -->
+        <div class="project-caption absolute inset-0 flex items-center justify-center
+                 opacity-0 group-hover:opacity-100
+                 transition-opacity duration-300
+                 px-6 text-center">
+          <span class="text-white text-[14px] md:text-[15px]
+                   font-light tracking-[0.15em] uppercase">
+            OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS
+          </span>
+        </div>
+
+      </div>
+
+    </a>
+  
+    <a href="http://127.0.0.1:5500/proyectos/detalle.html?slug=vivienda-unifamiliar-somosaguas" class="project-link group block">
+<div class="relative w-full aspect-[16/10] bg-neutral-100 overflow-hidden">
+
+        <!-- IMAGEN -->
+        <img src="http://127.0.0.1:5500/assets/proyectos/08_SOMOSAGUAS%20(CAMPO7)/08_00PORTADA.webp" alt="VIVIENDA UNIFAMILIAR SOMOSAGUAS" loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.015]">
+
+        <!-- CAPA OSCURA -->
+        <div class="project-shade absolute inset-0 bg-black/0 group-hover:bg-black/55 transition-colors duration-300"></div>
+
+        <!-- NOMBRE DEL PROYECTO -->
+        <div class="project-caption absolute inset-0 flex items-center justify-center
+                 opacity-0 group-hover:opacity-100
+                 transition-opacity duration-300
+                 px-6 text-center">
+          <span class="text-white text-[14px] md:text-[15px]
+                   font-light tracking-[0.15em] uppercase">
+            VIVIENDA UNIFAMILIAR SOMOSAGUAS
+          </span>
+        </div>
+
+      </div>
+
+    </a>
+  
+    <a href="http://127.0.0.1:5500/proyectos/detalle.html?slug=sala-vip-teatro-nuevo-apolo" class="project-link group block">
+<div class="relative w-full aspect-[16/10] bg-neutral-100 overflow-hidden">
+
+        <!-- IMAGEN -->
+        <img src="http://127.0.0.1:5500/assets/proyectos/28_TEATRO_APOLO_WEB/28_00%20PORTADA.webp" alt="SALA VIP TEATRO NUEVO APOLO" loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.015]">
+
+        <!-- CAPA OSCURA -->
+        <div class="project-shade absolute inset-0 bg-black/0 group-hover:bg-black/55 transition-colors duration-300"></div>
+
+        <!-- NOMBRE DEL PROYECTO -->
+        <div class="project-caption absolute inset-0 flex items-center justify-center
+                 opacity-0 group-hover:opacity-100
+                 transition-opacity duration-300
+                 px-6 text-center">
+          <span class="text-white text-[14px] md:text-[15px]
+                   font-light tracking-[0.15em] uppercase">
+            SALA VIP TEATRO NUEVO APOLO
+          </span>
+        </div>
+
+      </div>
+
+    </a>
+  
+    <a href="http://127.0.0.1:5500/proyectos/detalle.html?slug=vivienda-salamanca" class="project-link group block">
+<div class="relative w-full aspect-[16/10] bg-neutral-100 overflow-hidden">
+
+        <!-- IMAGEN -->
+        <img src="http://127.0.0.1:5500/assets/proyectos/09_JJ39/09_00%20PORTADA.webp" alt="REFORMA VIVIENDA SALAMANCA" loading="lazy" decoding="async" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.015]">
+
+        <!-- CAPA OSCURA -->
+        <div class="project-shade absolute inset-0 bg-black/0 group-hover:bg-black/55 transition-colors duration-300"></div>
+
+        <!-- NOMBRE DEL PROYECTO -->
+        <div class="project-caption absolute inset-0 flex items-center justify-center
+                 opacity-0 group-hover:opacity-100
+                 transition-opacity duration-300
+                 px-6 text-center">
+          <span class="text-white text-[14px] md:text-[15px]
+                   font-light tracking-[0.15em] uppercase">
+            REFORMA VIVIENDA SALAMANCA
+          </span>
+        </div>
+
+      </div>
+
+    </a>
+  </div>
+
+    <div class="flex justify-end mt-4">
+      <a href="proyectos/" class="corporate-link text-neutral-500 hover:text-[#B51817] transition-colors uppercase">
+        VER MÁS →
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <div id="site-footer">
+    <footer class="site-footer w-full bg-white border-t border-neutral-100 pt-9 pb-4 font-prompt">
+
+      <div class="site-container">
+
+        <!-- BLOQUE PRINCIPAL -->
+        <div class="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] items-start gap-10 mb-8 md:mb-9">
+
+          <!-- LOGOS RECTANGULARES -->
+          <div class="flex flex-col gap-6 w-full max-w-[235px]">
+
+            <img src="http://127.0.0.1:5500/assets/logos/ancodarq-horizontal.png" alt="ANCODARQ" class="w-full h-auto object-contain block self-start">
+
+            <img src="http://127.0.0.1:5500/assets/logos/escuadra-horizontal.png" alt="ESCUADRA CONSTRUCCIONES" class="w-full h-auto object-contain block self-start">
+
+          </div>
+
+
+          <!-- EMPRESA FUNDADA EN 1995 -->
+          <div class="flex items-center justify-center self-center w-full">
+            <img src="http://127.0.0.1:5500/assets/logos/1995.png" alt="Empresa fundada en 1995" width="5905" height="781" class="w-full max-w-[300px] h-auto object-contain">
+          </div>
+
+          <!-- CONTACTO -->
+          <div class="flex flex-col md:items-end text-left md:text-right font-light text-[11px] tracking-[0.18em] leading-relaxed text-neutral-800 pt-1">
+
+            <div>C. TEIDE, 4</div>
+
+            <div>
+              SAN SEBASTIÁN DE LOS REYES — 28703 MADRID
+            </div>
+
+            <a href="mailto:ancodarq@ancodarq.com" class="mt-3 text-neutral-900 font-normal hover:text-neutral-500 transition-colors">
+              ANCODARQ@ANCODARQ.COM
+            </a>
+
+            <div class="mt-1 flex flex-wrap md:justify-end gap-x-4">
+
+              <a href="tel:+34916570819" class="hover:text-neutral-500 transition-colors">
+                +34 916 570 819
+              </a>
+
+              <a href="tel:+34618341133" class="hover:text-neutral-500 transition-colors">
+                +34 618 341 133
+              </a>
+
+            </div>
+
+
+            <!-- REDES SOCIALES -->
+            <div class="mt-4 flex items-center gap-5">
+
+              <!-- LinkedIn ANCODARQ -->
+              <a href="https://www.linkedin.com/company/ancodarq-sl" target="_blank" rel="noopener noreferrer" class="text-neutral-900 hover:text-neutral-400 transition-colors" aria-label="LinkedIn ANCODARQ" title="LinkedIn ANCODARQ">
+
+                <svg class="w-[18px] h-[18px] fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.96 11.24V10.13H10.17V18.5H12.96V13.57C12.96 12.8 13.58 12.17 14.35 12.17A1.4 1.4 0 0 1 15.75 13.57V18.5H18.5M6.46 8.76A1.45 1.45 0 1 0 6.46 5.86A1.45 1.45 0 0 0 6.46 8.76M7.85 18.5V10.13H5.07V18.5H7.85Z"></path>
+                </svg>
+
+              </a>
+
+
+              <!-- Instagram ANCODARQ -->
+              <a href="https://www.instagram.com/ancodarq/" target="_blank" rel="noopener noreferrer" class="text-[#B51817] hover:opacity-60 transition-opacity" aria-label="Instagram ANCODARQ" title="Instagram ANCODARQ">
+
+                <svg class="w-[18px] h-[18px] fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 2C4.24 2 2 4.24 2 7V17C2 19.76 4.24 22 7 22H17C19.76 22 22 19.76 22 17V7C22 4.24 19.76 2 17 2H7M7 4H17C18.66 4 20 5.34 20 7V17C20 18.66 18.66 20 17 20H7C5.34 20 4 18.66 4 17V7C4 5.34 5.34 4 7 4M17.5 5.5A1.25 1.25 0 1 0 17.5 8A1.25 1.25 0 0 0 17.5 5.5M12 7A5 5 0 1 0 12 17A5 5 0 0 0 12 7M12 9A3 3 0 1 1 12 15A3 3 0 0 1 12 9Z"></path>
+                </svg>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- LÍNEA INFERIOR -->
+        <div class="w-full flex flex-col md:flex-row justify-between items-center mt-4 text-[9px] font-light tracking-[0.12em] text-neutral-400">
+
+          <div class="whitespace-nowrap">
+            © ANCODARQ
+          </div>
+
+          <div class="mt-2 md:mt-0 whitespace-nowrap">
+
+            <a href="http://127.0.0.1:5500/privacidad/" class="hover:text-neutral-800 transition-colors">
+              Política de privacidad
+            </a>
+
+            <span class="mx-2">·</span>
+
+            <a href="http://127.0.0.1:5500/aviso-legal/" class="hover:text-neutral-800 transition-colors">
+              Aviso legal
+            </a>
+
+            <span class="mx-2">·</span>
+
+            <a href="http://127.0.0.1:5500/cookies/" class="hover:text-neutral-800 transition-colors">
+              Cookies
+            </a>
+
+          </div>
+
+                </div>
+
+      </div>
+
+    </footer>
+  </div>
+
+
+  <!-- SCRIPTS -->
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body></html>

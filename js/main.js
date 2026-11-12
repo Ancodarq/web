@@ -302,29 +302,29 @@ function renderFooter() {
 // ======================================================
 
 const HERO_IMAGES = [
-  "assets/home/Portada/00_01.jpg",
-  "assets/home/Portada/00_02.png",
-  "assets/home/Portada/00_03.png",
-  "assets/home/Portada/00_04.png",
-  "assets/home/Portada/00_05.png",
-  "assets/home/Portada/00_06.png",
-  "assets/home/Portada/00_07.JPG",
-  "assets/home/Portada/00_08.jpg",
-  "assets/home/Portada/00_09.png",
+  "assets/home/Portada/00_01.webp",
+  "assets/home/Portada/00_02.webp",
+  "assets/home/Portada/00_03.webp",
+  "assets/home/Portada/00_04.webp",
+  "assets/home/Portada/00_05.webp",
+  "assets/home/Portada/00_06.webp",
+  "assets/home/Portada/00_07.webp",
+  "assets/home/Portada/00_08.webp",
+  "assets/home/Portada/00_09.webp",
   "assets/home/Portada/00_10.webp",
-  "assets/home/Portada/00_11.jpeg",
-  "assets/home/Portada/00_12.jpeg",
-  "assets/home/Portada/00_13.JPG",
-  "assets/home/Portada/00_14.jpg"
+  "assets/home/Portada/00_11.webp",
+  "assets/home/Portada/00_12.webp",
+  "assets/home/Portada/00_13.webp",
+  "assets/home/Portada/00_14.webp"
 ];
 
 // Encuadres sobre la foto original: el resto permanece centrado.
 const HERO_IMAGE_POSITIONS = {
-  "00_05.png": "35% center",
-  "00_04.png": "center 40%",
-  "00_02.png": "center 40%",
-  "00_01.jpg": "center 62%",
-  "00_13.JPG": "center 45%",
+  "00_05.webp": "35% center",
+  "00_04.webp": "center 40%",
+  "00_02.webp": "center 40%",
+  "00_01.webp": "center 62%",
+  "00_13.webp": "center 45%",
   "00_10.webp": "center 40%"
 };
 
@@ -415,7 +415,7 @@ const SERVICES_DATA = [
   {
     id: "03",
     title: "OBRA PÚBLICA",
-    image: siteUrl("assets/home/obra-publica-biblioteca-rioja.jpg"),
+    image: siteUrl("assets/home/obra-publica-biblioteca-rioja.webp"),
     description:
       "Rehabilitación y restauración de edificios y equipamientos públicos. Desarollamos intervenciones en estructuras, instalaciones, fachadas y espacios interiores."
   }
@@ -487,7 +487,7 @@ function initNavigation() {
   if (!header || !menu || !button) return;
   button.setAttribute("aria-controls", "mobile-menu");
   button.setAttribute("aria-expanded", "false");
-ca  const active = getActiveSection();
+  const active = getActiveSection();
   header.querySelectorAll("nav a, #mobile-menu a").forEach(link => {
     const linkPath = new URL(link.href).pathname;
     const expected = active === "inicio" ? new URL("index.html", SITE_ROOT).pathname : active ? new URL(active + "/", SITE_ROOT).pathname : null;

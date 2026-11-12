@@ -309,11 +309,22 @@ const report = { phase, results: [], interactions: [], errors: [], brokenLocalRe
   await send('Emulation.setEmulatedMedia', { features:[{name:'prefers-reduced-motion',value:'reduce'}] });
   await send('Page.navigate', {url:base + '/index.html'});
   await pause(900);
-  const initialHero = await evaluate('document.querySelector("#hero-img").src');
+  const initialHero = await evaluate(`(async () => {
+    const image = document.querySelector('#hero-img');
+    if (!image) throw Error('No se encontró la imagen del carrusel');
+    await image.decode();
+    if (!image.complete || image.naturalWidth <= 0) throw Error('La imagen del carrusel no ha cargado correctamente');
+    return image.src;
+  })()`);
   await pause(2700);
-  const reduced = await evaluate(`({name:'reduced-motion', hero:document.querySelector('#hero-img').src, scroll:getComputedStyle(document.documentElement).scrollBehavior, transition:getComputedStyle(document.querySelector('#home-projects-preview img')).transitionDuration})`);
+  const reduced = await evaluate(`(async () => {
+    const image = document.querySelector('#hero-img');
+    await image.decode();
+    return {name:'reduced-motion', hero:image.src, heroLoaded:image.complete && image.naturalWidth > 0, heroDecoded:true, scroll:getComputedStyle(document.documentElement).scrollBehavior, transition:getComputedStyle(document.querySelector('#home-projects-preview img')).transitionDuration};
+  })()`);
   reduced.heroStable = reduced.hero === initialHero;
   report.interactions.push(reduced);
+  if (!reduced.heroLoaded) throw Error('La imagen del carrusel no ha cargado correctamente');
 })().catch(error => { report.errors.push(error.stack); process.exitCode = 1; }).finally(() => {
   fs.mkdirSync(out, { recursive:true });
   fs.writeFileSync(path.join(out, `${phase}.json`), JSON.stringify(report, null, 2));

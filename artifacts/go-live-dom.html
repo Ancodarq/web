@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="es" class="home-page"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ANCODARQ — Arquitectura y Construcción</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;1,300&amp;family=Urbanist:wght@200;300;400;500&amp;display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            prompt: ["Prompt", "sans-serif"],
+            urbanist: ["Urbanist", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="css/styles.css">
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.mt-4{margin-top:1rem}.flex{display:flex}.grid{display:grid}.h-full{height:100%}.h-screen{height:100vh}.min-h-screen{min-height:100vh}.w-full{width:100%}.flex-grow{flex-grow:1}.select-none{-webkit-user-select:none;user-select:none}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.justify-end{justify-content:flex-end}.gap-x-8{column-gap:2rem}.gap-y-3{row-gap:0.75rem}.overflow-hidden{overflow:hidden}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.object-cover{object-fit:cover}.font-prompt{font-family:Prompt, sans-serif}.font-urbanist{font-family:Urbanist, sans-serif}.uppercase{text-transform:uppercase}.text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:text-\[\#B51817\]:hover{--tw-text-opacity:1;color:rgb(181 24 23 / var(--tw-text-opacity, 1))}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}</style></head>
+
+
+<body class="font-prompt antialiased min-h-screen flex flex-col">
+
+  <!-- HEADER -->
+  <div id="site-header"></div>
+  <main class="flex-grow">
+
+<!-- ===================================================== -->
+<!-- HERO -->
+<!-- ===================================================== -->
+
+<section class="home-hero w-full h-screen bg-white">
+  <div class="site-container h-full bg-neutral-50 overflow-hidden">
+    <img id="hero-img" src="assets/home/Portada/00_01.jpg" alt="ANCODARQ Arquitectura" class="hero-image w-full h-full object-cover select-none">
+  </div>
+</section>
+    <!-- ===================================================== -->
+    <!-- NOSOTROS -->
+    <!-- ===================================================== -->
+
+    <section id="home-about" class="home-section w-full bg-white font-urbanist" aria-labelledby="home-about-title">
+      <div class="site-container">
+        <header class="about-heading">
+          <p class="about-label">NOSOTROS</p>
+          <h2 id="home-about-title" class="corporate-title">Más de 30 años construyendo confianza</h2>
+        </header>
+
+        <div class="about-layout">
+          <div class="about-photo">
+            <img src="assets/home/nosotros.png" alt="Interior de las oficinas de ANCODARQ en blanco y negro, con personas en movimiento" width="1448" height="1086" loading="lazy">
+          </div>
+
+          <div class="about-content">
+            <div class="about-copy">
+              <p>Desde 1995, en <strong>ANCODARQ | ESCUADRA</strong> desarrollamos nuestra actividad en el sector de la construcción, con una trayectoria consolidada en la rehabilitación y restauración de edificios, la transformación de viviendas y espacios comerciales, y la ejecución de proyectos residenciales de nueva planta.</p>
+              <p>Nuestra experiencia nos permite abordar cada proyecto desde una perspectiva integral. Contamos con un equipo propio que participa directamente en la planificación, supervisión y ejecución de las obras, garantizando una coordinación eficaz, un seguimiento continuo y una comunicación cercana con clientes y profesionales.</p>
+              <p>Entendemos nuestro trabajo desde la colaboración, el respeto por el proyecto, el rigor técnico y la atención al detalle, aspectos fundamentales para alcanzar un resultado de calidad.</p>
+              <p>Con sede en Madrid, seguimos construyendo sobre los valores que nos han acompañado desde nuestros inicios: experiencia, compromiso y confianza.</p>
+            </div>
+
+            <div class="about-certifications">
+              <div class="about-certifications-mark">
+                <span class="about-label">CERTIFICACIONES</span>
+                <img src="assets/logos/iso-certifications.png" alt="Certificaciones SGS ISO" loading="lazy">
+              </div>
+              <a href="assets/documentos/politica-calidad-medio-ambiente.pdf" target="_blank" rel="noopener noreferrer">POLÍTICA DE CALIDAD<br> Y MEDIO AMBIENTE →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===================================================== -->
+    <!-- SERVICIOS -->
+    <!-- ===================================================== -->
+
+    <section class="services-section home-section w-full bg-white font-urbanist" aria-labelledby="home-services-title">
+
+      <div class="site-container">
+
+        <header class="services-heading">
+          <p class="services-label">SERVICIOS</p>
+          <h2 id="home-services-title" class="services-title corporate-title">Construimos espacios. Materializamos proyectos.</h2>
+        </header>
+
+        <div id="home-services-grid" class="services-grid"></div>
+
+      </div>
+
+    </section>
+
+
+    <section id="home-projects" class="home-section w-full bg-white font-prompt">
+
+  <div class="site-container">
+
+    <header class="projects-heading">
+      <p class="projects-label">
+        PROYECTOS
+      </p>
+      <h2 class="corporate-title">Nuestra trayectoria, reflejada en cada proyecto.</h2>
+    </header>
+
+    <div id="home-projects-preview" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-3"></div>
+
+    <div class="flex justify-end mt-4">
+      <a href="proyectos/" class="corporate-link text-neutral-500 hover:text-[#B51817] transition-colors uppercase">
+        VER MÁS →
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <div id="site-footer"></div>
+
+
+  <!-- SCRIPTS -->
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body></html>

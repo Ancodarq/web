@@ -578,19 +578,19 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_PORTADA.jpeg",
+    coverImage: "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_PORTADA.webp",
     description: "",
     gallery: [
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_01.jpeg",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_02.jpeg",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_03.jpeg",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_04.jpeg",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_05.jpeg",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_06.jpeg",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_07.jpeg",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_08.jpeg",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_09.jpeg",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_10.jpeg"
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_01.webp",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_02.webp",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_03.webp",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_04.webp",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_05.webp",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_06.webp",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_07.webp",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_08.webp",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_09.webp",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_10.webp"
     ]
   },
   {
@@ -599,15 +599,15 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "OBRAS EN EJECUCIÓN",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (5).jpeg",
+    coverImage: "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (5).webp",
     description: "",
     gallery: [
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.41 (1).jpeg",
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.42 (6).jpeg",
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.42.jpeg",
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (1).jpeg",
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (3).jpeg",
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-13 at 16.14.16sdf.jpeg"
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.41 (1).webp",
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.42 (6).webp",
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.42.webp",
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (1).webp",
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (3).webp",
+      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-13 at 16.14.16sdf.webp"
     ]
   },
   {
@@ -616,13 +616,13 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_PORTADA.jpeg",
+    coverImage: "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_PORTADA.webp",
     description: "",
     gallery: [
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_01.jpeg",
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_02.jpeg",
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_03.jpeg",
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_04.jpeg"
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_01.webp",
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_02.webp",
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_03.webp",
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_04.webp"
     ]
   },
   {
@@ -631,10 +631,11 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.52.jpeg",
+    studioClient: "APADIA",
+    coverImage: "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.52.webp",
     description: "",
     gallery: [
-      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.53.jpeg"
+      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.53.webp"
     ]
   },
   {
@@ -643,12 +644,12 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (1).jpeg",
+    coverImage: "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (1).webp",
     description: "",
     gallery: [
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51.jpeg",
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (3).jpeg",
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.52 (5).jpeg"
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51.webp",
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (3).webp",
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.52 (5).webp"
     ]
   }
 ];
