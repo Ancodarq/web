@@ -406,6 +406,8 @@ const SERVICES_DATA = [
     title: "LOCALES Y OFICINAS",
     image: siteUrl("assets/proyectos/23_GRACE/23_00PORTADA.webp"),
     imagePosition: "center 85%",
+    homeDescription:
+      "Reforma y adecuación de espacios comerciales y oficinas. Hacemos propios los requerimientos de cada actividad, resolviendo desde la arquitectura y las instalaciones hasta los acabados finales.",
     description:
       "Reforma y adecuación de espacios comerciales y oficinas. Hacemos propias las necesidades de cada actividad, resolviendo desde la arquitectura y las instalaciones hasta los acabados finales."
   },
@@ -450,7 +452,7 @@ function renderServicesGrid(containerId) {
         </div>
 
         <p class="service-description">
-          ${srv.description}
+          ${containerId === "home-services-grid" ? (srv.homeDescription || srv.description) : srv.description}
         </p>
 
       </article>
