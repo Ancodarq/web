@@ -314,8 +314,8 @@ const HERO_IMAGES = [
   "assets/home/Portada/00_10.webp",
   "assets/home/Portada/00_11.jpeg",
   "assets/home/Portada/00_12.jpeg",
-  "assets/home/Portada/00_12.webp",
-  "assets/home/Portada/00_13.JPG"
+  "assets/home/Portada/00_13.JPG",
+  "assets/home/Portada/00_14.jpg"
 ];
 
 // Encuadres sobre la foto original: el resto permanece centrado.
