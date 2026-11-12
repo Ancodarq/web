@@ -302,35 +302,34 @@ function renderFooter() {
 // ======================================================
 
 const HERO_IMAGES = [
-  "assets/home/Portada/01 OK.png",
-  "assets/home/Portada/02 OK.png",
-  "assets/home/Portada/03 OK.png",
-  "assets/home/Portada/04 OK.png",
-  "assets/home/Portada/08 OK.jpg",
-  "assets/home/Portada/08.png",
-  "assets/home/Portada/12.png",
-  "assets/home/Portada/17 OK.png",
-  "assets/home/Portada/25_02.jpg",
-  "assets/home/Portada/BF OK.jpeg",
-  "assets/home/Portada/DSC_2436.webp",
-  "assets/home/Portada/IMG_2091 OK.JPG",
-  "assets/home/Portada/IMG_7763.webp",
-  "assets/home/Portada/MM OK.webp",
-  "assets/home/Portada/MP OK.jpeg"
+  "assets/home/Portada/00_01.jpg",
+  "assets/home/Portada/00_02.png",
+  "assets/home/Portada/00_03.png",
+  "assets/home/Portada/00_04.png",
+  "assets/home/Portada/00_05.png",
+  "assets/home/Portada/00_06.png",
+  "assets/home/Portada/00_07.JPG",
+  "assets/home/Portada/00_08.jpg",
+  "assets/home/Portada/00_09.png",
+  "assets/home/Portada/00_10.webp",
+  "assets/home/Portada/00_11.jpeg",
+  "assets/home/Portada/00_12.jpeg",
+  "assets/home/Portada/00_12.webp",
+  "assets/home/Portada/00_13.JPG"
 ];
 
 // Encuadres sobre la foto original: el resto permanece centrado.
 const HERO_IMAGE_POSITIONS = {
-  "01 OK.png": "35% center",
-  "02 OK.png": "center 40%",
-  "03 OK.png": "center 40%",
-  "08 OK.jpg": "center 62%",
-  "IMG_2091 OK.JPG": "center 45%",
-  "MM OK.webp": "center 40%"
+  "00_05.png": "35% center",
+  "00_04.png": "center 40%",
+  "00_02.png": "center 40%",
+  "00_01.jpg": "center 62%",
+  "00_13.JPG": "center 45%",
+  "00_10.webp": "center 40%"
 };
 
 function initHero() {
-  const img = document.getElementById("hero-img");
+  let img = document.getElementById("hero-img");
 
   if (!img || HERO_IMAGES.length === 0) return;
 
@@ -348,9 +347,42 @@ function initHero() {
 
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-  setInterval(() => {
-    currentHeroIdx = (currentHeroIdx + 1) % HERO_IMAGES.length;
-    showHeroImage(currentHeroIdx);
+  let transitioning = false;
+
+  setInterval(async () => {
+    if (transitioning || document.hidden) return;
+    transitioning = true;
+    const nextIndex = (currentHeroIdx + 1) % HERO_IMAGES.length;
+    const path = HERO_IMAGES[nextIndex];
+    const next = img.cloneNode(false);
+    next.removeAttribute("id");
+    next.setAttribute("aria-hidden", "true");
+    next.style.objectPosition = HERO_IMAGE_POSITIONS[path.split("/").pop()] || "center center";
+    next.src = siteUrl(path);
+
+    try {
+      // No tocar la foto visible ni su encuadre mientras carga la siguiente.
+      await next.decode();
+      next.style.opacity = "0";
+      img.parentElement.append(next);
+      await next.animate([{ opacity: 0 }, { opacity: 1 }], {
+        duration: 400,
+        easing: "ease-in-out",
+        fill: "forwards"
+      }).finished;
+      next.style.opacity = "1";
+      next.getAnimations().forEach(animation => animation.cancel());
+      img.remove();
+      next.id = "hero-img";
+      next.removeAttribute("aria-hidden");
+      img = next;
+      currentHeroIdx = nextIndex;
+    } catch {
+      // Conservar la foto actual si la siguiente no se puede cargar.
+      next.remove();
+    } finally {
+      transitioning = false;
+    }
   }, 2500);
 }
 
