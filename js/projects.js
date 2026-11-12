@@ -578,11 +578,11 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_PORTADA.webp",
+    coverImage: "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_02.webp",
     description: "",
     gallery: [
       "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_01.webp",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_02.webp",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_PORTADA.webp",
       "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_03.webp",
       "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_04.webp",
       "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_05.webp",
@@ -836,9 +836,13 @@ function projectAdditionalDetails(project) {
 }
 
 function projectAdjacentNavigation(project) {
-  const index = ORDERED_PROJECTS_DATA.findIndex(candidate => candidate.slug === project.slug);
-  const previous = ORDERED_PROJECTS_DATA[index - 1];
-  const next = ORDERED_PROJECTS_DATA[index + 1];
+  const navigationProjects = [
+    ...ORDERED_PROJECTS_DATA.filter(candidate => candidate.category !== "OBRAS EN EJECUCIÓN"),
+    ...ORDERED_PROJECTS_DATA.filter(candidate => candidate.category === "OBRAS EN EJECUCIÓN")
+  ];
+  const index = navigationProjects.findIndex(candidate => candidate.slug === project.slug);
+  const previous = navigationProjects[index - 1];
+  const next = navigationProjects[index + 1];
   const link = (item, direction, label) => item
     ? `<a class="project-${direction}" rel="${direction === "previous" ? "prev" : "next"}" href="${siteUrl(`proyectos/detalle.html?slug=${item.slug}`)}"><span>${label}</span><span>${item.name}</span></a>`
     : "";
