@@ -678,9 +678,9 @@ body .section-label {
 }
 
 .services-section .service-image {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 2;
   overflow: hidden;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .services-section .service-image img {
