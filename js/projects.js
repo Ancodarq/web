@@ -485,7 +485,8 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
       "assets/proyectos/41_ODONNELL/41_15.jpg",
       "assets/proyectos/41_ODONNELL/41_16.jpg",
       "assets/proyectos/41_ODONNELL/41_17.jpg",
-      "assets/proyectos/41_ODONNELL/41_18.jpg"
+      "assets/proyectos/41_ODONNELL/41_18.jpg",
+      "assets/proyectos/41_ODONNELL/41_19.jpg"
     ]
   },
 
