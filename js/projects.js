@@ -193,7 +193,7 @@ const PROJECTS_DATA = [
 
   {
     slug: "restaurante-espectaculo-grace",
-    name: "RESTAURANTE / ESPECTÁCULO GRACE",
+    name: "RESTAURANTE - ESPECTÁCULO GRACE",
     category: "COMERCIAL",
     location: "Madrid",
     year: "",
