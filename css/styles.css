@@ -439,6 +439,11 @@ main h1, main h2, .project-adjacent-nav a {
   padding-bottom: var(--section-space);
 }
 
+/* Compactar solo el espacio anterior a Servicios en la portada. */
+.services-section.home-section {
+  margin-top: calc(var(--section-space) * -0.225);
+}
+
 #home-projects > .site-container > div:first-child {
   margin-bottom: var(--section-heading-gap);
 }
