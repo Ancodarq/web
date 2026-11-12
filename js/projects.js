@@ -95,7 +95,7 @@ const PROJECTS_DATA = [
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/09_JJ39/09_00 PORTADA.webp",
+    coverImage: "assets/proyectos/09_JJ39/09_07.webp",
     description: "",
     studioClient: "Brage Tuñón Arquitectos",
     gallery: [
@@ -105,7 +105,7 @@ const PROJECTS_DATA = [
       "assets/proyectos/09_JJ39/09_04.webp",
       "assets/proyectos/09_JJ39/09_05.webp",
       "assets/proyectos/09_JJ39/09_06.webp",
-      "assets/proyectos/09_JJ39/09_07.webp",
+      "assets/proyectos/09_JJ39/09_00 PORTADA.webp",
       "assets/proyectos/09_JJ39/09_08.webp",
       "assets/proyectos/09_JJ39/09_09.webp"
     ]
