@@ -197,7 +197,7 @@ const PROJECTS_DATA = [
     category: "COMERCIAL",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/23_GRACE/23_00PORTADA.webp",
+    coverImage: "assets/proyectos/23_GRACE/23_09.webp",
     description: "",
     studioClient: "MIL STUDIO",
     gallery: [
@@ -209,7 +209,7 @@ const PROJECTS_DATA = [
       "assets/proyectos/23_GRACE/23_06.webp",
       "assets/proyectos/23_GRACE/23_07.webp",
       "assets/proyectos/23_GRACE/23_08.webp",
-      "assets/proyectos/23_GRACE/23_09.webp",
+      "assets/proyectos/23_GRACE/23_00PORTADA.webp",
       "assets/proyectos/23_GRACE/23_10.webp",
       "assets/proyectos/23_GRACE/23_11.webp",
       "assets/proyectos/23_GRACE/23_12.webp"
@@ -381,13 +381,13 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
+    coverImage: "assets/proyectos/24_SKYBAR/24_03.webp",
     description: "",
     studioClient: "Estudio Room 1804",
     gallery: [
       "assets/proyectos/24_SKYBAR/24_01.webp",
       "assets/proyectos/24_SKYBAR/24_02.webp",
-      "assets/proyectos/24_SKYBAR/24_03.webp",
+      "assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
       "assets/proyectos/24_SKYBAR/24_04.webp",
       "assets/proyectos/24_SKYBAR/24_05.webp",
       "assets/proyectos/24_SKYBAR/24_06.webp",
@@ -465,11 +465,11 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
+    coverImage: "assets/proyectos/41_ODONNELL/41_02.webp",
     description: "",
     gallery: [
       "assets/proyectos/41_ODONNELL/41_01.webp",
-      "assets/proyectos/41_ODONNELL/41_02.webp",
+      "assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
       "assets/proyectos/41_ODONNELL/41_03.webp",
       "assets/proyectos/41_ODONNELL/41_04.webp",
       "assets/proyectos/41_ODONNELL/41_05.webp",
@@ -644,12 +644,12 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (1).webp",
+    coverImage: "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.52 (5).webp",
     description: "",
     gallery: [
       "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51.webp",
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (3).webp",
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.52 (5).webp"
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (1).webp",
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (3).webp"
     ]
   }
 ];

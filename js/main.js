@@ -320,6 +320,8 @@ const HERO_IMAGES = [
 
 // Encuadres sobre la foto original: el resto permanece centrado.
 const HERO_IMAGE_POSITIONS = {
+  "00_14.webp": "center 65%",
+  "00_07.webp": "center 30%",
   "00_05.webp": "35% center",
   "00_04.webp": "center 40%",
   "00_02.webp": "center 40%",
