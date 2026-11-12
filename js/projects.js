@@ -573,6 +573,27 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     ]
   },
   {
+    slug: "vivienda-unifamiliar-puerta-del-hierro",
+    name: "REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO",
+    category: "REFORMAS",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_PORTADA.jpeg",
+    description: "",
+    gallery: [
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_01.jpeg",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_02.jpeg",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_03.jpeg",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_04.jpeg",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_05.jpeg",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_06.jpeg",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_07.jpeg",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_08.jpeg",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_09.jpeg",
+      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_10.jpeg"
+    ]
+  },
+  {
     slug: "reforma-vivienda-pio-xii",
     name: "REFORMA VIVIENDA PÍO XII",
     category: "OBRAS EN EJECUCIÓN",
@@ -587,6 +608,33 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
       "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (1).jpeg",
       "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (3).jpeg",
       "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-13 at 16.14.16sdf.jpeg"
+    ]
+  },
+  {
+    slug: "reforma-vivienda-el-viso",
+    name: "REFORMA VIVIENDA EL VISO",
+    category: "REFORMAS",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_PORTADA.jpeg",
+    description: "",
+    gallery: [
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_01.jpeg",
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_02.jpeg",
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_03.jpeg",
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_04.jpeg"
+    ]
+  },
+  {
+    slug: "reforma-vivienda-unifamiliar-montealina",
+    name: "REFORMA VIVIENDA UNIFAMILIAR MONTEALINA",
+    category: "REFORMAS",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.52.jpeg",
+    description: "",
+    gallery: [
+      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.53.jpeg"
     ]
   },
   {

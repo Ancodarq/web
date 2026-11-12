@@ -487,7 +487,7 @@ function initNavigation() {
   if (!header || !menu || !button) return;
   button.setAttribute("aria-controls", "mobile-menu");
   button.setAttribute("aria-expanded", "false");
-  const active = getActiveSection();
+ca  const active = getActiveSection();
   header.querySelectorAll("nav a, #mobile-menu a").forEach(link => {
     const linkPath = new URL(link.href).pathname;
     const expected = active === "inicio" ? new URL("index.html", SITE_ROOT).pathname : active ? new URL(active + "/", SITE_ROOT).pathname : null;
