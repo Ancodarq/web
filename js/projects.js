@@ -617,13 +617,13 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_PORTADA.webp",
+    coverImage: "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_PORTADA_corregida.png",
     description: "",
     gallery: [
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_01.webp",
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_02.webp",
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_03.webp",
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_04.webp"
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_01_corregida.png",
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/cocina-blanca-negra.png",
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/interior-papel-botanico.png",
+      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/bano-espejo-iluminado.png"
     ]
   },
   {
@@ -636,7 +636,10 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     coverImage: "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.52.webp",
     description: "",
     gallery: [
-      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.53.webp"
+      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.53.webp",
+      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/cocina-nicho-cafe.png",
+      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/cocina-isla-madera.png",
+      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/bano-azulejos-terracota.png"
     ]
   },
   {
@@ -648,9 +651,9 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     coverImage: "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.52 (5).webp",
     description: "",
     gallery: [
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51.webp",
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (1).webp",
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.51 (3).webp"
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/interior-madera-suelo-espiga.png",
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/sala-ventanal-madera.png",
+      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/pasillo-madera-vidrio.png"
     ]
   }
 ];
