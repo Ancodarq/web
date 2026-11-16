@@ -681,6 +681,7 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "OBRAS EN EJECUCIÓN",
     location: "Madrid",
     year: "",
+    studioClient: "CLAP ! DESIGN ARQUITECTURA",
     coverImage: "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_PORTADA.jpeg",
     description: "",
     gallery: [

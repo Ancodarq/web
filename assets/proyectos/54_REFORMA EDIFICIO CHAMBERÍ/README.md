@@ -2,6 +2,8 @@
 
 Categoría: OBRAS EN EJECUCIÓN
 
+Estudio: CLAP ! DESIGN ARQUITECTURA
+
 Ficha incorporada a `js/projects.js` con este orden:
 
 1. `54_PORTADA.jpeg` — fachada, `WhatsApp Image 2026-09-29 at 11.24.403.jpeg`.
