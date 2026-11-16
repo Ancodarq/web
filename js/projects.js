@@ -655,6 +655,25 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
       "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/sala-ventanal-madera.png",
       "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/pasillo-madera-vidrio.png"
     ]
+  },
+  {
+    slug: "reforma-edificio-chamartin",
+    name: "REFORMA EDIFICIO CHAMARTÍN",
+    category: "OBRAS EN EJECUCIÓN",
+    location: "Madrid",
+    year: "",
+    studioClient: "CLAP ! DESIGN ARQUITECTURA",
+    projectManagement: "SICOA",
+    coverImage: "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_PORTADA.png",
+    description: "",
+    gallery: [
+      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_01.jpeg",
+      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_02.jpeg",
+      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_03.jpeg",
+      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_04.jpeg",
+      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_05.jpeg",
+      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_06.jpeg"
+    ]
   }
 ];
 
@@ -890,6 +909,11 @@ function renderProjectDetail() {
         ${project.hideStudio || !project.studioClient?.trim() ? "" : `
           <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
             ESTUDIO: ${project.studioClient || ""}
+          </p>
+        `}
+        ${!project.projectManagement?.trim() ? "" : `
+          <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
+            PROJECT MANAGEMENT: ${project.projectManagement}
           </p>
         `}
       </div>
