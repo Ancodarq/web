@@ -302,6 +302,7 @@ function renderFooter() {
 // ======================================================
 
 const HERO_IMAGES = [
+  "assets/home/Portada/00_17.png",
   "assets/home/Portada/00_01.png",
   "assets/home/Portada/00_02.webp",
   "assets/home/Portada/00_03.webp",
@@ -317,7 +318,9 @@ const HERO_IMAGES = [
   "assets/home/Portada/00_13.webp",
   "assets/home/Portada/00_14.webp",
   "assets/home/Portada/00_15.webp",
-  "assets/home/Portada/00_16.jpg"
+  "assets/home/Portada/00_16.jpg",
+  "assets/home/Portada/00_18.jpg",
+  "assets/home/Portada/00_19.jpg"
 ];
 
 // Encuadres sobre la foto original: el resto permanece centrado.
