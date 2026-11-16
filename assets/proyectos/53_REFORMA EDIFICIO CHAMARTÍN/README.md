@@ -17,6 +17,6 @@ Galería preparada después de la portada, en este orden:
 5. `53_05.jpeg` — `WhatsApp Image 2026-11-12 at 15.13.26 (2).jpeg`
 6. `53_06.jpeg` — `WhatsApp Image 2026-11-12 at 15.13.28 (4).jpeg`
 
-Los datos de la ficha están guardados en `project.json`. `coverImage` queda pendiente del archivo original de la portada.
+Portada: `53_PORTADA.png`.
 
-Pendiente: guardar el archivo de portada en esta carpeta e incorporar la ficha a `js/projects.js` para mostrarla en la web.
+Ficha incorporada a `js/projects.js` en la categoría OBRAS EN EJECUCIÓN, con el estudio, Project Management y las seis fotos después de la portada. Los datos de referencia están guardados en `project.json`.
