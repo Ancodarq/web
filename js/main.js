@@ -302,7 +302,7 @@ function renderFooter() {
 // ======================================================
 
 const HERO_IMAGES = [
-  "assets/home/Portada/00_01.webp",
+  "assets/home/Portada/00_01.png",
   "assets/home/Portada/00_02.webp",
   "assets/home/Portada/00_03.webp",
   "assets/home/Portada/00_04.webp",
@@ -312,20 +312,25 @@ const HERO_IMAGES = [
   "assets/home/Portada/00_08.webp",
   "assets/home/Portada/00_09.webp",
   "assets/home/Portada/00_10.webp",
-  "assets/home/Portada/00_11.webp",
+  "assets/home/Portada/00_11.jpg",
   "assets/home/Portada/00_12.webp",
   "assets/home/Portada/00_13.webp",
-  "assets/home/Portada/00_14.webp"
+  "assets/home/Portada/00_14.webp",
+  "assets/home/Portada/00_15.webp",
+  "assets/home/Portada/00_16.jpg"
 ];
 
 // Encuadres sobre la foto original: el resto permanece centrado.
 const HERO_IMAGE_POSITIONS = {
-  "00_14.webp": "center 65%",
+  "00_01.png": "center 20%",
+  "00_15.webp": "center 15%",
+  "00_11.jpg": "center 85%",
+  "00_16.jpg": "center 15%",
+  "00_14.webp": "center 20%",
   "00_07.webp": "center 30%",
   "00_05.webp": "35% center",
   "00_04.webp": "center 40%",
   "00_02.webp": "center 40%",
-  "00_01.webp": "center 62%",
   "00_13.webp": "center 45%",
   "00_10.webp": "center 40%"
 };
