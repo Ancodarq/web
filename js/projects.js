@@ -674,6 +674,24 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
       "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_05.jpeg",
       "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_06.jpeg"
     ]
+  },
+  {
+    slug: "reforma-edificio-chamberi",
+    name: "REFORMA EDIFICIO CHAMBERÍ",
+    category: "OBRAS EN EJECUCIÓN",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_PORTADA.jpeg",
+    description: "",
+    gallery: [
+      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_01.jpeg",
+      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_02.jpeg",
+      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_03.jpeg",
+      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_04.jpeg",
+      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_05.jpeg",
+      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_06.jpeg",
+      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_07.jpeg"
+    ]
   }
 ];
 
