@@ -1277,3 +1277,25 @@ body {
     line-height: 1.6;
   }
 }
+
+/* Enlaces independientes sobre los dos logotipos de la imagen ISO. */
+.iso-certificate-links {
+  position: relative;
+  flex-shrink: 0;
+  width: fit-content;
+}
+#home-about .iso-certificate-links .iso-certificate-link,
+.about-page .iso-certificate-links .iso-certificate-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 47%;
+  min-height: 0;
+  margin: 0;
+}
+.iso-certificate-link-14001 { left: 0; }
+.iso-certificate-link-9001 { right: 0; }
+.iso-certificate-link:focus-visible {
+  outline: 2px solid #eb6a00;
+  outline-offset: 3px;
+}
