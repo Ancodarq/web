@@ -1299,3 +1299,9 @@ body {
   outline: 2px solid #eb6a00;
   outline-offset: 3px;
 }
+/* Justificar los textos dentro del ancho disponible de cada bloque. */
+body main p {
+  text-align: justify;
+  text-align-last: start;
+  hyphens: auto;
+}

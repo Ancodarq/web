@@ -304,7 +304,6 @@ function renderFooter() {
 const HERO_IMAGES = [
   "assets/home/Portada/00_17.png",
   "assets/home/Portada/00_01.png",
-  "assets/home/Portada/00_02.webp",
   "assets/home/Portada/00_03.webp",
   "assets/home/Portada/00_04.webp",
   "assets/home/Portada/00_05.webp",
@@ -319,8 +318,7 @@ const HERO_IMAGES = [
   "assets/home/Portada/00_14.webp",
   "assets/home/Portada/00_15.webp",
   "assets/home/Portada/00_16.jpg",
-  "assets/home/Portada/00_18.jpg",
-  "assets/home/Portada/00_19.jpg"
+  "assets/home/Portada/00_19.png"
 ];
 
 // Encuadres sobre la foto original: el resto permanece centrado.
@@ -333,7 +331,6 @@ const HERO_IMAGE_POSITIONS = {
   "00_07.webp": "center 30%",
   "00_05.webp": "35% center",
   "00_04.webp": "center 40%",
-  "00_02.webp": "center 40%",
   "00_13.webp": "center 45%",
   "00_10.webp": "center 40%"
 };
@@ -388,7 +385,8 @@ function initHero() {
       img = next;
       currentHeroIdx = nextIndex;
     } catch {
-      // Conservar la foto actual si la siguiente no se puede cargar.
+      // Saltar la imagen fallida para que el carrusel pueda continuar.
+      currentHeroIdx = nextIndex;
       next.remove();
     } finally {
       transitioning = false;
