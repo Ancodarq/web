@@ -779,7 +779,7 @@ function renderHomeProjects() {
   if (!container) return;
 
   container.innerHTML = ORDERED_PROJECTS_DATA
-    .slice(0, 6)
+    .slice(0, 9)
     .map(project => project.slug === "vivienda-unifamiliar-la-finca"
       ? PROJECTS_DATA.find(candidate => candidate.slug === "vivienda-odonnell")
       : project)
