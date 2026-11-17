@@ -699,9 +699,9 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
 // Orden de aparición en el home y en la galería general.
 // Los proyectos no incluidos aquí se muestran después, conservando su orden actual.
 const PROJECT_DISPLAY_ORDER = [
-  "01", "24", "30", "08", "28", "09", "23", "38",
+  "01", "24", "30", "09", "28", "08", "23", "41_ODONNELL",
   "39", "07", "32", "02", "34", "37", "03", "29",
-  "41_ODONNELL", "16", "43", "27", "33", "19",
+  "38", "16", "43", "27", "33", "19",
   "41_VILLANUEVA", "25", "42", "48", "44", "51", "45", "20", "50", "22"
 ];
 
