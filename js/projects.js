@@ -71,7 +71,11 @@ const PROJECTS_DATA = [
       "assets/proyectos/02_ALAMOS DE BULARAS/02_01.webp",
       "assets/proyectos/02_ALAMOS DE BULARAS/02_03.webp",
       "assets/proyectos/02_ALAMOS DE BULARAS/02_04.webp",
-      "assets/proyectos/02_ALAMOS DE BULARAS/02_05.webp"
+      "assets/proyectos/02_ALAMOS DE BULARAS/02_05.webp",
+      "assets/proyectos/02_ALAMOS DE BULARAS/02_06.jpg",
+      "assets/proyectos/02_ALAMOS DE BULARAS/02_07.jpg",
+      "assets/proyectos/02_ALAMOS DE BULARAS/02_08.jpg",
+      "assets/proyectos/02_ALAMOS DE BULARAS/02_09.jpg"
     ]
   },
 
@@ -248,13 +252,15 @@ const PROJECTS_DATA = [
     category: "OFICINAS",
     location: "Sevilla",
     year: "",
-    coverImage: "assets/proyectos/33_OESIA SEVILLA/33_01.webp",
+    coverImage: "assets/proyectos/33_OESIA SEVILLA/33_01.jpg",
     description: "",
     gallery: [
-      "assets/proyectos/33_OESIA SEVILLA/33_02.webp",
-      "assets/proyectos/33_OESIA SEVILLA/33_03.webp",
-      "assets/proyectos/33_OESIA SEVILLA/33_04.webp",
-      "assets/proyectos/33_OESIA SEVILLA/33_05.webp"
+      "assets/proyectos/33_OESIA SEVILLA/33_02.jpg",
+      "assets/proyectos/33_OESIA SEVILLA/33_03.jpg",
+      "assets/proyectos/33_OESIA SEVILLA/33_04.jpg",
+      "assets/proyectos/33_OESIA SEVILLA/33_05.jpg",
+      "assets/proyectos/33_OESIA SEVILLA/33_06.jpg",
+      "assets/proyectos/33_OESIA SEVILLA/33_07.jpg"
     ]
   },
 
@@ -553,7 +559,14 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     coverImage: "assets/proyectos/44_MERCADO MARAVILLAS/44_0PORTADA.png",
     description: "",
     studioClient: "",
-    gallery: []
+    gallery: [
+      "assets/proyectos/44_MERCADO MARAVILLAS/44_02.jpg",
+      "assets/proyectos/44_MERCADO MARAVILLAS/44_03.jpg",
+      "assets/proyectos/44_MERCADO MARAVILLAS/44_04.jpg",
+      "assets/proyectos/44_MERCADO MARAVILLAS/44_05.jpg",
+      "assets/proyectos/44_MERCADO MARAVILLAS/44_06.jpg",
+      "assets/proyectos/44_MERCADO MARAVILLAS/44_07.jpg"
+    ]
   },
   {
     slug: "oficinas-oesia-zaragoza",
@@ -693,7 +706,114 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
       "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_06.jpeg",
       "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_07.jpeg"
     ]
-  }
+  },
+  {
+    slug: "academia-policia",
+    name: "ACADEMIA POLICÍA",
+    category: "OBRA PÚBLICA",
+    location: "Madrid",
+    year: "",
+    coverImage: "assets/proyectos/55_ACADEMIA POLICIA/55_01.jpg",
+    description: "Rehabilitación integral naves para talleres y urbanización del entorno en la Academia de Policía de Madrid.",
+    hideStudio: true,
+    gallery: [
+      "assets/proyectos/55_ACADEMIA POLICIA/55_02.jpg",
+      "assets/proyectos/55_ACADEMIA POLICIA/55_03.jpg",
+      "assets/proyectos/55_ACADEMIA POLICIA/55_04.jpg",
+      "assets/proyectos/55_ACADEMIA POLICIA/55_05.jpg",
+      "assets/proyectos/55_ACADEMIA POLICIA/55_06.jpg",
+      "assets/proyectos/55_ACADEMIA POLICIA/55_07.jpg"
+    ]
+  },
+  {
+    slug: "animalario-algete",
+    name: "ANIMALARIO ALGETE",
+    category: "OBRA PÚBLICA",
+    location: "Algete - Madrid",
+    year: "",
+    architect: "Jose Luis Moreno",
+    coverImage: "assets/proyectos/56_ANIMALARIO ALGETE/56_01.jpg",
+    description: "Ejecución de nueva edificación para animalario y laboratorio de control de sanidad animal.",
+    gallery: [
+      "assets/proyectos/56_ANIMALARIO ALGETE/56_02.jpg",
+      "assets/proyectos/56_ANIMALARIO ALGETE/56_03.jpg",
+      "assets/proyectos/56_ANIMALARIO ALGETE/56_04.jpg",
+      "assets/proyectos/56_ANIMALARIO ALGETE/56_05.jpg",
+      "assets/proyectos/56_ANIMALARIO ALGETE/56_06.jpg",
+      "assets/proyectos/56_ANIMALARIO ALGETE/56_07.jpg"
+    ]
+  },
+  {
+    slug: "reforma-piso-salamanca-02",
+    name: "REFORMA PISO SALAMANCA 02",
+    category: "REFORMAS",
+    location: "Madrid",
+    year: "",
+    architect: "Begoña Espinosa",
+    coverImage: "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_01.jpg",
+    description: "Rehabilitación integral de vivienda. Proyecto llave en mano con diseño de espacios y proyecto de decoración. Superficie vivienda aproximada 140 m².",
+    gallery: [
+      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_02.jpg",
+      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_03.jpg",
+      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_04.jpg",
+      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_05.jpg",
+      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_06.jpg",
+      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_07.jpg"
+    ]
+  },
+  {
+    slug: "demolicion-torrelaguna",
+    name: "DEMOLICIÓN TORRELAGUNA",
+    category: "OBRAS VARIAS",
+    location: "Torrelaguna - Madrid",
+    year: "",
+    architect: "Gracia Marianini",
+    coverImage: "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_01.jpg",
+    description: "Demolición integral de edificio cultural con demolición selectiva y recuperación de teja curva envejecida. Compactado del terreno bajo demolición.",
+    gallery: [
+      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_02.jpg",
+      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_03.jpg",
+      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_04.jpg",
+      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_05.jpg",
+      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_06.jpg",
+      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_07.jpg"
+    ]
+  },
+  {
+    slug: "rehabilitacion-fachadas-castellana-42",
+    name: "REHABILITACIÓN FACHADAS CASTELLANA 42",
+    category: "REHABILITACIÓN EDIFICIOS",
+    location: "Paseo Castellana - Madrid",
+    year: "",
+    coverImage: "assets/proyectos/59_CASTELLANA 42/59_01.jpg",
+    description: "Rehabilitación y consolidación de fachadas en edificio de oficinas comprendiendo la eliminación de los aplacados en mal estado y la totalidad de los anclajes de las fachadas con nuevos anclajes mecánicos de acero inoxidable y placa de reparto.",
+    gallery: [
+      "assets/proyectos/59_CASTELLANA 42/59_02.jpg",
+      "assets/proyectos/59_CASTELLANA 42/59_03.jpg",
+      "assets/proyectos/59_CASTELLANA 42/59_04.jpg",
+      "assets/proyectos/59_CASTELLANA 42/59_05.jpg",
+      "assets/proyectos/59_CASTELLANA 42/59_06.jpg",
+      "assets/proyectos/59_CASTELLANA 42/59_07.jpg"
+    ]
+  },
+  {
+    slug: "reforma-piso-chamartin-02",
+    name: "REFORMA PISO CHAMARTÍN 02",
+    category: "REFORMAS",
+    location: "Madrid",
+    year: "",
+    architect: "Begoña Espinosa - Belén Ferrandiz",
+    coverImage: "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_01.jpg",
+    description: "Rehabilitación integral de vivienda. Proyecto llave en mano con diseño de espacios y proyecto de decoración. Superficie vivienda aproximada 120 m².",
+    gallery: [
+      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_02.jpg",
+      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_03.jpg",
+      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_04.jpg",
+      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_05.jpg",
+      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_06.jpg",
+      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_07.jpg"
+    ]
+  },
 ];
 
 // Orden de aparición en el home y en la galería general.
@@ -806,6 +926,9 @@ function renderProjectsGallery() {
   "REFORMAS",
   "COMERCIAL",
   "OFICINAS",
+  "OBRA PÚBLICA",
+  "REHABILITACIÓN EDIFICIOS",
+  "OBRAS VARIAS",
   "OBRAS EN EJECUCIÓN"
   ];
 
@@ -925,6 +1048,11 @@ function renderProjectDetail() {
         <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
           UBICACIÓN: ${project.location || ""}
         </p>
+        ${!project.architect?.trim() ? "" : `
+          <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
+            ARQUITECTO: ${project.architect}
+          </p>
+        `}
         ${project.hideStudio || !project.studioClient?.trim() ? "" : `
           <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
             ESTUDIO: ${project.studioClient || ""}
