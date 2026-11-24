@@ -1,1 +1,5 @@
 *.log
+/artifacts/chrome-review/
+/artifacts/chrome-review-2/
+/artifacts/chrome-review-3/
+/artifacts/chrome-review-4/
