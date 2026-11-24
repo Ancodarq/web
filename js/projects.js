@@ -1248,6 +1248,10 @@ async function renderProjectDetail() {
     return;
   }
 
+  const sameNameProjects = ORDERED_PROJECTS_DATA.filter(candidate => candidate.name === project.name);
+  const titleSuffix = sameNameProjects.length > 1 ? ` · Ficha ${sameNameProjects.indexOf(project) + 1}` : "";
+  document.title = `${project.name}${titleSuffix} — ANCODARQ`;
+
   const showOngoingPhotos = Boolean(project.ongoingPhotos && params.get("fotos") === "obra-en-ejecucion");
   let cover = project.coverImage;
   let gallery = project.gallery ?? [];
