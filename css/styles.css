@@ -418,6 +418,10 @@ main h1, main h2, .project-adjacent-nav a {
 }
 
 /* El texto termina en el borde derecho del carrusel, dentro de la retícula actual. */
+html:has(.about-page-main) {
+  scrollbar-gutter: stable;
+}
+
 :is(#home-about, .about-page) {
   container-type: inline-size;
 }
@@ -952,11 +956,11 @@ body {
 }
 
 .project-additional-details {
-  max-width: 65ch;
   margin-top: 24px;
   font-family: "Urbanist", sans-serif;
   font-size: var(--copy-size);
   line-height: var(--copy-leading);
+  overflow-wrap: anywhere;
 }
 
 .project-additional-details dl {

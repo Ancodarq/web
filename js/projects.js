@@ -2,43 +2,43 @@ const PROJECTS_DATA = [
   {
     slug: "sala-vip-teatro-nuevo-apolo",
     name: "SALA VIP TEATRO NUEVO APOLO",
-    category: "COMERCIAL",
+    categories: ["COMERCIAL", "OBRAS VARIAS"],
     location: "Madrid",
     year: "2025",
-    coverImage: "assets/proyectos/28_TEATRO_APOLO_WEB/28_00 PORTADA.webp",
+    coverImage: "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_00 PORTADA.webp",
     description: "",
     studioClient: "Estudio Lola Rúa",
     gallery: [
-      "assets/proyectos/28_TEATRO_APOLO_WEB/28_01.webp",
-      "assets/proyectos/28_TEATRO_APOLO_WEB/28_02.webp",
-      "assets/proyectos/28_TEATRO_APOLO_WEB/28_03.webp",
-      "assets/proyectos/28_TEATRO_APOLO_WEB/28_04.webp",
-      "assets/proyectos/28_TEATRO_APOLO_WEB/28_05.webp",
-      "assets/proyectos/28_TEATRO_APOLO_WEB/28_06.webp",
-      "assets/proyectos/28_TEATRO_APOLO_WEB/28_07.webp",
-      "assets/proyectos/28_TEATRO_APOLO_WEB/28_08.webp",
-      "assets/proyectos/28_TEATRO_APOLO_WEB/28_09.webp"
+      "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_01.webp",
+      "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_02.webp",
+      "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_03.webp",
+      "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_04.webp",
+      "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_05.webp",
+      "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_06.webp",
+      "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_07.webp",
+      "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_08.webp",
+      "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_09.webp"
     ]
   },
 
   {
     slug: "sala-vip-teatro-nuevo-alcala",
     name: "SALA VIP TEATRO NUEVO ALCALÁ",
-    category: "COMERCIAL",
+    categories: ["COMERCIAL", "OBRAS VARIAS"],
     location: "Madrid",
     year: "2025",
-    coverImage: "assets/proyectos/29_VIP_TEATRO_ALCALA/29_00 PORTADA.webp",
+    coverImage: "assets/proyectos/16_SALA VIP TEATRO NUEVO ALCALÁ/29_00 PORTADA.webp",
     description: "",
     studioClient: "Estudio Lola Rúa",
     gallery: [
-      "assets/proyectos/29_VIP_TEATRO_ALCALA/29_01.webp",
-      "assets/proyectos/29_VIP_TEATRO_ALCALA/29_02.webp",
-      "assets/proyectos/29_VIP_TEATRO_ALCALA/29_03.webp",
-      "assets/proyectos/29_VIP_TEATRO_ALCALA/29_04.webp",
-      "assets/proyectos/29_VIP_TEATRO_ALCALA/29_05.webp",
-      "assets/proyectos/29_VIP_TEATRO_ALCALA/29_06.webp",
-      "assets/proyectos/29_VIP_TEATRO_ALCALA/29_07.webp",
-      "assets/proyectos/29_VIP_TEATRO_ALCALA/29_08.webp"
+      "assets/proyectos/16_SALA VIP TEATRO NUEVO ALCALÁ/29_01.webp",
+      "assets/proyectos/16_SALA VIP TEATRO NUEVO ALCALÁ/29_02.webp",
+      "assets/proyectos/16_SALA VIP TEATRO NUEVO ALCALÁ/29_03.webp",
+      "assets/proyectos/16_SALA VIP TEATRO NUEVO ALCALÁ/29_04.webp",
+      "assets/proyectos/16_SALA VIP TEATRO NUEVO ALCALÁ/29_05.webp",
+      "assets/proyectos/16_SALA VIP TEATRO NUEVO ALCALÁ/29_06.webp",
+      "assets/proyectos/16_SALA VIP TEATRO NUEVO ALCALÁ/29_07.webp",
+      "assets/proyectos/16_SALA VIP TEATRO NUEVO ALCALÁ/29_08.webp"
     ]
   },
 
@@ -48,13 +48,13 @@ const PROJECTS_DATA = [
     category: "OBRA NUEVA",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/03_COTOS/03_00 PORTADA.webp",
+    coverImage: "assets/proyectos/15_VIVIENDA UNIFAMILIAR COTOS DE MONTERREY/03_00 PORTADA.webp",
     description: "",
     studioClient: "Estudio F102",
     gallery: [
-      "assets/proyectos/03_COTOS/03_01.webp",
-      "assets/proyectos/03_COTOS/03_02.webp",
-      "assets/proyectos/03_COTOS/03_03.webp"
+      "assets/proyectos/15_VIVIENDA UNIFAMILIAR COTOS DE MONTERREY/03_01.webp",
+      "assets/proyectos/15_VIVIENDA UNIFAMILIAR COTOS DE MONTERREY/03_02.webp",
+      "assets/proyectos/15_VIVIENDA UNIFAMILIAR COTOS DE MONTERREY/03_03.webp"
     ]
   },
 
@@ -64,18 +64,18 @@ const PROJECTS_DATA = [
     category: "OBRA NUEVA",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/02_ALAMOS DE BULARAS/02_00 PORTADA.webp",
+    coverImage: "assets/proyectos/12_VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS/02_00 PORTADA.webp",
     description: "",
     hideStudio: true,
     gallery: [
-      "assets/proyectos/02_ALAMOS DE BULARAS/02_01.webp",
-      "assets/proyectos/02_ALAMOS DE BULARAS/02_03.webp",
-      "assets/proyectos/02_ALAMOS DE BULARAS/02_04.webp",
-      "assets/proyectos/02_ALAMOS DE BULARAS/02_05.webp",
-      "assets/proyectos/02_ALAMOS DE BULARAS/02_06.jpg",
-      "assets/proyectos/02_ALAMOS DE BULARAS/02_07.jpg",
-      "assets/proyectos/02_ALAMOS DE BULARAS/02_08.jpg",
-      "assets/proyectos/02_ALAMOS DE BULARAS/02_09.jpg"
+      "assets/proyectos/12_VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS/02_01.webp",
+      "assets/proyectos/12_VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS/02_03.webp",
+      "assets/proyectos/12_VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS/02_04.webp",
+      "assets/proyectos/12_VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS/02_05.webp",
+      "assets/proyectos/12_VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS/02_06.jpg",
+      "assets/proyectos/12_VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS/02_07.jpg",
+      "assets/proyectos/12_VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS/02_08.jpg",
+      "assets/proyectos/12_VIVIENDA UNIFAMILIAR LOS ÁLAMOS DE BULARAS/02_09.jpg"
     ]
   },
 
@@ -83,14 +83,14 @@ const PROJECTS_DATA = [
     slug: "vivienda-unifamiliar-la-finca",
     name: "VIVIENDA UNIFAMILIAR LA FINCA",
     categories: ["OBRA NUEVA", "OBRAS EN EJECUCIÓN"],
-    ongoingPhotos: "assets/proyectos/07_LA FINCA/obra-en-ejecucion",
+    ongoingPhotos: "assets/proyectos/10_VIVIENDA UNIFAMILIAR LA FINCA/obra-en-ejecucion",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/07_LA FINCA/07_00 PORTADA.webp",
+    coverImage: "assets/proyectos/10_VIVIENDA UNIFAMILIAR LA FINCA/07_00 PORTADA.webp",
     description: "",
     studioClient: "Estudio Otto Medem",
     gallery: [
-      "assets/proyectos/07_LA FINCA/07_01.webp"
+      "assets/proyectos/10_VIVIENDA UNIFAMILIAR LA FINCA/07_01.webp"
     ]
   },
 
@@ -100,79 +100,79 @@ const PROJECTS_DATA = [
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/09_JJ39/09_07.webp",
+    coverImage: "assets/proyectos/04_REFORMA VIVIENDA SALAMANCA/09_07.webp",
     description: "",
     studioClient: "Brage Tuñón Arquitectos",
     gallery: [
-      "assets/proyectos/09_JJ39/09_01.webp",
-      "assets/proyectos/09_JJ39/09_02.webp",
-      "assets/proyectos/09_JJ39/09_03.webp",
-      "assets/proyectos/09_JJ39/09_04.webp",
-      "assets/proyectos/09_JJ39/09_05.webp",
-      "assets/proyectos/09_JJ39/09_06.webp",
-      "assets/proyectos/09_JJ39/09_00 PORTADA.webp",
-      "assets/proyectos/09_JJ39/09_08.webp",
-      "assets/proyectos/09_JJ39/09_09.webp"
+      "assets/proyectos/04_REFORMA VIVIENDA SALAMANCA/09_01.webp",
+      "assets/proyectos/04_REFORMA VIVIENDA SALAMANCA/09_02.webp",
+      "assets/proyectos/04_REFORMA VIVIENDA SALAMANCA/09_03.webp",
+      "assets/proyectos/04_REFORMA VIVIENDA SALAMANCA/09_04.webp",
+      "assets/proyectos/04_REFORMA VIVIENDA SALAMANCA/09_05.webp",
+      "assets/proyectos/04_REFORMA VIVIENDA SALAMANCA/09_06.webp",
+      "assets/proyectos/04_REFORMA VIVIENDA SALAMANCA/09_00 PORTADA.webp",
+      "assets/proyectos/04_REFORMA VIVIENDA SALAMANCA/09_08.webp",
+      "assets/proyectos/04_REFORMA VIVIENDA SALAMANCA/09_09.webp"
     ]
   },
 
   {
     slug: "consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
     name: "REHABILITACIÓN HOSPITAL OFTALMOLÓGICO",
-    category: "COMERCIAL",
+    categories: ["COMERCIAL", "OBRAS VARIAS"],
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/16_MIRASIERRA/16_00PORTADA.webp",
+    coverImage: "assets/proyectos/18_REHABILITACIÓN HOSPITAL OFTALMOLÓGICO/16_00PORTADA.webp",
     description: "",
     hideStudio: true,
     gallery: [
-      "assets/proyectos/16_MIRASIERRA/16_01.webp",
-      "assets/proyectos/16_MIRASIERRA/16_02.webp",
-      "assets/proyectos/16_MIRASIERRA/16_03.webp",
-      "assets/proyectos/16_MIRASIERRA/16_04.webp",
-      "assets/proyectos/16_MIRASIERRA/16_05.webp",
-      "assets/proyectos/16_MIRASIERRA/16_06.webp"
+      "assets/proyectos/18_REHABILITACIÓN HOSPITAL OFTALMOLÓGICO/16_01.webp",
+      "assets/proyectos/18_REHABILITACIÓN HOSPITAL OFTALMOLÓGICO/16_02.webp",
+      "assets/proyectos/18_REHABILITACIÓN HOSPITAL OFTALMOLÓGICO/16_03.webp",
+      "assets/proyectos/18_REHABILITACIÓN HOSPITAL OFTALMOLÓGICO/16_04.webp",
+      "assets/proyectos/18_REHABILITACIÓN HOSPITAL OFTALMOLÓGICO/16_05.webp",
+      "assets/proyectos/18_REHABILITACIÓN HOSPITAL OFTALMOLÓGICO/16_06.webp"
     ]
   },
 
   {
     slug: "teatro-la-latina",
     name: "TEATRO LA LATINA",
-    category: "COMERCIAL",
+    categories: ["COMERCIAL", "OBRAS VARIAS"],
     location: "Madrid",
     year: "",
     architect: "Ana Gayoso Fernández",
-    coverImage: "assets/proyectos/20_TEATRO LA LATINA/20_00PORTADA.webp",
+    coverImage: "assets/proyectos/30_TEATRO LA LATINA/20_00PORTADA.webp",
     description: "Rehabilitación integral de la sala, patio de butacas, primer y segundo anfiteatro, accesos, distribuidores y aseos de público. Renovación de las instalaciones eléctricas y de climatización de los espacios públicos del edificio, adecuándolas a la normativa vigente. Instalación de ascensor para la supresión de barreras arquitectónicas.",
     hideStudio: true,
     gallery: [
-      "assets/proyectos/20_TEATRO LA LATINA/20_01.webp",
-      "assets/proyectos/20_TEATRO LA LATINA/20_02.webp",
-      "assets/proyectos/20_TEATRO LA LATINA/20_03.webp",
-      "assets/proyectos/20_TEATRO LA LATINA/20_04.webp",
-      "assets/proyectos/20_TEATRO LA LATINA/20_05.webp"
+      "assets/proyectos/30_TEATRO LA LATINA/20_01.webp",
+      "assets/proyectos/30_TEATRO LA LATINA/20_02.webp",
+      "assets/proyectos/30_TEATRO LA LATINA/20_03.webp",
+      "assets/proyectos/30_TEATRO LA LATINA/20_04.webp",
+      "assets/proyectos/30_TEATRO LA LATINA/20_05.webp"
     ]
   },
 
   {
     slug: "teatro-nuevo-apolo",
     name: "REHABILITACIÓN TEATRO NUEVO APOLO",
-    category: "COMERCIAL",
+    categories: ["COMERCIAL", "OBRAS VARIAS"],
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/19_APOLO/19_00PORTADA.webp",
+    coverImage: "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_00PORTADA.webp",
     description: "",
     gallery: [
-      "assets/proyectos/19_APOLO/19_01.webp",
-      "assets/proyectos/19_APOLO/19_02.webp",
-      "assets/proyectos/19_APOLO/19_03.webp",
-      "assets/proyectos/19_APOLO/19_04.webp",
-      "assets/proyectos/19_APOLO/19_05.webp",
-      "assets/proyectos/19_APOLO/19_06.webp",
-      "assets/proyectos/19_APOLO/19_07.webp",
-      "assets/proyectos/19_APOLO/19_08.webp",
-      "assets/proyectos/19_APOLO/19_09.webp",
-      "assets/proyectos/19_APOLO/19_20.webp"
+      "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_01.webp",
+      "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_02.webp",
+      "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_03.webp",
+      "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_04.webp",
+      "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_05.webp",
+      "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_06.webp",
+      "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_07.webp",
+      "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_08.webp",
+      "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_09.webp",
+      "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_20.webp"
     ]
   },
 
@@ -183,18 +183,19 @@ const PROJECTS_DATA = [
     location: "Madrid",
     year: "",
     architects: ["gon-architects"],
-    coverImage: "assets/proyectos/22_LA PRAIRIE/22_00PORTADA.webp",
+    coverImage: "assets/proyectos/32_CENTRO MÉDICO CLINIQUE LA PRAIRIE/22_00PORTADA.webp",
     description: "Rehabilitación integral de local comercial de 400 m², distribuido en dos plantas, para la implantación de la primera sede de tratamientos médicos y estéticos de Clinique La Prairie en España. Ejecución de salas de tratamiento, consultas médicas, espacios administrativos, aseos y zonas comunes.",
+    surface: "400 m²",
     gallery: [
-      "assets/proyectos/22_LA PRAIRIE/22_01.webp",
-      "assets/proyectos/22_LA PRAIRIE/22_02.webp",
-      "assets/proyectos/22_LA PRAIRIE/22_03.webp",
-      "assets/proyectos/22_LA PRAIRIE/22_04.webp",
-      "assets/proyectos/22_LA PRAIRIE/22_05.webp",
-      "assets/proyectos/22_LA PRAIRIE/22_06.webp",
-      "assets/proyectos/22_LA PRAIRIE/22_07.webp",
-      "assets/proyectos/22_LA PRAIRIE/22_08.webp",
-      "assets/proyectos/22_LA PRAIRIE/22_09.webp"
+      "assets/proyectos/32_CENTRO MÉDICO CLINIQUE LA PRAIRIE/22_01.webp",
+      "assets/proyectos/32_CENTRO MÉDICO CLINIQUE LA PRAIRIE/22_02.webp",
+      "assets/proyectos/32_CENTRO MÉDICO CLINIQUE LA PRAIRIE/22_03.webp",
+      "assets/proyectos/32_CENTRO MÉDICO CLINIQUE LA PRAIRIE/22_04.webp",
+      "assets/proyectos/32_CENTRO MÉDICO CLINIQUE LA PRAIRIE/22_05.webp",
+      "assets/proyectos/32_CENTRO MÉDICO CLINIQUE LA PRAIRIE/22_06.webp",
+      "assets/proyectos/32_CENTRO MÉDICO CLINIQUE LA PRAIRIE/22_07.webp",
+      "assets/proyectos/32_CENTRO MÉDICO CLINIQUE LA PRAIRIE/22_08.webp",
+      "assets/proyectos/32_CENTRO MÉDICO CLINIQUE LA PRAIRIE/22_09.webp"
     ]
   },
 
@@ -204,48 +205,48 @@ const PROJECTS_DATA = [
     category: "COMERCIAL",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/23_GRACE/23_09.webp",
+    coverImage: "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_09.webp",
     description: "",
     studioClient: "MIL STUDIO",
     gallery: [
-      "assets/proyectos/23_GRACE/23_01.webp",
-      "assets/proyectos/23_GRACE/23_02.webp",
-      "assets/proyectos/23_GRACE/23_03.webp",
-      "assets/proyectos/23_GRACE/23_04.webp",
-      "assets/proyectos/23_GRACE/23_05.webp",
-      "assets/proyectos/23_GRACE/23_06.webp",
-      "assets/proyectos/23_GRACE/23_07.webp",
-      "assets/proyectos/23_GRACE/23_08.webp",
-      "assets/proyectos/23_GRACE/23_00PORTADA.webp",
-      "assets/proyectos/23_GRACE/23_10.webp",
-      "assets/proyectos/23_GRACE/23_11.webp",
-      "assets/proyectos/23_GRACE/23_12.webp"
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_01.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_02.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_03.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_04.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_05.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_06.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_07.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_08.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_00PORTADA.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_10.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_11.webp",
+      "assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_12.webp"
     ]
   },
 
   {
     slug: "oficinas-y-centro-de-control-aereo",
     name: "OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS",
-    category: "OFICINAS",
+    categories: ["OFICINAS", "OBRAS VARIAS"],
     location: "Aeropuerto Madrid",
     year: "",
-    coverImage: "assets/proyectos/30_AEROPUERTO/30_00PORTADA.webp",
+    coverImage: "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_00PORTADA.webp",
     description: "Aeropuerto Madrid",
     studioClient: "Estudio Belén Ferrándiz",
     gallery: [
-      "assets/proyectos/30_AEROPUERTO/30_01.webp",
-      "assets/proyectos/30_AEROPUERTO/30_02.webp",
-      "assets/proyectos/30_AEROPUERTO/30_03.webp",
-      "assets/proyectos/30_AEROPUERTO/30_04.webp",
-      "assets/proyectos/30_AEROPUERTO/30_05.webp",
-      "assets/proyectos/30_AEROPUERTO/30_06.webp",
-      "assets/proyectos/30_AEROPUERTO/30_07.webp",
-      "assets/proyectos/30_AEROPUERTO/30_08.webp",
-      "assets/proyectos/30_AEROPUERTO/30_09.webp",
-      "assets/proyectos/30_AEROPUERTO/30_10.webp",
-      "assets/proyectos/30_AEROPUERTO/30_11.webp",
-      "assets/proyectos/30_AEROPUERTO/30_12.webp",
-      "assets/proyectos/30_AEROPUERTO/30_13.webp"
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_01.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_02.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_03.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_04.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_05.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_06.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_07.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_08.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_09.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_10.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_11.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_12.webp",
+      "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_13.webp"
     ]
   },
 
@@ -255,15 +256,15 @@ const PROJECTS_DATA = [
     category: "OFICINAS",
     location: "Sevilla",
     year: "",
-    coverImage: "assets/proyectos/33_OESIA SEVILLA/33_01.jpg",
+    coverImage: "assets/proyectos/21_OFICINAS OESÍA SEVILLA/33_01.jpg",
     description: "",
     gallery: [
-      "assets/proyectos/33_OESIA SEVILLA/33_02.jpg",
-      "assets/proyectos/33_OESIA SEVILLA/33_03.jpg",
-      "assets/proyectos/33_OESIA SEVILLA/33_04.jpg",
-      "assets/proyectos/33_OESIA SEVILLA/33_05.jpg",
-      "assets/proyectos/33_OESIA SEVILLA/33_06.jpg",
-      "assets/proyectos/33_OESIA SEVILLA/33_07.jpg"
+      "assets/proyectos/21_OFICINAS OESÍA SEVILLA/33_02.jpg",
+      "assets/proyectos/21_OFICINAS OESÍA SEVILLA/33_03.jpg",
+      "assets/proyectos/21_OFICINAS OESÍA SEVILLA/33_04.jpg",
+      "assets/proyectos/21_OFICINAS OESÍA SEVILLA/33_05.jpg",
+      "assets/proyectos/21_OFICINAS OESÍA SEVILLA/33_06.jpg",
+      "assets/proyectos/21_OFICINAS OESÍA SEVILLA/33_07.jpg"
     ]
   },
 
@@ -273,20 +274,20 @@ const PROJECTS_DATA = [
     category: "OFICINAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/32_BOLTON/32_00PORTADA.jpg",
+    coverImage: "assets/proyectos/11_OFICINAS TORRE OMBÚ/32_00PORTADA.jpg",
     description: "Madrid",
     studioClient: "",
     hideStudio: true,
     gallery: [
-      "assets/proyectos/32_BOLTON/32_01.jpg",
-      "assets/proyectos/32_BOLTON/32_02.webp",
-      "assets/proyectos/32_BOLTON/32_03.webp",
-      "assets/proyectos/32_BOLTON/32_04.webp",
-      "assets/proyectos/32_BOLTON/32_05.webp",
-      "assets/proyectos/32_BOLTON/32_06.webp",
-      "assets/proyectos/32_BOLTON/32_07.webp",
-      "assets/proyectos/32_BOLTON/32_08.webp",
-      "assets/proyectos/32_BOLTON/32_09.webp"
+      "assets/proyectos/11_OFICINAS TORRE OMBÚ/32_01.jpg",
+      "assets/proyectos/11_OFICINAS TORRE OMBÚ/32_02.webp",
+      "assets/proyectos/11_OFICINAS TORRE OMBÚ/32_03.webp",
+      "assets/proyectos/11_OFICINAS TORRE OMBÚ/32_04.webp",
+      "assets/proyectos/11_OFICINAS TORRE OMBÚ/32_05.webp",
+      "assets/proyectos/11_OFICINAS TORRE OMBÚ/32_06.webp",
+      "assets/proyectos/11_OFICINAS TORRE OMBÚ/32_07.webp",
+      "assets/proyectos/11_OFICINAS TORRE OMBÚ/32_08.webp",
+      "assets/proyectos/11_OFICINAS TORRE OMBÚ/32_09.webp"
     ]
   },
 
@@ -296,16 +297,16 @@ const PROJECTS_DATA = [
     category: "OFICINAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/37_VEGANOX/37_00 PORTADA.webp",
+    coverImage: "assets/proyectos/14_OFICINAS MANOTERAS/37_00 PORTADA.webp",
     description: "Manoteras, Madrid",
     studioClient: "",
     hideStudio: true,
     gallery: [
-      "assets/proyectos/37_VEGANOX/37_01.webp",
-      "assets/proyectos/37_VEGANOX/37_02.webp",
-      "assets/proyectos/37_VEGANOX/37_03.webp",
-      "assets/proyectos/37_VEGANOX/37_04.webp",
-      "assets/proyectos/37_VEGANOX/37_05.webp"
+      "assets/proyectos/14_OFICINAS MANOTERAS/37_01.webp",
+      "assets/proyectos/14_OFICINAS MANOTERAS/37_02.webp",
+      "assets/proyectos/14_OFICINAS MANOTERAS/37_03.webp",
+      "assets/proyectos/14_OFICINAS MANOTERAS/37_04.webp",
+      "assets/proyectos/14_OFICINAS MANOTERAS/37_05.webp"
     ]
   },
 
@@ -315,13 +316,13 @@ const PROJECTS_DATA = [
     category: "OFICINAS",
     location: "Valdepeñas, Ciudad Real",
     year: "",
-    coverImage: "assets/proyectos/34_VDP/34_00 PORTADA.webp",
+    coverImage: "assets/proyectos/13_EDIFICIO DE OFICINAS Y LABORATORIOS CIUDAD REAL/34_00 PORTADA.webp",
     description: "Valdepeñas, Ciudad Real",
     studioClient: "",
     hideStudio: true,
     gallery: [
-      "assets/proyectos/34_VDP/34_01.webp",
-      "assets/proyectos/34_VDP/34_02.webp"
+      "assets/proyectos/13_EDIFICIO DE OFICINAS Y LABORATORIOS CIUDAD REAL/34_01.webp",
+      "assets/proyectos/13_EDIFICIO DE OFICINAS Y LABORATORIOS CIUDAD REAL/34_02.webp"
     ]
   },
 
@@ -329,17 +330,17 @@ const PROJECTS_DATA = [
   slug: "vivienda-unifamiliar-villaviciosa-de-odon",
 name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     categories: ["OBRA NUEVA", "OBRAS EN EJECUCIÓN"],
-    ongoingPhotos: "assets/proyectos/38_TURIA/obra-en-ejecucion",
+    ongoingPhotos: "assets/proyectos/17_VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN/obra-en-ejecucion",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/38_TURIA/38_00PORTADA.webp",
+    coverImage: "assets/proyectos/17_VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN/38_00PORTADA.webp",
     description: "",
     studioClient: "Estudio Utrilla",
     gallery: [
-      "assets/proyectos/38_TURIA/38_01.webp",
-      "assets/proyectos/38_TURIA/38_02.webp",
-      "assets/proyectos/38_TURIA/38_03.webp",
-      "assets/proyectos/38_TURIA/38_04.webp"
+      "assets/proyectos/17_VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN/38_01.webp",
+      "assets/proyectos/17_VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN/38_02.webp",
+      "assets/proyectos/17_VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN/38_03.webp",
+      "assets/proyectos/17_VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN/38_04.webp"
     ]
   },
 
@@ -349,24 +350,24 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "OBRA NUEVA",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/01_PRADO LARGO/01_00PORTADA.webp",
+    coverImage: "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_00PORTADA.webp",
     description: "",
     studioClient: "Estudio Otto Medem",
     gallery: [
-      "assets/proyectos/01_PRADO LARGO/01_01.webp",
-      "assets/proyectos/01_PRADO LARGO/01_02.webp",
-      "assets/proyectos/01_PRADO LARGO/01_03.webp",
-      "assets/proyectos/01_PRADO LARGO/01_04.webp",
-      "assets/proyectos/01_PRADO LARGO/01_05.webp",
-      "assets/proyectos/01_PRADO LARGO/01_06.webp",
-      "assets/proyectos/01_PRADO LARGO/01_07.webp",
-      "assets/proyectos/01_PRADO LARGO/01_08.webp",
-      "assets/proyectos/01_PRADO LARGO/01_09.webp",
-      "assets/proyectos/01_PRADO LARGO/01_10.webp",
-      "assets/proyectos/01_PRADO LARGO/01_11.webp",
-      "assets/proyectos/01_PRADO LARGO/01_12.webp",
-      "assets/proyectos/01_PRADO LARGO/01_15.webp",
-      "assets/proyectos/01_PRADO LARGO/01_16.webp"
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_01.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_02.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_03.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_04.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_05.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_06.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_07.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_08.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_09.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_10.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_11.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_12.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_15.webp",
+      "assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_16.webp"
     ]
   },
 
@@ -374,99 +375,99 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     slug: "vivienda-unifamiliar-somosaguas",
     name: "VIVIENDA UNIFAMILIAR SOMOSAGUAS",
     categories: ["OBRA NUEVA", "OBRAS EN EJECUCIÓN"],
-    ongoingPhotos: "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/obra-en-ejecucion",
+    ongoingPhotos: "assets/proyectos/06_VIVIENDA UNIFAMILIAR SOMOSAGUAS/obra-en-ejecucion",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_00PORTADA.webp",
+    coverImage: "assets/proyectos/06_VIVIENDA UNIFAMILIAR SOMOSAGUAS/08_00PORTADA.webp",
     description: "",
     studioClient: "Estudio Otto Medem",
     gallery: [
-      "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_01.webp",
-      "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_02.webp"
+      "assets/proyectos/06_VIVIENDA UNIFAMILIAR SOMOSAGUAS/08_01.webp",
+      "assets/proyectos/06_VIVIENDA UNIFAMILIAR SOMOSAGUAS/08_02.webp"
     ]
   },
 
   {
     slug: "restaurante-espectaculo-skybar",
     name: "RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU",
-    category: "",
+    category: "COMERCIAL",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/24_SKYBAR/24_03.webp",
+    coverImage: "assets/proyectos/02_RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU/24_03.webp",
     description: "",
     studioClient: "Estudio Room 1804",
     gallery: [
-      "assets/proyectos/24_SKYBAR/24_01.webp",
-      "assets/proyectos/24_SKYBAR/24_02.webp",
-      "assets/proyectos/24_SKYBAR/24_00PORTADA.webp",
-      "assets/proyectos/24_SKYBAR/24_04.webp",
-      "assets/proyectos/24_SKYBAR/24_05.webp",
-      "assets/proyectos/24_SKYBAR/24_06.webp",
-      "assets/proyectos/24_SKYBAR/24_07.webp"
+      "assets/proyectos/02_RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU/24_01.webp",
+      "assets/proyectos/02_RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU/24_02.webp",
+      "assets/proyectos/02_RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU/24_00PORTADA.webp",
+      "assets/proyectos/02_RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU/24_04.webp",
+      "assets/proyectos/02_RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU/24_05.webp",
+      "assets/proyectos/02_RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU/24_06.webp",
+      "assets/proyectos/02_RESTAURANTE – ESPECTÁCULO SKYBAR BERNABÉU/24_07.webp"
     ]
   },
 
   {
     slug: "restaurante-vinitus",
     name: "RESTAURANTE VINITUS GRAN VÍA",
-    category: "",
+    category: "COMERCIAL",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/25_VINITUS GV4/25_00PORTADA.webp",
+    coverImage: "assets/proyectos/24_RESTAURANTE VINITUS GRAN VÍA/25_00PORTADA.webp",
     description: "",
     studioClient: "ArqSocis",
     gallery: [
-      "assets/proyectos/25_VINITUS GV4/25_01.webp",
-      "assets/proyectos/25_VINITUS GV4/25_02.webp",
-      "assets/proyectos/25_VINITUS GV4/25_03.webp",
-      "assets/proyectos/25_VINITUS GV4/25_04.webp",
-      "assets/proyectos/25_VINITUS GV4/25_05.webp",
-      "assets/proyectos/25_VINITUS GV4/25_06.webp"
+      "assets/proyectos/24_RESTAURANTE VINITUS GRAN VÍA/25_01.webp",
+      "assets/proyectos/24_RESTAURANTE VINITUS GRAN VÍA/25_02.webp",
+      "assets/proyectos/24_RESTAURANTE VINITUS GRAN VÍA/25_03.webp",
+      "assets/proyectos/24_RESTAURANTE VINITUS GRAN VÍA/25_04.webp",
+      "assets/proyectos/24_RESTAURANTE VINITUS GRAN VÍA/25_05.webp",
+      "assets/proyectos/24_RESTAURANTE VINITUS GRAN VÍA/25_06.webp"
     ]
   },
 
   {
     slug: "restaurante-espectaculo-barrio-las-cortes",
     name: "RESTAURANTE MANERO",
-    category: "",
+    category: "COMERCIAL",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/27_MANERO/27_00PORTADA.webp",
+    coverImage: "assets/proyectos/20_RESTAURANTE MANERO/27_00PORTADA.webp",
     description: "",
     studioClient: "Lázaro Rosa Violán",
     gallery: [
-      "assets/proyectos/27_MANERO/27_01.webp",
-      "assets/proyectos/27_MANERO/27_02.webp",
-      "assets/proyectos/27_MANERO/27_03.webp",
-      "assets/proyectos/27_MANERO/27_04.webp",
-      "assets/proyectos/27_MANERO/27_05.webp",
-      "assets/proyectos/27_MANERO/27_06.webp",
-      "assets/proyectos/27_MANERO/27_08.webp",
-      "assets/proyectos/27_MANERO/27_09.webp",
-      "assets/proyectos/27_MANERO/27_10.webp",
-      "assets/proyectos/27_MANERO/27_11.webp",
-      "assets/proyectos/27_MANERO/27_12.webp"
+      "assets/proyectos/20_RESTAURANTE MANERO/27_01.webp",
+      "assets/proyectos/20_RESTAURANTE MANERO/27_02.webp",
+      "assets/proyectos/20_RESTAURANTE MANERO/27_03.webp",
+      "assets/proyectos/20_RESTAURANTE MANERO/27_04.webp",
+      "assets/proyectos/20_RESTAURANTE MANERO/27_05.webp",
+      "assets/proyectos/20_RESTAURANTE MANERO/27_06.webp",
+      "assets/proyectos/20_RESTAURANTE MANERO/27_08.webp",
+      "assets/proyectos/20_RESTAURANTE MANERO/27_09.webp",
+      "assets/proyectos/20_RESTAURANTE MANERO/27_10.webp",
+      "assets/proyectos/20_RESTAURANTE MANERO/27_11.webp",
+      "assets/proyectos/20_RESTAURANTE MANERO/27_12.webp"
     ]
   },
 
   {
     slug: "vinitus-alcala",
     name: "RESTAURANTE VINITUS ALCALÁ",
-    category: "",
+    category: "COMERCIAL",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/39_VINITUS_ALCALÁ/39_00PORTADA.webp",
+    coverImage: "assets/proyectos/09_RESTAURANTE VINITUS ALCALÁ/39_00PORTADA.webp",
     description: "",
     studioClient: "ArqSocis",
     gallery: [
-      "assets/proyectos/39_VINITUS_ALCALÁ/39_01.webp",
-      "assets/proyectos/39_VINITUS_ALCALÁ/39_02.webp",
-      "assets/proyectos/39_VINITUS_ALCALÁ/39_03.webp",
-      "assets/proyectos/39_VINITUS_ALCALÁ/39_04.webp",
-      "assets/proyectos/39_VINITUS_ALCALÁ/39_05.webp",
-      "assets/proyectos/39_VINITUS_ALCALÁ/39_06.webp",
-      "assets/proyectos/39_VINITUS_ALCALÁ/39_07.webp",
-      "assets/proyectos/39_VINITUS_ALCALÁ/39_08.webp"
+      "assets/proyectos/09_RESTAURANTE VINITUS ALCALÁ/39_01.webp",
+      "assets/proyectos/09_RESTAURANTE VINITUS ALCALÁ/39_02.webp",
+      "assets/proyectos/09_RESTAURANTE VINITUS ALCALÁ/39_03.webp",
+      "assets/proyectos/09_RESTAURANTE VINITUS ALCALÁ/39_04.webp",
+      "assets/proyectos/09_RESTAURANTE VINITUS ALCALÁ/39_05.webp",
+      "assets/proyectos/09_RESTAURANTE VINITUS ALCALÁ/39_06.webp",
+      "assets/proyectos/09_RESTAURANTE VINITUS ALCALÁ/39_07.webp",
+      "assets/proyectos/09_RESTAURANTE VINITUS ALCALÁ/39_08.webp"
     ]
   },
 
@@ -476,28 +477,28 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/41_ODONNELL/41_02.webp",
+    coverImage: "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_02.webp",
     description: "",
     gallery: [
-      "assets/proyectos/41_ODONNELL/41_01.webp",
-      "assets/proyectos/41_ODONNELL/41_0PORTADA.webp",
-      "assets/proyectos/41_ODONNELL/41_03.webp",
-      "assets/proyectos/41_ODONNELL/41_04.webp",
-      "assets/proyectos/41_ODONNELL/41_05.webp",
-      "assets/proyectos/41_ODONNELL/41_06.webp",
-      "assets/proyectos/41_ODONNELL/41_07.webp",
-      "assets/proyectos/41_ODONNELL/41_08.webp",
-      "assets/proyectos/41_ODONNELL/41_09.webp",
-      "assets/proyectos/41_ODONNELL/41_10.webp",
-      "assets/proyectos/41_ODONNELL/41_11.webp",
-      "assets/proyectos/41_ODONNELL/41_12.webp",
-      "assets/proyectos/41_ODONNELL/41_13.webp",
-      "assets/proyectos/41_ODONNELL/41_14.webp",
-      "assets/proyectos/41_ODONNELL/41_15.jpg",
-      "assets/proyectos/41_ODONNELL/41_16.jpg",
-      "assets/proyectos/41_ODONNELL/41_17.jpg",
-      "assets/proyectos/41_ODONNELL/41_18.jpg",
-      "assets/proyectos/41_ODONNELL/41_19.jpg"
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_01.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_0PORTADA.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_03.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_04.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_05.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_06.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_07.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_08.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_09.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_10.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_11.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_12.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_13.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_14.webp",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_15.jpg",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_16.jpg",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_17.jpg",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_18.jpg",
+      "assets/proyectos/08_REFORMA VIVIENDA RETIRO/41_19.jpg"
     ]
   },
 
@@ -507,35 +508,35 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/41_VILLANUEVA/41_0 PORTADA.webp",
+    coverImage: "assets/proyectos/23_REFORMA VIVIENDA SALAMANCA/41_0 PORTADA.webp",
     description: "",
     studioClient: "",
     gallery: [
-      "assets/proyectos/41_VILLANUEVA/41_01.webp",
-      "assets/proyectos/41_VILLANUEVA/41_02.webp",
-      "assets/proyectos/41_VILLANUEVA/41_03.webp",
-      "assets/proyectos/41_VILLANUEVA/41_04.webp",
-      "assets/proyectos/41_VILLANUEVA/41_05.webp",
-      "assets/proyectos/41_VILLANUEVA/41_06.webp"
+      "assets/proyectos/23_REFORMA VIVIENDA SALAMANCA/41_01.webp",
+      "assets/proyectos/23_REFORMA VIVIENDA SALAMANCA/41_02.webp",
+      "assets/proyectos/23_REFORMA VIVIENDA SALAMANCA/41_03.webp",
+      "assets/proyectos/23_REFORMA VIVIENDA SALAMANCA/41_04.webp",
+      "assets/proyectos/23_REFORMA VIVIENDA SALAMANCA/41_05.webp",
+      "assets/proyectos/23_REFORMA VIVIENDA SALAMANCA/41_06.webp"
     ]
   },
 
   {
     slug: "terraza-isla-del-sur",
     name: "RESTAURANTE ISLA DEL SUR",
-    category: "",
+    category: "COMERCIAL",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/42_ ISLA DEL SUR/36_0 PORTADA.webp",
+    coverImage: "assets/proyectos/25_RESTAURANTE ISLA DEL SUR/36_0 PORTADA.webp",
     description: "",
     studioClient: "Coll i Fulcarà Arquitectes",
     gallery: [
-      "assets/proyectos/42_ ISLA DEL SUR/36_01.webp",
-      "assets/proyectos/42_ ISLA DEL SUR/36_02.webp",
-      "assets/proyectos/42_ ISLA DEL SUR/36_03.webp",
-      "assets/proyectos/42_ ISLA DEL SUR/36_04.webp",
-      "assets/proyectos/42_ ISLA DEL SUR/36_05.webp",
-      "assets/proyectos/42_ ISLA DEL SUR/36_06.webp"
+      "assets/proyectos/25_RESTAURANTE ISLA DEL SUR/36_01.webp",
+      "assets/proyectos/25_RESTAURANTE ISLA DEL SUR/36_02.webp",
+      "assets/proyectos/25_RESTAURANTE ISLA DEL SUR/36_03.webp",
+      "assets/proyectos/25_RESTAURANTE ISLA DEL SUR/36_04.webp",
+      "assets/proyectos/25_RESTAURANTE ISLA DEL SUR/36_05.webp",
+      "assets/proyectos/25_RESTAURANTE ISLA DEL SUR/36_06.webp"
     ]
   },
   {
@@ -544,33 +545,33 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/43_SOTO DE LA MORALEJA/43_0PORTADA.webp",
+    coverImage: "assets/proyectos/19_REFORMA VIVIENDA SOTO DE LA MORALEJA/43_0PORTADA.webp",
     description: "",
     studioClient: "Estudio Belén Ferrándiz",
     gallery: [
-      "assets/proyectos/43_SOTO DE LA MORALEJA/43_01.webp",
-      "assets/proyectos/43_SOTO DE LA MORALEJA/43_02.webp",
-      "assets/proyectos/43_SOTO DE LA MORALEJA/43_03.webp",
-      "assets/proyectos/43_SOTO DE LA MORALEJA/43_04.webp",
-      "assets/proyectos/43_SOTO DE LA MORALEJA/43_05.webp"
+      "assets/proyectos/19_REFORMA VIVIENDA SOTO DE LA MORALEJA/43_01.webp",
+      "assets/proyectos/19_REFORMA VIVIENDA SOTO DE LA MORALEJA/43_02.webp",
+      "assets/proyectos/19_REFORMA VIVIENDA SOTO DE LA MORALEJA/43_03.webp",
+      "assets/proyectos/19_REFORMA VIVIENDA SOTO DE LA MORALEJA/43_04.webp",
+      "assets/proyectos/19_REFORMA VIVIENDA SOTO DE LA MORALEJA/43_05.webp"
     ]
   },
   {
     slug: "obras-varias-mercado-maravillas",
     name: "REHABILITACIÓN MERCADO MARAVILLAS",
-    category: "COMERCIAL",
+    categories: ["COMERCIAL", "OBRAS VARIAS"],
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/44_MERCADO MARAVILLAS/44_0PORTADA.png",
+    coverImage: "assets/proyectos/27_REHABILITACIÓN MERCADO MARAVILLAS/44_0PORTADA.png",
     description: "",
     studioClient: "",
     gallery: [
-      "assets/proyectos/44_MERCADO MARAVILLAS/44_02.jpg",
-      "assets/proyectos/44_MERCADO MARAVILLAS/44_03.jpg",
-      "assets/proyectos/44_MERCADO MARAVILLAS/44_04.jpg",
-      "assets/proyectos/44_MERCADO MARAVILLAS/44_05.jpg",
-      "assets/proyectos/44_MERCADO MARAVILLAS/44_06.jpg",
-      "assets/proyectos/44_MERCADO MARAVILLAS/44_07.jpg"
+      "assets/proyectos/27_REHABILITACIÓN MERCADO MARAVILLAS/44_02.jpg",
+      "assets/proyectos/27_REHABILITACIÓN MERCADO MARAVILLAS/44_03.jpg",
+      "assets/proyectos/27_REHABILITACIÓN MERCADO MARAVILLAS/44_04.jpg",
+      "assets/proyectos/27_REHABILITACIÓN MERCADO MARAVILLAS/44_05.jpg",
+      "assets/proyectos/27_REHABILITACIÓN MERCADO MARAVILLAS/44_06.jpg",
+      "assets/proyectos/27_REHABILITACIÓN MERCADO MARAVILLAS/44_07.jpg"
     ]
   },
   {
@@ -579,16 +580,16 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "OFICINAS",
     location: "Zaragoza",
     year: "",
-    coverImage: "assets/proyectos/45_ OESIA ZARAGOZA/45_0 PORTADA.webp",
+    coverImage: "assets/proyectos/29_OFICINAS OESÍA ZARAGOZA/45_0 PORTADA.png",
     description: "",
     hideStudio: true,
     gallery: [
-      "assets/proyectos/45_ OESIA ZARAGOZA/45_01.webp",
-      "assets/proyectos/45_ OESIA ZARAGOZA/45_02.webp",
-      "assets/proyectos/45_ OESIA ZARAGOZA/45_03.webp",
-      "assets/proyectos/45_ OESIA ZARAGOZA/45_04.webp",
-      "assets/proyectos/45_ OESIA ZARAGOZA/45_05.webp",
-      "assets/proyectos/45_ OESIA ZARAGOZA/45_06.webp"
+      "assets/proyectos/29_OFICINAS OESÍA ZARAGOZA/45_01.webp",
+      "assets/proyectos/29_OFICINAS OESÍA ZARAGOZA/45_02.webp",
+      "assets/proyectos/29_OFICINAS OESÍA ZARAGOZA/45_03.webp",
+      "assets/proyectos/29_OFICINAS OESÍA ZARAGOZA/45_04.webp",
+      "assets/proyectos/29_OFICINAS OESÍA ZARAGOZA/45_05.webp",
+      "assets/proyectos/29_OFICINAS OESÍA ZARAGOZA/45_06.webp"
     ]
   },
   {
@@ -597,36 +598,36 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_02.webp",
+    coverImage: "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_02.webp",
     description: "",
     gallery: [
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_01.webp",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_PORTADA.webp",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_03.webp",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_04.webp",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_05.webp",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_06.webp",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_07.webp",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_08.webp",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_09.webp",
-      "assets/proyectos/48_VIVIENDA UNIFAMILIAR PUERTA DEL HIERRO/00_10.webp"
+      "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_01.webp",
+      "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_PORTADA.webp",
+      "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_03.webp",
+      "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_04.webp",
+      "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_05.webp",
+      "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_06.webp",
+      "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_07.webp",
+      "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_08.webp",
+      "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_09.webp",
+      "assets/proyectos/26_REFORMA VIVIENDA UNIFAMILIAR PUERTA DE HIERRO/00_10.webp"
     ]
   },
   {
     slug: "reforma-vivienda-pio-xii",
     name: "REFORMA VIVIENDA PÍO XII",
-    category: "OBRAS EN EJECUCIÓN",
+    categories: ["OBRAS EN EJECUCIÓN", "REFORMAS"],
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (5).webp",
+    coverImage: "assets/proyectos/42_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (5).webp",
     description: "",
     gallery: [
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.41 (1).webp",
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.42 (6).webp",
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.42.webp",
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (1).webp",
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (3).webp",
-      "assets/proyectos/49_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-13 at 16.14.16sdf.webp"
+      "assets/proyectos/42_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.41 (1).webp",
+      "assets/proyectos/42_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.42 (6).webp",
+      "assets/proyectos/42_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.42.webp",
+      "assets/proyectos/42_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (1).webp",
+      "assets/proyectos/42_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-14 at 08.07.43 (3).webp",
+      "assets/proyectos/42_REFORMA VIVIENDA PÍO XII/WhatsApp Image 2026-10-13 at 16.14.16sdf.webp"
     ]
   },
   {
@@ -635,13 +636,13 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_PORTADA_corregida.png",
+    coverImage: "assets/proyectos/31_REFORMA VIVIENDA EL VISO/00_PORTADA_corregida.png",
     description: "",
     gallery: [
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/00_01_corregida.png",
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/cocina-blanca-negra.png",
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/interior-papel-botanico.png",
-      "assets/proyectos/50_REFORMA VIVIENDA EL VISO/bano-espejo-iluminado.png"
+      "assets/proyectos/31_REFORMA VIVIENDA EL VISO/00_01_corregida.png",
+      "assets/proyectos/31_REFORMA VIVIENDA EL VISO/cocina-blanca-negra.png",
+      "assets/proyectos/31_REFORMA VIVIENDA EL VISO/interior-papel-botanico.png",
+      "assets/proyectos/31_REFORMA VIVIENDA EL VISO/bano-espejo-iluminado.png"
     ]
   },
   {
@@ -651,13 +652,13 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     location: "Madrid",
     year: "",
     studioClient: "APADIA",
-    coverImage: "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.52.webp",
+    coverImage: "assets/proyectos/28_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.52.webp",
     description: "",
     gallery: [
-      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.53.webp",
-      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/cocina-nicho-cafe.png",
-      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/cocina-isla-madera.png",
-      "assets/proyectos/51_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/bano-azulejos-terracota.png"
+      "assets/proyectos/28_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/WhatsApp Image 2026-11-12 at 15.08.53.webp",
+      "assets/proyectos/28_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/cocina-nicho-cafe.png",
+      "assets/proyectos/28_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/cocina-isla-madera.png",
+      "assets/proyectos/28_REFORMA VIVIENDA UNIFAMILIAR MONTEALINA/bano-azulejos-terracota.png"
     ]
   },
   {
@@ -666,86 +667,86 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.52 (5).webp",
+    coverImage: "assets/proyectos/35_REFORMA VIVIENDA CHAMARTÍN/WhatsApp Image 2026-10-13 at 18.12.52 (5).webp",
     description: "",
     gallery: [
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/interior-madera-suelo-espiga.png",
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/sala-ventanal-madera.png",
-      "assets/proyectos/52_REFORMA VIVIENDA CHAMARTÍN/pasillo-madera-vidrio.png"
+      "assets/proyectos/35_REFORMA VIVIENDA CHAMARTÍN/interior-madera-suelo-espiga.png",
+      "assets/proyectos/35_REFORMA VIVIENDA CHAMARTÍN/sala-ventanal-madera.png",
+      "assets/proyectos/35_REFORMA VIVIENDA CHAMARTÍN/pasillo-madera-vidrio.png"
     ]
   },
   {
     slug: "reforma-edificio-chamartin",
     name: "REFORMA EDIFICIO CHAMARTÍN",
-    category: "OBRAS EN EJECUCIÓN",
+    categories: ["OBRAS EN EJECUCIÓN", "REFORMAS"],
     location: "Madrid",
     year: "",
     studioClient: "CLAP ! DESIGN ARQUITECTURA",
     projectManagement: "SICOA",
-    coverImage: "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_PORTADA.png",
+    coverImage: "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_PORTADA.png",
     description: "",
     gallery: [
-      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_01.jpeg",
-      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_02.jpeg",
-      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_03.jpeg",
-      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_04.jpeg",
-      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_05.jpeg",
-      "assets/proyectos/53_REFORMA EDIFICIO CHAMARTÍN/53_06.jpeg"
+      "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_01.jpeg",
+      "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_02.jpeg",
+      "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_03.jpeg",
+      "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_04.jpeg",
+      "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_05.jpeg",
+      "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_06.jpeg"
     ]
   },
   {
     slug: "reforma-edificio-chamberi",
     name: "REFORMA EDIFICIO CHAMBERÍ",
-    category: "OBRAS EN EJECUCIÓN",
+    categories: ["OBRAS EN EJECUCIÓN", "REFORMAS"],
     location: "Madrid",
     year: "",
     studioClient: "CLAP ! DESIGN ARQUITECTURA",
-    coverImage: "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_PORTADA.jpeg",
+    coverImage: "assets/proyectos/44_REFORMA EDIFICIO CHAMBERÍ/54_PORTADA.jpeg",
     description: "",
     gallery: [
-      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_01.jpeg",
-      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_02.jpeg",
-      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_03.jpeg",
-      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_04.jpeg",
-      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_05.jpeg",
-      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_06.jpeg",
-      "assets/proyectos/54_REFORMA EDIFICIO CHAMBERÍ/54_07.jpeg"
+      "assets/proyectos/44_REFORMA EDIFICIO CHAMBERÍ/54_01.jpeg",
+      "assets/proyectos/44_REFORMA EDIFICIO CHAMBERÍ/54_02.jpeg",
+      "assets/proyectos/44_REFORMA EDIFICIO CHAMBERÍ/54_03.jpeg",
+      "assets/proyectos/44_REFORMA EDIFICIO CHAMBERÍ/54_04.jpeg",
+      "assets/proyectos/44_REFORMA EDIFICIO CHAMBERÍ/54_05.jpeg",
+      "assets/proyectos/44_REFORMA EDIFICIO CHAMBERÍ/54_06.jpeg",
+      "assets/proyectos/44_REFORMA EDIFICIO CHAMBERÍ/54_07.jpeg"
     ]
   },
   {
     slug: "academia-policia",
     name: "ACADEMIA POLICÍA",
-    category: "OBRA PÚBLICA",
+    categories: ["OBRA PÚBLICA", "OBRAS VARIAS"],
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/55_ACADEMIA POLICIA/55_01.jpg",
+    coverImage: "assets/proyectos/34_ACADEMIA POLICÍA/55_01.jpg",
     description: "Rehabilitación integral de naves destinadas a talleres y ejecución de trabajos de urbanización del entorno de la Academia de Policía de Madrid.",
     hideStudio: true,
     gallery: [
-      "assets/proyectos/55_ACADEMIA POLICIA/55_02.jpg",
-      "assets/proyectos/55_ACADEMIA POLICIA/55_03.jpg",
-      "assets/proyectos/55_ACADEMIA POLICIA/55_04.jpg",
-      "assets/proyectos/55_ACADEMIA POLICIA/55_05.jpg",
-      "assets/proyectos/55_ACADEMIA POLICIA/55_06.jpg",
-      "assets/proyectos/55_ACADEMIA POLICIA/55_07.jpg"
+      "assets/proyectos/34_ACADEMIA POLICÍA/55_02.jpg",
+      "assets/proyectos/34_ACADEMIA POLICÍA/55_03.jpg",
+      "assets/proyectos/34_ACADEMIA POLICÍA/55_04.jpg",
+      "assets/proyectos/34_ACADEMIA POLICÍA/55_05.jpg",
+      "assets/proyectos/34_ACADEMIA POLICÍA/55_06.jpg",
+      "assets/proyectos/34_ACADEMIA POLICÍA/55_07.jpg"
     ]
   },
   {
     slug: "animalario-algete",
     name: "ANIMALARIO ALGETE",
-    category: "OBRA PÚBLICA",
+    categories: ["OBRA PÚBLICA", "OBRAS VARIAS"],
     location: "Algete, Madrid",
     year: "",
     architect: "José Luis Moreno",
-    coverImage: "assets/proyectos/56_ANIMALARIO ALGETE/56_01.jpg",
+    coverImage: "assets/proyectos/36_ANIMALARIO ALGETE/56_01.jpg",
     description: "Ejecución de una edificación de nueva planta destinada a animalario y laboratorio de control de sanidad animal.",
     gallery: [
-      "assets/proyectos/56_ANIMALARIO ALGETE/56_02.jpg",
-      "assets/proyectos/56_ANIMALARIO ALGETE/56_03.jpg",
-      "assets/proyectos/56_ANIMALARIO ALGETE/56_04.jpg",
-      "assets/proyectos/56_ANIMALARIO ALGETE/56_05.jpg",
-      "assets/proyectos/56_ANIMALARIO ALGETE/56_06.jpg",
-      "assets/proyectos/56_ANIMALARIO ALGETE/56_07.jpg"
+      "assets/proyectos/36_ANIMALARIO ALGETE/56_02.jpg",
+      "assets/proyectos/36_ANIMALARIO ALGETE/56_03.jpg",
+      "assets/proyectos/36_ANIMALARIO ALGETE/56_04.jpg",
+      "assets/proyectos/36_ANIMALARIO ALGETE/56_05.jpg",
+      "assets/proyectos/36_ANIMALARIO ALGETE/56_06.jpg",
+      "assets/proyectos/36_ANIMALARIO ALGETE/56_07.jpg"
     ]
   },
   {
@@ -755,15 +756,16 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     location: "Madrid",
     year: "",
     architect: "Begoña Espinosa",
-    coverImage: "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_01.jpg",
+    coverImage: "assets/proyectos/33_JORGE JUAN/57_01.jpg",
     description: "Rehabilitación integral de vivienda de aproximadamente 140 m². Proyecto llave en mano que incluye el diseño de espacios interiores y el proyecto de decoración.",
+    surface: "Aproximadamente 140 m²",
     gallery: [
-      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_02.jpg",
-      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_03.jpg",
-      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_04.jpg",
-      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_05.jpg",
-      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_06.jpg",
-      "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_07.jpg"
+      "assets/proyectos/33_JORGE JUAN/57_02.jpg",
+      "assets/proyectos/33_JORGE JUAN/57_03.jpg",
+      "assets/proyectos/33_JORGE JUAN/57_04.jpg",
+      "assets/proyectos/33_JORGE JUAN/57_05.jpg",
+      "assets/proyectos/33_JORGE JUAN/57_06.jpg",
+      "assets/proyectos/33_JORGE JUAN/57_07.jpg"
     ]
   },
   {
@@ -773,32 +775,33 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     location: "Torrelaguna, Madrid",
     year: "",
     architect: "Gracia Marianini",
-    coverImage: "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_01.jpg",
+    coverImage: "assets/proyectos/39_DEMOLICIÓN TORRELAGUNA/58_01.jpg",
     description: "Demolición integral de edificio cultural mediante trabajos de demolición selectiva y recuperación de teja curva envejecida. Posterior compactación del terreno.",
     gallery: [
-      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_02.jpg",
-      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_03.jpg",
-      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_04.jpg",
-      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_05.jpg",
-      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_06.jpg",
-      "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_07.jpg"
+      "assets/proyectos/39_DEMOLICIÓN TORRELAGUNA/58_02.jpg",
+      "assets/proyectos/39_DEMOLICIÓN TORRELAGUNA/58_03.jpg",
+      "assets/proyectos/39_DEMOLICIÓN TORRELAGUNA/58_04.jpg",
+      "assets/proyectos/39_DEMOLICIÓN TORRELAGUNA/58_05.jpg",
+      "assets/proyectos/39_DEMOLICIÓN TORRELAGUNA/58_06.jpg",
+      "assets/proyectos/39_DEMOLICIÓN TORRELAGUNA/58_07.jpg"
     ]
   },
   {
     slug: "rehabilitacion-fachadas-castellana-42",
     name: "REHABILITACIÓN FACHADAS CASTELLANA 42",
-    category: "REHABILITACIÓN EDIFICIOS",
+    categories: ["REHABILITACIÓN EDIFICIOS", "OBRAS VARIAS"],
     location: "Madrid",
     year: "",
-    coverImage: "assets/proyectos/59_CASTELLANA 42/59_01.jpg",
+    coverImage: "assets/proyectos/38_REHABILITACIÓN FACHADAS CASTELLANA 42/59_01.jpg",
+    uncroppedCardImage: "assets/proyectos/38_REHABILITACIÓN FACHADAS CASTELLANA 42/59_07.jpg",
     description: "Rehabilitación y consolidación de fachadas en edificio de oficinas comprendiendo la eliminación de los aplacados en mal estado y la totalidad de los anclajes de las fachadas con nuevos anclajes mecánicos de acero inoxidable y placa de reparto.",
     gallery: [
-      "assets/proyectos/59_CASTELLANA 42/59_02.jpg",
-      "assets/proyectos/59_CASTELLANA 42/59_03.jpg",
-      "assets/proyectos/59_CASTELLANA 42/59_04.jpg",
-      "assets/proyectos/59_CASTELLANA 42/59_05.jpg",
-      "assets/proyectos/59_CASTELLANA 42/59_06.jpg",
-      "assets/proyectos/59_CASTELLANA 42/59_07.jpg"
+      "assets/proyectos/38_REHABILITACIÓN FACHADAS CASTELLANA 42/59_02.jpg",
+      "assets/proyectos/38_REHABILITACIÓN FACHADAS CASTELLANA 42/59_03.jpg",
+      "assets/proyectos/38_REHABILITACIÓN FACHADAS CASTELLANA 42/59_04.jpg",
+      "assets/proyectos/38_REHABILITACIÓN FACHADAS CASTELLANA 42/59_05.jpg",
+      "assets/proyectos/38_REHABILITACIÓN FACHADAS CASTELLANA 42/59_06.jpg",
+      "assets/proyectos/38_REHABILITACIÓN FACHADAS CASTELLANA 42/59_07.jpg"
     ]
   },
   {
@@ -808,15 +811,56 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     location: "Madrid",
     year: "",
     architects: ["Begoña Espinosa", "Belén Ferrandiz"],
-    coverImage: "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_01.jpg",
+    coverImage: "assets/proyectos/37_PRÍNCIPE DE VERGARA/60_01.jpg",
+    uncroppedCardImage: "assets/proyectos/37_PRÍNCIPE DE VERGARA/60_02.jpg",
     description: "Rehabilitación integral de vivienda de aproximadamente 120 m². Proyecto llave en mano que incluye el diseño de espacios interiores y el proyecto de decoración.",
+    surface: "Aproximadamente 120 m²",
     gallery: [
-      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_02.jpg",
-      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_03.jpg",
-      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_04.jpg",
-      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_05.jpg",
-      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_06.jpg",
-      "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_07.jpg"
+      "assets/proyectos/37_PRÍNCIPE DE VERGARA/60_02.jpg",
+      "assets/proyectos/37_PRÍNCIPE DE VERGARA/60_03.jpg",
+      "assets/proyectos/37_PRÍNCIPE DE VERGARA/60_04.jpg",
+      "assets/proyectos/37_PRÍNCIPE DE VERGARA/60_05.jpg",
+      "assets/proyectos/37_PRÍNCIPE DE VERGARA/60_06.jpg",
+      "assets/proyectos/37_PRÍNCIPE DE VERGARA/60_07.jpg"
+    ]
+  },
+  {
+    slug: "reforma-piso-recoletos",
+    name: "REFORMA PISO RECOLETOS",
+    category: "REFORMAS",
+    location: "Madrid",
+    architect: "IATA",
+    description: "",
+    photosFolder: "assets/proyectos/40_REFORMA PISO RECOLETOS",
+    coverImage: "assets/proyectos/40_REFORMA PISO RECOLETOS/DSC_2550.jpg",
+    gallery: [
+      "assets/proyectos/40_REFORMA PISO RECOLETOS/DSC_2571.jpg",
+      "assets/proyectos/40_REFORMA PISO RECOLETOS/DSC_2579.jpg",
+      "assets/proyectos/40_REFORMA PISO RECOLETOS/DSC_2597.jpg",
+      "assets/proyectos/43_REFORMA PISO RECOLETOS/43_01.jpg",
+      "assets/proyectos/43_REFORMA PISO RECOLETOS/43_05.jpg",
+      "assets/proyectos/43_REFORMA PISO RECOLETOS/43_06.jpg",
+      "assets/proyectos/43_REFORMA PISO RECOLETOS/43_07.jpg",
+      "assets/proyectos/43_REFORMA PISO RECOLETOS/43_08.jpg",
+      "assets/proyectos/43_REFORMA PISO RECOLETOS/43_09.jpg"
+    ]
+  },
+  {
+    slug: "gourmet-la-pedrera",
+    name: "GOURMET LA PEDRERA",
+    category: "COMERCIAL",
+    location: "Barcelona",
+    architect: "API Consulting",
+    description: "Rehabilitación integral de un local comercial de aproximadamente 300 m², incluyendo trabajos de climatización aérea, adecuación de accesos y ejecución de estructuras decorativas de madera.",
+    photosFolder: "assets/proyectos/41_GOURMET LA PEDRERA",
+    coverImage: "assets/proyectos/41_GOURMET LA PEDRERA/GOURMET LA PEDRERA - 1 - ANCODARQ.png",
+    gallery: [
+      "assets/proyectos/41_GOURMET LA PEDRERA/GOURMET LA PEDRERA - 2 - ANCODARQ.png",
+      "assets/proyectos/41_GOURMET LA PEDRERA/GOURMET LA PEDRERA - 3 - ANCODARQ.jpg",
+      "assets/proyectos/41_GOURMET LA PEDRERA/GOURMET LA PEDRERA - 4 - ANCODARQ.png",
+      "assets/proyectos/41_GOURMET LA PEDRERA/GOURMET LA PEDRERA - 5 - ANCODARQ.png",
+      "assets/proyectos/41_GOURMET LA PEDRERA/GOURMET LA PEDRERA - 6 - ANCODARQ.JPG",
+      "assets/proyectos/41_GOURMET LA PEDRERA/GOURMET LA PEDRERA - 7 - ANCODARQ.JPG"
     ]
   },
 ];
@@ -824,26 +868,57 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
 // Orden de aparición en el home y en la galería general.
 // Los proyectos no incluidos aquí se muestran después, conservando su orden actual.
 const PROJECT_DISPLAY_ORDER = [
-  "01", "24", "30", "09", "28", "08", "23", "41_ODONNELL",
-  "39", "07", "32", "02", "34", "37", "03", "29",
-  "38", "16", "43", "27", "33", "19",
-  "41_VILLANUEVA", "25", "42", "48", "44", "51", "45", "20", "50", "22"
+  "vivienda-unifamiliar-prado-largo",
+  "restaurante-espectaculo-skybar",
+  "oficinas-y-centro-de-control-aereo",
+  "vivienda-salamanca",
+  "sala-vip-teatro-nuevo-apolo",
+  "vivienda-unifamiliar-somosaguas",
+  "restaurante-espectaculo-grace",
+  "vivienda-odonnell",
+  "vinitus-alcala",
+  "vivienda-unifamiliar-la-finca",
+  "oficinas-torre-omu-madrid",
+  "vivienda-unifamiliar-los-alamos-de-bularas",
+  "edificio-prefabricado-construccion-metalica-oficinas-laboratorios",
+  "oficinas-manoteras",
+  "vivienda-unifamiliar-cotos-de-monterrey",
+  "sala-vip-teatro-nuevo-alcala",
+  "vivienda-unifamiliar-villaviciosa-de-odon",
+  "consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
+  "reforma-vivienda-soto-de-la-moraleja",
+  "restaurante-espectaculo-barrio-las-cortes",
+  "oficinas-grupo-oesia",
+  "teatro-nuevo-apolo",
+  "reforma-piso-salamanca",
+  "restaurante-vinitus",
+  "terraza-isla-del-sur",
+  "vivienda-unifamiliar-puerta-del-hierro",
+  "obras-varias-mercado-maravillas",
+  "reforma-vivienda-unifamiliar-montealina",
+  "oficinas-oesia-zaragoza",
+  "teatro-la-latina",
+  "reforma-vivienda-el-viso",
+  "centro-medico-clinique-la-prairie",
+  "reforma-piso-salamanca-02",
+  "academia-policia",
+  "reforma-vivienda-chamartin",
+  "animalario-algete",
+  "reforma-piso-chamartin-02",
+  "rehabilitacion-fachadas-castellana-42",
+  "demolicion-torrelaguna",
+  "reforma-piso-recoletos",
+  "gourmet-la-pedrera",
+  "reforma-vivienda-pio-xii",
+  "reforma-edificio-chamartin",
+  "reforma-edificio-chamberi"
 ];
 
-function getProjectOrderKey(project) {
-  const match = project.coverImage.match(/\/([0-9]{2})_([^/]+)\//);
-  if (!match) return "";
-  // Las dos carpetas 41 corresponden a proyectos distintos.
-  return match[1] === "41" ? `${match[1]}_${match[2]}` : match[1];
-}
-
 const ORDERED_PROJECTS_DATA = [
-  ...PROJECT_DISPLAY_ORDER.flatMap(key =>
-    PROJECTS_DATA.filter(project => getProjectOrderKey(project) === key)
+  ...PROJECT_DISPLAY_ORDER.flatMap(slug =>
+    PROJECTS_DATA.filter(project => project.slug === slug)
   ),
-  ...PROJECTS_DATA.filter(
-    project => !PROJECT_DISPLAY_ORDER.includes(getProjectOrderKey(project))
-  )
+  ...PROJECTS_DATA.filter(project => !PROJECT_DISPLAY_ORDER.includes(project.slug))
 ];
 
 
@@ -855,10 +930,6 @@ const ONGOING_CATEGORY = "OBRAS EN EJECUCIÓN";
 
 function projectCategories(project) {
   return project.categories ?? [project.category];
-}
-
-function showsInAllProjects(project) {
-  return projectCategories(project).some(category => category !== ONGOING_CATEGORY);
 }
 
 function projectDetailUrl(project, showOngoingPhotos) {
@@ -880,7 +951,23 @@ async function checkOngoingPhoto(project, filename) {
     return null;
   }
 
-  const path = `${project.ongoingPhotos}/${encodeURIComponent(filename)}`;
+  return decodeProjectPhoto(`${project.ongoingPhotos}/${encodeURIComponent(filename)}`);
+}
+
+async function loadProjectPhotos(project) {
+  try {
+    const response = await fetch(siteUrl(`${project.photosFolder}/imagenes.json`));
+    if (!response.ok) return [];
+    const files = await response.json();
+    return Array.isArray(files)
+      ? files.filter(name => typeof name === "string" && /^[^/\\]+$/.test(name) && name !== "." && name !== "..")
+      : [];
+  } catch {
+    return [];
+  }
+}
+
+async function decodeProjectPhoto(path) {
   const image = new Image();
   image.src = siteUrl(path);
   try {
@@ -891,7 +978,35 @@ async function checkOngoingPhoto(project, filename) {
   }
 }
 
+function isProjectCover(filename) {
+  return /^portada(?:\.[^.]+)?$/i.test(filename);
+}
+
+async function findProjectCover(project, files) {
+  for (const name of files.filter(isProjectCover)) {
+    const photo = await decodeProjectPhoto(`${project.photosFolder}/${encodeURIComponent(name)}`);
+    if (photo) return photo;
+  }
+  return null;
+}
+
+function projectCardImage(project, cover) {
+  const imageFit = project.uncroppedCardImage
+    ? "object-contain"
+    : "object-cover transition-transform duration-500 group-hover:scale-[1.015]";
+  return `
+        <img
+          src="${siteUrl(cover)}"
+          alt="${project.name}"
+          loading="lazy"
+          decoding="async"
+          class="w-full h-full ${imageFit}"
+        />
+  `;
+}
+
 function projectCard(project, showOngoingPhotos = false) {
+  const cover = project.uncroppedCardImage ?? project.coverImage;
   return `
     <a
       href="${projectDetailUrl(project, showOngoingPhotos)}"
@@ -900,13 +1015,11 @@ function projectCard(project, showOngoingPhotos = false) {
 <div class="relative w-full aspect-[16/10] bg-neutral-100 overflow-hidden">
 
         <!-- IMAGEN -->
-        <img
-          src="${siteUrl(project.coverImage)}"
-          alt="${project.name}"
-          loading="lazy"
-          decoding="async"
-          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.015]"
-        />
+        ${cover ? projectCardImage(project, cover) : `
+          <span data-project-photo class="flex h-full items-center justify-center px-6 text-center text-[14px] font-light tracking-[0.15em] text-neutral-500">
+            ${project.name}
+          </span>
+        `}
 
         <!-- CAPA OSCURA -->
         <div
@@ -1003,12 +1116,23 @@ function renderProjectsGallery() {
   const showOngoingPhotos = activeFilter === ONGOING_CATEGORY;
   const filtered =
     activeFilter === "TODOS"
-      ? ORDERED_PROJECTS_DATA.filter(showsInAllProjects)
+      ? ORDERED_PROJECTS_DATA
       : ORDERED_PROJECTS_DATA.filter(p => projectCategories(p).includes(activeFilter));
 
   gridCont.innerHTML = filtered.length
     ? filtered.map(p => projectCard(p, showOngoingPhotos)).join("")
     : '<p class="projects-empty" role="status">No hay proyectos disponibles en esta categoría.</p>';
+
+  filtered.forEach(async (project, index) => {
+    if (!project.photosFolder) return;
+    const image = gridCont.children[index].querySelector("img, [data-project-photo]");
+    const files = await loadProjectPhotos(project);
+    const cover = await findProjectCover(project, files);
+    if (cover && image?.isConnected) {
+      if (image.tagName === "IMG") image.src = siteUrl(cover);
+      else image.outerHTML = projectCardImage(project, cover);
+    }
+  });
 
   if (showOngoingPhotos) {
     filtered.forEach(async (project, index) => {
@@ -1035,13 +1159,9 @@ let lightboxScrollPosition = 0;
 let previousBodyPosition = null;
 
 function projectAdjacentNavigation(project, showOngoingPhotos) {
-  const navigationProjects = [
-    ...ORDERED_PROJECTS_DATA.filter(showsInAllProjects),
-    ...ORDERED_PROJECTS_DATA.filter(candidate => !showsInAllProjects(candidate))
-  ];
-  const index = navigationProjects.findIndex(candidate => candidate.slug === project.slug);
-  const previous = navigationProjects[index - 1];
-  const next = navigationProjects[index + 1];
+  const index = ORDERED_PROJECTS_DATA.findIndex(candidate => candidate.slug === project.slug);
+  const previous = ORDERED_PROJECTS_DATA[index - 1];
+  const next = ORDERED_PROJECTS_DATA[index + 1];
   const link = (item, direction, label) => item
     ? `<a class="project-${direction}" rel="${direction === "previous" ? "prev" : "next"}" href="${projectDetailUrl(item, showOngoingPhotos)}"><span>${label}</span><span>${item.name}</span></a>`
     : "";
@@ -1070,7 +1190,22 @@ async function renderProjectDetail() {
   let cover = project.coverImage;
   let gallery = project.gallery ?? [];
 
-  if (showOngoingPhotos) {
+  if (project.photosFolder) {
+    const files = await loadProjectPhotos(project);
+    const namedCover = await findProjectCover(project, files);
+    if (namedCover && siteUrl(namedCover) !== siteUrl(cover)) {
+      if (cover) gallery = [cover, ...gallery];
+      cover = namedCover;
+    }
+    const seen = new Set([cover, ...gallery].filter(Boolean).map(path => siteUrl(path)));
+    const additionalPaths = files
+      .filter(name => !isProjectCover(name))
+      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+      .map(name => `${project.photosFolder}/${encodeURIComponent(name)}`);
+    const newPaths = [...new Set(additionalPaths)].filter(path => !seen.has(siteUrl(path)));
+    const newPhotos = await Promise.all(newPaths.map(decodeProjectPhoto));
+    gallery = [...gallery, ...newPhotos.filter(Boolean)];
+  } else if (showOngoingPhotos) {
     const photos = await loadOngoingPhotos(project);
     const filenames = Array.isArray(photos.galeria) ? photos.galeria : [];
     const [ongoingCover, ...ongoingGallery] = await Promise.all(
@@ -1081,13 +1216,26 @@ async function renderProjectDetail() {
     if (availableGallery.length) gallery = availableGallery;
   }
 
-  currentProjectImages = [cover, ...gallery];
+  currentProjectImages = cover ? [cover, ...gallery] : gallery;
   currentProjectName = project.name;
 
-  const location = project.location?.trim();
-  const architects = (project.architects ?? [project.architect]).map(name => name?.trim()).filter(Boolean);
-  const architectLabel = project.architects ? "ARQUITECTOS" : "ARQUITECTO";
-  const description = project.description?.trim();
+  // hiddenFields se configura en cada proyecto con las claves de los campos que se quieran ocultar.
+  const hiddenFields = new Set(project.hiddenFields ?? []);
+  const categories = projectCategories(project).filter(Boolean);
+  const fields = [
+    ["location", "LOCALIZACIÓN", project.location],
+    ["architect", "ARQUITECTO", project.architect],
+    ["architects", "ARQUITECTOS", project.architects?.filter(name => name.trim()).join(" y ")],
+    ["studioClient", "ESTUDIO", project.studioClient],
+    ["projectManagement", "PROJECT MANAGEMENT", project.projectManagement],
+    ["year", "AÑO", project.year],
+    ["surface", "SUPERFICIE", project.surface],
+    ["categories", categories.length > 1 ? "CATEGORÍAS" : "CATEGORÍA", categories.join(", ")],
+    ["typology", "TIPOLOGÍA", project.typology],
+    ["interventionType", "TIPO DE INTERVENCIÓN", project.interventionType],
+    ["scope", "ALCANCE DE LOS TRABAJOS", project.scope]
+  ].filter(([key, , value]) => !hiddenFields.has(key) && value != null && String(value).trim());
+  const description = hiddenFields.has("description") ? "" : project.description?.trim();
 
   container.innerHTML = `
     <div class="mb-8 md:mb-10">
@@ -1095,21 +1243,16 @@ async function renderProjectDetail() {
         ${project.name}
       </h1>
 
-      ${location || architects.length ? `
+      ${fields.length ? `
         <div class="mt-4 space-y-1 font-light">
-          ${location ? `
-          <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
-            LOCALIZACIÓN: ${location}
-          </p>
-          ` : ""}
-          ${architects.length ? `
-          <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
-            ${architectLabel}: ${architects.join(" y ")}
-          </p>
-          ` : ""}
+          ${fields.map(([, label, value]) => `
+            <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
+              ${label}: ${value}
+            </p>
+          `).join("")}
         </div>
       ` : ""}
-      ${description ? `<div class="project-additional-details"><p>${description}</p></div>` : ""}
+      ${description ? `<div class="project-additional-details text-neutral-400"><p>${description}</p></div>` : ""}
     </div>
 
     <div class="project-gallery-grid">

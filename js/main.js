@@ -403,7 +403,7 @@ const SERVICES_DATA = [
   {
     id: "01",
     title: "RESIDENCIAL",
-    image: siteUrl("assets/proyectos/01_PRADO LARGO/01_05.webp"),
+    image: siteUrl("assets/proyectos/01_VIVIENDA UNIFAMILIAR PRADO LARGO/01_05.webp"),
     imagePosition: "center 85%",
     description:
       "Construcción de viviendas, reformas integrales y rehabilitación de edificios. Coordinamos los trabajos y cuidamos la ejecución para adaptar cada espacio a las necesidades de quienes lo habitan."
@@ -412,7 +412,7 @@ const SERVICES_DATA = [
   {
     id: "02",
     title: "LOCALES Y OFICINAS",
-    image: siteUrl("assets/proyectos/23_GRACE/23_00PORTADA.webp"),
+    image: siteUrl("assets/proyectos/07_RESTAURANTE - ESPECTÁCULO GRACE/23_00PORTADA.webp"),
     imagePosition: "center 85%",
     homeDescription:
       "Reforma y adecuación de espacios comerciales y oficinas. Hacemos propios los requerimientos de cada actividad, resolviendo desde la arquitectura y las instalaciones hasta los acabados finales.",

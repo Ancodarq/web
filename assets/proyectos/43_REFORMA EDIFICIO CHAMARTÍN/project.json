@@ -1,0 +1,19 @@
+{
+    "slug":  "reforma-edificio-chamartin",
+    "name":  "REFORMA EDIFICIO CHAMARTÍN",
+    "categories":  ["OBRAS EN EJECUCIÓN", "REFORMAS"],
+    "location":  "Madrid",
+    "year":  "",
+    "studioClient":  "CLAP ! DESIGN ARQUITECTURA",
+    "projectManagement":  "SICOA",
+    "coverImage":  "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_PORTADA.png",
+    "description":  "",
+    "gallery":  [
+                    "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_01.jpeg",
+                    "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_02.jpeg",
+                    "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_03.jpeg",
+                    "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_04.jpeg",
+                    "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_05.jpeg",
+                    "assets/proyectos/43_REFORMA EDIFICIO CHAMARTÍN/53_06.jpeg"
+                ]
+}

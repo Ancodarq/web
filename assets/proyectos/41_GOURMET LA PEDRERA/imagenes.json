@@ -1,0 +1,17 @@
+---
+layout: null
+---
+{%- assign folder = "/assets/proyectos/41_GOURMET LA PEDRERA/" -%}
+{%- assign files = site.static_files | sort: "name" -%}
+{%- assign separator = "" -%}
+[
+{%- for file in files -%}
+  {%- if file.path contains folder -%}
+    {%- assign filename = file.path | remove_first: folder -%}
+    {%- unless filename contains "/" -%}
+      {{- separator -}}{{- filename | jsonify -}}
+      {%- assign separator = "," -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+]
