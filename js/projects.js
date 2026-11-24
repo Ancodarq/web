@@ -2,7 +2,7 @@ const PROJECTS_DATA = [
   {
     slug: "sala-vip-teatro-nuevo-apolo",
     name: "SALA VIP TEATRO NUEVO APOLO",
-    categories: ["COMERCIAL", "OBRAS VARIAS"],
+    categories: ["COMERCIAL"],
     location: "Madrid",
     year: "2025",
     coverImage: "assets/proyectos/05_SALA VIP TEATRO NUEVO APOLO/28_00 PORTADA.webp",
@@ -24,7 +24,7 @@ const PROJECTS_DATA = [
   {
     slug: "sala-vip-teatro-nuevo-alcala",
     name: "SALA VIP TEATRO NUEVO ALCALÁ",
-    categories: ["COMERCIAL", "OBRAS VARIAS"],
+    categories: ["COMERCIAL"],
     location: "Madrid",
     year: "2025",
     coverImage: "assets/proyectos/16_SALA VIP TEATRO NUEVO ALCALÁ/29_00 PORTADA.webp",
@@ -119,7 +119,7 @@ const PROJECTS_DATA = [
   {
     slug: "consultas-recepcion-y-quirofano-en-hospital-oftalmologico",
     name: "REHABILITACIÓN HOSPITAL OFTALMOLÓGICO",
-    categories: ["COMERCIAL", "OBRAS VARIAS"],
+    categories: ["COMERCIAL"],
     location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/18_REHABILITACIÓN HOSPITAL OFTALMOLÓGICO/16_00PORTADA.webp",
@@ -138,7 +138,7 @@ const PROJECTS_DATA = [
   {
     slug: "teatro-la-latina",
     name: "TEATRO LA LATINA",
-    categories: ["COMERCIAL", "OBRAS VARIAS"],
+    categories: ["COMERCIAL"],
     location: "Madrid",
     year: "",
     architect: "Ana Gayoso Fernández",
@@ -157,7 +157,7 @@ const PROJECTS_DATA = [
   {
     slug: "teatro-nuevo-apolo",
     name: "REHABILITACIÓN TEATRO NUEVO APOLO",
-    categories: ["COMERCIAL", "OBRAS VARIAS"],
+    categories: ["COMERCIAL"],
     location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/22_REHABILITACIÓN TEATRO NUEVO APOLO/19_00PORTADA.webp",
@@ -227,11 +227,12 @@ const PROJECTS_DATA = [
   {
     slug: "oficinas-y-centro-de-control-aereo",
     name: "OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS",
-    categories: ["OFICINAS", "OBRAS VARIAS"],
+    categories: ["OFICINAS"],
     location: "Aeropuerto Madrid",
     year: "",
     coverImage: "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_00PORTADA.webp",
     description: "Aeropuerto Madrid",
+    hiddenFields: ["description"],
     studioClient: "Estudio Belén Ferrándiz",
     gallery: [
       "assets/proyectos/03_OFICINAS Y CENTRO DE CONTROL AÉREO MADRID-BARAJAS/30_01.webp",
@@ -559,7 +560,7 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
   {
     slug: "obras-varias-mercado-maravillas",
     name: "REHABILITACIÓN MERCADO MARAVILLAS",
-    categories: ["COMERCIAL", "OBRAS VARIAS"],
+    categories: ["COMERCIAL"],
     location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/27_REHABILITACIÓN MERCADO MARAVILLAS/44_0PORTADA.png",
@@ -874,7 +875,7 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
   {
     slug: "rehabilitacion-residencia-chamartin",
     name: "REHABILITACIÓN RESIDENCIA CHAMARTÍN",
-    category: "OBRAS VARIAS",
+    categories: [],
     coverImage: "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8909-2.JPG",
     gallery: [
       "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8913.JPG",
@@ -1287,16 +1288,13 @@ async function renderProjectDetail() {
 
   // hiddenFields se configura en cada proyecto con las claves de los campos que se quieran ocultar.
   const hiddenFields = new Set(project.hiddenFields ?? []);
-  const categories = projectCategories(project).filter(Boolean);
   const fields = [
     ["location", "LOCALIZACIÓN", project.location],
     ["architect", "ARQUITECTO", project.architect],
     ["architects", "ARQUITECTOS", project.architects?.filter(name => name.trim()).join(" y ")],
     ["studioClient", "ESTUDIO", project.studioClient],
     ["projectManagement", "PROJECT MANAGEMENT", project.projectManagement],
-    ["year", "AÑO", project.year],
     ["surface", "SUPERFICIE", project.surface],
-    ["categories", categories.length > 1 ? "CATEGORÍAS" : "CATEGORÍA", categories.join(", ")],
     ["typology", "TIPOLOGÍA", project.typology],
     ["interventionType", "TIPO DE INTERVENCIÓN", project.interventionType],
     ["scope", "ALCANCE DE LOS TRABAJOS", project.scope]
