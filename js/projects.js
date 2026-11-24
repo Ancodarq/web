@@ -82,7 +82,8 @@ const PROJECTS_DATA = [
   {
     slug: "vivienda-unifamiliar-la-finca",
     name: "VIVIENDA UNIFAMILIAR LA FINCA",
-    category: "OBRA NUEVA",
+    categories: ["OBRA NUEVA", "OBRAS EN EJECUCIÓN"],
+    ongoingPhotos: "assets/proyectos/07_LA FINCA/obra-en-ejecucion",
     location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/07_LA FINCA/07_00 PORTADA.webp",
@@ -136,12 +137,13 @@ const PROJECTS_DATA = [
 
   {
     slug: "teatro-la-latina",
-    name: "REHABILITACIÓN TEATRO LA LATINA",
+    name: "TEATRO LA LATINA",
     category: "COMERCIAL",
     location: "Madrid",
     year: "",
+    architect: "Ana Gayoso Fernández",
     coverImage: "assets/proyectos/20_TEATRO LA LATINA/20_00PORTADA.webp",
-    description: "",
+    description: "Rehabilitación integral de la sala, patio de butacas, primer y segundo anfiteatro, accesos, distribuidores y aseos de público. Renovación de las instalaciones eléctricas y de climatización de los espacios públicos del edificio, adecuándolas a la normativa vigente. Instalación de ascensor para la supresión de barreras arquitectónicas.",
     hideStudio: true,
     gallery: [
       "assets/proyectos/20_TEATRO LA LATINA/20_01.webp",
@@ -180,8 +182,9 @@ const PROJECTS_DATA = [
     category: "COMERCIAL",
     location: "Madrid",
     year: "",
+    architects: ["gon-architects"],
     coverImage: "assets/proyectos/22_LA PRAIRIE/22_00PORTADA.webp",
-    description: "",
+    description: "Rehabilitación integral de local comercial de 400 m², distribuido en dos plantas, para la implantación de la primera sede de tratamientos médicos y estéticos de Clinique La Prairie en España. Ejecución de salas de tratamiento, consultas médicas, espacios administrativos, aseos y zonas comunes.",
     gallery: [
       "assets/proyectos/22_LA PRAIRIE/22_01.webp",
       "assets/proyectos/22_LA PRAIRIE/22_02.webp",
@@ -325,7 +328,8 @@ const PROJECTS_DATA = [
   {
   slug: "vivienda-unifamiliar-villaviciosa-de-odon",
 name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
-    category: "OBRA NUEVA",
+    categories: ["OBRA NUEVA", "OBRAS EN EJECUCIÓN"],
+    ongoingPhotos: "assets/proyectos/38_TURIA/obra-en-ejecucion",
     location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/38_TURIA/38_00PORTADA.webp",
@@ -369,7 +373,8 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
   {
     slug: "vivienda-unifamiliar-somosaguas",
     name: "VIVIENDA UNIFAMILIAR SOMOSAGUAS",
-    category: "",
+    categories: ["OBRA NUEVA", "OBRAS EN EJECUCIÓN"],
+    ongoingPhotos: "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/obra-en-ejecucion",
     location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/08_SOMOSAGUAS (CAMPO7)/08_00PORTADA.webp",
@@ -714,7 +719,7 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/55_ACADEMIA POLICIA/55_01.jpg",
-    description: "Rehabilitación integral naves para talleres y urbanización del entorno en la Academia de Policía de Madrid.",
+    description: "Rehabilitación integral de naves destinadas a talleres y ejecución de trabajos de urbanización del entorno de la Academia de Policía de Madrid.",
     hideStudio: true,
     gallery: [
       "assets/proyectos/55_ACADEMIA POLICIA/55_02.jpg",
@@ -729,11 +734,11 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     slug: "animalario-algete",
     name: "ANIMALARIO ALGETE",
     category: "OBRA PÚBLICA",
-    location: "Algete - Madrid",
+    location: "Algete, Madrid",
     year: "",
-    architect: "Jose Luis Moreno",
+    architect: "José Luis Moreno",
     coverImage: "assets/proyectos/56_ANIMALARIO ALGETE/56_01.jpg",
-    description: "Ejecución de nueva edificación para animalario y laboratorio de control de sanidad animal.",
+    description: "Ejecución de una edificación de nueva planta destinada a animalario y laboratorio de control de sanidad animal.",
     gallery: [
       "assets/proyectos/56_ANIMALARIO ALGETE/56_02.jpg",
       "assets/proyectos/56_ANIMALARIO ALGETE/56_03.jpg",
@@ -745,13 +750,13 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
   },
   {
     slug: "reforma-piso-salamanca-02",
-    name: "REFORMA PISO SALAMANCA 02",
+    name: "JORGE JUAN",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
     architect: "Begoña Espinosa",
     coverImage: "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_01.jpg",
-    description: "Rehabilitación integral de vivienda. Proyecto llave en mano con diseño de espacios y proyecto de decoración. Superficie vivienda aproximada 140 m².",
+    description: "Rehabilitación integral de vivienda de aproximadamente 140 m². Proyecto llave en mano que incluye el diseño de espacios interiores y el proyecto de decoración.",
     gallery: [
       "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_02.jpg",
       "assets/proyectos/57_REFORMA PISO SALAMANCA 02/57_03.jpg",
@@ -765,11 +770,11 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     slug: "demolicion-torrelaguna",
     name: "DEMOLICIÓN TORRELAGUNA",
     category: "OBRAS VARIAS",
-    location: "Torrelaguna - Madrid",
+    location: "Torrelaguna, Madrid",
     year: "",
     architect: "Gracia Marianini",
     coverImage: "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_01.jpg",
-    description: "Demolición integral de edificio cultural con demolición selectiva y recuperación de teja curva envejecida. Compactado del terreno bajo demolición.",
+    description: "Demolición integral de edificio cultural mediante trabajos de demolición selectiva y recuperación de teja curva envejecida. Posterior compactación del terreno.",
     gallery: [
       "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_02.jpg",
       "assets/proyectos/58_DEMOLICION TORRELAGUNA/58_03.jpg",
@@ -783,7 +788,7 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
     slug: "rehabilitacion-fachadas-castellana-42",
     name: "REHABILITACIÓN FACHADAS CASTELLANA 42",
     category: "REHABILITACIÓN EDIFICIOS",
-    location: "Paseo Castellana - Madrid",
+    location: "Madrid",
     year: "",
     coverImage: "assets/proyectos/59_CASTELLANA 42/59_01.jpg",
     description: "Rehabilitación y consolidación de fachadas en edificio de oficinas comprendiendo la eliminación de los aplacados en mal estado y la totalidad de los anclajes de las fachadas con nuevos anclajes mecánicos de acero inoxidable y placa de reparto.",
@@ -798,13 +803,13 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
   },
   {
     slug: "reforma-piso-chamartin-02",
-    name: "REFORMA PISO CHAMARTÍN 02",
+    name: "PRÍNCIPE DE VERGARA",
     category: "REFORMAS",
     location: "Madrid",
     year: "",
-    architect: "Begoña Espinosa - Belén Ferrandiz",
+    architects: ["Begoña Espinosa", "Belén Ferrandiz"],
     coverImage: "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_01.jpg",
-    description: "Rehabilitación integral de vivienda. Proyecto llave en mano con diseño de espacios y proyecto de decoración. Superficie vivienda aproximada 120 m².",
+    description: "Rehabilitación integral de vivienda de aproximadamente 120 m². Proyecto llave en mano que incluye el diseño de espacios interiores y el proyecto de decoración.",
     gallery: [
       "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_02.jpg",
       "assets/proyectos/60_REFORMA PISO CHAMARTIN 02/60_03.jpg",
@@ -846,10 +851,50 @@ const ORDERED_PROJECTS_DATA = [
 // TARJETAS DE PROYECTO
 // ======================================================
 
-function projectCard(project) {
+const ONGOING_CATEGORY = "OBRAS EN EJECUCIÓN";
+
+function projectCategories(project) {
+  return project.categories ?? [project.category];
+}
+
+function showsInAllProjects(project) {
+  return projectCategories(project).some(category => category !== ONGOING_CATEGORY);
+}
+
+function projectDetailUrl(project, showOngoingPhotos) {
+  const context = showOngoingPhotos && project.ongoingPhotos ? "&fotos=obra-en-ejecucion" : "";
+  return siteUrl(`proyectos/detalle.html?slug=${project.slug}${context}`);
+}
+
+async function loadOngoingPhotos(project) {
+  try {
+    const response = await fetch(siteUrl(`${project.ongoingPhotos}/fotos.json`));
+    return response.ok ? (await response.json()) ?? {} : {};
+  } catch {
+    return {};
+  }
+}
+
+async function checkOngoingPhoto(project, filename) {
+  if (typeof filename !== "string" || !/^[^/\\?#]+\.(webp|jpe?g|png|avif)$/i.test(filename)) {
+    return null;
+  }
+
+  const path = `${project.ongoingPhotos}/${encodeURIComponent(filename)}`;
+  const image = new Image();
+  image.src = siteUrl(path);
+  try {
+    await image.decode();
+    return path;
+  } catch {
+    return null;
+  }
+}
+
+function projectCard(project, showOngoingPhotos = false) {
   return `
     <a
-      href="${siteUrl(`proyectos/detalle.html?slug=${project.slug}`)}"
+      href="${projectDetailUrl(project, showOngoingPhotos)}"
       class="project-link group block"
     >
 <div class="relative w-full aspect-[16/10] bg-neutral-100 overflow-hidden">
@@ -920,16 +965,14 @@ function renderProjectsGallery() {
 
   if (!filterCont || !gridCont) return;
 
- const cats = [
-  "TODOS",
-  "OBRA NUEVA",
-  "REFORMAS",
-  "COMERCIAL",
-  "OFICINAS",
-  "OBRA PÚBLICA",
-  "REHABILITACIÓN EDIFICIOS",
-  "OBRAS VARIAS",
-  "OBRAS EN EJECUCIÓN"
+  const cats = [
+    "TODOS",
+    "OBRA NUEVA",
+    "REFORMAS",
+    "COMERCIAL",
+    "OFICINAS",
+    "OBRAS VARIAS",
+    ONGOING_CATEGORY
   ];
 
   filterCont.innerHTML = cats.map(c => `
@@ -938,18 +981,13 @@ function renderProjectsGallery() {
       data-cat="${c}"
       aria-pressed="${activeFilter === c}"
       aria-controls="proyectos-gallery-grid"
-      class="project-filter py-1 relative transition-colors duration-150 ${c === "OBRAS EN EJECUCIÓN" ? "project-filter-ongoing" : ""} ${
+      class="project-filter py-1 transition-colors duration-150 ${
         activeFilter === c
           ? "text-black font-normal"
           : "text-neutral-400 hover:text-black"
       }"
     >
-      ${c}
-      ${
-        activeFilter === c
-          ? '<span class="absolute bottom-0 left-0 w-full h-px bg-black"></span>'
-          : ""
-      }
+      <span>${c}</span>
     </button>
   `).join("");
 
@@ -962,14 +1000,25 @@ function renderProjectsGallery() {
     });
   });
 
+  const showOngoingPhotos = activeFilter === ONGOING_CATEGORY;
   const filtered =
     activeFilter === "TODOS"
-      ? ORDERED_PROJECTS_DATA.filter(p => p.category !== "OBRAS EN EJECUCIÓN")
-      : ORDERED_PROJECTS_DATA.filter(p => p.category === activeFilter);
+      ? ORDERED_PROJECTS_DATA.filter(showsInAllProjects)
+      : ORDERED_PROJECTS_DATA.filter(p => projectCategories(p).includes(activeFilter));
 
   gridCont.innerHTML = filtered.length
-    ? filtered.map(p => projectCard(p)).join("")
+    ? filtered.map(p => projectCard(p, showOngoingPhotos)).join("")
     : '<p class="projects-empty" role="status">No hay proyectos disponibles en esta categoría.</p>';
+
+  if (showOngoingPhotos) {
+    filtered.forEach(async (project, index) => {
+      if (!project.ongoingPhotos) return;
+      const image = gridCont.children[index].querySelector("img");
+      const photos = await loadOngoingPhotos(project);
+      const cover = await checkOngoingPhoto(project, photos.portada);
+      if (cover && image.isConnected) image.src = siteUrl(cover);
+    });
+  }
 }
 
 // ======================================================
@@ -985,31 +1034,16 @@ let previousBodyOverflow = "";
 let lightboxScrollPosition = 0;
 let previousBodyPosition = null;
 
-// Campos opcionales: se muestran únicamente cuando existan datos reales.
-function projectAdditionalDetails(project) {
-  const fields = [
-    ["Tipología", project.typology],
-    ["Tipo de intervención", project.interventionType],
-    ["Alcance de los trabajos", project.scope]
-  ].filter(([, value]) => typeof value === "string" && value.trim());
-  const description = typeof project.description === "string" ? project.description.trim() : "";
-  if (!fields.length && !description) return "";
-  return `<div class="project-additional-details">
-    ${fields.length ? `<dl>${fields.map(([label, value]) => `<div><dt>${label}</dt><dd>${value}</dd></div>`).join("")}</dl>` : ""}
-    ${description ? `<p>${description}</p>` : ""}
-  </div>`;
-}
-
-function projectAdjacentNavigation(project) {
+function projectAdjacentNavigation(project, showOngoingPhotos) {
   const navigationProjects = [
-    ...ORDERED_PROJECTS_DATA.filter(candidate => candidate.category !== "OBRAS EN EJECUCIÓN"),
-    ...ORDERED_PROJECTS_DATA.filter(candidate => candidate.category === "OBRAS EN EJECUCIÓN")
+    ...ORDERED_PROJECTS_DATA.filter(showsInAllProjects),
+    ...ORDERED_PROJECTS_DATA.filter(candidate => !showsInAllProjects(candidate))
   ];
   const index = navigationProjects.findIndex(candidate => candidate.slug === project.slug);
   const previous = navigationProjects[index - 1];
   const next = navigationProjects[index + 1];
   const link = (item, direction, label) => item
-    ? `<a class="project-${direction}" rel="${direction === "previous" ? "prev" : "next"}" href="${siteUrl(`proyectos/detalle.html?slug=${item.slug}`)}"><span>${label}</span><span>${item.name}</span></a>`
+    ? `<a class="project-${direction}" rel="${direction === "previous" ? "prev" : "next"}" href="${projectDetailUrl(item, showOngoingPhotos)}"><span>${label}</span><span>${item.name}</span></a>`
     : "";
   return `<nav class="project-adjacent-nav" aria-label="Navegación entre proyectos">
     ${link(previous, "previous", "← PROYECTO ANTERIOR")}
@@ -1017,7 +1051,7 @@ function projectAdjacentNavigation(project) {
   </nav>`;
 }
 
-function renderProjectDetail() {
+async function renderProjectDetail() {
   const container = document.getElementById("project-detail-content");
   if (!container) return;
 
@@ -1032,11 +1066,28 @@ function renderProjectDetail() {
     return;
   }
 
-  currentProjectImages = [
-    project.coverImage,
-    ...(project.gallery || [])
-  ];
+  const showOngoingPhotos = Boolean(project.ongoingPhotos && params.get("fotos") === "obra-en-ejecucion");
+  let cover = project.coverImage;
+  let gallery = project.gallery ?? [];
+
+  if (showOngoingPhotos) {
+    const photos = await loadOngoingPhotos(project);
+    const filenames = Array.isArray(photos.galeria) ? photos.galeria : [];
+    const [ongoingCover, ...ongoingGallery] = await Promise.all(
+      [photos.portada, ...new Set(filenames)].map(filename => checkOngoingPhoto(project, filename))
+    );
+    cover = ongoingCover ?? cover;
+    const availableGallery = ongoingGallery.filter(path => path && path !== cover);
+    if (availableGallery.length) gallery = availableGallery;
+  }
+
+  currentProjectImages = [cover, ...gallery];
   currentProjectName = project.name;
+
+  const location = project.location?.trim();
+  const architects = (project.architects ?? [project.architect]).map(name => name?.trim()).filter(Boolean);
+  const architectLabel = project.architects ? "ARQUITECTOS" : "ARQUITECTO";
+  const description = project.description?.trim();
 
   container.innerHTML = `
     <div class="mb-8 md:mb-10">
@@ -1044,27 +1095,21 @@ function renderProjectDetail() {
         ${project.name}
       </h1>
 
-      <div class="mt-4 space-y-1 font-light">
-        <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
-          UBICACIÓN: ${project.location || ""}
-        </p>
-        ${!project.architect?.trim() ? "" : `
+      ${location || architects.length ? `
+        <div class="mt-4 space-y-1 font-light">
+          ${location ? `
           <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
-            ARQUITECTO: ${project.architect}
+            LOCALIZACIÓN: ${location}
           </p>
-        `}
-        ${project.hideStudio || !project.studioClient?.trim() ? "" : `
+          ` : ""}
+          ${architects.length ? `
           <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
-            ESTUDIO: ${project.studioClient || ""}
+            ${architectLabel}: ${architects.join(" y ")}
           </p>
-        `}
-        ${!project.projectManagement?.trim() ? "" : `
-          <p class="text-[11px] tracking-[0.12em] text-neutral-400 uppercase">
-            PROJECT MANAGEMENT: ${project.projectManagement}
-          </p>
-        `}
-      </div>
-      ${projectAdditionalDetails(project)}
+          ` : ""}
+        </div>
+      ` : ""}
+      ${description ? `<div class="project-additional-details"><p>${description}</p></div>` : ""}
     </div>
 
     <div class="project-gallery-grid">
@@ -1084,7 +1129,7 @@ function renderProjectDetail() {
         </button>
       `).join("")}
     </div>
-    ${projectAdjacentNavigation(project)}
+    ${projectAdjacentNavigation(project, showOngoingPhotos)}
   `;
 }
 

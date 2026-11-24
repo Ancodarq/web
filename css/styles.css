@@ -1,7 +1,10 @@
 /* Retícula exterior compartida por páginas, cabecera y pie.
    Los gaps y los anchos de lectura se definen dentro del contenedor. */
 :root {
-  --site-gutter: max(16px, 3%);
+  --site-gutter-ratio: 3;
+  --site-gutter: max(16px, calc(var(--site-gutter-ratio) * 1%));
+  --hero-gutter-ratio: 7.5;
+  --hero-gutter-extra: 6px;
   --site-header-height: 105px;
   --corporate-title-size: clamp(26px, 2vw, 32px);
   --heading-line-height: 1.05;
@@ -134,7 +137,7 @@ html {
 /* Un margen adicional sutil, limitado a la fotografía de portada. */
 .home-page .home-hero > .site-container {
   position: relative;
-  width: calc(100% - var(--site-gutter) - var(--site-gutter) - 12px);
+  width: calc(100% - 2 * (var(--site-gutter) + var(--hero-gutter-extra)));
 }
 
 .home-hero .hero-image {
@@ -147,7 +150,7 @@ html {
 
 @media (min-width: 1101px) {
   .home-page .home-hero > .site-container {
-    width: 85%;
+    width: calc(100% - 2 * var(--hero-gutter-ratio) * 1%);
   }
 }
 
@@ -367,7 +370,6 @@ main h1, main h2, .project-adjacent-nav a {
   }
 
   .about-page .about-page-layout > div:last-child > div {
-    max-width: 65ch;
     font-size: 16px;
     line-height: 1.85;
   }
@@ -413,9 +415,20 @@ main h1, main h2, .project-adjacent-nav a {
   .about-page .about-page-layout > div {
     grid-column: auto;
   }
+}
 
-  .about-page .about-page-layout > div:last-child > div {
-    max-width: 68ch;
+/* El texto termina en el borde derecho del carrusel, dentro de la retícula actual. */
+:is(#home-about, .about-page) {
+  container-type: inline-size;
+}
+
+:is(#home-about .about-content, .about-page .about-page-content) {
+  margin-inline-end: var(--hero-gutter-extra);
+}
+
+@media (min-width: 1101px) {
+  :is(#home-about .about-content, .about-page .about-page-content) {
+    margin-inline-end: calc((var(--hero-gutter-ratio) - var(--site-gutter-ratio)) * 1cqi);
   }
 }
 
@@ -598,6 +611,15 @@ body .section-label {
     aspect-ratio: 3 / 2;
   }
 
+  #home-about .about-layout[data-measuring-photo] .about-content {
+    margin-inline-end: 0;
+  }
+
+  #home-about .about-layout:not([data-measuring-photo]) .about-photo {
+    width: var(--about-photo-width, auto);
+    height: var(--about-photo-height, auto);
+  }
+
   #home-about .about-copy {
     font-size: var(--copy-size);
     line-height: var(--copy-leading);
@@ -767,6 +789,7 @@ body .corporate-page .projects-heading .corporate-title {
 
 #categories-filter {
   align-items: center;
+  justify-content: flex-start;
   gap: 8px 28px;
   margin-bottom: 24px;
   font-family: "Urbanist", sans-serif;
@@ -776,8 +799,17 @@ body .corporate-page .projects-heading .corporate-title {
   min-height: 44px;
 }
 
-#categories-filter .project-filter-ongoing {
-  margin-left: auto;
+#categories-filter .project-filter[aria-pressed="true"] span {
+  position: relative;
+  display: inline-block;
+}
+
+#categories-filter .project-filter[aria-pressed="true"] span::after {
+  content: "";
+  position: absolute;
+  inset: 100% 0 auto;
+  height: 1px;
+  background: currentColor;
 }
 
 #categories-filter .project-filter:focus-visible,
@@ -850,10 +882,6 @@ body .corporate-page .projects-heading .corporate-title {
   #categories-filter .project-filter {
     flex-shrink: 0;
     white-space: nowrap;
-  }
-
-  #categories-filter .project-filter-ongoing {
-    margin-left: 0;
   }
 }
 
@@ -1253,13 +1281,10 @@ body {
     object-position: 48% center;
   }
 
-  .about-page-main .about-page-copy { max-width: 64ch; }
-
   .about-page-main .about-page-certifications {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    max-width: none;
     gap: 8px 24px;
     margin-top: 16px;
   }

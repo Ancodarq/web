@@ -533,6 +533,28 @@ function initNavigation() {
 // INICIALIZACIÓN
 // ======================================================
 
+function preserveHomeAboutPhoto() {
+  const layout = document.querySelector("#home-about .about-layout");
+  if (!layout) return;
+
+  const photo = layout.querySelector(".about-photo");
+  const desktop = window.matchMedia("(min-width: 1024px)");
+  function measurePhoto() {
+    if (!desktop.matches) return;
+
+    // El tamaño original depende de la altura del texto a todo el ancho de su columna.
+    layout.setAttribute("data-measuring-photo", "");
+    const { width, height } = photo.getBoundingClientRect();
+    photo.style.setProperty("--about-photo-width", `${width}px`);
+    photo.style.setProperty("--about-photo-height", `${height}px`);
+    layout.removeAttribute("data-measuring-photo");
+  }
+
+  measurePhoto();
+  window.addEventListener("resize", measurePhoto, { passive: true });
+  document.fonts.ready.then(measurePhoto);
+}
+
 // Barreras de interfaz: una imagen pública sigue siendo recuperable desde el navegador.
 // Delegación para incluir las fotos cargadas después por filtros y por el visor.
 function initImageDownloadDeterrents() {
@@ -570,6 +592,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Home
   initHero();
+  preserveHomeAboutPhoto();
 
   // Servicios Home / página Servicios
   renderServicesGrid("home-services-grid");
