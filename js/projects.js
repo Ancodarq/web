@@ -871,6 +871,57 @@ name: "VIVIENDA UNIFAMILIAR VILLAVICIOSA DE ODÓN",
       "assets/proyectos/41_GOURMET LA PEDRERA/GOURMET LA PEDRERA - 7 - ANCODARQ.JPG"
     ]
   },
+  {
+    slug: "rehabilitacion-residencia-chamartin",
+    name: "REHABILITACIÓN RESIDENCIA CHAMARTÍN",
+    category: "OBRAS VARIAS",
+    coverImage: "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8909-2.JPG",
+    gallery: [
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8913.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8925-2.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8929-2.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8946.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8950.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8967-2.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8974-2.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8977-2.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_8978-2.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_9009-2.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_9018-2.JPG",
+      "assets/proyectos/REHABILITACIÓN RESIDENCIA CHAMARTÍN/DSC_9027.JPG"
+    ]
+  },
+  {
+    slug: "museo-america",
+    name: "MUSEO AMÉRICA",
+    category: "OBRAS VARIAS",
+    location: "Madrid",
+    description: "Rehabilitación integral de las cubiertas planas del patio central con renovación de la evacuación de pluviales mediante canalones y bajantes de cobre. Restauración de cornisas e impostas mediante reconstrucción volumétrica y moldeado de las mismas.",
+    coverImage: "assets/proyectos/MUSEO AMÉRICA/MUSEO AMÉRICA - 1 - ANCODARQ.jpg",
+    gallery: [
+      "assets/proyectos/MUSEO AMÉRICA/MUSEO AMÉRICA - 2 - ANCODARQ.jpg",
+      "assets/proyectos/MUSEO AMÉRICA/MUSEO AMÉRICA - 3 - ANCODARQ.JPG",
+      "assets/proyectos/MUSEO AMÉRICA/MUSEO AMÉRICA - 4 - ANCODARQ.jpg",
+      "assets/proyectos/MUSEO AMÉRICA/MUSEO AMÉRICA - 5 - ANCODARQ.JPG",
+      "assets/proyectos/MUSEO AMÉRICA/MUSEO AMÉRICA - 6 - ANCODARQ.JPG",
+      "assets/proyectos/MUSEO AMÉRICA/MUSEO AMÉRICA - 7 - ANCODARQ.JPG"
+    ]
+  },
+  {
+    slug: "museo-cerralbo",
+    name: "MUSEO CERRALBO",
+    category: "OBRAS VARIAS",
+    description: "Restauración de fachadas, ornamentos y elementos decorativos, balaustradas, portadas, guardapolvos, carpinterías de madera y cubiertas.",
+    coverImage: "assets/proyectos/MUSEO CERRALBO/MUSEO CERRALBO - 1 - ANCODARQ.JPG",
+    gallery: [
+      "assets/proyectos/MUSEO CERRALBO/MUSEO CERRALBO - 2 - ANCODARQ.JPG",
+      "assets/proyectos/MUSEO CERRALBO/MUSEO CERRALBO - 3 - ANCODARQ.JPG",
+      "assets/proyectos/MUSEO CERRALBO/MUSEO CERRALBO - 4 - ANCODARQ.JPG",
+      "assets/proyectos/MUSEO CERRALBO/MUSEO CERRALBO - 5 - ANCODARQ.JPG",
+      "assets/proyectos/MUSEO CERRALBO/MUSEO CERRALBO - 6 - ANCODARQ.jpg",
+      "assets/proyectos/MUSEO CERRALBO/MUSEO CERRALBO - 7 - ANCODARQ.jpg"
+    ]
+  },
 ];
 
 // Orden de aparición en el home y en la galería general.
@@ -917,6 +968,9 @@ const PROJECT_DISPLAY_ORDER = [
   "demolicion-torrelaguna",
   "reforma-piso-recoletos",
   "gourmet-la-pedrera",
+  "rehabilitacion-residencia-chamartin",
+  "museo-america",
+  "museo-cerralbo",
   "reforma-vivienda-pio-xii",
   "reforma-edificio-chamartin",
   "reforma-edificio-chamberi"
